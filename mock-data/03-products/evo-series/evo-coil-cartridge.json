@@ -1,0 +1,27 @@
+{
+  "product": {
+    "id": 14,
+    "name": "EVO Coil Cartridge",
+    "slug": "evo-coil-cartridge",
+    "subtitle": "Precision Heating for EVO Devices",
+    "series_id": 4,
+    "category_id": 6,
+    "brand": "EVO",
+    "product_type": "cartridge",
+    "status": "published",
+    "is_new": false,
+    "is_featured": false,
+    "is_bestseller": true,
+    "short_description": "EVO 系列专用发热烟弹，FLOWTECH 网状雾化、0.4Ω/0.8Ω 双阻值选择、顶部注油防漏结构，细腻还原口感。",
+    "description": "<p>EVO Coil Cartridge 专为 EVO 系列设备定制，采用新一代 FLOWTECH 网状发热片，雾化均匀、回温迅速、口感细腻。顶部注油结构结合多层防漏设计，适合高 VG 及尼古丁盐型烟油。</p><p>提供 0.4Ω 与 0.8Ω 两种阻值，全面覆盖 DTL 与 MTL 吸阻需求。食品级 PCTG 材质与不锈钢加固骨架，让油仓兼顾透光性与耐用性，带来更安心的使用体验。</p><p>磁吸快拆设计，搭配 EVO Vision、EVO Power 等设备，可在数秒内完成更换，大幅提升维护效率。</p>",
+    "hero_tagline": "Heat Precisely, Taste Fully",
+    "video_url": "",
+    "seo_title": "EVO Coil Cartridge - Replacement Pods",
+    "seo_description": "EVO Coil Cartridge features FLOWTECH mesh heating, top-fill anti-leak design, and dual resistance options for EVO series devices.",
+    "seo_keywords": "EVO Coil, replacement pod, mesh heating, anti-leak",
+    "sort_order": 14,
+    "published_at": "2024-01-22T10:00:00Z",
+    "created_at": "2024-01-15T09:00:00Z",
+    "updated_at": "2024-01-22T10:00:00Z"
+  }
+}

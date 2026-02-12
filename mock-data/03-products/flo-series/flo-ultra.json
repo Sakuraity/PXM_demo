@@ -1,0 +1,27 @@
+{
+  "product": {
+    "id": 9,
+    "name": "FLO Ultra",
+    "slug": "flo-ultra",
+    "subtitle": "Feather-Light Flagship",
+    "series_id": 3,
+    "category_id": 2,
+    "brand": "FLO",
+    "product_type": "device",
+    "status": "published",
+    "is_new": true,
+    "is_featured": true,
+    "is_bestseller": false,
+    "short_description": "12.5mm超薄机身、58克超轻重量、900mAh电池、磁吸式可视油仓，FLO系列旗舰款，为通勤与旅行而生。",
+    "description": "<p>FLO Ultra 以超轻超薄设计见长，机身厚度仅 12.5mm，重量控制在 58 克以内，轻松放入口袋或小型手包，成为日常出行的最佳伴侣。</p><p>磁吸式可视油仓支持 2mL 容量，侧向注油设计简化补充步骤。可调节气道结构，可在 MTL 与 RDL 吸阻之间自由切换，既满足口感控也兼顾烟雾量。</p><p>900mAh 高密度电池配合 Type-C 快充接口，仅需 35 分钟即可从 10% 充至 80%。呼吸灯会智能提示电量和工作状态，让使用体验更安心。</p>",
+    "hero_tagline": "Ultra Light, Ultra Free",
+    "video_url": "https://www.youtube.com/watch?v=flo-ultra-demo",
+    "seo_title": "FLO Ultra - Ultra Thin Portable Pod System",
+    "seo_description": "FLO Ultra delivers 12.5mm thin body, 58g weight, 900mAh battery, adjustable airflow, and 2mL visible pod for effortless commuting.",
+    "seo_keywords": "FLO Ultra, ultra thin pod, lightweight vape, adjustable airflow",
+    "sort_order": 9,
+    "published_at": "2024-02-12T10:00:00Z",
+    "created_at": "2024-02-05T09:00:00Z",
+    "updated_at": "2024-02-12T10:00:00Z"
+  }
+}

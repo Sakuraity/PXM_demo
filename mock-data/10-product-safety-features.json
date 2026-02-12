@@ -1,0 +1,82 @@
+{
+  "product_safety_features": [
+    {"id": 1, "product_id": 1, "feature_name": "Overtime Protection (8s)", "icon": "timer", "sort_order": 1},
+    {"id": 2, "product_id": 1, "feature_name": "Short Circuit Protection", "icon": "alert", "sort_order": 2},
+    {"id": 3, "product_id": 1, "feature_name": "Overcharge Protection", "icon": "battery", "sort_order": 3},
+    {"id": 4, "product_id": 1, "feature_name": "Temperature Protection", "icon": "thermometer", "sort_order": 4},
+    {"id": 5, "product_id": 1, "feature_name": "Low Voltage Protection", "icon": "bolt", "sort_order": 5},
+
+    {"id": 6, "product_id": 2, "feature_name": "Overtime Protection (5s)", "icon": "timer", "sort_order": 1},
+    {"id": 7, "product_id": 2, "feature_name": "Short Circuit Protection", "icon": "alert", "sort_order": 2},
+    {"id": 8, "product_id": 2, "feature_name": "Overcharge Protection", "icon": "battery", "sort_order": 3},
+    {"id": 9, "product_id": 2, "feature_name": "Temperature Protection", "icon": "thermometer", "sort_order": 4},
+    {"id": 10, "product_id": 2, "feature_name": "Low Voltage Protection", "icon": "bolt", "sort_order": 5},
+
+    {"id": 11, "product_id": 3, "feature_name": "Overtime Protection (5s)", "icon": "timer", "sort_order": 1},
+    {"id": 12, "product_id": 3, "feature_name": "Short Circuit Protection", "icon": "alert", "sort_order": 2},
+    {"id": 13, "product_id": 3, "feature_name": "Overcharge Protection", "icon": "battery", "sort_order": 3},
+    {"id": 14, "product_id": 3, "feature_name": "Temperature Protection", "icon": "thermometer", "sort_order": 4},
+    {"id": 15, "product_id": 3, "feature_name": "Low Voltage Protection", "icon": "bolt", "sort_order": 5},
+
+    {"id": 16, "product_id": 4, "feature_name": "Leak-resistant Structure", "icon": "shield", "sort_order": 1},
+    {"id": 17, "product_id": 4, "feature_name": "Anti-condensation Design", "icon": "snow", "sort_order": 2},
+    {"id": 18, "product_id": 4, "feature_name": "Food-grade Materials", "icon": "leaf", "sort_order": 3},
+
+    {"id": 19, "product_id": 5, "feature_name": "Overtime Protection (10s)", "icon": "timer", "sort_order": 1},
+    {"id": 20, "product_id": 5, "feature_name": "Short Circuit Protection", "icon": "alert", "sort_order": 2},
+    {"id": 21, "product_id": 5, "feature_name": "Overcharge Protection", "icon": "battery", "sort_order": 3},
+    {"id": 22, "product_id": 5, "feature_name": "Temperature Protection", "icon": "thermometer", "sort_order": 4},
+    {"id": 23, "product_id": 5, "feature_name": "Reverse Polarity Protection", "icon": "shield", "sort_order": 5},
+
+    {"id": 24, "product_id": 6, "feature_name": "Overtime Protection (9s)", "icon": "timer", "sort_order": 1},
+    {"id": 25, "product_id": 6, "feature_name": "Short Circuit Protection", "icon": "alert", "sort_order": 2},
+    {"id": 26, "product_id": 6, "feature_name": "Overcharge Protection", "icon": "battery", "sort_order": 3},
+    {"id": 27, "product_id": 6, "feature_name": "Temperature Protection", "icon": "thermometer", "sort_order": 4},
+    {"id": 28, "product_id": 6, "feature_name": "Low Voltage Protection", "icon": "bolt", "sort_order": 5},
+
+    {"id": 29, "product_id": 7, "feature_name": "Overtime Protection (10s)", "icon": "timer", "sort_order": 1},
+    {"id": 30, "product_id": 7, "feature_name": "Short Circuit Protection", "icon": "alert", "sort_order": 2},
+    {"id": 31, "product_id": 7, "feature_name": "Overcharge Protection", "icon": "battery", "sort_order": 3},
+    {"id": 32, "product_id": 7, "feature_name": "Temperature Protection", "icon": "thermometer", "sort_order": 4},
+    {"id": 33, "product_id": 7, "feature_name": "Reverse Polarity Protection", "icon": "shield", "sort_order": 5},
+
+    {"id": 34, "product_id": 8, "feature_name": "Overtime Protection (8s)", "icon": "timer", "sort_order": 1},
+    {"id": 35, "product_id": 8, "feature_name": "Short Circuit Protection", "icon": "alert", "sort_order": 2},
+    {"id": 36, "product_id": 8, "feature_name": "Overcharge Protection", "icon": "battery", "sort_order": 3},
+    {"id": 37, "product_id": 8, "feature_name": "Temperature Protection", "icon": "thermometer", "sort_order": 4},
+    {"id": 38, "product_id": 8, "feature_name": "Low Voltage Protection", "icon": "bolt", "sort_order": 5},
+
+    {"id": 39, "product_id": 9, "feature_name": "Overtime Protection (6s)", "icon": "timer", "sort_order": 1},
+    {"id": 40, "product_id": 9, "feature_name": "Short Circuit Protection", "icon": "alert", "sort_order": 2},
+    {"id": 41, "product_id": 9, "feature_name": "Overcharge Protection", "icon": "battery", "sort_order": 3},
+    {"id": 42, "product_id": 9, "feature_name": "Temperature Protection", "icon": "thermometer", "sort_order": 4},
+    {"id": 43, "product_id": 9, "feature_name": "Low Voltage Protection", "icon": "bolt", "sort_order": 5},
+
+    {"id": 44, "product_id": 10, "feature_name": "Overtime Protection (6s)", "icon": "timer", "sort_order": 1},
+    {"id": 45, "product_id": 10, "feature_name": "Short Circuit Protection", "icon": "alert", "sort_order": 2},
+    {"id": 46, "product_id": 10, "feature_name": "Overcharge Protection", "icon": "battery", "sort_order": 3},
+    {"id": 47, "product_id": 10, "feature_name": "Temperature Protection", "icon": "thermometer", "sort_order": 4},
+    {"id": 48, "product_id": 10, "feature_name": "Low Voltage Protection", "icon": "bolt", "sort_order": 5},
+
+    {"id": 49, "product_id": 11, "feature_name": "Overtime Protection (5s)", "icon": "timer", "sort_order": 1},
+    {"id": 50, "product_id": 11, "feature_name": "Short Circuit Protection", "icon": "alert", "sort_order": 2},
+    {"id": 51, "product_id": 11, "feature_name": "Overcharge Protection", "icon": "battery", "sort_order": 3},
+    {"id": 52, "product_id": 11, "feature_name": "Temperature Protection", "icon": "thermometer", "sort_order": 4},
+
+    {"id": 53, "product_id": 12, "feature_name": "Overtime Protection (9s)", "icon": "timer", "sort_order": 1},
+    {"id": 54, "product_id": 12, "feature_name": "Short Circuit Protection", "icon": "alert", "sort_order": 2},
+    {"id": 55, "product_id": 12, "feature_name": "Overcharge Protection", "icon": "battery", "sort_order": 3},
+    {"id": 56, "product_id": 12, "feature_name": "Temperature Protection", "icon": "thermometer", "sort_order": 4},
+    {"id": 57, "product_id": 12, "feature_name": "Low Voltage Protection", "icon": "bolt", "sort_order": 5},
+
+    {"id": 58, "product_id": 13, "feature_name": "Overtime Protection (9s)", "icon": "timer", "sort_order": 1},
+    {"id": 59, "product_id": 13, "feature_name": "Short Circuit Protection", "icon": "alert", "sort_order": 2},
+    {"id": 60, "product_id": 13, "feature_name": "Overcharge Protection", "icon": "battery", "sort_order": 3},
+    {"id": 61, "product_id": 13, "feature_name": "Temperature Protection", "icon": "thermometer", "sort_order": 4},
+    {"id": 62, "product_id": 13, "feature_name": "Low Voltage Protection", "icon": "bolt", "sort_order": 5},
+
+    {"id": 63, "product_id": 14, "feature_name": "Leak-resistant Structure", "icon": "shield", "sort_order": 1},
+    {"id": 64, "product_id": 14, "feature_name": "Food-grade Materials", "icon": "leaf", "sort_order": 2},
+    {"id": 65, "product_id": 14, "feature_name": "Anti-condensation Chamber", "icon": "snow", "sort_order": 3}
+  ]
+}

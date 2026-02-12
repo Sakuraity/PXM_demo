@@ -1,0 +1,31 @@
+{
+  "shipments": [
+    {
+      "id": 1,
+      "order_id": 1,
+      "carrier": "SF Express",
+      "tracking_no": "SF202402110001",
+      "tracking_url": "https://www.sf-express.com/cn/en/dynamic_function/waybill/#search/waybill/SF202402110001",
+      "status": "in_transit",
+      "shipped_at": "2024-02-11T06:15:00Z"
+    },
+    {
+      "id": 2,
+      "order_id": 2,
+      "carrier": "DHL",
+      "tracking_no": "DHL202402120045",
+      "tracking_url": "https://www.dhl.com/global-en/home/tracking/tracking-express.html?submit=1&tracking-id=DHL202402120045",
+      "status": "in_transit",
+      "shipped_at": "2024-02-12T08:05:00Z"
+    },
+    {
+      "id": 3,
+      "order_id": 5,
+      "carrier": "UPS",
+      "tracking_no": "1Z204E380338943508",
+      "tracking_url": "https://www.ups.com/track?loc=en_US&tracknum=1Z204E380338943508",
+      "status": "delivered",
+      "shipped_at": "2024-02-15T07:22:00Z"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "product_series": [
+    {
+      "id": 1,
+      "name": "NOVA Series",
+      "slug": "nova-series",
+      "tagline": "Smart Vaping Future",
+      "description": "NOVA系列代表了智能电子烟的未来，采用最先进的SMARTCORE 3.0芯片，提供精准的功率控制和智能化的使用体验。每个产品都经过精心设计，将科技与完美融合。",
+      "banner_image": "/images/series/nova-banner.jpg",
+      "banner_mobile_image": "/images/series/nova-banner-mobile.jpg",
+      "logo_image": "/images/series/nova-logo.svg",
+      "sort_order": 1,
+      "is_active": true,
+      "seo_title": "NOVA Series - Smart Vaping Future",
+      "seo_description": "Discover NOVA Series - the future of smart vaping with advanced technology and innovative design."
+    },
+    {
+      "id": 2,
+      "name": "STRIKE Series",
+      "slug": "strike-series",
+      "tagline": "Power Meets Precision",
+      "description": "STRIKE系列为追求极致性能的用户而生。无论是超大功率输出还是精准的温控体验，STRIKE都能满足您对专业级电子烟设备的所有期待。",
+      "banner_image": "/images/series/strike-banner.jpg",
+      "banner_mobile_image": "/images/series/strike-banner-mobile.jpg",
+      "logo_image": "/images/series/strike-logo.svg",
+      "sort_order": 2,
+      "is_active": true,
+      "seo_title": "STRIKE Series - Power Meets Precision",
+      "seo_description": "STRIKE Series delivers unmatched power and precision for professional vaping enthusiasts."
+    },
+    {
+      "id": 3,
+      "name": "FLO Series",
+      "slug": "flo-series",
+      "tagline": "Light Up Your Journey",
+      "description": "FLO系列专注于轻薄便携的设计理念，让电子烟成为您旅途中的完美伴侣。极致纤薄的机身，持久续航的电池，随时随地享受纯净的 vaping 体验。",
+      "banner_image": "/images/series/flo-banner.jpg",
+      "banner_mobile_image": "/images/series/flo-banner-mobile.jpg",
+      "logo_image": "/images/series/flo-logo.svg",
+      "sort_order": 3,
+      "is_active": true,
+      "seo_title": "FLO Series - Light Up Your Journey",
+      "seo_description": "FLO Series offers ultra-portable vaping devices designed for your on-the-go lifestyle."
+    },
+    {
+      "id": 4,
+      "name": "EVO Series",
+      "slug": "evo-series",
+      "tagline": "Evolution of Vaping",
+      "description": "EVO系列象征着电子烟技术的不断进化。通过持续的创新和优化，EVO系列产品在性能、便携性和用户体验之间找到了完美的平衡点。",
+      "banner_image": "/images/series/evo-banner.jpg",
+      "banner_mobile_image": "/images/series/evo-banner-mobile.jpg",
+      "logo_image": "/images/series/evo-logo.svg",
+      "sort_order": 4,
+      "is_active": true,
+      "seo_title": "EVO Series - Evolution of Vaping",
+      "seo_description": "EVO Series represents the continuous evolution of vaping technology and innovation."
+    }
+  ]
+}

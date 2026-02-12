@@ -1,0 +1,27 @@
+{
+  "product": {
+    "id": 13,
+    "name": "EVO Power",
+    "slug": "evo-power",
+    "subtitle": "Performance Evolved",
+    "series_id": 4,
+    "category_id": 4,
+    "brand": "EVO",
+    "product_type": "device",
+    "status": "published",
+    "is_new": false,
+    "is_featured": true,
+    "is_bestseller": true,
+    "short_description": "2000mAh 内置电池、5-100W 输出、SMARTCORE 3.0 芯片、双气道调控，兼顾爆发力与细腻口感。",
+    "description": "<p>EVO Power 坚持“性能即体验”的理念。2000mAh 高密度电池配合 5-100W 功率输出区间，让用户可以在口感和烟雾之间自由切换。</p><p>SMARTCORE 3.0 芯片提供 0.001s 级瞬时点火速度，并通过智能温控算法确保线圈在安全温度范围内工作。支持 Power、Curve、Bypass 三种模式，满足不同玩家的调校需求。</p><p>双气道调控结构可在紧致 MTL 与顺畅 RDL 之间自由切换。Type-C 2A 快充、五重安全保护、耐磨合金机身，为高频使用场景提供充分保障。</p>",
+    "hero_tagline": "Power You Can Trust",
+    "video_url": "https://www.youtube.com/watch?v=evo-power-demo",
+    "seo_title": "EVO Power - High Performance Box Mod",
+    "seo_description": "EVO Power delivers 5-100W output, SMARTCORE 3.0 chip, dual airflow control, and 2000mAh battery for intense yet refined vaping.",
+    "seo_keywords": "EVO Power, high performance mod, dual airflow, SMARTCORE",
+    "sort_order": 13,
+    "published_at": "2024-02-01T10:00:00Z",
+    "created_at": "2024-01-25T09:00:00Z",
+    "updated_at": "2024-02-01T10:00:00Z"
+  }
+}

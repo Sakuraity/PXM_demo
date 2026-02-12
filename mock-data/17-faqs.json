@@ -1,0 +1,84 @@
+{
+  "faqs": [
+    {
+      "id": 1,
+      "question": "NOVA 系列设备支持哪些兼容烟弹？",
+      "answer": "NOVA Pro 5、NOVA Fit 与 NOVA Air 均支持 NOVA Pod Cartridge 系列的 0.8Ω 和 1.2Ω 烟弹，您可以根据口感与尼古丁需求自由选择。",
+      "category": "Product",
+      "sort_order": 1,
+      "is_active": true
+    },
+    {
+      "id": 2,
+      "question": "STRIKE X 200 与 STRIKE Turbo 的主要差异是什么？",
+      "answer": "STRIKE X 200 采用双 18650 外置电池并配置 2.4\" 触控屏，最大输出 200W。STRIKE Turbo 使用 4000mAh 内置电池，支持 Turbo 爆发模式，适合需要高功率但又希望保持便携的用户。",
+      "category": "Product",
+      "sort_order": 2,
+      "is_active": true
+    },
+    {
+      "id": 3,
+      "question": "如何为 FLO Ultra 补充烟油？",
+      "answer": "将 FLO Ultra 的磁吸油仓拔出，打开侧向硅胶塞即可补充烟油。建议使用 50/50 或 60/40 的尼古丁盐或清晰型烟油。",
+      "category": "Usage",
+      "sort_order": 3,
+      "is_active": true
+    },
+    {
+      "id": 4,
+      "question": "EVO Vision 的 SMARTLINK 功能如何使用？",
+      "answer": "下载 Cascade SMARTLINK App，打开蓝牙并在设备设置中启用配对模式。完成配对后即可在手机端自定义功率曲线、查看数据并进行固件 OTA 升级。",
+      "category": "Usage",
+      "sort_order": 4,
+      "is_active": true
+    },
+    {
+      "id": 5,
+      "question": "设备无法点火怎么办？",
+      "answer": "请先检查电量是否充足、烟弹是否安装到位。如果设备显示短路或过温，请更换新的烟弹或线圈，并确认气道无异物。若问题仍存在，请联系售后团队。",
+      "category": "Support",
+      "sort_order": 5,
+      "is_active": true
+    },
+    {
+      "id": 6,
+      "question": "如何升级设备固件？",
+      "answer": "NOVA Pro 5、STRIKE Box、EVO Vision 等设备支持 USB-C 连接电脑进行固件升级，请在官网支持中心下载对应升级包并按照说明操作。",
+      "category": "Support",
+      "sort_order": 6,
+      "is_active": true
+    },
+    {
+      "id": 7,
+      "question": "电池充电需要多长时间？",
+      "answer": "支持 QUICKCHARGE 的设备（如 NOVA Pro 5、EVO Vision）通常在 40-45 分钟即可从 10% 充至 80%。充电时间会受适配器输出与环境温度影响。",
+      "category": "Usage",
+      "sort_order": 7,
+      "is_active": true
+    },
+    {
+      "id": 8,
+      "question": "如何进行防伪验证？",
+      "answer": "请访问官网防伪验证页面，在输入框中填写包装盒内侧的 16 位防伪码，系统会立即反馈验证结果。如遇问题请联系 support@cascadevapor.com。",
+      "category": "Support",
+      "sort_order": 8,
+      "is_active": true
+    },
+    {
+      "id": 9,
+      "question": "保修政策如何？",
+      "answer": "所有 Cascade Vapor 设备均享有 12 个月有限保修。需要提供购买凭证。人为拆修、进液或不当使用造成的损坏不在保修范围内。",
+      "category": "Support",
+      "sort_order": 9,
+      "is_active": true
+    },
+    {
+      "id": 10,
+      "question": "是否支持国际配送？",
+      "answer": "我们已开通北美、欧洲及亚太部分国家/地区的直邮服务，运费与配送时效将在结账页面自动计算。",
+      "category": "Logistics",
+      "sort_order": 10,
+      "is_active": true
+    }
+  ]
+}

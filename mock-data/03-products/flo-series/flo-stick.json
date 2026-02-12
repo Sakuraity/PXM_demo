@@ -1,0 +1,27 @@
+{
+  "product": {
+    "id": 11,
+    "name": "FLO Stick",
+    "slug": "flo-stick",
+    "subtitle": "Pen-Style Convenience",
+    "series_id": 3,
+    "category_id": 2,
+    "brand": "FLO",
+    "product_type": "device",
+    "status": "published",
+    "is_new": false,
+    "is_featured": false,
+    "is_bestseller": false,
+    "short_description": "笔状轻盈设计、500mAh 电池、智能气动开关、一次性密封仓，随心享受即抛式便携体验。",
+    "description": "<p>FLO Stick 采用经典笔状造型，机身直径仅 14mm，重量控制在 45 克以内，握感轻盈。内置 500mAh 电池配合智能气动开关，吸气即可启动，无需按键操作。</p><p>一次性密封油仓预装 2mL FLO 精选烟油，提供 Classic Tobacco、Cool Mint 等多种口味。防干烧芯体结构确保整支使用过程保持稳定口感。</p><p>尾部呼吸灯可指示电量状态与工作状态，Type-C 充电接口让补充电量更加方便。FLO Stick 是城市通勤、短途旅行或作为备用设备的理想选择。</p>",
+    "hero_tagline": "Stick to the Essentials",
+    "video_url": "https://www.youtube.com/watch?v=flo-stick-demo",
+    "seo_title": "FLO Stick - Pen Style Disposable Pod",
+    "seo_description": "FLO Stick offers pen-style body, 500mAh battery, auto draw, pre-filled 2mL pod, and multiple flavors for hassle-free vaping.",
+    "seo_keywords": "FLO Stick, pen style vape, disposable pod, auto draw",
+    "sort_order": 11,
+    "published_at": "2024-01-08T10:00:00Z",
+    "created_at": "2024-01-02T09:00:00Z",
+    "updated_at": "2024-01-08T10:00:00Z"
+  }
+}

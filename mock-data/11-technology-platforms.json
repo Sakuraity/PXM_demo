@@ -1,0 +1,44 @@
+{
+  "technology_platforms": [
+    {
+      "id": 1,
+      "name": "SMARTCORE 3.0",
+      "slug": "smartcore-3",
+      "tagline": "Precision Control in Every Puff",
+      "description": "SMARTCORE 3.0 芯片是 Cascade Vapor 最新一代智能控制平台，拥有 0.001s 级点火响应与自适应功率算法，可实时监测电阻与温度，确保每一次输出都稳定可靠。平台支持 OTA 固件升级、功率曲线自定义与多重安全防护，是高端设备的核心动力。",
+      "logo_image": "/images/technologies/smartcore-logo.svg",
+      "banner_image": "/images/technologies/smartcore-banner.jpg",
+      "is_active": true
+    },
+    {
+      "id": 2,
+      "name": "FLOWTECH Mesh",
+      "slug": "flowtech-mesh",
+      "tagline": "Ultra Smooth Vaporization",
+      "description": "FLOWTECH Mesh 雾化平台采用多层复合网状发热片与精密油道设计，让液体在更大面积形成均匀薄膜，加热更迅速、口感层次更丰富。该平台具备防冷凝、防漏油结构，并针对高 VG 烟油和尼古丁盐配方进行专门调校。",
+      "logo_image": "/images/technologies/flowtech-logo.svg",
+      "banner_image": "/images/technologies/flowtech-banner.jpg",
+      "is_active": true
+    },
+    {
+      "id": 3,
+      "name": "QUICKCHARGE",
+      "slug": "quickcharge",
+      "tagline": "Power Back in Minutes",
+      "description": "QUICKCHARGE 快充体系整合了 USB-C PD、QC 与定制电池管理算法，可在保证安全的前提下大幅提升充电效率。配合高密度锂电池模块，设备 30-45 分钟即可补充 70%-80% 电量，适配全球主流电压标准。",
+      "logo_image": "/images/technologies/quickcharge-logo.svg",
+      "banner_image": "/images/technologies/quickcharge-banner.jpg",
+      "is_active": true
+    },
+    {
+      "id": 4,
+      "name": "SMARTLINK",
+      "slug": "smartlink",
+      "tagline": "Connected Vaping Experience",
+      "description": "SMARTLINK 是一套面向高端设备的互联平台，通过蓝牙与移动 App 连接，提供功率曲线自定义、口感日志记录、固件升级、远程锁机等功能。平台使用加密协议保障数据安全，并兼容 iOS 与 Android。",
+      "logo_image": "/images/technologies/smartlink-logo.svg",
+      "banner_image": "/images/technologies/smartlink-banner.jpg",
+      "is_active": true
+    }
+  ]
+}

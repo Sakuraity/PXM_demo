@@ -1,0 +1,152 @@
+{
+  "order_items": [
+    {
+      "id": 1,
+      "order_id": 1,
+      "product_id": 1,
+      "sku_id": 1,
+      "product_name": "NOVA Pro 5",
+      "sku_info": "Midnight Black",
+      "image_url": "/images/products/nova-pro-5/hero.jpg",
+      "price": 89.99,
+      "quantity": 1,
+      "subtotal": 89.99
+    },
+    {
+      "id": 2,
+      "order_id": 1,
+      "product_id": 4,
+      "sku_id": 37,
+      "product_name": "NOVA Pod Cartridge",
+      "sku_info": "Classic Tobacco 3mg",
+      "image_url": "/images/products/nova-pod/hero.jpg",
+      "price": 13.99,
+      "quantity": 2,
+      "subtotal": 27.98
+    },
+    {
+      "id": 3,
+      "order_id": 1,
+      "product_id": 9,
+      "sku_id": 22,
+      "product_name": "FLO Ultra",
+      "sku_info": "Misty Gray",
+      "image_url": "/images/products/flo-ultra/hero.jpg",
+      "price": 59.99,
+      "quantity": 1,
+      "subtotal": 59.99
+    },
+
+    {
+      "id": 4,
+      "order_id": 2,
+      "product_id": 5,
+      "sku_id": 10,
+      "product_name": "STRIKE X 200",
+      "sku_info": "Obsidian Black",
+      "image_url": "/images/products/strike-x-200/hero.jpg",
+      "price": 109.99,
+      "quantity": 1,
+      "subtotal": 109.99
+    },
+    {
+      "id": 5,
+      "order_id": 2,
+      "product_id": 14,
+      "sku_id": 41,
+      "product_name": "EVO Coil Cartridge",
+      "sku_info": "Berry Mix 0.8Ω",
+      "image_url": "/images/products/evo-coil/hero.jpg",
+      "price": 14.99,
+      "quantity": 2,
+      "subtotal": 29.98
+    },
+
+    {
+      "id": 6,
+      "order_id": 3,
+      "product_id": 7,
+      "sku_id": 16,
+      "product_name": "STRIKE Box",
+      "sku_info": "Titanium Silver",
+      "image_url": "/images/products/strike-box/hero.jpg",
+      "price": 99.99,
+      "quantity": 1,
+      "subtotal": 99.99
+    },
+
+    {
+      "id": 7,
+      "order_id": 4,
+      "product_id": 8,
+      "sku_id": 19,
+      "product_name": "STRIKE Mini",
+      "sku_info": "Midnight Navy",
+      "image_url": "/images/products/strike-mini/hero.jpg",
+      "price": 69.99,
+      "quantity": 1,
+      "subtotal": 69.99
+    },
+    {
+      "id": 8,
+      "order_id": 4,
+      "product_id": 4,
+      "sku_id": 38,
+      "product_name": "NOVA Pod Cartridge",
+      "sku_info": "Mango Tango 5mg",
+      "image_url": "/images/products/nova-pod/hero.jpg",
+      "price": 13.99,
+      "quantity": 2,
+      "subtotal": 27.98
+    },
+    {
+      "id": 9,
+      "order_id": 4,
+      "product_id": 10,
+      "sku_id": 27,
+      "product_name": "FLO Lite",
+      "sku_info": "Mint Green",
+      "image_url": "/images/products/flo-lite/hero.jpg",
+      "price": 44.99,
+      "quantity": 1,
+      "subtotal": 44.99
+    },
+
+    {
+      "id": 10,
+      "order_id": 5,
+      "product_id": 12,
+      "sku_id": 32,
+      "product_name": "EVO Vision",
+      "sku_info": "Space Silver",
+      "image_url": "/images/products/evo-vision/hero.jpg",
+      "price": 104.99,
+      "quantity": 1,
+      "subtotal": 104.99
+    },
+    {
+      "id": 11,
+      "order_id": 5,
+      "product_id": 14,
+      "sku_id": 40,
+      "product_name": "EVO Coil Cartridge",
+      "sku_info": "Fresh Mint 0.4Ω",
+      "image_url": "/images/products/evo-coil/hero.jpg",
+      "price": 14.99,
+      "quantity": 2,
+      "subtotal": 29.98
+    },
+    {
+      "id": 12,
+      "order_id": 5,
+      "product_id": 3,
+      "sku_id": 7,
+      "product_name": "NOVA Air",
+      "sku_info": "Pearl White",
+      "image_url": "/images/products/nova-air/hero.jpg",
+      "price": 54.99,
+      "quantity": 1,
+      "subtotal": 54.99
+    }
+  ]
+}

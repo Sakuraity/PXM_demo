@@ -1,0 +1,34 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "SMARTCORE 3.0：重新定义智能雾化芯片",
+      "slug": "smartcore-3-launch",
+      "cover_image": "/images/articles/smartcore-3.jpg",
+      "summary": "深入解析 SMARTCORE 3.0 芯片的设计理念与技术亮点，展示其带来的智能化 vaping 体验。",
+      "content": "<h2>前言</h2><p>随着电子烟行业的不断发展，芯片已经成为决定产品体验的关键因素。SMARTCORE 3.0 是 Cascade Vapor 最新推出的旗舰级芯片平台，凭借极速响应与智能算法，刷新了智能雾化的体验标准。</p><h2>毫秒级响应</h2><p>SMARTCORE 3.0 采用双核 MCU 架构，实现 0.001s 点火响应。无论是大烟雾还是 MTL 口感，都能在瞬间给出稳定输出。</p><h2>自适应输出</h2><p>芯片内置阻值识别与温度采样模块，能够实时监测线圈状态并自动匹配功率范围，避免干烧与过热。</p><h2>多重安全防护</h2><p>过流、短路、过充、低电压等多重保护被整合进单一芯片，保障设备使用安全。配合固件 OTA 升级，SMARTCORE 3.0 将持续获得功能更新。</p><h2>总结</h2><p>这颗芯片已经率先应用在 NOVA Pro 5、STRIKE X 200、EVO Vision 等旗舰设备上，为用户带来智慧与性能兼具的使用体验。</p>",
+      "category": "news",
+      "tags": ["芯片", "智能", "技术"],
+      "author": "Cascade Lab",
+      "status": "published",
+      "published_at": "2024-02-15T08:00:00Z",
+      "seo_title": "SMARTCORE 3.0 芯片发布",
+      "seo_description": "Cascade Vapor 发布 SMARTCORE 3.0 智能雾化芯片，带来毫秒级响应和自适应输出体验。"
+    },
+    {
+      "id": 2,
+      "title": "FLO Ultra 设计幕后：轻薄与续航的平衡",
+      "slug": "flo-ultra-design-story",
+      "cover_image": "/images/articles/flo-ultra-design.jpg",
+      "summary": "探访 FLO Ultra 的设计团队，了解这款超轻便携设备如何在外观、续航与口感之间找到平衡。",
+      "content": "<h2>灵感来源</h2><p>FLO Ultra 的设计灵感来自城市通勤场景：用户需要一台轻巧且可靠的设备，能随身携带而不增加负担。团队从羽毛、雨滴等轻盈元素中汲取灵感，打造出 12.5mm 的极薄机身。</p><h2>结构创新</h2><p>为了实现轻薄与强度兼顾，机身采用航空铝合金与玻璃纤维复合框架。油仓使用可视化设计，搭配磁吸快拆结构，补充烟油更便捷。</p><h2>续航策略</h2><p>在轻薄机身中塞入 900mAh 电池并不容易。团队通过优化内部排布与定制电池模组，实现了全天续航，并引入 QUICKCHARGE 快充方案。</p><h2>口感调校</h2><p>FLO Ultra 依托 FLOWTECH Mesh 平台，为 MTL 用户提供柔顺口感。可调气道让用户在紧致与顺畅之间自由切换。</p><h2>总结</h2><p>FLO Ultra 不仅仅是一台设备，它是 Cascade 对现代通勤者生活方式的回应。下一代 FLO 产品也将延续轻量化理念。敬请期待。</p>",
+      "category": "blog",
+      "tags": ["设计", "FLO", "体验"],
+      "author": "Cascade Lab",
+      "status": "published",
+      "published_at": "2024-02-12T08:00:00Z",
+      "seo_title": "FLO Ultra 设计幕后",
+      "seo_description": "探索 FLO Ultra 的轻薄设计、续航策略与口感调校，了解 Cascade 如何平衡便携与体验。"
+    }
+  ]
+}

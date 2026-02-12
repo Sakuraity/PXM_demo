@@ -1,0 +1,59 @@
+{
+  "product_images": [
+    {"id": 1, "product_id": 1, "sku_id": null, "url": "/images/products/nova-pro-5/hero.jpg", "alt_text": "NOVA Pro 5 Hero", "type": "hero", "sort_order": 1},
+    {"id": 2, "product_id": 1, "sku_id": null, "url": "/images/products/nova-pro-5/gallery-1.jpg", "alt_text": "NOVA Pro 5 Touchscreen", "type": "gallery", "sort_order": 2},
+    {"id": 3, "product_id": 1, "sku_id": null, "url": "/images/products/nova-pro-5/detail-1.jpg", "alt_text": "SMARTCORE Chip Detail", "type": "detail", "sort_order": 3},
+
+    {"id": 4, "product_id": 2, "sku_id": null, "url": "/images/products/nova-fit/hero.jpg", "alt_text": "NOVA Fit Hero", "type": "hero", "sort_order": 1},
+    {"id": 5, "product_id": 2, "sku_id": null, "url": "/images/products/nova-fit/gallery-1.jpg", "alt_text": "NOVA Fit Display", "type": "gallery", "sort_order": 2},
+    {"id": 6, "product_id": 2, "sku_id": null, "url": "/images/products/nova-fit/detail-1.jpg", "alt_text": "Magnetic Pod", "type": "detail", "sort_order": 3},
+
+    {"id": 7, "product_id": 3, "sku_id": null, "url": "/images/products/nova-air/hero.jpg", "alt_text": "NOVA Air Hero", "type": "hero", "sort_order": 1},
+    {"id": 8, "product_id": 3, "sku_id": null, "url": "/images/products/nova-air/gallery-1.jpg", "alt_text": "NOVA Air Side View", "type": "gallery", "sort_order": 2},
+    {"id": 9, "product_id": 3, "sku_id": null, "url": "/images/products/nova-air/detail-1.jpg", "alt_text": "NOVA Air Pod", "type": "detail", "sort_order": 3},
+
+    {"id": 10, "product_id": 4, "sku_id": null, "url": "/images/products/nova-pod/hero.jpg", "alt_text": "NOVA Pod Cartridge", "type": "hero", "sort_order": 1},
+    {"id": 11, "product_id": 4, "sku_id": null, "url": "/images/products/nova-pod/gallery-1.jpg", "alt_text": "Pod Mesh Detail", "type": "detail", "sort_order": 2},
+    {"id": 12, "product_id": 4, "sku_id": null, "url": "/images/products/nova-pod/gallery-2.jpg", "alt_text": "Pod Flavor Lineup", "type": "gallery", "sort_order": 3},
+
+    {"id": 13, "product_id": 5, "sku_id": null, "url": "/images/products/strike-x-200/hero.jpg", "alt_text": "STRIKE X 200 Hero", "type": "hero", "sort_order": 1},
+    {"id": 14, "product_id": 5, "sku_id": null, "url": "/images/products/strike-x-200/gallery-1.jpg", "alt_text": "STRIKE X 200 Turbo Mode", "type": "gallery", "sort_order": 2},
+    {"id": 15, "product_id": 5, "sku_id": null, "url": "/images/products/strike-x-200/detail-1.jpg", "alt_text": "STRIKE X 200 Screen", "type": "detail", "sort_order": 3},
+
+    {"id": 16, "product_id": 6, "sku_id": null, "url": "/images/products/strike-turbo/hero.jpg", "alt_text": "STRIKE Turbo Hero", "type": "hero", "sort_order": 1},
+    {"id": 17, "product_id": 6, "sku_id": null, "url": "/images/products/strike-turbo/gallery-1.jpg", "alt_text": "Turbo Boost Display", "type": "gallery", "sort_order": 2},
+    {"id": 18, "product_id": 6, "sku_id": null, "url": "/images/products/strike-turbo/detail-1.jpg", "alt_text": "STRIKE Turbo Grip", "type": "detail", "sort_order": 3},
+
+    {"id": 19, "product_id": 7, "sku_id": null, "url": "/images/products/strike-box/hero.jpg", "alt_text": "STRIKE Box Hero", "type": "hero", "sort_order": 1},
+    {"id": 20, "product_id": 7, "sku_id": null, "url": "/images/products/strike-box/gallery-1.jpg", "alt_text": "STRIKE Box Buttons", "type": "gallery", "sort_order": 2},
+    {"id": 21, "product_id": 7, "sku_id": null, "url": "/images/products/strike-box/detail-1.jpg", "alt_text": "STRIKE Box Battery Tray", "type": "detail", "sort_order": 3},
+
+    {"id": 22, "product_id": 8, "sku_id": null, "url": "/images/products/strike-mini/hero.jpg", "alt_text": "STRIKE Mini Hero", "type": "hero", "sort_order": 1},
+    {"id": 23, "product_id": 8, "sku_id": null, "url": "/images/products/strike-mini/gallery-1.jpg", "alt_text": "STRIKE Mini OLED", "type": "gallery", "sort_order": 2},
+    {"id": 24, "product_id": 8, "sku_id": null, "url": "/images/products/strike-mini/detail-1.jpg", "alt_text": "STRIKE Mini Pod", "type": "detail", "sort_order": 3},
+
+    {"id": 25, "product_id": 9, "sku_id": null, "url": "/images/products/flo-ultra/hero.jpg", "alt_text": "FLO Ultra Hero", "type": "hero", "sort_order": 1},
+    {"id": 26, "product_id": 9, "sku_id": null, "url": "/images/products/flo-ultra/gallery-1.jpg", "alt_text": "FLO Ultra Thin Profile", "type": "gallery", "sort_order": 2},
+    {"id": 27, "product_id": 9, "sku_id": null, "url": "/images/products/flo-ultra/detail-1.jpg", "alt_text": "FLO Ultra Pod", "type": "detail", "sort_order": 3},
+
+    {"id": 28, "product_id": 10, "sku_id": null, "url": "/images/products/flo-lite/hero.jpg", "alt_text": "FLO Lite Hero", "type": "hero", "sort_order": 1},
+    {"id": 29, "product_id": 10, "sku_id": null, "url": "/images/products/flo-lite/gallery-1.jpg", "alt_text": "FLO Lite LED", "type": "gallery", "sort_order": 2},
+    {"id": 30, "product_id": 10, "sku_id": null, "url": "/images/products/flo-lite/detail-1.jpg", "alt_text": "FLO Lite Pod", "type": "detail", "sort_order": 3},
+
+    {"id": 31, "product_id": 11, "sku_id": null, "url": "/images/products/flo-stick/hero.jpg", "alt_text": "FLO Stick Hero", "type": "hero", "sort_order": 1},
+    {"id": 32, "product_id": 11, "sku_id": null, "url": "/images/products/flo-stick/gallery-1.jpg", "alt_text": "FLO Stick Pen Style", "type": "gallery", "sort_order": 2},
+    {"id": 33, "product_id": 11, "sku_id": null, "url": "/images/products/flo-stick/detail-1.jpg", "alt_text": "FLO Stick Pod", "type": "detail", "sort_order": 3},
+
+    {"id": 34, "product_id": 12, "sku_id": null, "url": "/images/products/evo-vision/hero.jpg", "alt_text": "EVO Vision Hero", "type": "hero", "sort_order": 1},
+    {"id": 35, "product_id": 12, "sku_id": null, "url": "/images/products/evo-vision/gallery-1.jpg", "alt_text": "EVO Vision Dashboard", "type": "gallery", "sort_order": 2},
+    {"id": 36, "product_id": 12, "sku_id": null, "url": "/images/products/evo-vision/detail-1.jpg", "alt_text": "SMARTLINK App", "type": "detail", "sort_order": 3},
+
+    {"id": 37, "product_id": 13, "sku_id": null, "url": "/images/products/evo-power/hero.jpg", "alt_text": "EVO Power Hero", "type": "hero", "sort_order": 1},
+    {"id": 38, "product_id": 13, "sku_id": null, "url": "/images/products/evo-power/gallery-1.jpg", "alt_text": "EVO Power Airflow", "type": "gallery", "sort_order": 2},
+    {"id": 39, "product_id": 13, "sku_id": null, "url": "/images/products/evo-power/detail-1.jpg", "alt_text": "EVO Power Battery", "type": "detail", "sort_order": 3},
+
+    {"id": 40, "product_id": 14, "sku_id": null, "url": "/images/products/evo-coil/hero.jpg", "alt_text": "EVO Coil Cartridge", "type": "hero", "sort_order": 1},
+    {"id": 41, "product_id": 14, "sku_id": null, "url": "/images/products/evo-coil/gallery-1.jpg", "alt_text": "EVO Coil Mesh", "type": "detail", "sort_order": 2},
+    {"id": 42, "product_id": 14, "sku_id": null, "url": "/images/products/evo-coil/gallery-2.jpg", "alt_text": "EVO Coil Flavor", "type": "gallery", "sort_order": 3}
+  ]
+}

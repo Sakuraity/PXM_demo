@@ -1,0 +1,27 @@
+{
+  "product": {
+    "id": 7,
+    "name": "STRIKE Box",
+    "slug": "strike-box",
+    "subtitle": "Classic Design, Modern Power",
+    "series_id": 2,
+    "category_id": 4,
+    "brand": "STRIKE",
+    "product_type": "device",
+    "status": "published",
+    "is_new": false,
+    "is_featured": false,
+    "is_bestseller": true,
+    "short_description": "经典盒式双电池设备，1.3英寸显示屏，5-220W输出，支持多种输出模式，稳定可靠的性能表现。",
+    "description": "<p>STRIKE Box采用经典盒式设计，人体工学握感，长时间使用也不易疲劳。双18650电池配置，最高输出220W。</p><p>升级版SMARTCORE 3.0芯片，响应速度提升30%，温控更加精准。支持Ni/Ti/SS等多种发热丝材料。</p><p>独特的防火材质外壳，安全性更高。底部电池盖设计，更换电池更加方便。是追求稳定性能用户的理想选择。</p>",
+    "hero_tagline": "Timeless Power",
+    "video_url": "https://www.youtube.com/watch?v=strike-box-demo",
+    "seo_title": "STRIKE Box - Classic Dual Battery Mod",
+    "seo_description": "STRIKE Box combines classic design with modern power, 5-220W output, dual 18650 batteries, and multiple temperature control modes.",
+    "seo_keywords": "STRIKE Box, dual battery mod, classic design, reliable performance",
+    "sort_order": 7,
+    "published_at": "2024-01-30T10:00:00Z",
+    "created_at": "2024-01-25T09:00:00Z",
+    "updated_at": "2024-01-30T10:00:00Z"
+  }
+}

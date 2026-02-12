@@ -1,0 +1,28 @@
+{
+  "site_settings": [
+    {"id": 1, "key": "site_name", "value": "Cascade Vapor", "group": "general"},
+    {"id": 2, "key": "site_logo", "value": "/images/logo/cascade-logo.svg", "group": "general"},
+    {"id": 3, "key": "site_slogan", "value": "Elevate Your Vaping", "group": "general"},
+    {"id": 4, "key": "site_favicon", "value": "/images/logo/cascade-favicon.ico", "group": "general"},
+
+    {"id": 5, "key": "contact_email_sales", "value": "sales@cascadevapor.com", "group": "contact"},
+    {"id": 6, "key": "contact_email_support", "value": "support@cascadevapor.com", "group": "contact"},
+    {"id": 7, "key": "contact_email_marketing", "value": "marketing@cascadevapor.com", "group": "contact"},
+    {"id": 8, "key": "contact_phone", "value": "+1 (800) 555-1024", "group": "contact"},
+    {"id": 9, "key": "service_hours", "value": "Mon-Fri 09:00-18:00 GMT+8", "group": "contact"},
+
+    {"id": 10, "key": "social_facebook", "value": "https://facebook.com/cascadevapor", "group": "social"},
+    {"id": 11, "key": "social_instagram", "value": "https://instagram.com/cascadevapor", "group": "social"},
+    {"id": 12, "key": "social_tiktok", "value": "https://www.tiktok.com/@cascadevapor", "group": "social"},
+    {"id": 13, "key": "social_youtube", "value": "https://youtube.com/c/cascadevapor", "group": "social"},
+
+    {"id": 14, "key": "currency", "value": "USD", "group": "commerce"},
+    {"id": 15, "key": "age_verification", "value": "true", "group": "compliance"},
+    {"id": 16, "key": "age_minimum", "value": "21", "group": "compliance"},
+    {"id": 17, "key": "nicotine_warning", "value": "WARNING: This product contains nicotine. Nicotine is an addictive chemical.", "group": "compliance"},
+    {"id": 18, "key": "anti_counterfeit_enabled", "value": "true", "group": "compliance"},
+
+    {"id": 19, "key": "newsletter_popup_enabled", "value": "true", "group": "marketing"},
+    {"id": 20, "key": "newsletter_popup_delay", "value": "5", "group": "marketing"}
+  ]
+}

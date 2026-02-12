@@ -1,0 +1,74 @@
+{
+  "product_categories": [
+    {
+      "id": 1,
+      "name": "设备",
+      "slug": "devices",
+      "parent_id": null,
+      "image": "/images/categories/devices.jpg",
+      "description": "各类电子烟设备，包括便携式、功率可调式等专业设备",
+      "sort_order": 1,
+      "is_active": true
+    },
+    {
+      "id": 2,
+      "name": "Pod Systems",
+      "slug": "pod-systems",
+      "parent_id": 1,
+      "image": "/images/categories/pod-systems.jpg",
+      "description": "一体化换弹系统，简单易用，适合新手和日常使用",
+      "sort_order": 1,
+      "is_active": true
+    },
+    {
+      "id": 3,
+      "name": "Pod Mod",
+      "slug": "pod-mod",
+      "parent_id": 1,
+      "image": "/images/categories/pod-mod.jpg",
+      "description": "可调功率的换弹设备，兼顾便携性和性能",
+      "sort_order": 2,
+      "is_active": true
+    },
+    {
+      "id": 4,
+      "name": "Box Mod",
+      "slug": "box-mod",
+      "parent_id": 1,
+      "image": "/images/categories/box-mod.jpg",
+      "description": "高性能盒式设备，适合追求极致体验的用户",
+      "sort_order": 3,
+      "is_active": true
+    },
+    {
+      "id": 5,
+      "name": "烟弹",
+      "slug": "cartridges",
+      "parent_id": null,
+      "image": "/images/categories/cartridges.jpg",
+      "description": "各类口味和规格的烟弹，兼容不同系列设备",
+      "sort_order": 2,
+      "is_active": true
+    },
+    {
+      "id": 6,
+      "name": "线圈",
+      "slug": "coils",
+      "parent_id": null,
+      "image": "/images/categories/coils.jpg",
+      "description": "高品质发热线圈，提供纯净的雾化体验",
+      "sort_order": 3,
+      "is_active": true
+    },
+    {
+      "id": 7,
+      "name": "配件",
+      "slug": "accessories",
+      "parent_id": null,
+      "image": "/images/categories/accessories.jpg",
+      "description": "充电器、充电线、保护套等实用配件",
+      "sort_order": 4,
+      "is_active": true
+    }
+  ]
+}

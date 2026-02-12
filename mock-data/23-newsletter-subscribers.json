@@ -1,0 +1,24 @@
+{
+  "newsletter_subscribers": [
+    {"id": 1, "email": "alice@example.com", "status": "active", "subscribed_at": "2024-01-05T09:25:00Z", "unsubscribed_at": null},
+    {"id": 2, "email": "bob@example.com", "status": "active", "subscribed_at": "2024-01-12T14:10:00Z", "unsubscribed_at": null},
+    {"id": 3, "email": "carol@example.com", "status": "unsubscribed", "subscribed_at": "2024-01-20T11:05:00Z", "unsubscribed_at": "2024-02-02T08:00:00Z"},
+    {"id": 4, "email": "daniel@example.com", "status": "active", "subscribed_at": "2024-01-24T16:45:00Z", "unsubscribed_at": null},
+    {"id": 5, "email": "eva@example.com", "status": "active", "subscribed_at": "2024-01-28T07:30:00Z", "unsubscribed_at": null},
+    {"id": 6, "email": "frank@example.com", "status": "active", "subscribed_at": "2024-02-01T13:22:00Z", "unsubscribed_at": null},
+    {"id": 7, "email": "grace@example.com", "status": "active", "subscribed_at": "2024-02-03T10:15:00Z", "unsubscribed_at": null},
+    {"id": 8, "email": "henry@example.com", "status": "active", "subscribed_at": "2024-02-04T19:18:00Z", "unsubscribed_at": null},
+    {"id": 9, "email": "irene@example.com", "status": "active", "subscribed_at": "2024-02-06T09:05:00Z", "unsubscribed_at": null},
+    {"id": 10, "email": "jack@example.com", "status": "unsubscribed", "subscribed_at": "2024-02-07T15:50:00Z", "unsubscribed_at": "2024-02-18T21:10:00Z"},
+    {"id": 11, "email": "kevin@example.com", "status": "active", "subscribed_at": "2024-02-09T11:40:00Z", "unsubscribed_at": null},
+    {"id": 12, "email": "linda@example.com", "status": "active", "subscribed_at": "2024-02-10T08:25:00Z", "unsubscribed_at": null},
+    {"id": 13, "email": "martin@example.com", "status": "active", "subscribed_at": "2024-02-11T12:05:00Z", "unsubscribed_at": null},
+    {"id": 14, "email": "nina@example.com", "status": "active", "subscribed_at": "2024-02-12T07:55:00Z", "unsubscribed_at": null},
+    {"id": 15, "email": "oliver@example.com", "status": "active", "subscribed_at": "2024-02-13T20:12:00Z", "unsubscribed_at": null},
+    {"id": 16, "email": "paula@example.com", "status": "active", "subscribed_at": "2024-02-14T06:45:00Z", "unsubscribed_at": null},
+    {"id": 17, "email": "quentin@example.com", "status": "active", "subscribed_at": "2024-02-14T18:30:00Z", "unsubscribed_at": null},
+    {"id": 18, "email": "rachel@example.com", "status": "active", "subscribed_at": "2024-02-15T09:50:00Z", "unsubscribed_at": null},
+    {"id": 19, "email": "steven@example.com", "status": "active", "subscribed_at": "2024-02-16T14:05:00Z", "unsubscribed_at": null},
+    {"id": 20, "email": "tina@example.com", "status": "active", "subscribed_at": "2024-02-17T11:20:00Z", "unsubscribed_at": null}
+  ]
+}

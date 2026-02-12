@@ -1,0 +1,23 @@
+{
+  "navigation_items": [
+    {"id": 1, "label": "产品系列", "url": "/series", "parent_id": null, "position": "header", "icon": null, "image": null, "sort_order": 1, "is_active": true},
+    {"id": 2, "label": "NOVA 系列", "url": "/series/nova", "parent_id": 1, "position": "header", "icon": null, "image": null, "sort_order": 1, "is_active": true},
+    {"id": 3, "label": "STRIKE 系列", "url": "/series/strike", "parent_id": 1, "position": "header", "icon": null, "image": null, "sort_order": 2, "is_active": true},
+    {"id": 4, "label": "FLO 系列", "url": "/series/flo", "parent_id": 1, "position": "header", "icon": null, "image": null, "sort_order": 3, "is_active": true},
+    {"id": 5, "label": "EVO 系列", "url": "/series/evo", "parent_id": 1, "position": "header", "icon": null, "image": null, "sort_order": 4, "is_active": true},
+
+    {"id": 6, "label": "技术平台", "url": "/tech", "parent_id": null, "position": "header", "icon": null, "image": null, "sort_order": 2, "is_active": true},
+    {"id": 7, "label": "新闻与博客", "url": "/articles", "parent_id": null, "position": "header", "icon": null, "image": null, "sort_order": 3, "is_active": true},
+    {"id": 8, "label": "下载中心", "url": "/downloads", "parent_id": null, "position": "header", "icon": null, "image": null, "sort_order": 4, "is_active": true},
+    {"id": 9, "label": "支持与售后", "url": "/support", "parent_id": null, "position": "header", "icon": null, "image": null, "sort_order": 5, "is_active": true},
+
+    {"id": 10, "label": "关于我们", "url": "/brand-story", "parent_id": null, "position": "footer_discover", "icon": null, "image": null, "sort_order": 1, "is_active": true},
+    {"id": 11, "label": "技术平台", "url": "/technology", "parent_id": null, "position": "footer_discover", "icon": null, "image": null, "sort_order": 2, "is_active": true},
+    {"id": 12, "label": "联系我们", "url": "/contact", "parent_id": null, "position": "footer_support", "icon": null, "image": null, "sort_order": 1, "is_active": true},
+    {"id": 13, "label": "售后服务", "url": "/support", "parent_id": null, "position": "footer_support", "icon": null, "image": null, "sort_order": 2, "is_active": true},
+    {"id": 14, "label": "防伪验证", "url": "/anti-counterfeit", "parent_id": null, "position": "footer_support", "icon": null, "image": null, "sort_order": 3, "is_active": true},
+
+    {"id": 15, "label": "Newsletter", "url": "/newsletter", "parent_id": null, "position": "footer_products", "icon": null, "image": null, "sort_order": 1, "is_active": true},
+    {"id": 16, "label": "门店定位", "url": "/store-locator", "parent_id": null, "position": "footer_products", "icon": null, "image": null, "sort_order": 2, "is_active": true}
+  ]
+}

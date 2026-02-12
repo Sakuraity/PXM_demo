@@ -1,0 +1,14 @@
+{
+  "security_verifications": [
+    {"id": 1, "security_code": "CASC-2024-001A-8890", "product_id": 1, "is_verified": true, "verified_at": "2024-02-10T10:12:34Z", "verified_ip": "203.0.113.45"},
+    {"id": 2, "security_code": "CASC-2024-001B-4567", "product_id": 5, "is_verified": true, "verified_at": "2024-02-11T08:22:11Z", "verified_ip": "198.51.100.18"},
+    {"id": 3, "security_code": "CASC-2024-001C-7721", "product_id": 12, "is_verified": true, "verified_at": "2024-02-12T13:45:02Z", "verified_ip": "203.0.113.98"},
+    {"id": 4, "security_code": "CASC-2024-001D-3345", "product_id": 9, "is_verified": false, "verified_at": null, "verified_ip": null},
+    {"id": 5, "security_code": "CASC-2024-001E-9981", "product_id": 4, "is_verified": false, "verified_at": null, "verified_ip": null},
+    {"id": 6, "security_code": "CASC-2024-001F-4412", "product_id": 13, "is_verified": true, "verified_at": "2024-02-15T09:05:27Z", "verified_ip": "192.0.2.77"},
+    {"id": 7, "security_code": "CASC-2024-001G-2110", "product_id": 6, "is_verified": true, "verified_at": "2024-02-16T12:40:18Z", "verified_ip": "198.51.100.205"},
+    {"id": 8, "security_code": "CASC-2024-001H-6501", "product_id": 8, "is_verified": false, "verified_at": null, "verified_ip": null},
+    {"id": 9, "security_code": "CASC-2024-001J-7789", "product_id": 10, "is_verified": true, "verified_at": "2024-02-18T18:31:45Z", "verified_ip": "203.0.113.220"},
+    {"id": 10, "security_code": "CASC-2024-001K-5634", "product_id": 11, "is_verified": true, "verified_at": "2024-02-19T07:12:56Z", "verified_ip": "192.0.2.88"}
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "product_technologies": [
+    {"id": 1, "product_id": 1, "technology_id": 1},
+    {"id": 2, "product_id": 1, "technology_id": 2},
+    {"id": 3, "product_id": 1, "technology_id": 3},
+    {"id": 4, "product_id": 1, "technology_id": 4},
+
+    {"id": 5, "product_id": 2, "technology_id": 1},
+    {"id": 6, "product_id": 2, "technology_id": 2},
+    {"id": 7, "product_id": 2, "technology_id": 3},
+
+    {"id": 8, "product_id": 3, "technology_id": 1},
+    {"id": 9, "product_id": 3, "technology_id": 2},
+
+    {"id": 10, "product_id": 4, "technology_id": 2},
+
+    {"id": 11, "product_id": 5, "technology_id": 1},
+    {"id": 12, "product_id": 5, "technology_id": 3},
+
+    {"id": 13, "product_id": 6, "technology_id": 1},
+    {"id": 14, "product_id": 6, "technology_id": 3},
+
+    {"id": 15, "product_id": 7, "technology_id": 1},
+    {"id": 16, "product_id": 7, "technology_id": 3},
+
+    {"id": 17, "product_id": 8, "technology_id": 1},
+    {"id": 18, "product_id": 8, "technology_id": 2},
+
+    {"id": 19, "product_id": 9, "technology_id": 2},
+    {"id": 20, "product_id": 9, "technology_id": 3},
+
+    {"id": 21, "product_id": 10, "technology_id": 2},
+
+    {"id": 22, "product_id": 11, "technology_id": 2},
+
+    {"id": 23, "product_id": 12, "technology_id": 1},
+    {"id": 24, "product_id": 12, "technology_id": 2},
+    {"id": 25, "product_id": 12, "technology_id": 3},
+    {"id": 26, "product_id": 12, "technology_id": 4},
+
+    {"id": 27, "product_id": 13, "technology_id": 1},
+    {"id": 28, "product_id": 13, "technology_id": 2},
+    {"id": 29, "product_id": 13, "technology_id": 3},
+
+    {"id": 30, "product_id": 14, "technology_id": 2}
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "product": {
+    "id": 2,
+    "name": "NOVA Fit",
+    "slug": "nova-fit",
+    "subtitle": "Smart Power, Perfect Fit",
+    "series_id": 1,
+    "category_id": 2,
+    "brand": "NOVA",
+    "product_type": "device",
+    "status": "published",
+    "is_new": true,
+    "is_featured": false,
+    "is_bestseller": true,
+    "short_description": "便携智能设备，配备0.96英寸显示屏，SMARTCORE 3.0芯片，5-40W功率输出，1500mAh电池，完美平衡性能与便携性。",
+    "description": "<p>NOVA Fit专为追求便携性的用户设计，机身仅重78克，却蕴含着强大的性能。0.96英寸高清屏幕实时显示所有关键信息。</p><p>智能功率调节功能会根据您的使用习惯自动优化输出，确保每一口都完美如初。三种输出模式（Smart/Power/ECO）满足不同场景需求。</p><p>人体工学设计，握感舒适。磁吸式烟弹安装，更换更加便捷。是日常通勤和旅行的理想选择。</p>",
+    "hero_tagline": "Smart in Your Palm",
+    "video_url": "https://www.youtube.com/watch?v=nova-fit-demo",
+    "seo_title": "NOVA Fit - Portable Smart Vape Device",
+    "seo_description": "NOVA Fit combines portability with smart features, 0.96\" display, 5-40W output, and 1500mAh battery for daily vaping.",
+    "seo_keywords": "NOVA Fit, portable vape, smart device, daily vaping",
+    "sort_order": 2,
+    "published_at": "2024-01-20T10:00:00Z",
+    "created_at": "2024-01-15T09:00:00Z",
+    "updated_at": "2024-01-20T10:00:00Z"
+  }
+}

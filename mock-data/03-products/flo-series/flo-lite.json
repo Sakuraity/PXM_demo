@@ -1,0 +1,27 @@
+{
+  "product": {
+    "id": 10,
+    "name": "FLO Lite",
+    "slug": "flo-lite",
+    "subtitle": "Everyday Simplicity",
+    "series_id": 3,
+    "category_id": 2,
+    "brand": "FLO",
+    "product_type": "device",
+    "status": "published",
+    "is_new": false,
+    "is_featured": false,
+    "is_bestseller": true,
+    "short_description": "700mAh电池、2段功率选择、LED呼吸灯提示、轻巧机身，专为日常随身携带设计。",
+    "description": "<p>FLO Lite 是 FLO 系列中最适合初学者与日常用户的产品。700mAh 内置电池、两段功率调节以及自动吸气启动，让初次上手也能轻松驾驭。</p><p>机身外壳采用阳极氧化铝合金与柔性涂层结合，兼具耐用性与舒适手感。LED 呼吸灯会根据不同颜色提示电量和工作模式，操作一目了然。</p><p>磁吸式 2mL 油仓支持快拆，侧向封闭注油系统有效防漏。配合 FLO Ultra、FLO Stick 共用的烟弹生态，简化了补给与维护成本。</p>",
+    "hero_tagline": "Lite But Capable",
+    "video_url": "https://www.youtube.com/watch?v=flo-lite-demo",
+    "seo_title": "FLO Lite - Daily Portable Pod",
+    "seo_description": "FLO Lite features 700mAh battery, dual power levels, LED indicators, and 2mL leak-resistant pod for everyday vaping.",
+    "seo_keywords": "FLO Lite, daily pod, beginner vape, LED indicator",
+    "sort_order": 10,
+    "published_at": "2024-01-18T10:00:00Z",
+    "created_at": "2024-01-10T09:00:00Z",
+    "updated_at": "2024-01-18T10:00:00Z"
+  }
+}

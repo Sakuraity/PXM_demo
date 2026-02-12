@@ -1,0 +1,16 @@
+{
+  "product_compatibility": [
+    {"id": 1, "product_id": 1, "compatible_product_id": 4, "compatibility_note": "NOVA Pro 5 与 NOVA Pod Cartridge 全系列口味兼容"},
+    {"id": 2, "product_id": 2, "compatible_product_id": 4, "compatibility_note": "NOVA Fit 支持 NOVA Pod Cartridge 0.8Ω / 1.2Ω"},
+    {"id": 3, "product_id": 3, "compatible_product_id": 4, "compatibility_note": "NOVA Air 适配 NOVA Pod Cartridge，建议使用 0.8Ω"},
+    {"id": 4, "product_id": 5, "compatible_product_id": 14, "compatibility_note": "STRIKE X 200 推荐搭配 EVO Coil Cartridge 0.4Ω"},
+    {"id": 5, "product_id": 6, "compatible_product_id": 14, "compatibility_note": "STRIKE Turbo 支持 EVO Coil Cartridge 0.4Ω / 0.8Ω"},
+    {"id": 6, "product_id": 7, "compatible_product_id": 14, "compatibility_note": "STRIKE Box 可搭配 EVO Coil Cartridge 全系阻值"},
+    {"id": 7, "product_id": 8, "compatible_product_id": 14, "compatibility_note": "STRIKE Mini 建议搭配 EVO Coil Cartridge 0.6Ω"},
+    {"id": 8, "product_id": 9, "compatible_product_id": 4, "compatibility_note": "FLO Ultra 可与 NOVA Pod Cartridge 共享烟弹"},
+    {"id": 9, "product_id": 10, "compatible_product_id": 4, "compatibility_note": "FLO Lite 支持 NOVA Pod Cartridge 0.9Ω 特调版本"},
+    {"id": 10, "product_id": 11, "compatible_product_id": 4, "compatibility_note": "FLO Stick 使用预注油烟弹，不兼容其他开放式烟弹"},
+    {"id": 11, "product_id": 12, "compatible_product_id": 14, "compatibility_note": "EVO Vision 必须使用 EVO Coil Cartridge 全系列"},
+    {"id": 12, "product_id": 13, "compatible_product_id": 14, "compatibility_note": "EVO Power 推荐使用 EVO Coil Cartridge 0.4Ω"}
+  ]
+}

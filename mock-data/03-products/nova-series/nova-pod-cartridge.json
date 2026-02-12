@@ -1,0 +1,27 @@
+{
+  "product": {
+    "id": 4,
+    "name": "NOVA Pod Cartridge",
+    "slug": "nova-pod-cartridge",
+    "subtitle": "Rich Flavor, Smooth Experience",
+    "series_id": 1,
+    "category_id": 5,
+    "brand": "NOVA",
+    "product_type": "cartridge",
+    "status": "published",
+    "is_new": false,
+    "is_featured": false,
+    "is_bestseller": true,
+    "short_description": "NOVA系列专用烟弹，2mL容量，多种口味可选，采用FLOWTECH雾化技术，0.8Ω/1.2Ω双阻值选择。",
+    "description": "<p>NOVA Pod Cartridge专为NOVA系列设备设计，采用先进的FLOWTECH雾化技术，完美还原各种口味的层次感。</p><p>食品级PCTG材质，安全无毒。侧向注油设计，添加烟油不渗漏。防冷凝结构设计，确保使用体验始终清爽。</p><p>提供0.8Ω和1.2Ω两种阻值选择，满足不同用户对口感和烟雾量的需求。可重复注油设计，性价比更高。</p>",
+    "hero_tagline": "Pure Flavor Delivery",
+    "video_url": "",
+    "seo_title": "NOVA Pod Cartridge - Replacement Pods",
+    "seo_description": "NOVA Pod Cartridge with 2mL capacity, FLOWTECH technology, multiple flavors, compatible with NOVA series devices.",
+    "seo_keywords": "NOVA Pod, cartridge, replacement pod, FLOWTECH",
+    "sort_order": 4,
+    "published_at": "2024-01-15T10:00:00Z",
+    "created_at": "2024-01-10T09:00:00Z",
+    "updated_at": "2024-01-15T10:00:00Z"
+  }
+}

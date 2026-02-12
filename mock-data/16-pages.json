@@ -1,0 +1,54 @@
+{
+  "pages": [
+    {
+      "id": 1,
+      "title": "品牌故事",
+      "slug": "brand-story",
+      "content": "<h1>关于 Cascade Vapor</h1><p>Cascade Vapor 创立于 2018 年，我们相信电子雾化不仅是一种产品，更是一种生活方式。团队由硬件工程师、材料学家、香氛调配师与用户体验设计师组成，专注于打造安全、可靠且充满乐趣的 vaping 体验。</p><h2>研发理念</h2><ul><li>坚持原创：从芯片到外观设计，全部由内部团队独立完成。</li><li>重视安全：将安全标准置于产品设计的首位，持续迭代硬件与软件。</li><li>尊重用户：建立社区与问卷渠道，倾听用户反馈，并快速响应。</li></ul><h2>未来愿景</h2><p>我们希望用科技与创意帮助更多用户拥抱更健康的生活方式，同时保持对法规与社会责任的敬畏。</p>",
+      "template": "brand",
+      "status": "published",
+      "seo_title": "关于 Cascade Vapor",
+      "seo_description": "了解 Cascade Vapor 的品牌故事、研发理念与未来愿景。"
+    },
+    {
+      "id": 2,
+      "title": "技术平台",
+      "slug": "technology",
+      "content": "<h1>技术驱动的体验</h1><p>从 SMARTCORE 3.0 智能芯片到 FLOWTECH Mesh 雾化平台，Cascade Vapor 不断投入研发资源，为用户带来稳定且富有乐趣的体验。</p><h2>SMARTCORE 3.0</h2><p>自研芯片平台，实现毫秒级响应与功率自适应。</p><h2>FLOWTECH Mesh</h2><p>均匀加热的多层网状发热片，带来层次丰富的口感。</p><h2>SMARTLINK</h2><p>连接移动 App 的互联方案，提供远程控制与固件 OTA 升级。</p>",
+      "template": "default",
+      "status": "published",
+      "seo_title": "Cascade Vapor 技术平台",
+      "seo_description": "了解 Cascade Vapor 的 SMARTCORE、FLOWTECH、SMARTLINK 等核心技术平台。"
+    },
+    {
+      "id": 3,
+      "title": "售后服务",
+      "slug": "support",
+      "content": "<h1>售后与保修</h1><p>我们为所有设备提供 12 个月有限保修服务。用户可通过在线工单或电话与客服团队取得联系，获取维修、换货、配件订购等支持。</p><h2>联系途径</h2><ul><li>Email: support@cascadevapor.com</li><li>电话: +1 (800) 555-1024</li><li>在线工单: <a href=\"https://support.cascadevapor.com\">support portal</a></li></ul><h2>保修政策</h2><p>保修涵盖非人为损坏的硬件故障。请妥善保存购买凭证。</p>",
+      "template": "default",
+      "status": "published",
+      "seo_title": "Cascade Vapor 售后服务",
+      "seo_description": "查看 Cascade Vapor 的售后服务政策与联系方式。"
+    },
+    {
+      "id": 4,
+      "title": "联系我们",
+      "slug": "contact",
+      "content": "<h1>联系我们</h1><p>无论是商务合作、媒体采访还是零售代理，我们都欢迎您的来信。</p><h2>邮件</h2><ul><li>商务合作: business@cascadevapor.com</li><li>媒体采访: media@cascadevapor.com</li><li>渠道拓展: partner@cascadevapor.com</li></ul><h2>办公地址</h2><p>上海市静安区延平路 555 号 Cascade Tower 18F</p>",
+      "template": "contact",
+      "status": "published",
+      "seo_title": "Cascade Vapor 联系方式",
+      "seo_description": "获取 Cascade Vapor 的商务、媒体与渠道联系信息。"
+    },
+    {
+      "id": 5,
+      "title": "防伪验证",
+      "slug": "anti-counterfeit",
+      "content": "<h1>防伪验证</h1><p>请在下方输入产品包装上的防伪码，以验证产品真伪。</p><p>如遇到无法验证的情况，请立即联系 support@cascadevapor.com。</p>",
+      "template": "default",
+      "status": "published",
+      "seo_title": "Cascade Vapor 防伪验证",
+      "seo_description": "通过输入防伪码验证 Cascade Vapor 产品的真伪。"
+    }
+  ]
+}

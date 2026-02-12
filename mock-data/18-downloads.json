@@ -1,0 +1,144 @@
+{
+  "downloads": [
+    {
+      "id": 1,
+      "product_id": 1,
+      "title": "NOVA Pro 5 用户手册",
+      "type": "manual",
+      "file_url": "https://cdn.cascadevapor.com/downloads/nova-pro-5-manual-zh.pdf",
+      "file_size": "3.8 MB",
+      "version": "v1.0",
+      "is_active": true
+    },
+    {
+      "id": 2,
+      "product_id": 1,
+      "title": "NOVA Pro 5 固件更新包",
+      "type": "firmware",
+      "file_url": "https://cdn.cascadevapor.com/downloads/nova-pro-5-firmware-v102.zip",
+      "file_size": "5.6 MB",
+      "version": "v1.0.2",
+      "is_active": true
+    },
+    {
+      "id": 3,
+      "product_id": 5,
+      "title": "STRIKE X 200 用户手册",
+      "type": "manual",
+      "file_url": "https://cdn.cascadevapor.com/downloads/strike-x200-manual-zh.pdf",
+      "file_size": "4.5 MB",
+      "version": "v1.1",
+      "is_active": true
+    },
+    {
+      "id": 4,
+      "product_id": 5,
+      "title": "STRIKE X 200 固件升级向导",
+      "type": "software",
+      "file_url": "https://cdn.cascadevapor.com/downloads/strike-x200-firmware-tool.dmg",
+      "file_size": "12.2 MB",
+      "version": "v2.0",
+      "is_active": true
+    },
+    {
+      "id": 5,
+      "product_id": 9,
+      "title": "FLO Ultra 快速入门指南",
+      "type": "manual",
+      "file_url": "https://cdn.cascadevapor.com/downloads/flo-ultra-quickstart.pdf",
+      "file_size": "2.1 MB",
+      "version": "v1.0",
+      "is_active": true
+    },
+    {
+      "id": 6,
+      "product_id": 12,
+      "title": "EVO Vision 用户手册",
+      "type": "manual",
+      "file_url": "https://cdn.cascadevapor.com/downloads/evo-vision-manual-zh.pdf",
+      "file_size": "5.9 MB",
+      "version": "v1.0",
+      "is_active": true
+    },
+    {
+      "id": 7,
+      "product_id": 12,
+      "title": "SMARTLINK App 下载（iOS）",
+      "type": "software",
+      "file_url": "https://apps.apple.com/app/smartlink-vape-control/id1234567890",
+      "file_size": "App Store",
+      "version": "最新",
+      "is_active": true
+    },
+    {
+      "id": 8,
+      "product_id": 12,
+      "title": "SMARTLINK App 下载（Android）",
+      "type": "software",
+      "file_url": "https://play.google.com/store/apps/details?id=com.cascade.smartlink",
+      "file_size": "Google Play",
+      "version": "最新",
+      "is_active": true
+    },
+    {
+      "id": 9,
+      "product_id": 13,
+      "title": "EVO Power 用户手册",
+      "type": "manual",
+      "file_url": "https://cdn.cascadevapor.com/downloads/evo-power-manual-zh.pdf",
+      "file_size": "4.2 MB",
+      "version": "v1.0",
+      "is_active": true
+    },
+    {
+      "id": 10,
+      "product_id": 4,
+      "title": "NOVA Pod Cartridge 兼容清单",
+      "type": "manual",
+      "file_url": "https://cdn.cascadevapor.com/downloads/nova-pod-compatibility.pdf",
+      "file_size": "1.5 MB",
+      "version": "v1.0",
+      "is_active": true
+    },
+    {
+      "id": 11,
+      "product_id": 14,
+      "title": "EVO Coil Cartridge 使用指南",
+      "type": "manual",
+      "file_url": "https://cdn.cascadevapor.com/downloads/evo-coil-guide.pdf",
+      "file_size": "2.9 MB",
+      "version": "v1.0",
+      "is_active": true
+    },
+    {
+      "id": 12,
+      "product_id": null,
+      "title": "Cascade Vapor 品牌画册",
+      "type": "manual",
+      "file_url": "https://cdn.cascadevapor.com/downloads/cascade-brand-brochure.pdf",
+      "file_size": "8.4 MB",
+      "version": "2024",
+      "is_active": true
+    },
+    {
+      "id": 13,
+      "product_id": null,
+      "title": "安全使用指南",
+      "type": "manual",
+      "file_url": "https://cdn.cascadevapor.com/downloads/safety-guide.pdf",
+      "file_size": "3.1 MB",
+      "version": "v2.0",
+      "is_active": true
+    },
+    {
+      "id": 14,
+      "product_id": 8,
+      "title": "STRIKE Mini 快速上手",
+      "type": "manual",
+      "file_url": "https://cdn.cascadevapor.com/downloads/strike-mini-quickstart.pdf",
+      "file_size": "2.4 MB",
+      "version": "v1.0",
+      "is_active": true
+    }
+  ]
+}

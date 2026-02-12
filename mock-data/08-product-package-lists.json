@@ -1,0 +1,507 @@
+{
+  "product_package_lists": [
+    {
+      "id": 1,
+      "product_id": 1,
+      "version": "standard",
+      "items": [
+        {"name": "NOVA Pro 5 Device", "qty": 1},
+        {"name": "NOVA Pod Cartridge (0.8Ω)", "qty": 1},
+        {"name": "Type-C Charging Cable", "qty": 1},
+        {"name": "User Manual", "qty": 1},
+        {"name": "Warranty Card", "qty": 1}
+      ]
+    },
+    {
+      "id": 2,
+      "product_id": 1,
+      "version": "us",
+      "items": [
+        {"name": "NOVA Pro 5 Device", "qty": 1},
+        {"name": "NOVA Pod Cartridge (0.8Ω)", "qty": 1},
+        {"name": "Type-C Charging Cable", "qty": 1},
+        {"name": "User Manual (EN)", "qty": 1},
+        {"name": "Nicotine Warning Card", "qty": 1}
+      ]
+    },
+    {
+      "id": 3,
+      "product_id": 1,
+      "version": "tpd",
+      "items": [
+        {"name": "NOVA Pro 5 Device", "qty": 1},
+        {"name": "NOVA Pod Cartridge (1.2Ω / 2mL)", "qty": 1},
+        {"name": "Type-C Charging Cable", "qty": 1},
+        {"name": "EU User Manual", "qty": 1},
+        {"name": "TPD Compliance Leaflet", "qty": 1}
+      ]
+    },
+
+    {
+      "id": 4,
+      "product_id": 2,
+      "version": "standard",
+      "items": [
+        {"name": "NOVA Fit Device", "qty": 1},
+        {"name": "NOVA Pod Cartridge (0.8Ω)", "qty": 2},
+        {"name": "Type-C Charging Cable", "qty": 1},
+        {"name": "Quick Start Guide", "qty": 1}
+      ]
+    },
+    {
+      "id": 5,
+      "product_id": 2,
+      "version": "us",
+      "items": [
+        {"name": "NOVA Fit Device", "qty": 1},
+        {"name": "NOVA Pod Cartridge (0.8Ω)", "qty": 2},
+        {"name": "Type-C Charging Cable", "qty": 1},
+        {"name": "User Manual (EN)", "qty": 1},
+        {"name": "Nicotine Warning Card", "qty": 1}
+      ]
+    },
+    {
+      "id": 6,
+      "product_id": 2,
+      "version": "tpd",
+      "items": [
+        {"name": "NOVA Fit Device", "qty": 1},
+        {"name": "NOVA Pod Cartridge (1.2Ω / 2mL)", "qty": 2},
+        {"name": "Type-C Charging Cable", "qty": 1},
+        {"name": "EU User Manual", "qty": 1},
+        {"name": "TPD Compliance Leaflet", "qty": 1}
+      ]
+    },
+
+    {
+      "id": 7,
+      "product_id": 3,
+      "version": "standard",
+      "items": [
+        {"name": "NOVA Air Device", "qty": 1},
+        {"name": "NOVA Air Pod (0.8Ω)", "qty": 2},
+        {"name": "Type-C Charging Cable", "qty": 1},
+        {"name": "Dust Cap", "qty": 1},
+        {"name": "User Manual", "qty": 1}
+      ]
+    },
+    {
+      "id": 8,
+      "product_id": 3,
+      "version": "us",
+      "items": [
+        {"name": "NOVA Air Device", "qty": 1},
+        {"name": "NOVA Air Pod (0.8Ω)", "qty": 2},
+        {"name": "Type-C Charging Cable", "qty": 1},
+        {"name": "Dust Cap", "qty": 1},
+        {"name": "Nicotine Warning Card", "qty": 1}
+      ]
+    },
+    {
+      "id": 9,
+      "product_id": 3,
+      "version": "tpd",
+      "items": [
+        {"name": "NOVA Air Device", "qty": 1},
+        {"name": "NOVA Air Pod (1.2Ω / 2mL)", "qty": 2},
+        {"name": "Type-C Charging Cable", "qty": 1},
+        {"name": "Dust Cap", "qty": 1},
+        {"name": "TPD Compliance Leaflet", "qty": 1}
+      ]
+    },
+
+    {
+      "id": 10,
+      "product_id": 4,
+      "version": "standard",
+      "items": [
+        {"name": "NOVA Pod Cartridge (0.8Ω)", "qty": 2},
+        {"name": "NOVA Pod Cartridge (1.2Ω)", "qty": 1},
+        {"name": "Cleaning Swab", "qty": 2},
+        {"name": "Flavor Guide", "qty": 1}
+      ]
+    },
+    {
+      "id": 11,
+      "product_id": 4,
+      "version": "us",
+      "items": [
+        {"name": "NOVA Pod Cartridge (0.8Ω)", "qty": 3},
+        {"name": "Cleaning Swab", "qty": 2},
+        {"name": "Flavor Guide", "qty": 1},
+        {"name": "Nicotine Warning Card", "qty": 1}
+      ]
+    },
+    {
+      "id": 12,
+      "product_id": 4,
+      "version": "tpd",
+      "items": [
+        {"name": "NOVA Pod Cartridge (1.2Ω / 2mL)", "qty": 3},
+        {"name": "Cleaning Swab", "qty": 2},
+        {"name": "EU Flavor Guide", "qty": 1},
+        {"name": "TPD Compliance Leaflet", "qty": 1}
+      ]
+    },
+
+    {
+      "id": 13,
+      "product_id": 5,
+      "version": "standard",
+      "items": [
+        {"name": "STRIKE X 200 Device", "qty": 1},
+        {"name": "Type-C Charging Cable", "qty": 1},
+        {"name": "18650 Battery Adapter", "qty": 2},
+        {"name": "Turbo Mode Guide", "qty": 1},
+        {"name": "Warranty Card", "qty": 1}
+      ]
+    },
+    {
+      "id": 14,
+      "product_id": 5,
+      "version": "us",
+      "items": [
+        {"name": "STRIKE X 200 Device", "qty": 1},
+        {"name": "Type-C Charging Cable", "qty": 1},
+        {"name": "18650 Battery Adapter", "qty": 2},
+        {"name": "User Manual (EN)", "qty": 1},
+        {"name": "Nicotine Warning Card", "qty": 1}
+      ]
+    },
+    {
+      "id": 15,
+      "product_id": 5,
+      "version": "tpd",
+      "items": [
+        {"name": "STRIKE X 200 Device", "qty": 1},
+        {"name": "Type-C Charging Cable", "qty": 1},
+        {"name": "18650 Battery Adapter", "qty": 2},
+        {"name": "EU User Manual", "qty": 1},
+        {"name": "TPD Compliance Leaflet", "qty": 1}
+      ]
+    },
+
+    {
+      "id": 16,
+      "product_id": 6,
+      "version": "standard",
+      "items": [
+        {"name": "STRIKE Turbo Device", "qty": 1},
+        {"name": "0.2Ω Turbo Coil", "qty": 1},
+        {"name": "0.4Ω Mesh Coil", "qty": 1},
+        {"name": "Type-C Charging Cable", "qty": 1},
+        {"name": "User Manual", "qty": 1}
+      ]
+    },
+    {
+      "id": 17,
+      "product_id": 6,
+      "version": "us",
+      "items": [
+        {"name": "STRIKE Turbo Device", "qty": 1},
+        {"name": "0.2Ω Turbo Coil", "qty": 1},
+        {"name": "0.4Ω Mesh Coil", "qty": 1},
+        {"name": "Type-C Charging Cable", "qty": 1},
+        {"name": "Nicotine Warning Card", "qty": 1}
+      ]
+    },
+    {
+      "id": 18,
+      "product_id": 6,
+      "version": "tpd",
+      "items": [
+        {"name": "STRIKE Turbo Device", "qty": 1},
+        {"name": "0.4Ω Mesh Coil", "qty": 1},
+        {"name": "0.6Ω Mesh Coil", "qty": 1},
+        {"name": "Type-C Charging Cable", "qty": 1},
+        {"name": "TPD Compliance Leaflet", "qty": 1}
+      ]
+    },
+
+    {
+      "id": 19,
+      "product_id": 7,
+      "version": "standard",
+      "items": [
+        {"name": "STRIKE Box Device", "qty": 1},
+        {"name": "Type-C Charging Cable", "qty": 1},
+        {"name": "18650 Battery Adapter", "qty": 2},
+        {"name": "Firmware Upgrade Cable", "qty": 1},
+        {"name": "User Manual", "qty": 1}
+      ]
+    },
+    {
+      "id": 20,
+      "product_id": 7,
+      "version": "us",
+      "items": [
+        {"name": "STRIKE Box Device", "qty": 1},
+        {"name": "Type-C Charging Cable", "qty": 1},
+        {"name": "18650 Battery Adapter", "qty": 2},
+        {"name": "User Manual (EN)", "qty": 1},
+        {"name": "Nicotine Warning Card", "qty": 1}
+      ]
+    },
+    {
+      "id": 21,
+      "product_id": 7,
+      "version": "tpd",
+      "items": [
+        {"name": "STRIKE Box Device", "qty": 1},
+        {"name": "Type-C Charging Cable", "qty": 1},
+        {"name": "18650 Battery Adapter", "qty": 2},
+        {"name": "EU User Manual", "qty": 1},
+        {"name": "TPD Compliance Leaflet", "qty": 1}
+      ]
+    },
+
+    {
+      "id": 22,
+      "product_id": 8,
+      "version": "standard",
+      "items": [
+        {"name": "STRIKE Mini Device", "qty": 1},
+        {"name": "STRIKE Mini Pod (0.6Ω)", "qty": 2},
+        {"name": "Type-C Charging Cable", "qty": 1},
+        {"name": "User Manual", "qty": 1}
+      ]
+    },
+    {
+      "id": 23,
+      "product_id": 8,
+      "version": "us",
+      "items": [
+        {"name": "STRIKE Mini Device", "qty": 1},
+        {"name": "STRIKE Mini Pod (0.6Ω)", "qty": 2},
+        {"name": "Type-C Charging Cable", "qty": 1},
+        {"name": "User Manual (EN)", "qty": 1},
+        {"name": "Nicotine Warning Card", "qty": 1}
+      ]
+    },
+    {
+      "id": 24,
+      "product_id": 8,
+      "version": "tpd",
+      "items": [
+        {"name": "STRIKE Mini Device", "qty": 1},
+        {"name": "STRIKE Mini Pod (0.8Ω / 2mL)", "qty": 2},
+        {"name": "Type-C Charging Cable", "qty": 1},
+        {"name": "TPD Compliance Leaflet", "qty": 1}
+      ]
+    },
+
+    {
+      "id": 25,
+      "product_id": 9,
+      "version": "standard",
+      "items": [
+        {"name": "FLO Ultra Device", "qty": 1},
+        {"name": "FLO Ultra Pod (0.8Ω)", "qty": 2},
+        {"name": "Type-C Charging Cable", "qty": 1},
+        {"name": "User Manual", "qty": 1},
+        {"name": "Warranty Card", "qty": 1}
+      ]
+    },
+    {
+      "id": 26,
+      "product_id": 9,
+      "version": "us",
+      "items": [
+        {"name": "FLO Ultra Device", "qty": 1},
+        {"name": "FLO Ultra Pod (0.8Ω)", "qty": 2},
+        {"name": "Type-C Charging Cable", "qty": 1},
+        {"name": "User Manual (EN)", "qty": 1},
+        {"name": "Nicotine Warning Card", "qty": 1}
+      ]
+    },
+    {
+      "id": 27,
+      "product_id": 9,
+      "version": "tpd",
+      "items": [
+        {"name": "FLO Ultra Device", "qty": 1},
+        {"name": "FLO Ultra Pod (1.0Ω / 2mL)", "qty": 2},
+        {"name": "Type-C Charging Cable", "qty": 1},
+        {"name": "EU User Manual", "qty": 1},
+        {"name": "TPD Compliance Leaflet", "qty": 1}
+      ]
+    },
+
+    {
+      "id": 28,
+      "product_id": 10,
+      "version": "standard",
+      "items": [
+        {"name": "FLO Lite Device", "qty": 1},
+        {"name": "FLO Lite Pod (0.9Ω)", "qty": 2},
+        {"name": "Type-C Charging Cable", "qty": 1},
+        {"name": "Quick Start Guide", "qty": 1}
+      ]
+    },
+    {
+      "id": 29,
+      "product_id": 10,
+      "version": "us",
+      "items": [
+        {"name": "FLO Lite Device", "qty": 1},
+        {"name": "FLO Lite Pod (0.9Ω)", "qty": 2},
+        {"name": "Type-C Charging Cable", "qty": 1},
+        {"name": "User Manual (EN)", "qty": 1},
+        {"name": "Nicotine Warning Card", "qty": 1}
+      ]
+    },
+    {
+      "id": 30,
+      "product_id": 10,
+      "version": "tpd",
+      "items": [
+        {"name": "FLO Lite Device", "qty": 1},
+        {"name": "FLO Lite Pod (1.1Ω / 2mL)", "qty": 2},
+        {"name": "Type-C Charging Cable", "qty": 1},
+        {"name": "TPD Compliance Leaflet", "qty": 1}
+      ]
+    },
+
+    {
+      "id": 31,
+      "product_id": 11,
+      "version": "standard",
+      "items": [
+        {"name": "FLO Stick Device", "qty": 1},
+        {"name": "Pre-filled Pod (Cool Mint 3mg)", "qty": 2},
+        {"name": "Type-C Charging Cable", "qty": 1},
+        {"name": "User Manual", "qty": 1}
+      ]
+    },
+    {
+      "id": 32,
+      "product_id": 11,
+      "version": "us",
+      "items": [
+        {"name": "FLO Stick Device", "qty": 1},
+        {"name": "Pre-filled Pod (Cool Mint 3mg)", "qty": 2},
+        {"name": "Type-C Charging Cable", "qty": 1},
+        {"name": "User Manual (EN)", "qty": 1},
+        {"name": "Nicotine Warning Card", "qty": 1}
+      ]
+    },
+    {
+      "id": 33,
+      "product_id": 11,
+      "version": "tpd",
+      "items": [
+        {"name": "FLO Stick Device", "qty": 1},
+        {"name": "Pre-filled Pod (0mg / 2mL)", "qty": 2},
+        {"name": "Type-C Charging Cable", "qty": 1},
+        {"name": "EU User Manual", "qty": 1},
+        {"name": "TPD Compliance Leaflet", "qty": 1}
+      ]
+    },
+
+    {
+      "id": 34,
+      "product_id": 12,
+      "version": "standard",
+      "items": [
+        {"name": "EVO Vision Device", "qty": 1},
+        {"name": "EVO Vision Pod (0.6Ω)", "qty": 2},
+        {"name": "Type-C Charging Cable", "qty": 1},
+        {"name": "SMARTLINK QR Card", "qty": 1},
+        {"name": "User Manual", "qty": 1}
+      ]
+    },
+    {
+      "id": 35,
+      "product_id": 12,
+      "version": "us",
+      "items": [
+        {"name": "EVO Vision Device", "qty": 1},
+        {"name": "EVO Vision Pod (0.6Ω)", "qty": 2},
+        {"name": "Type-C Charging Cable", "qty": 1},
+        {"name": "User Manual (EN)", "qty": 1},
+        {"name": "Nicotine Warning Card", "qty": 1}
+      ]
+    },
+    {
+      "id": 36,
+      "product_id": 12,
+      "version": "tpd",
+      "items": [
+        {"name": "EVO Vision Device", "qty": 1},
+        {"name": "EVO Vision Pod (0.8Ω / 2mL)", "qty": 2},
+        {"name": "Type-C Charging Cable", "qty": 1},
+        {"name": "TPD Compliance Leaflet", "qty": 1},
+        {"name": "EU User Manual", "qty": 1}
+      ]
+    },
+
+    {
+      "id": 37,
+      "product_id": 13,
+      "version": "standard",
+      "items": [
+        {"name": "EVO Power Device", "qty": 1},
+        {"name": "EVO Power Pod (0.4Ω)", "qty": 1},
+        {"name": "EVO Power Pod (0.8Ω)", "qty": 1},
+        {"name": "Type-C Charging Cable", "qty": 1},
+        {"name": "User Manual", "qty": 1}
+      ]
+    },
+    {
+      "id": 38,
+      "product_id": 13,
+      "version": "us",
+      "items": [
+        {"name": "EVO Power Device", "qty": 1},
+        {"name": "EVO Power Pod (0.4Ω)", "qty": 1},
+        {"name": "EVO Power Pod (0.8Ω)", "qty": 1},
+        {"name": "Type-C Charging Cable", "qty": 1},
+        {"name": "Nicotine Warning Card", "qty": 1}
+      ]
+    },
+    {
+      "id": 39,
+      "product_id": 13,
+      "version": "tpd",
+      "items": [
+        {"name": "EVO Power Device", "qty": 1},
+        {"name": "EVO Power Pod (0.8Ω / 2mL)", "qty": 2},
+        {"name": "Type-C Charging Cable", "qty": 1},
+        {"name": "TPD Compliance Leaflet", "qty": 1}
+      ]
+    },
+
+    {
+      "id": 40,
+      "product_id": 14,
+      "version": "standard",
+      "items": [
+        {"name": "EVO Coil Cartridge (0.4Ω)", "qty": 2},
+        {"name": "EVO Coil Cartridge (0.8Ω)", "qty": 1},
+        {"name": "Cleaning Swab", "qty": 2},
+        {"name": "Flavor Guide", "qty": 1}
+      ]
+    },
+    {
+      "id": 41,
+      "product_id": 14,
+      "version": "us",
+      "items": [
+        {"name": "EVO Coil Cartridge (0.4Ω)", "qty": 3},
+        {"name": "Cleaning Swab", "qty": 2},
+        {"name": "Flavor Guide", "qty": 1},
+        {"name": "Nicotine Warning Card", "qty": 1}
+      ]
+    },
+    {
+      "id": 42,
+      "product_id": 14,
+      "version": "tpd",
+      "items": [
+        {"name": "EVO Coil Cartridge (0.8Ω / 2mL)", "qty": 3},
+        {"name": "Cleaning Swab", "qty": 2},
+        {"name": "TPD Compliance Leaflet", "qty": 1}
+      ]
+    }
+  ]
+}

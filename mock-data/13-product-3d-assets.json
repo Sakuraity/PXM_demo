@@ -1,0 +1,44 @@
+{
+  "product_3d_assets": [
+    {
+      "id": 1,
+      "product_id": 1,
+      "asset_type": "viewer",
+      "studio_scene_id": "SCN-NOVA-PRO5-VIEW",
+      "embed_url": "https://studio.cascadevapor.com/embed/nova-pro-5-viewer",
+      "thumbnail": "/images/products/nova-pro-5/3d/thumbnail.jpg"
+    },
+    {
+      "id": 2,
+      "product_id": 5,
+      "asset_type": "configurator",
+      "studio_scene_id": "SCN-STRIKE-X200-CFG",
+      "embed_url": "https://studio.cascadevapor.com/embed/strike-x200-configurator",
+      "thumbnail": "/images/products/strike-x-200/3d/thumbnail.jpg"
+    },
+    {
+      "id": 3,
+      "product_id": 6,
+      "asset_type": "viewer",
+      "studio_scene_id": "SCN-STRIKE-TURBO-VIEW",
+      "embed_url": "https://studio.cascadevapor.com/embed/strike-turbo-viewer",
+      "thumbnail": "/images/products/strike-turbo/3d/thumbnail.jpg"
+    },
+    {
+      "id": 4,
+      "product_id": 9,
+      "asset_type": "viewer",
+      "studio_scene_id": "SCN-FLO-ULTRA-VIEW",
+      "embed_url": "https://studio.cascadevapor.com/embed/flo-ultra-viewer",
+      "thumbnail": "/images/products/flo-ultra/3d/thumbnail.jpg"
+    },
+    {
+      "id": 5,
+      "product_id": 12,
+      "asset_type": "configurator",
+      "studio_scene_id": "SCN-EVO-VISION-CFG",
+      "embed_url": "https://studio.cascadevapor.com/embed/evo-vision-configurator",
+      "thumbnail": "/images/products/evo-vision/3d/thumbnail.jpg"
+    }
+  ]
+}

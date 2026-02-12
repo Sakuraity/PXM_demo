@@ -1,0 +1,46 @@
+{
+  "banners": [
+    {
+      "id": 1,
+      "title": "NOVA Pro 5 全球上市",
+      "subtitle": "触控交互，智能未来",
+      "image_url": "/images/banners/nova-pro-5-desktop.jpg",
+      "mobile_image_url": "/images/banners/nova-pro-5-mobile.jpg",
+      "link_url": "/products/nova-pro-5",
+      "link_text": "立即探索",
+      "position": "homepage_hero",
+      "sort_order": 1,
+      "is_active": true,
+      "start_time": "2024-02-01T00:00:00Z",
+      "end_time": null
+    },
+    {
+      "id": 2,
+      "title": "STRIKE X 200 Turbo 周边首发",
+      "subtitle": "一键增压，释放瞬时爆发",
+      "image_url": "/images/banners/strike-x200-desktop.jpg",
+      "mobile_image_url": "/images/banners/strike-x200-mobile.jpg",
+      "link_url": "/series/strike",
+      "link_text": "了解 STRIKE 系列",
+      "position": "homepage_hero",
+      "sort_order": 2,
+      "is_active": true,
+      "start_time": "2024-02-10T00:00:00Z",
+      "end_time": null
+    },
+    {
+      "id": 3,
+      "title": "FLO Ultra 通勤闪购",
+      "subtitle": "12.5mm 极致轻薄，限时 10% OFF",
+      "image_url": "/images/banners/flo-flashsale-desktop.jpg",
+      "mobile_image_url": "/images/banners/flo-flashsale-mobile.jpg",
+      "link_url": "/products/flo-ultra",
+      "link_text": "立即抢购",
+      "position": "promotion",
+      "sort_order": 1,
+      "is_active": true,
+      "start_time": "2024-02-20T00:00:00Z",
+      "end_time": "2024-03-05T00:00:00Z"
+    }
+  ]
+}
