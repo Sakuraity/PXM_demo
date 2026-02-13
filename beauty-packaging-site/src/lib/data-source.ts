@@ -43,7 +43,7 @@ export const DataSource = {
         const products = productsData as any[]
         const product = products.find(p => p.slug === slug)
         if (!product) {
-          throw new Error(`产品不存在: ${slug}`)
+          return null as T
         }
         return product as T
       }

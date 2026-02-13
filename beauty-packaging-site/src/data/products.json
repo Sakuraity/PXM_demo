@@ -4162,5 +4162,69 @@
       "/images/products/complete-cosmetic-set-packaging-with-paper-box-1024x1024.webp",
       "/images/products/premium-packaging-for-collagen-skincare-1-1024x1024.webp"
     ]
+  },
+  {
+    "slug": "pp-refillable-cosmetic-jar-with-replaceable-inner-cup",
+    "title": "PP Refillable Cosmetic Jar with Replaceable Inner Cup",
+    "description": "PP refillable cosmetic jar with replaceable inner cup design. Eco-friendly, reusable outer shell with snap-in PP inner container for easy refills. Ideal for creams, lotions, and baby care products.",
+    "images": [
+      "https://www.jarsking.com/wp-content/uploads/2026/02/kitty-design-cream-jar-for-kids.webp"
+    ],
+    "category": "face-cream-jars",
+    "specifications": {
+      "Material": "PP",
+      "Feature": "Refillable with replaceable inner cup",
+      "Color": "Customized",
+      "Use": "Creams, lotions, baby care"
+    },
+    "moq": 10000
+  },
+  {
+    "slug": "luxury-refillable-airless-skincare-bottles-jars-glass-outer-pp-inner",
+    "title": "Luxury Refillable Airless Skincare Bottles & Jars | Glass Outer, PP Inner",
+    "description": "Luxury refillable airless skincare bottles and jars with glass outer shell and PP inner container. Combines premium aesthetics with sustainable refill design for eco-conscious beauty brands.",
+    "images": [
+      "https://www.jarsking.com/wp-content/uploads/2025/10/custom-airless-pump-bottle-manufacturer.webp"
+    ],
+    "category": "face-cream-jars",
+    "specifications": {
+      "Material": "Glass outer + PP inner",
+      "Feature": "Airless, refillable",
+      "Color": "Customized",
+      "Use": "Premium skincare, eco-luxury brands"
+    },
+    "moq": 10000
+  },
+  {
+    "slug": "premium-high-end-beauty-packaging-design-for-beauty-brand",
+    "title": "Premium High-End Beauty Packaging Design for Beauty Brand",
+    "description": "Premium high-end beauty packaging design service for beauty brands. Custom glass packaging with luxury finishes, tailored to elevate brand identity and shelf presence.",
+    "images": [
+      "https://www.jarsking.com/wp-content/uploads/2025/10/luxury-glass-skincare-packaging.webp"
+    ],
+    "category": "face-cream-jars",
+    "specifications": {
+      "Material": "Glass",
+      "Feature": "High-end custom design",
+      "Color": "Customized",
+      "Use": "Beauty brands, luxury skincare"
+    },
+    "moq": 10000
+  },
+  {
+    "slug": "custom-glass-skincare-packaging-set-unique-design",
+    "title": "Custom Glass Skincare Packaging Set Unique Design",
+    "description": "Custom glass skincare packaging set with unique design. Complete packaging solution including bottles and jars with coordinated aesthetics for brand consistency.",
+    "images": [
+      "https://www.jarsking.com/wp-content/uploads/2025/09/custom-glass-skincare-packaging-set.webp"
+    ],
+    "category": "face-cream-jars",
+    "specifications": {
+      "Material": "Glass",
+      "Feature": "Unique design, complete set",
+      "Color": "Customized",
+      "Use": "Skincare brands"
+    },
+    "moq": 10000
   }
 ]

@@ -7,6 +7,15 @@ import ProductTabs from '@/components/product/ProductTabs'
 import ProductSpecs from '@/components/product/ProductSpecs'
 import ProductGrid from '@/components/product/ProductGrid'
 import { getProduct, getRelatedProducts } from '@/services'
+import SustainableRefillableAirlessPumpPage from '@/components/product-items/sustainable-refillable-airless-pump'
+import ThickBaseGlassLotionPumpPage from '@/components/product-items/thick-base-glass-lotion-pump'
+import PPRefillableCosmeticJarPage from '@/components/product-items/pp-refillable-cosmetic-jar'
+
+const CUSTOM_PAGES: Record<string, React.ComponentType> = {
+  'sustainable-refillable-airless-pump-face-cream-jar-for-baby-care-brand': SustainableRefillableAirlessPumpPage,
+  'thick-base-glass-lotion-pump-bottle-for-luxury-skincare-brands': ThickBaseGlassLotionPumpPage,
+  'pp-refillable-cosmetic-jar-with-replaceable-inner-cup': PPRefillableCosmeticJarPage,
+}
 
 interface ProductPageProps {
   params: Promise<{
@@ -16,6 +25,12 @@ interface ProductPageProps {
 
 export default async function ProductPage({ params }: ProductPageProps) {
   const { slug } = await params
+
+  const CustomPage = CUSTOM_PAGES[slug]
+  if (CustomPage) {
+    return <CustomPage />
+  }
+
   const [product, relatedProducts] = await Promise.all([
     getProduct(slug),
     getRelatedProducts(slug, 4),
