@@ -1,0 +1,31 @@
+{
+  "total_animations": 27907,
+  "total_interactions": 56075,
+  "common_patterns": [
+    {
+      "pattern": "Hover Effects",
+      "description": "鼠标悬停时的视觉反馈",
+      "usage": "产品卡片、按钮、链接",
+      "implementation": "CSS :hover伪类"
+    },
+    {
+      "pattern": "Smooth Transitions",
+      "description": "状态变化的平滑过渡",
+      "usage": "颜色变化、尺寸变化、位置变化",
+      "implementation": "CSS transition属性"
+    },
+    {
+      "pattern": "Scroll Animations",
+      "description": "滚动触发的动画效果",
+      "usage": "内容展示、视差滚动",
+      "implementation": "Intersection Observer API"
+    }
+  ],
+  "recommendations": [
+    "使用CSS变量实现主题切换",
+    "采用transition实现平滑过渡",
+    "使用transform实现高性能动画",
+    "考虑使用Intersection Observer实现滚动动画",
+    "为移动端优化触摸交互"
+  ]
+}

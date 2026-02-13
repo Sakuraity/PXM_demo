@@ -1,0 +1,193 @@
+{
+  "title": "Jarsking - Cosmetic Packaging Solutions",
+  "description": "Professional cosmetic packaging manufacturer offering glass bottles, plastic jars, tubes, and custom packaging solutions.",
+  "logo": "/images/icons/logo-300x165.png.webp",
+  "email": "info@jarsking.com",
+  "navigation": [
+    {
+      "title": "Products",
+      "url": "#",
+      "megaMenu": true,
+      "categories": [
+        {
+          "title": "By Applications",
+          "url": "/all-applications",
+          "default": true,
+          "subcategories": [
+            {
+              "title": "Skincare",
+              "url": "/all-applications/skincare-packaging",
+              "items": [
+                { "title": "Face Cream Jars", "url": "/all-applications/face-cream-jars" },
+                { "title": "Essential Oil Bottles", "url": "/all-applications/essential-oil-bottles" },
+                { "title": "Lotion Bottles", "url": "/all-applications/lotion-bottles" },
+                { "title": "Serum Glass Bottles", "url": "/all-applications/serum-bottles" },
+                { "title": "Glass Vials", "url": "/all-applications/glass-vials" },
+                { "title": "Foam Pump Bottles", "url": "/all-applications/foam-pump-bottles" },
+                { "title": "Roll on Bottles", "url": "/all-applications/roll-on-bottles" },
+                { "title": "Spray Bottles", "url": "/all-applications/spray-bottles" },
+                { "title": "Toner Bottles", "url": "/all-applications/toner-bottles" }
+              ]
+            },
+            {
+              "title": "Makeup",
+              "url": "/all-applications/makeup-packaging",
+              "items": [
+                { "title": "Foundation Bottles", "url": "/all-applications/foundation-bottles" },
+                { "title": "Lip Gloss Tubes", "url": "/all-applications/lip-gloss-tubes" },
+                { "title": "Mascara Tube", "url": "/all-applications/mascara-tube" },
+                { "title": "Makeup Remover Bottles", "url": "/all-applications/makeup-remover-bottles" }
+              ]
+            },
+            {
+              "title": "Fragrance",
+              "url": "/perfume-packaging",
+              "items": [
+                { "title": "Perfume Bottles", "url": "/all-applications/perfume-bottles" },
+                { "title": "Perfume Sample Bottles", "url": "/all-applications/perfume-sample-bottles" },
+                { "title": "Portable Perfume Bottles", "url": "/all-applications/portable-perfume-bottles" }
+              ]
+            },
+            {
+              "title": "Personal Care",
+              "url": "/all-applications/personal-care",
+              "items": [
+                { "title": "Shampoo & Conditioner Bottles", "url": "/all-applications/shampoo-bottles" },
+                { "title": "Body Lotion Bottles", "url": "/all-applications/body-lotion-bottles" },
+                { "title": "Body Butter Jars", "url": "/all-applications/body-butter-jars" }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "By Materials",
+          "url": "/all-materials",
+          "subcategories": [
+            {
+              "title": "Glass",
+              "url": "/all-materials/glass-cosmetic-packaging",
+              "items": [
+                { "title": "Glass Bottles", "url": "/all-materials/glass-cosmetic-packaging/glass-bottles" },
+                { "title": "Glass Jars", "url": "/all-materials/glass-cosmetic-packaging/glass-jars" }
+              ]
+            },
+            {
+              "title": "Plastic",
+              "url": "/all-materials/plastic-cosmetic-bottles",
+              "items": [
+                { "title": "PET Bottles", "url": "/all-materials/plastic-cosmetic-bottles/pet-bottles" },
+                { "title": "HDPE Bottles", "url": "/all-materials/plastic-cosmetic-bottles/hdpe-bottles" }
+              ]
+            },
+            {
+              "title": "PETG",
+              "url": "/all-materials/petg-cosmetic-packaging",
+              "items": []
+            },
+            {
+              "title": "Acrylic",
+              "url": "/all-materials/acrylic-cosmetic-packaging",
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "By Functions",
+          "url": "/functions",
+          "subcategories": []
+        },
+        {
+          "title": "Collections",
+          "url": "/collections",
+          "subcategories": [
+            {
+              "title": "New Design",
+              "url": "/collections/cosmetic-new-design-packaging-collection",
+              "items": []
+            },
+            {
+              "title": "Refillable",
+              "url": "/collections/refillable-cosmetics-packaging",
+              "items": []
+            }
+          ]
+        },
+        {
+          "title": "Caps & Pumps",
+          "url": "/all-caps-and-pumps",
+          "subcategories": []
+        },
+        {
+          "title": "Boxes, Bags & Supplies",
+          "url": "/boxes-bags-and-supplies",
+          "subcategories": []
+        },
+        {
+          "title": "Cannabis CRC Packaging",
+          "url": "/cannabis-packaging",
+          "subcategories": []
+        },
+        {
+          "title": "By Types",
+          "url": "/all-packaging-types",
+          "subcategories": [
+            {
+              "title": "Bottles",
+              "url": "/all-packaging-types/bottles",
+              "items": []
+            },
+            {
+              "title": "Jars",
+              "url": "/all-packaging-types/jars",
+              "items": []
+            },
+            {
+              "title": "Tubes",
+              "url": "/all-packaging-types/cosmetic-tubes",
+              "items": []
+            },
+            {
+              "title": "Syringes",
+              "url": "/all-packaging-types/cosmetic-syringes",
+              "items": []
+            },
+            {
+              "title": "Vials",
+              "url": "/all-packaging-types/vials",
+              "items": []
+            },
+            {
+              "title": "Ampoules",
+              "url": "/all-packaging-types/ampoules",
+              "items": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Categories",
+      "url": "/categories",
+      "children": [
+        { "title": "By Applications", "url": "/all-applications" },
+        { "title": "By Materials", "url": "/all-materials" },
+        { "title": "By Functions", "url": "/functions" },
+        { "title": "By Types", "url": "/all-packaging-types" },
+        { "title": "Collections", "url": "/collections" },
+        { "title": "Caps & Pumps", "url": "/all-caps-and-pumps" }
+      ]
+    },
+    {
+      "title": "Hybrid Packaging Solutions",
+      "url": "/hybrid-packaging-solutions"
+    },
+    {
+      "title": "Benefits",
+      "url": "/benefits"
+    },
+    {
+      "title": "About Jarsking",
+      "url": "/your-strategic-partner"
+    }
+  ]
+}

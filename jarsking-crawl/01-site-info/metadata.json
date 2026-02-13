@@ -1,0 +1,12 @@
+{
+  "source": "jarsking-crawl",
+  "migration_date": "2026-02-13T16:12:29.205891",
+  "total_pages": 100,
+  "total_json_files": 115,
+  "total_images": 1312,
+  "image_formats": {
+    "webp": 1241,
+    "jpg": 67,
+    "png": 4
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "font_families": [
+    "\"Helvetica\"",
+    "\"Montserrat\"",
+    "\"Roboto Slab\"",
+    "\"Roboto\""
+  ],
+  "font_sizes": [
+    "13px",
+    "16px",
+    "20px",
+    "35px",
+    "36px",
+    "42px"
+  ],
+  "font_weights": [
+    "400",
+    "500",
+    "600"
+  ],
+  "line_heights": []
+}

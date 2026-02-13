@@ -1,0 +1,78 @@
+/* 导入字体 */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&family=Roboto+Slab:wght@400;500;600&family=Roboto:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 自定义CSS变量 */
+:root {
+  /* Jarsking设计令牌 */
+  --color-primary: #1E1E1E;
+  --color-secondary: #54595F;
+  --color-text: #7A7A7A;
+  --color-accent: #61CE70;
+  --color-brand-orange: #E3664B;
+  --color-brand-navy: #15294C;
+  --color-brand-red: #C7113A;
+  --color-neutral-light: #B7B7B7;
+  --color-neutral-bg: #F0F0F0;
+}
+
+/* 基础样式 */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+/* 自定义组件样式 */
+@layer components {
+  .btn-primary {
+    @apply bg-accent text-white px-6 py-3 rounded-md font-medium hover:bg-opacity-90 transition-all duration-800;
+  }
+  
+  .btn-secondary {
+    @apply bg-primary text-white px-6 py-3 rounded-md font-medium hover:bg-opacity-90 transition-all duration-800;
+  }
+  
+  .card {
+    @apply bg-white rounded-lg shadow-natural overflow-hidden transition-all duration-800 hover:shadow-deep hover:scale-105;
+  }
+  
+  .container-custom {
+    @apply max-w-[1440px] mx-auto px-4;
+  }
+  
+  .text-gradient {
+    background: linear-gradient(135deg, var(--color-accent), var(--color-brand-orange));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
+
+/* 工具类 */
+@layer utilities {
+  .text-primary {
+    color: var(--color-primary);
+  }
+  
+  .text-secondary {
+    color: var(--color-secondary);
+  }
+  
+  .text-accent {
+    color: var(--color-accent);
+  }
+  
+  .bg-brand-navy {
+    background-color: var(--color-brand-navy);
+  }
+}
