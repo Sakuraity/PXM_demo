@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import { ChevronRight, Home } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
 
 interface BreadcrumbItem {
   label: string
@@ -13,6 +14,8 @@ interface BreadcrumbProps {
 }
 
 export default function Breadcrumb({ items }: BreadcrumbProps) {
+  const { t } = useTranslation()
+
   return (
     <nav className="py-4" aria-label="Breadcrumb">
       <div className="container-custom">
@@ -20,7 +23,7 @@ export default function Breadcrumb({ items }: BreadcrumbProps) {
           <li>
             <Link href="/" className="flex items-center text-secondary hover:text-primary transition-colors">
               <Home className="w-4 h-4" />
-              <span className="sr-only">Home</span>
+              <span className="sr-only">{t('common.home', { defaultValue: 'Home' })}</span>
             </Link>
           </li>
           

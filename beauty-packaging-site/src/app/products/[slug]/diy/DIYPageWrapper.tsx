@@ -4,6 +4,7 @@ import { useEffect, useMemo, useState } from 'react'
 import { ArrowLeft, Save, Share2, Download } from 'lucide-react'
 import Link from 'next/link'
 import Breadcrumb from '@/components/layout/Breadcrumb'
+import { useTranslation } from 'react-i18next'
 import DIYConfigurator from '@/components/diy/DIYConfigurator'
 import { Product, DIYConfiguration } from '@/types'
 
@@ -12,6 +13,7 @@ interface DIYPageWrapperProps {
 }
 
 export default function DIYPageWrapper({ product }: DIYPageWrapperProps) {
+  const { t } = useTranslation()
   const [configuration, setConfiguration] = useState<Partial<DIYConfiguration>>({})
   const [statusMessage, setStatusMessage] = useState('')
   const draftKey = useMemo(() => `diy:draft:${product.slug}`, [product.slug])
@@ -19,9 +21,9 @@ export default function DIYPageWrapper({ product }: DIYPageWrapperProps) {
   const quoteKey = useMemo(() => `diy:quote:${product.slug}`, [product.slug])
 
   const breadcrumbItems = [
-    { label: 'Products', href: '/all-applications' },
+    { label: t('navigation.products', { defaultValue: 'Products' }), href: '/all-applications' },
     { label: product.title, href: `/products/${product.slug}` },
-    { label: 'DIY Customization' }
+    { label: t('diy.breadcrumb', { defaultValue: 'DIY Customization' }) }
   ]
 
   // 处理配置变更
@@ -109,11 +111,10 @@ export default function DIYPageWrapper({ product }: DIYPageWrapperProps) {
           {/* 页面头部 */}
           <div className="text-center mb-12">
             <h1 className="text-3xl lg:text-4xl font-bold text-primary mb-4">
-              DIY Customization
+              {t('diy.title', { defaultValue: 'DIY Customization' })}
             </h1>
             <p className="text-lg text-secondary max-w-2xl mx-auto">
-              Customize your {product.title} packaging with our intuitive 3D designer. 
-              Choose shape, material, color, and add your brand logo.
+              {t('diy.description', { defaultValue: 'Customize your packaging with our intuitive 3D designer. Choose shape, material, color, and add your brand logo.', productTitle: product.title })}
             </p>
           </div>
 
@@ -123,7 +124,7 @@ export default function DIYPageWrapper({ product }: DIYPageWrapperProps) {
             className="inline-flex items-center text-secondary hover:text-primary mb-8"
           >
             <ArrowLeft className="w-4 h-4 mr-2" />
-            Back to Product Details
+            {t('diy.backToProduct', { defaultValue: 'Back to Product Details' })}
           </Link>
 
           {/* 配置器主体 */}
@@ -138,21 +139,21 @@ export default function DIYPageWrapper({ product }: DIYPageWrapperProps) {
             <div className="flex items-center space-x-4">
               <button onClick={handleSaveWishlist} className="btn-secondary flex items-center">
                 <Save className="w-4 h-4 mr-2" />
-                Save Design
+                {t('diy.saveDesign', { defaultValue: 'Save Design' })}
               </button>
               <button onClick={handleShare} className="btn-secondary flex items-center">
                 <Share2 className="w-4 h-4 mr-2" />
-                Share
+                {t('diy.share', { defaultValue: 'Share' })}
               </button>
             </div>
             
             <div className="flex items-center space-x-4">
               <button onClick={handleExportConfiguration} className="btn-secondary flex items-center">
                 <Download className="w-4 h-4 mr-2" />
-                Export Config
+                {t('diy.exportConfig', { defaultValue: 'Export Config' })}
               </button>
               <button onClick={handleRequestQuote} className="btn-primary">
-                Request Quote
+                {t('diy.requestQuote', { defaultValue: 'Request Quote' })}
               </button>
             </div>
           </div>
@@ -164,13 +165,13 @@ export default function DIYPageWrapper({ product }: DIYPageWrapperProps) {
           {/* 提示信息 */}
           <div className="mt-8 p-6 bg-accent/10 rounded-lg">
             <h3 className="text-lg font-semibold text-primary mb-2">
-              Design Tips
+              {t('diy.designTips', { defaultValue: 'Design Tips' })}
             </h3>
             <ul className="text-sm text-secondary space-y-1">
-              <li>• Choose materials that complement your product type</li>
-              <li>• Consider the ergonomics and user experience</li>
-              <li>• Ensure your logo placement is visible and aligned</li>
-              <li>• Test different color combinations to find the perfect match</li>
+              <li>• {t('diy.tip1', { defaultValue: 'Choose materials that complement your product type' })}</li>
+              <li>• {t('diy.tip2', { defaultValue: 'Consider the ergonomics and user experience' })}</li>
+              <li>• {t('diy.tip3', { defaultValue: 'Ensure your logo placement is visible and aligned' })}</li>
+              <li>• {t('diy.tip4', { defaultValue: 'Test different color combinations to find the perfect match' })}</li>
             </ul>
           </div>
         </div>

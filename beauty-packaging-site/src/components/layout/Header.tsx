@@ -4,18 +4,26 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { useState, useRef, useEffect } from 'react'
 import { Menu, X, Search, ChevronDown, ChevronRight, Mail, Globe } from 'lucide-react'
-import { NavigationItem } from '@/types'
+import { NavigationItem, MegaMenuCategory, MegaMenuSubcategory, MegaMenuSubItem } from '@/types'
+import { useTranslation } from 'react-i18next'
+import { useLanguage } from '@/contexts/LanguageContext'
 
 interface HeaderProps {
   navigation?: NavigationItem[]
 }
 
 export default function Header({ navigation }: HeaderProps) {
+  const { t } = useTranslation()
+  const { currentLanguage, changeLanguage } = useLanguage()
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const [openSubMenu, setOpenSubMenu] = useState<string | null>(null)
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null)
   const [activeMegaCategory, setActiveMegaCategory] = useState<string | null>(null)
+  const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] = useState(false)
   const dropdownTimeoutRef = useRef<NodeJS.Timeout | null>(null)
+
+  const toNavKey = (value: string) => value.toLowerCase().replace(/[^a-z0-9]+/g, '')
+  const tNav = (value: string) => t(`navigation.${toNavKey(value)}`, { defaultValue: value })
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen)
@@ -53,13 +61,30 @@ export default function Header({ navigation }: HeaderProps) {
     }
   }, [])
 
+  // Close language dropdown when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (isLanguageDropdownOpen) {
+        const target = event.target as HTMLElement
+        if (!target.closest('.language-dropdown')) {
+          setIsLanguageDropdownOpen(false)
+        }
+      }
+    }
+
+    document.addEventListener('mousedown', handleClickOutside)
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside)
+    }
+  }, [isLanguageDropdownOpen])
+
   // Find the active dropdown item
-  const activeItem = navigation?.find(item => item.title === activeDropdown)
+  const activeItem = navigation?.find((item: NavigationItem) => item.title === activeDropdown)
   const isMegaMenuOpen = activeItem?.megaMenu && activeDropdown
   const isSimpleDropdownOpen = activeItem?.children && activeItem.children.length > 0 && !activeItem.megaMenu && activeDropdown
 
   // Get active mega category data
-  const activeCategoryData = activeItem?.categories?.find(c => c.title === activeMegaCategory)
+  const activeCategoryData = activeItem?.categories?.find((c: MegaMenuCategory) => c.title === activeMegaCategory)
 
   // Calculate top offset based on whether top bar exists
   const navTopOffset = 'top-[110px]'
@@ -91,14 +116,49 @@ export default function Header({ navigation }: HeaderProps) {
                 style={{ fontFamily: "'Poppins', sans-serif" }}
               >
                 <Mail className="w-3.5 h-3.5" />
-                info@jarsking.com
+                {t('common.email')}
               </a>
 
               {/* Language */}
-              <div className="flex items-center gap-1 text-[13px] text-[#ccc] cursor-pointer hover:text-white transition-colors">
-                <Globe className="w-3.5 h-3.5" />
-                <span style={{ fontFamily: "'Poppins', sans-serif" }}>English</span>
-                <ChevronDown className="w-3 h-3" />
+              <div className="relative language-dropdown">
+                <button
+                  onClick={() => setIsLanguageDropdownOpen(!isLanguageDropdownOpen)}
+                  className="flex items-center gap-1 text-[13px] text-[#ccc] hover:text-white transition-colors"
+                >
+                  <Globe className="w-3.5 h-3.5" />
+                  <span style={{ fontFamily: "'Poppins', sans-serif" }}>{t('common.language')}</span>
+                  <ChevronDown className={`w-3 h-3 transition-transform duration-200 ${isLanguageDropdownOpen ? 'rotate-180' : ''}`} />
+                </button>
+                
+                {/* Language Dropdown */}
+                {isLanguageDropdownOpen && (
+                  <div className="absolute top-full right-0 mt-1 bg-[#1a2d52] shadow-lg rounded-sm py-1 min-w-[100px] z-50">
+                    <button
+                      onClick={() => {
+                        changeLanguage('en')
+                        setIsLanguageDropdownOpen(false)
+                      }}
+                      className={`block w-full text-left px-4 py-2 text-[13px] transition-colors ${
+                        currentLanguage === 'en' ? 'text-[#E3664B] bg-[#0f1929]' : 'text-[#ccc] hover:text-white hover:bg-[#0f1929]'
+                      }`}
+                      style={{ fontFamily: "'Poppins', sans-serif" }}
+                    >
+                      {t('common.languageOptions.en', { defaultValue: 'English' })}
+                    </button>
+                    <button
+                      onClick={() => {
+                        changeLanguage('zh')
+                        setIsLanguageDropdownOpen(false)
+                      }}
+                      className={`block w-full text-left px-4 py-2 text-[13px] transition-colors ${
+                        currentLanguage === 'zh' ? 'text-[#E3664B] bg-[#0f1929]' : 'text-[#ccc] hover:text-white hover:bg-[#0f1929]'
+                      }`}
+                      style={{ fontFamily: "'Poppins', sans-serif" }}
+                    >
+                      {t('common.languageOptions.zh', { defaultValue: '中文' })}
+                    </button>
+                  </div>
+                )}
               </div>
             </div>
           </div>
@@ -123,7 +183,7 @@ export default function Header({ navigation }: HeaderProps) {
 
             {/* Desktop Navigation */}
             <nav className="hidden lg:flex items-center gap-1">
-              {navigation?.map(item => {
+              {navigation?.map((item: NavigationItem) => {
                 const hasDropdown = item.megaMenu || (item.children && item.children.length > 0)
                 const isOpen = activeDropdown === item.title
 
@@ -140,7 +200,7 @@ export default function Header({ navigation }: HeaderProps) {
                       }`}
                       style={{ fontFamily: "'Poppins', sans-serif" }}
                     >
-                      <span>{item.title}</span>
+                      <span>{tNav(item.title)}</span>
                       {hasDropdown && (
                         <ChevronDown className={`w-3 h-3 transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`} />
                       )}
@@ -156,7 +216,7 @@ export default function Header({ navigation }: HeaderProps) {
               <div className="hidden lg:flex items-center border border-[#3a5280] rounded-sm h-[32px]">
                 <input
                   type="text"
-                  placeholder="Search..."
+                  placeholder={t('common.search')}
                   className="bg-transparent text-[12px] text-white placeholder-[#6b82a6] outline-none w-[100px] h-full px-2.5"
                   style={{ fontFamily: "'Poppins', sans-serif" }}
                 />
@@ -171,7 +231,7 @@ export default function Header({ navigation }: HeaderProps) {
                 className="hidden sm:inline-flex items-center justify-center h-[32px] px-4 bg-[#E3664B] text-white text-[12px] font-medium rounded-sm hover:bg-[#d15a42] transition-colors duration-200 whitespace-nowrap"
                 style={{ fontFamily: "'Poppins', sans-serif" }}
               >
-                Contact & Quote
+                {t('common.contactQuote')}
               </Link>
 
               {/* Mobile Search */}
@@ -203,7 +263,7 @@ export default function Header({ navigation }: HeaderProps) {
               {/* Left sidebar - category tabs */}
               <div className="w-[260px] flex-shrink-0 bg-[#122240] py-8 px-6">
                 <div className="space-y-1">
-                  {activeItem.categories.map(cat => (
+                  {activeItem.categories.map((cat: MegaMenuCategory) => (
                     <button
                       key={cat.title}
                       onMouseEnter={() => setActiveMegaCategory(cat.title)}
@@ -214,7 +274,7 @@ export default function Header({ navigation }: HeaderProps) {
                       }`}
                       style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 400 }}
                     >
-                      {cat.title}
+                      {tNav(cat.title)}
                     </button>
                   ))}
                 </div>
@@ -224,25 +284,25 @@ export default function Header({ navigation }: HeaderProps) {
               <div className="flex-1 py-8 px-10">
                 {activeCategoryData && activeCategoryData.subcategories.length > 0 ? (
                   <div className="grid grid-cols-4 gap-8">
-                    {activeCategoryData.subcategories.map(sub => (
+                    {activeCategoryData.subcategories.map((sub: MegaMenuSubcategory) => (
                       <div key={sub.title}>
                         <Link
                           href={sub.url}
                           className="block text-[14px] font-semibold text-white mb-3 hover:text-[#E3664B] transition-colors"
                           style={{ fontFamily: "'Poppins', sans-serif" }}
                         >
-                          {sub.title}
+                          {tNav(sub.title)}
                         </Link>
                         {sub.items.length > 0 && (
                           <div className="space-y-2">
-                            {sub.items.map(item => (
+                            {sub.items.map((item: MegaMenuSubItem) => (
                               <Link
                                 key={item.title}
                                 href={item.url}
                                 className="block text-[13px] text-[#B0B8C8] hover:text-[#E3664B] transition-colors"
                                 style={{ fontFamily: "'Poppins', sans-serif" }}
                               >
-                                {item.title}
+                                {tNav(item.title)}
                               </Link>
                             ))}
                           </div>
@@ -257,7 +317,7 @@ export default function Header({ navigation }: HeaderProps) {
                       className="text-[15px] text-[#B0B8C8] hover:text-[#E3664B] transition-colors flex items-center gap-2"
                       style={{ fontFamily: "'Poppins', sans-serif" }}
                     >
-                      View all {activeCategoryData?.title}
+                      {t('common.viewAll')} {activeCategoryData?.title ? tNav(activeCategoryData.title) : ''}
                       <ChevronRight className="w-4 h-4" />
                     </Link>
                   </div>
@@ -278,14 +338,14 @@ export default function Header({ navigation }: HeaderProps) {
           <div className="bg-[#15294C] shadow-2xl">
             <div className="max-w-[1440px] mx-auto px-8 py-6">
               <div className="flex flex-wrap gap-x-10 gap-y-3">
-                {activeItem!.children!.map(child => (
+                {activeItem!.children!.map((child: NavigationItem) => (
                   <Link
                     key={child.title}
                     href={child.url}
                     className="text-[14px] text-[#E9E9E9] hover:text-[#E3664B] transition-colors"
                     style={{ fontFamily: "'Poppins', sans-serif", fontWeight: 400 }}
                   >
-                    {child.title}
+                    {tNav(child.title)}
                   </Link>
                 ))}
               </div>
@@ -301,7 +361,7 @@ export default function Header({ navigation }: HeaderProps) {
         }`}
       >
         <nav className="overflow-y-auto max-h-[calc(80vh-50px)] border-t border-[#1e3561]">
-          {navigation?.map(item => {
+          {navigation?.map((item: NavigationItem) => {
             const hasChildren = item.megaMenu ? (item.categories && item.categories.length > 0) : (item.children && item.children.length > 0)
 
             return (
@@ -313,7 +373,7 @@ export default function Header({ navigation }: HeaderProps) {
                     style={{ fontFamily: "'Poppins', sans-serif" }}
                     onClick={() => !hasChildren && setIsMobileMenuOpen(false)}
                   >
-                    {item.title}
+                    {tNav(item.title)}
                   </Link>
                   {hasChildren && (
                     <button
@@ -328,7 +388,7 @@ export default function Header({ navigation }: HeaderProps) {
                 {/* Mobile mega menu expansion */}
                 {item.megaMenu && openSubMenu === item.title && item.categories && (
                   <div className="bg-[#122240] pb-2">
-                    {item.categories.map(cat => (
+                    {item.categories.map((cat: MegaMenuCategory) => (
                       <div key={cat.title}>
                         <Link
                           href={cat.url}
@@ -336,7 +396,7 @@ export default function Header({ navigation }: HeaderProps) {
                           style={{ fontFamily: "'Poppins', sans-serif" }}
                           onClick={() => setIsMobileMenuOpen(false)}
                         >
-                          {cat.title}
+                          {tNav(cat.title)}
                         </Link>
                       </div>
                     ))}
@@ -346,7 +406,7 @@ export default function Header({ navigation }: HeaderProps) {
                 {/* Mobile simple dropdown expansion */}
                 {!item.megaMenu && item.children && openSubMenu === item.title && (
                   <div className="bg-[#122240] pb-2">
-                    {item.children.map(child => (
+                    {item.children.map((child: NavigationItem) => (
                       <Link
                         key={child.title}
                         href={child.url}
@@ -354,7 +414,7 @@ export default function Header({ navigation }: HeaderProps) {
                         style={{ fontFamily: "'Poppins', sans-serif" }}
                         onClick={() => setIsMobileMenuOpen(false)}
                       >
-                        {child.title}
+                        {tNav(child.title)}
                       </Link>
                     ))}
                   </div>
@@ -371,7 +431,7 @@ export default function Header({ navigation }: HeaderProps) {
               style={{ fontFamily: "'Poppins', sans-serif" }}
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              Contact & Quote
+              {t('common.contactQuote')}
             </Link>
           </div>
         </nav>

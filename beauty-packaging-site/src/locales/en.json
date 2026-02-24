@@ -1,0 +1,1359 @@
+{
+  "common": {
+    "search": "Search...",
+    "contactQuote": "Contact & Quote",
+    "email": "info@jarsking.com",
+    "language": "Language",
+    "languageOptions": {
+      "en": "English",
+      "zh": "中文"
+    },
+    "readMore": "Read More",
+    "learnMore": "Learn More",
+    "viewAll": "View All",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "home": "Home",
+    "about": "About",
+    "products": "Products",
+    "contact": "Contact",
+    "actions": {
+      "exploreProducts": "Explore Products",
+      "getQuote": "Get a Quote",
+      "learnMore": "Learn More",
+      "viewAll": "View All"
+    },
+    "getQuote": "Get Quote",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "loading": "Loading...",
+    "noResults": "No results found"
+  },
+  "navigation": {
+    "products": "Products",
+    "byapplications": "By Applications",
+    "bymaterials": "By Materials",
+    "bypackagingtypes": "By Packaging Types",
+    "skincare": "Skincare",
+    "makeup": "Makeup",
+    "fragrance": "Fragrance",
+    "personalcare": "Personal Care",
+    "pharmaceutical": "Pharmaceutical",
+    "facecreamjars": "Face Cream Jars",
+    "essentialoilbottles": "Essential Oil Bottles",
+    "lotionbottles": "Lotion Bottles",
+    "serumglassbottles": "Serum Glass Bottles",
+    "glassvials": "Glass Vials",
+    "foampumpbottles": "Foam Pump Bottles",
+    "rollonbottles": "Roll on Bottles",
+    "spraybottles": "Spray Bottles",
+    "tonerbottles": "Toner Bottles",
+    "foundationbottles": "Foundation Bottles",
+    "lipglosstubes": "Lip Gloss Tubes",
+    "mascaratube": "Mascara Tube",
+    "makeupremoverbottles": "Makeup Remover Bottles",
+    "perfumebottles": "Perfume Bottles",
+    "perfumesamplebottles": "Perfume Sample Bottles",
+    "portableperfumebottles": "Portable Perfume Bottles",
+    "collections": "Collections",
+    "successstories": "Success Stories",
+    "sustainability": "Sustainability",
+    "yourstrategicpartner": "Your Strategic Partner",
+    "allapplications": "All Applications",
+    "allmaterials": "All Materials",
+    "allpackagingtypes": "All Packaging Types",
+    "categories": "Categories",
+    "hybridpackagingsolutions": "Hybrid Packaging Solutions",
+    "benefits": "Benefits",
+    "aboutjarsking": "About Jarsking",
+    "byfunctions": "By Functions",
+    "capspumps": "Caps & Pumps",
+    "boxesbagsupplies": "Boxes, Bags & Supplies",
+    "cannabiscrcpackaging": "Cannabis CRC Packaging",
+    "bytypes": "By Types",
+    "glass": "Glass",
+    "plastic": "Plastic",
+    "petg": "PETG",
+    "acrylic": "Acrylic",
+    "newdesign": "New Design",
+    "refillable": "Refillable",
+    "bottles": "Bottles",
+    "jars": "Jars",
+    "tubes": "Tubes",
+    "syringes": "Syringes",
+    "vials": "Vials",
+    "ampoules": "Ampoules",
+    "glassbottles": "Glass Bottles",
+    "glassjars": "Glass Jars",
+    "petbottles": "PET Bottles",
+    "hdpebottles": "HDPE Bottles",
+    "shampooconditonerbottles": "Shampoo & Conditioner Bottles",
+    "bodylotionbottles": "Body Lotion Bottles",
+    "bodybutterjars": "Body Butter Jars"
+  },
+  "allApplications": {
+    "valuePropositions": {
+      "firstImpressions": {
+        "title": "First Impressions Drive Purchase Decisions",
+        "description": "Transform standard packaging into distinctive brand assets through screen printing, hot foil stamping, embossing, and custom labeling. Pantone color-matching ensures brand consistency across entire product lines and packaging formats. Multiple decoration techniques can combine on single containers to create unique brand expressions.",
+        "buttonText": "DESIGN WITH US ⟶",
+        "alt": ""
+      },
+      "productIntegrity": {
+        "title": "Protect Product Integrity",
+        "description": "Active ingredients like retinol, vitamin C, and peptides lose efficacy when exposed to air, light, and contaminants. Airless pump technology and UV-protective glass containers preserve formulation potency from production through final application. Our packaging engineering ensures your premium ingredients deliver promised results to every customer.",
+        "buttonText": "CONSULT TO US ⟶",
+        "alt": "airless bottle"
+      },
+      "sustainability": {
+        "title": "Sustainability Meets Aesthetics",
+        "description": "Modern consumers prioritize eco-conscious brands, with more and more beauty shoppers considering ingredient transparency and packaging sustainability in purchase decisions. Recyclable glass, refillable systems, and PCR plastics demonstrate environmental commitment without compromising luxury positioning or shelf appeal.",
+        "buttonText": "GO GREEN ⟶",
+        "alt": "replaceable jar"
+      }
+    },
+    "newDesigns": {
+      "title": "New Designs for Skincare Packaging Set",
+      "products": {
+        "uniqueGlass": { "alt": "packaging of skin care products" },
+        "recyclableMist": { "alt": "recyclable skincare mist bottle" },
+        "packagingSet": { "alt": "skincare packaging set" },
+        "premiumStartup": { "alt": "premium cosmetic packaging solutions" },
+        "sustainableGlass": { "alt": "sustainable cosmetic packaging glass set" },
+        "luxurySkincare": { "alt": "Luxury skincare packaging" },
+        "squareAirless": { "alt": "square airless cosmetic bottle" },
+        "vibrantPackaging": { "alt": "Vibrant cosmetic packaging" },
+        "skincareGeneral": { "alt": "skincare packaging" },
+        "acrylicSet": { "alt": "acrylic packaging set" },
+        "flatSquareGlass": { "alt": "flat square glass bottle" },
+        "glassBottles": { "alt": "glass skincare bottles" },
+        "luxuryDropperJar": { "alt": "luxury skincare packaging" },
+        "mensSkincare": { "alt": "mens skincare packaging" }
+      }
+    },
+    "packagingFormats": {
+      "title": "Skincare Packaging Formats",
+      "items": {
+        "bottles": {
+          "title": "Bottles",
+          "description": "Skincare bottles represent the versatile foundation of beauty packaging, accommodating everything from lightweight essences to rich body lotions. Premium glass bottles convey luxury and protect photosensitive ingredients like vitamin C and retinol from degradation. PET and HDPE plastic options offer lightweight durability for travel-sized products and everyday formulations.",
+          "alt": "Glossy surface HDPE cosmetic bottles"
+        },
+        "jars": {
+          "title": "Jars",
+          "description": "Face cream jars combine wide-mouth accessibility with premium aesthetics perfect for thick, rich formulations. Double-wall construction creates luxurious unboxing experiences while protecting light-sensitive ingredients through opaque or UV-filtering glass options. Acrylic jars offer shatter-resistant alternatives for travel products and luxury hotel amenities.",
+          "alt": "Custom skincare jar with refillable liner"
+        },
+        "vials": {
+          "title": "Vials",
+          "description": "Glass vials serve multiple strategic purposes including premium sampling, travel sizes, and single-dose treatment ampoules. Pharmaceutical-grade glass ensures product safety for concentrated active formulations, while small capacity options enable cost-effective customer acquisition through subscription boxes and promotional campaigns. Vials maintain sterile conditions essential for preserving ingredient potency in serums and treatment concentrates.",
+          "alt": "cosmetic glass vial"
+        },
+        "syringes": {
+          "title": "Syringes",
+          "description": "Cosmetic syringes deliver pharmaceutical-grade precision for high-concentration treatments requiring exact dosing. Luer lock fittings enable hygienic, mess-free application of eye creams, spot treatments, and professional-grade serums without finger contamination. The syringe format communicates clinical efficacy and scientific sophistication that premium skincare customers expect.",
+          "alt": "syringe"
+        },
+        "tubes": {
+          "title": "Tubes",
+          "description": "Soft tubes combine portability, product protection, and convenient dispensing for creams, gels, and cleansers. Flexible materials accommodate varying product viscosities while leak-proof caps prevent spills during travel. Aluminum and laminate tubes offer superior barrier properties that protect formulations from air and light exposure.",
+          "alt": "soft tube"
+        },
+        "ampoules": {
+          "title": "Ampoules",
+          "description": "Ampoules deliver single-use doses of highly concentrated active ingredients in hermetically sealed glass containers. Break-seal designs maintain complete sterility and prevent oxidation until the moment of application, ensuring maximum ingredient potency. This format perfectly suits treatment regimens featuring hyaluronic acid, vitamin C, retinol, and other sensitive compounds.",
+          "alt": "ampoules"
+        }
+      }
+    },
+    "hero": {
+      "titleLine1": "Cosmetic Packaging Solutions",
+      "titleLine2": "From Skincare to Fragrance",
+      "description": "Finding the right packaging isn't just about aesthetics—it's about protecting your formulation, delivering an exceptional user experience, and building lasting brand equity. Whether you're launching a vitamin C serum, a luxury perfume, or a sustainable body care line, Jarsking offers application-specific packaging solutions backed by 20+ years of manufacturing expertise and 30,000+ ready molds in stock."
+    },
+    "skincareHero": {
+      "title": "Premium Skincare Packaging Solutions for Beauty Brands",
+      "description": "Jarsking delivers premium skincare packaging that transforms beauty brands into market leaders. Our customizable solutions combine glass, plastic, and aluminum materials to create distinctive brand identities that capture consumer attention and drive sales. With over 20 years of packaging expertise, we understand that exceptional packaging protects product integrity while elevating brand perception in the competitive skincare market.",
+      "imageAlt": "skincare packaging set new design"
+    },
+    "partnerCTA": {
+      "title": "Partner With Packaging Experts",
+      "description1": "Selecting the right packaging partner impacts brand perception, product integrity, and customer satisfaction. Jarsking's expertise spans material selection, decoration capabilities, and global logistics to support brands from startup to enterprise scale. Our consultation process examines your formulation requirements, target market, and brand positioning to recommend optimal packaging solutions.",
+      "description2": "From initial sampling through production and fulfillment, we provide end-to-end support that simplifies your supply chain. Request samples today to experience the quality difference that elevates successful skincare brands.",
+      "buttonText": "Start Your Project"
+    },
+    "stats": {
+      "readyMoldsInStock": "Ready Molds in Stock",
+      "brandsServedGlobally": "Brands Served Globally",
+      "sampleProduction": "Sample Production",
+      "sampleProductionSuffix": "-Day",
+      "bottlesMonthCapacity": "Bottles/Month Capacity",
+      "bottlesMonthCapacitySuffix": " M",
+      "certifiedQuality": "Certified Quality"
+    },
+    "whyMatters": {
+      "title": "Why Application-Specific Packaging Matters",
+      "description": "Not all cosmetic packaging is created equal. The wrong container can compromise your formulation, frustrate your customers, and undermine your brand positioning. Application-specific packaging design accounts for four critical factors:",
+      "needHelp": "Need Help",
+      "reasons": {
+        "formulationCompatibility": {
+          "title": "Formulation \nCompatibility",
+          "description": "Chemical interactions between packaging materials and active ingredients can alter efficacy, color, or stability. We provide material compatibility guidance for every product type, from pH-sensitive formulations to photosensitive actives requiring UV-protected glass."
+        },
+        "applicationMethod": {
+          "title": "Application \nMethod",
+          "description": "A facial serum needs precision dispensing through a dropper or pump. A body lotion requires easy one-handed operation. The packaging format must match how consumers actually use your product."
+        },
+        "brandDifferentiation": {
+          "title": "Brand \nDifferentiation",
+          "description": "In crowded retail environments, packaging is your first opportunity to communicate brand values and quality positioning. Premium formulations deserve premium presentation."
+        },
+        "regulatoryCompliance": {
+          "title": "Regulatory \nCompliance",
+          "description": "Different cosmetic categories face different regulatory requirements. We provide comprehensive certifications (ISO9001, REACH, ROHS) and regulatory expertise across major markets."
+        }
+      }
+    },
+    "categories": {
+      "skincare": {
+        "title": "Skincare Packaging Solutions",
+        "description": "Skincare represents the fastest-growing segment in beauty, driven by consumers' increasing sophistication about active ingredients and formulation science."
+      },
+      "makeup": {
+        "title": "Makeup Packaging Solutions",
+        "description": "Makeup packaging serves dual functions: protecting formulations while delivering brand personality and color cosmetics' inherent sense of play and self-expression."
+      },
+      "fragrance": {
+        "title": "Fragrance Packaging Solutions",
+        "description": "Fragrance packaging transcends functionality—it's storytelling through glass, metal, and design. A perfume bottle is art."
+      },
+      "personalCare": {
+        "title": "Personal Care Packaging Solutions",
+        "description": "Personal care packaging prioritizes functionality, durability, and value across high-use, everyday products that withstand humid bathroom environments."
+      }
+    },
+    "productCard": {
+      "idealFor": "Ideal for:"
+    },
+    "sustainability": {
+      "title": "Sustainability Across All Applications",
+      "description": "Environmental responsibility is no longer optional—it's a business imperative. Jarsking integrates eco-friendly solutions across every application category.",
+      "gallery": {
+        "sustainablePackaging": "sustainable packaging",
+        "bambooCosmeticPackagingWholesale": "bamboo cosmetic packaging wholesale",
+        "squareAirlessCosmeticBottleForSerum": "square airless cosmetic bottle for serum",
+        "petgReplaceableLinerCreamContainer": "PETG replaceable liner cream container",
+        "aluminumSprayBottles": "aluminum spray bottles",
+        "refillableSkincareJarWholesaleManufacturer": "refillable skincare jar wholesale manufacturer",
+        "airlessShampooBottle": "airless shampoo bottle",
+        "calciumCarbonateLotionBottleWithPump": "calcium carbonate lotion bottle with pump",
+        "aluminumTubes": "aluminum tubes",
+        "pcrSkincareSet": "PCR skincare set",
+        "faceCreamGlassJarWithBambooLid": "Face Cream Glass Jar with Bamboo Lid",
+        "airlessJar": "airless jar"
+      },
+      "toggleItems": {
+        "glass": {
+          "title": "Glass: Original Sustainable Choice",
+          "content": "Infinitely recyclable without quality degradation. Chemically inert with no leaching. Premium perception justifies higher price points. Available across skincare, fragrance, and specialty treatments."
+        },
+        "pcrPlastic": {
+          "title": "PCR Plastic: Post-Consumer Recycled",
+          "content": "Reduces virgin plastic demand by up to 100%. Lower carbon footprint (30-70% less than virgin). Available in 30%, 50%, or 100% PCR content across all major formats."
+        },
+        "aluminum": {
+          "title": "Aluminum: Premium & Practical",
+          "content": "100% recyclable indefinitely without quality loss. Highest recycling rate among packaging materials (75% global avg). Excellent barrier properties. Available for luxury creams and deodorants."
+        },
+        "lightweighting": {
+          "title": "Lightweighting & Material Reduction",
+          "content": "Advanced engineering reduces material usage 20-30% without compromising protection. Lower transportation emissions, reduced raw material extraction, cost savings passed to customers."
+        },
+        "airlessPumpSystem": {
+          "title": "Airless Pump System",
+          "content": "Airless pump systems use vacuum technology to dispense product without air exposure, eliminating the need for chemical preservatives while protecting sensitive natural formulations from oxidation and contamination. These sustainable mechanisms maximize product lifespan, reduce waste with 95%+ evacuation rates, and support clean beauty goals through preservative-free, hygienic application from first use to last drop."
+        },
+        "refillableSystems": {
+          "title": "Refillable Systems",
+          "content": "The most sustainable packaging is used multiple times. Reduce waste by 80%+ with durable outer containers and replaceable inner cartridges. Available across jars, bottles, compacts, and tubes."
+        }
+      }
+    },
+    "moreCategories": {
+      "title": "More Categories for Your Packaging",
+      "needConsultation": "Need Consultation",
+      "cards": {
+        "byMaterials": {
+          "title": "By Materials",
+          "alt": "plain perfume bottle"
+        },
+        "byFunctions": {
+          "title": "By Functions",
+          "alt": "plastic bottles with various dispensers"
+        },
+        "byTypes": {
+          "title": "By Types",
+          "alt": "earthly tone skincare packaging"
+        },
+        "collections": {
+          "title": "Collections",
+          "alt": "dopamine airless packaging for skincare"
+        },
+        "childResistantPackaging": {
+          "title": "Child Resistant Packaging",
+          "alt": "cannabis packaging set"
+        },
+        "boxesBagsSupplies": {
+          "title": "Boxes, Bags, Supplies",
+          "alt": "cannabis paper box"
+        }
+      }
+    },
+    "products": {
+      "faceCreamJars": {
+        "title": "Face Cream Jars",
+        "description": "Face cream jars provide secure, airtight storage for emulsion-based formulations, protecting product integrity from first use to last application.",
+        "imageAlt": "frosting face cream jar",
+        "features": [
+          "Airtight sealing systems prevent contamination",
+          "Wide-mouth openings for easy access",
+          "Common Materials: Glass, PET, PP, Acrylic",
+          "Capacities: 15ml-200ml, custom"
+        ],
+        "idealFor": "Night creams, day creams, moisturizers, gel creams, water-gel formulations, anti-aging treatments"
+      },
+      "faceLotionBottles": {
+        "title": "Face Lotion Bottles",
+        "description": "Face lotion bottles protect delicate formulations while delivering controlled application for daily facial care routines.",
+        "imageAlt": "Wholesale HDPE lotion pump bottles",
+        "features": [
+          "Treatment pumps deliver precise dosing (0.5ml-2ml per pump)",
+          "Airless pump options prevent oxidation of active ingredients",
+          "Capacities: 30ml-200ml (common sizes: 50ml, 100ml, 150ml)",
+          "Ergonomic shapes for one-handed use"
+        ],
+        "idealFor": "Daily moisturizers, night creams, day creams with SPF, hydrating lotions, anti-aging treatments, gel-creams, tinted moisturizers"
+      },
+      "serumBottles": {
+        "title": "Serum Bottles",
+        "description": "Serum formulations contain concentrated actives at higher percentages, making packaging choice critical for efficacy preservation.",
+        "imageAlt": "glass serum bottles",
+        "features": [
+          "Dropper assemblies for precise dispensing",
+          "Amber/cobalt glass blocks UV rays (99%)",
+          "Capacities: 10ml-100ml (most common: 30ml, 50ml)",
+          "Airless pumps available"
+        ],
+        "idealFor": "Hyaluronic acid serums, vitamin C treatments, retinol solutions, niacinamide formulations, peptide concentrates, facial oils"
+      },
+      "glassVials": {
+        "title": "Glass Vials",
+        "description": "Glass vials provide hygienic packaging for concentrated skincare treatments and single-use applications. Ideal for high-potency formulations.",
+        "imageAlt": "serum vial",
+        "features": [
+          "Dropper dispensers for multiple uses",
+          "Break-off or twist-off closures for tamper-evident, single-use application",
+          "Small capacities: 1ml-10ml (most common: 2ml, 3ml, 5ml)",
+          "Individual or connected formats (multi-pack strips for treatment courses)"
+        ],
+        "idealFor": "Serum concentrates, vitamin C shots, retinol treatments, peptide ampoules, hyaluronic acid boosters, professional-grade actives"
+      },
+      "rollOnBottles": {
+        "title": "Roll-On Bottles",
+        "description": "Roll-on formats provide targeted, mess-free application across diverse personal care categories, from deodorants to therapeutic oils.",
+        "imageAlt": "roll on bottle for eye serum",
+        "features": [
+          "Rollerball assemblies: Glass, plastic, and metal options",
+          "Leak-proof designs critical for portability",
+          "Capacities: 15ml-75ml (deodorant standard: 50ml, 75ml)",
+          "Glass bottles for aromatherapy and natural formulations and plastic for deodorants"
+        ],
+        "idealFor": "Roll-on deodorants, cooling gel roll-ons, aromatherapy pulse point oils, insect repellent, pain relief gels"
+      },
+      "sprayBottles": {
+        "title": "Spray Bottles",
+        "description": "Spray bottles deliver even distribution through mist or stream application, ideal for facial care, body treatments, and wellness products.",
+        "imageAlt": "spray bottle design",
+        "features": [
+          "Fine mist sprayers create delicate, even coverage for facial application",
+          "Continuous spray options for body coverage",
+          "Trigger sprayers for thicker formulations",
+          "Capacities: 50ml-500ml (common sizes: 100ml, 150ml, 250ml)"
+        ],
+        "idealFor": "Facial mists, setting sprays, hair mists, body sprays, cooling sprays, aromatherapy sprays, linen refreshers"
+      },
+      "tonerBottles": {
+        "title": "Toner Bottles",
+        "description": "Toner bottles feature dispensing systems designed for controlled application and seamless integration into daily skincare routines.",
+        "imageAlt": "skincare bottle packaging for hydrating toner",
+        "features": [
+          "Disc-top caps for controlled, mess-free dispensing to cotton pad",
+          "Spray mist options for hydrating facial mists and essence sprays",
+          "Flip-top caps for one-handed operation",
+          "Capacities: 100ml-500ml (standard retail sizes: 150ml, 200ml, 250ml)"
+        ],
+        "idealFor": "Hydrating toners, exfoliating toners (AHA/BHA), pH-balancing toners, essence toners, facial mists, micellar water"
+      },
+      "sunscreenPackaging": {
+        "title": "Sunscreen Packaging",
+        "description": "Sunscreen packaging accommodates chemical stability under heat, moisture resistance, and easy application during outdoor activities.",
+        "imageAlt": "squeezable cosmetic tube sunscreen bottle",
+        "features": [
+          "High-barrier materials protect UV filters from degradation",
+          "Squeeze tubes with flip-top caps for beach-friendly application",
+          "Heat-resistant plastics maintain integrity in high temperatures",
+          "Capacities: 50ml-250ml, custom"
+        ],
+        "idealFor": "Chemical sunscreens, mineral sunscreens, spray sunscreens, sunscreen sticks, tinted sunscreens"
+      },
+      "foundationBottles": {
+        "title": "Foundation Bottles",
+        "description": "Foundation packaging has evolved from simple bottles to sophisticated dispensing systems that maintain hygiene and prevent oxidation.",
+        "imageAlt": "new design foundation bottles",
+        "features": [
+          "Airless pump eliminates air exposure",
+          "Treatment pumps for various viscosities",
+          "Glass dropper options for serum foundations",
+          "Capacities: 15ml-50ml (standard: 30ml)"
+        ],
+        "idealFor": "Liquid foundations, cushion foundation refills, serum foundations, tinted moisturizers, BB/CC creams"
+      },
+      "lipGlossTubes": {
+        "title": "Lip Gloss Tubes",
+        "description": "Lip gloss packaging combines precise application with visual appeal, featuring transparent components that showcase product shimmer.",
+        "imageAlt": "Eco-friendly lip gloss tube",
+        "features": [
+          "Wand applicators: curved, paddle, or brush",
+          "Custom shapes: Round, square, oval, uniquely branded",
+          "Transparent tubes showcase shade",
+          "Capacities: 3ml-15ml (standard: 5ml, 7ml)"
+        ],
+        "idealFor": "High-shine glosses, plumping glosses, tinted lip oils, liquid lipsticks, lip stains"
+      },
+      "mascaraTubes": {
+        "title": "Mascara Tubes",
+        "description": "Highly specialized packaging requiring airtight sealing to prevent formula drying and precise brush design for application effects.",
+        "imageAlt": "mascara tube",
+        "features": [
+          "Brush options: curved, straight, comb",
+          "Precision wipers control product amount",
+          "Airtight caps prevent formula drying (critical for water-based formulas)",
+          "Capacities: 5ml-15ml (standard: 8ml, 10ml)"
+        ],
+        "idealFor": "Volumizing mascara, lengthening mascara, curling mascara, waterproof mascara, lash primers"
+      },
+      "makeupRemovers": {
+        "title": "Makeup Removers",
+        "description": "Makeup remover bottles accommodate various formulation types, ensuring product integrity and user convenience.",
+        "imageAlt": "airless jar",
+        "features": [
+          "Pump dispensers deliver consistent dosing for liquid removers",
+          "Dropper options for concentrated oil-based and waterproof makeup removers",
+          "Airless pump systems available",
+          "Capacities: 50ml-250ml"
+        ],
+        "idealFor": "Micellar water, oil-based removers, bi-phase removers, makeup dissolving oils, eye makeup removers"
+      },
+      "perfumeBottles": {
+        "title": "Perfume Bottles",
+        "description": "Perfume bottles are where packaging becomes art. Every element communicates brand heritage and fragrance character.",
+        "imageAlt": "perfume bottle new design",
+        "features": [
+          "High-quality glass: Crystal-clear, colored, frosted, or coated options",
+          "Spray mechanisms: Fine mist, atomizers with varying spray patterns",
+          "Custom molding capabilities for unique bottle shapes",
+          "Capacities: 30ml-100ml (standard retail: 50ml, 75ml, 100ml)"
+        ],
+        "idealFor": "Eau de parfum, parfum concentration, eau de toilette, cologne"
+      },
+      "portableBottles": {
+        "title": "Portable Bottles",
+        "description": "Travel-size fragrance formats prioritize portability and TSA compliance (under 100ml) while maintaining the luxury perception of full-size bottles.",
+        "imageAlt": "portable perfume bottle",
+        "features": [
+          "Spray atomizers with protective caps",
+          "Rollerball applicators for purse-friendly formats",
+          "Elegant miniature aesthetics mirror full-size designs",
+          "Capacities: 5ml-30ml (TSA compliant)"
+        ],
+        "idealFor": "Travel sizes, discovery sets, sampling programs, purse atomizers"
+      },
+      "perfumeSamples": {
+        "title": "Perfume Samples",
+        "description": "Sample vials serve critical marketing functions—enabling fragrance discovery and driving full-size conversions. Presentation quality influences brand perception.",
+        "imageAlt": "perfume sample gift box",
+        "features": [
+          "Glass vials with spray or dab application",
+          "Plastic atomizers for cost-effective sampling",
+          "Capacities: 1ml-5ml",
+          "Sampling cards or packets for distribution"
+        ],
+        "idealFor": "Department store sampling, subscription boxes, promotional campaigns, discovery sets"
+      },
+      "essentialOilBottles": {
+        "title": "Essential Oil Bottles",
+        "description": "Essential oil bottles provide protection for highly concentrated botanical extracts that require shielding from light, air, and temperature fluctuations.",
+        "imageAlt": "green essential oil bottle",
+        "features": [
+          "Amber or cobalt glass provides 99%+ UV protection against light degradation",
+          "Droppers deliver consistent drop size (0.05ml per drop)",
+          "Chemical-resistant glass",
+          "Capacities: 5ml-100ml"
+        ],
+        "idealFor": "Pure essential oils, fragrance oils, carrier oil blends, massage oil concentrates, natural perfume oils"
+      },
+      "shampooConditionerBottles": {
+        "title": "Shampoo & Conditioner Bottles",
+        "description": "Hair care bottles face unique environmental challenges: moisture exposure, slippery handling, and frequent opening/closing. Design must balance moisture resistance with easy one-handed operation.",
+        "imageAlt": "plastic containers for shampoo",
+        "features": [
+          "Dispensing options: regular pump, airless pump, flip-top cap, disc-top, custom",
+          "Ergonomic shapes for wet-hand grip",
+          "Capacities: 200ml-1000ml (standard: 250ml, 500ml, 750ml)"
+        ],
+        "idealFor": "Shampoos, conditioners, co-wash products, hair masks, scalp treatments"
+      },
+      "bathBody": {
+        "title": "Bath & Body",
+        "description": "Body wash and lotion bottles require durable, moisture-resistant packaging with easy-dispensing mechanisms for whole-body application. Their non-slip designs for daily bathroom use.",
+        "imageAlt": "HDPE shampoo bottle",
+        "features": [
+          "Dispensing options: regular pump, airless pump, flip-top cap, disc-top, custom",
+          "Capacities: 250ml-1000ml (common sizes: 400ml, 500ml, 750ml)",
+          "Material options: HDPE for durability, PET for clarity, PCR plastics for sustainability"
+        ],
+        "idealFor": "Body washes, shower gels, body lotions, body milks, bubble bath, moisturizing creams, in-shower body conditioners"
+      },
+      "bodyButterJars": {
+        "title": "Body Butter Jars",
+        "description": "Body butter jars feature wide-mouth openings designed for thick, luxurious formulations that require easy scooping access.",
+        "imageAlt": "250g body scrub jar",
+        "features": [
+          "Wide-mouth designs (50mm-80mm diameter) for finger or spatula application",
+          "Thick-walled construction maintains product temperature stability",
+          "Capacities: 100ml-500ml (common sizes: 200ml, 250ml, 300ml)",
+          "Screw caps or snap-on lids ensure secure closure"
+        ],
+        "idealFor": "Whipped body butters, rich body balms, intensive moisturizers, massage butters, overnight body masks"
+      },
+      "foamPumpBottles": {
+        "title": "Foam Pump Bottles",
+        "description": "Foam pump technology transforms liquid formulations into rich lather, enhancing user experience while reducing product consumption per use (25-30% product savings).",
+        "imageAlt": "foam pump bottles",
+        "features": [
+          "Foaming pump mechanisms create rich, airy lather",
+          "Special formulation requirements (diluted surfactant solutions)",
+          "Capacities: 100ml-500ml",
+          "Refillable designs for sustainability"
+        ],
+        "idealFor": "Foaming hand soaps, foam cleansers, mousse-textured products, styling mousses, shaving foams"
+      }
+    }
+  },
+  "hero": {
+    "title": "Jarsking",
+    "description": "Professional cosmetic packaging manufacturer offering glass bottles, plastic jars, tubes, and custom packaging solutions for beauty brands worldwide.",
+    "button": "Get Custom Quote",
+    "videoBackground": "Video Background",
+    "reliablePackagingPartner": "Your Reliable Packaging Partner.",
+    "watchVideo": "Watch Video",
+    "turnkeyServiceAlt": "Turnkey Services for Your Brand",
+    "turnkeyTitle": "Turnkey Services for Your Brand",
+    "turnkeyDesc": "From design to delivery, tailored to elevate your brand. Whether you're in skincare, cosmetic, makeup, personal care, perfume, and pharmaceutical, we provide high-quality, custom packaging that meets your unique needs. Partner with us for seamless, end-to-end packaging services."
+  },
+  "home": {
+    "hero": {
+      "title": "Pack the Ordinary into Extraordinary",
+      "subtitle": "Jarsking Packaging is a premier full-service designer and manufacturer of packaging solutions, catering to both small and large production needs. We deliver innovative, high-quality, and cost-effective packaging with precision and consistency.",
+      "subtitle2": "Your Reliable Packaging Partner.",
+      "turnkeyTitle": "Turnkey Services for Your Brand",
+      "turnkeyDesc": "From design to delivery, tailored to elevate your brand. Whether you're in skincare, cosmetic, makeup, personal care, perfume, and pharmaceutical, we provide high-quality, custom packaging that meets your unique needs. Partner with us for seamless, end-to-end packaging services."
+    },
+    "certification": {
+      "title": "Certifications That Matter",
+      "description": "Internationally recognized certifications ensuring quality and compliance"
+    },
+    "serviceAdvantages": {
+      "title": "Why Choose Jarsking?",
+      "subtitle": "Your trusted partner for premium packaging solutions",
+      "freeDesign": {
+        "title": "Free Design and Samples",
+        "desc": "Jarsking offers free design and samples to ensure packaging meets your needs, giving you peace of mind."
+      },
+      "fastDesign": {
+        "title": "1hr from Concept to Design",
+        "desc": "Need a design fast? Jarsking can deliver your concept to design in just 1 hour, ensuring a quick start to your project."
+      },
+      "rendering": {
+        "title": "2hrs from Graphic to 3D Rendering",
+        "desc": "See your packaging come to life with 3D rendering, ready for review within 2 hours, so to make informed decisions."
+      },
+      "sampleProduction": {
+        "title": "3 Days Sample Production",
+        "desc": "Jarsking team can deliver physical samples in just 3 days, so you can quickly see your ideas come to life."
+      },
+      "urgentOrder": {
+        "title": "4 Days Urgent Bulk Order",
+        "desc": "Need a rush order? Jarsking delivers small bulk orders in just 4 days to meet your tight schedules."
+      },
+      "prototypeMolding": {
+        "title": "15 Days Prototype Molding",
+        "desc": "Jarsking specializes in creating precise prototype molds, with physical samples ready in 15 days for testing."
+      },
+      "bulkOrder": {
+        "title": "30-Day Bulk Order Completion",
+        "desc": "Jarsking's efficient process ensures bulk orders are completed within 30 days, keeping your product on track."
+      },
+      "readyMolds": {
+        "title": "30,000+ Ready Molds in Stock",
+        "desc": "With over 30,000 pre-designed molds in our factories, We offers extensive options to meet your needs."
+      },
+      "afterSales": {
+        "title": "2 Days After-Sales Solution Support",
+        "desc": "Jarsking is committed to customer satisfaction, offering after-sales support within 2 days if needed."
+      },
+      "ecoFriendly": {
+        "title": "Eco-Friendly Packaging",
+        "desc": "Select sustainable, recyclable, refillable, and biodegradable packaging to minimize environmental impact."
+      }
+    },
+    "productShowroom": {
+      "title": "Featured Products",
+      "subtitle": "Discover our premium packaging solutions",
+      "viewAllProducts": "View All Products"
+    },
+    "packagingSolutions": {
+      "title": "Packaging Solutions for Beauty, Care & Pharmacy",
+      "subtitle": "Custom packaging manufacturer specializing in sustainable design and one-stop solutions for diverse industry needs",
+      "categories": {
+        "personalCare": {
+          "name": "Personal Care",
+          "desc": "Bottles, tubes, and containers for hygiene, grooming, and body care products."
+        },
+        "cosmetics": {
+          "name": "Cosmetics",
+          "desc": "Jars, pumps, and compacts for skincare, creams, and treatment solutions."
+        },
+        "makeup": {
+          "name": "Makeup",
+          "desc": "Elegant tubes, palettes, and compact cases for color cosmetics and applicators."
+        },
+        "perfume": {
+          "name": "Perfume",
+          "desc": "Delicate bottles, sprayers, and vessels for liquid fragrances and scents."
+        },
+        "pharmaceutical": {
+          "name": "Pharmaceutical",
+          "desc": "Safety-sealed bottles and precise containers for medical treatment products."
+        },
+        "essentialOil": {
+          "name": "Essential Oil",
+          "desc": "Small dropper bottles, vials, and sealed containers for concentrated botanical extracts."
+        }
+      }
+    },
+    "giftBoxes": {
+      "title": "Turn Moments into Memories: Jarsking's Signature Gift Boxes",
+      "description": "Unwrap the magic of packaging with Jarsking's gift boxes that transform ordinary moments into extraordinary memories. Our design team specializes in creating unique, customizable boxes that capture the essence of celebration. We don't just create containers; we craft storytelling experiences that spark joy, surprise, and wonder across every holiday and special occasion. With limited-edition designs, premium materials, and personalized branding options, your brand's personality comes alive through our ingenious design, making every gift moment unforgettable.",
+      "button": "Request a Custom Quote"
+    },
+    "materialsSection": {
+      "title": "Customize Your Packaging from Choosing Materials",
+      "glass": {
+        "title": "Glass Bottles",
+        "description": "Offer eco-friendly, recyclable packaging for premium products, enhancing brand sustainability."
+      },
+      "plastic": {
+        "title": "Plastic Bottles",
+        "description": "Provide lightweight, durable, cost-effective solutions, ideal for diverse packaging needs."
+      },
+      "products": {
+        "cosmeticSet": "Cosmetic Set",
+        "storageJar": "Storage Jar",
+        "dropperBottle": "Dropper Bottle",
+        "perfumeBottle": "Perfume Bottle",
+        "shampooBottle": "Shampoo Bottle",
+        "pcrBottle": "PCR Bottle",
+        "airlessBottle": "Airless Bottle",
+        "sprayBottle": "Spray Bottle"
+      }
+    },
+    "whyPartner": {
+      "title": "Why Partner with Jarsking for Your Packaging Projects",
+      "subtitle": "Jarsking offers a diverse, hybrid solution for businesses of all sizes. With global reach, innovative design, and efficient manufacturing, we provide custom packaging tailored to your unique needs—fast, reliable, and with consistent quality.",
+      "accordion": {
+        "globalSupplyNetwork": {
+          "title": "Global Supply Network",
+          "desc": "Jarsking operates a robust global supply network with our own factories and trusted suppliers, offering seamless, one-stop packaging solutions. This integrated approach ensures we can meet diverse client needs efficiently, delivering high-quality packaging with reliable, smooth service to markets worldwide."
+        },
+        "rd": {
+          "title": "R&D",
+          "desc": "Jarsking offers expert consultation and advanced R&D, driving innovation in packaging design. Our team collaborates closely with clients, delivering custom solutions that merge technology and aesthetics. Benefit from our cutting-edge research, efficient processes, and industry-leading insights."
+        },
+        "customDesignExpertise": {
+          "title": "Custom Design Expertise",
+          "desc": "At Jarsking, our design expertise is unmatched, blending artistic flair with technical precision to create packaging solutions that captivate and perform. Our original approach transforms ideas into visually stunning, market-leading designs that elevate brand presence and consistently deliver exceptional functionality."
+        },
+        "manufacturingExcellence": {
+          "title": "Manufacturing Excellence",
+          "desc": "Jarsking's production capabilities ensure high-volume output with the ability to manufacture up to 15 million glassware bottles per month. Our expansive selection of molds allows us to create a wide range of designs and custom solutions, ensuring consistent quality and fast delivery for large-scale orders."
+        },
+        "strictQualityControl": {
+          "title": "Strict Quality Control",
+          "desc": "Jarsking maintains industry-leading quality standards through comprehensive inspections and international certifications, including ISO9000, BSCI, ROHS, CE, MSDS, LFGB, and REACH. Our quality control process ensures every packaging solution meets stringent compliance requirements and premium quality benchmarks."
+        },
+        "fastTurnaroundTimes": {
+          "title": "Fast Turnaround Times",
+          "desc": "With our headquarters in China and additional offices in the US and Dubai, Jarsking offers fast turnaround times and localized support. Our global presence enables us to efficiently manage production and logistics, ensuring timely delivery and seamless communication for clients across regions."
+        }
+      }
+    },
+    "ultimatePartner": {
+      "title": "Your Ultimate Packaging Partner",
+      "description": "Jarsking is your reliable manufacturer for custom luxury cosmetic packaging, high-end perfume bottles, and premium pharmaceutical containers. We offer a seamless, end-to-end solution—from packaging design and prototyping to mass production and delivery—helping you bring your vision to life effortlessly.",
+      "toggles": {
+        "globalReach": {
+          "title": "Global Reach, Local Expertise",
+          "content": "At Jarsking, we combine international presence with deep industry expertise to serve businesses worldwide. Our headquarters in Guangzhou, along with our factories in South China, ensure efficient manufacturing and quality control. With branches in Dubai and Los Angeles, we provide seamless support across markets with solutions tailored to regional needs."
+        },
+        "craftsmanship": {
+          "title": "Superior Craftsmanship",
+          "content": "We use high-quality glass, plastic, and sustainable materials to create durable, visually appealing packaging. Our design and engineering team blends innovation with functionality, and our strict quality control guarantees consistency and compliance with international standards."
+        },
+        "strengths": {
+          "title": "Our Strengths at a Glance",
+          "content": "Free 3D design in 1 hour. 6+ automated production lines. 10+ owned factories. 20+ years of professional experience. 40+ tons of glass bottles produced daily. 15,000,000 bottles every month, covering both popular and unique packaging designs."
+        },
+        "whyChoose": {
+          "title": "Why Choose Jarsking?",
+          "content": "End-to-end service from concept to delivery. Dedicated after-sales support. Tailored packaging solutions for perfume, skincare, and personal care. Strong design expertise that helps brands create innovative, eye-catching packaging. Trusted by 50,000+ brands."
+        }
+      },
+      "closing": "At Jarsking, we transform packaging into a powerful marketing tool to elevate your brand. Let's turn your vision into an extraordinary reality.",
+      "button": "Discover from Design Capabilities >"
+    },
+    "sustainableFuture": {
+      "title": "Let's Create a Sustainable Future Together",
+      "subtitle": "Grow your business with eco-friendly alternatives to packaging.",
+      "sections": {
+        "materialSourcing": {
+          "title": "Material Sourcing",
+          "description": "Our commitment to sustainable sourcing prioritizes recyclable materials including glass, PCR, and PLA. This strategy minimizes waste, lowers environmental impact, and fosters a circular economy to promote a greener future."
+        },
+        "structureEngineering": {
+          "title": "Structure Engineering",
+          "description": "We engineer innovative packaging structures featuring replaceable and refillable systems to reduce waste, extend product lifecycle, and enhance usability. Our designs promote environmental responsibility while offering sustainable, user-friendly solutions."
+        },
+        "esg": {
+          "title": "ESG",
+          "description": "Our ESG commitment drives environmental stewardship and social responsibility. We integrate sustainable strategies across operations, ensuring transparency, accountability, and long-term value creation while contributing to communities and preserving natural resources."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "What Our Customers Have to Say",
+      "items": {
+        "arna": {
+          "name": "Arna E",
+          "title": "CEO from a Cosmetic Company",
+          "text": "We are a cosmetic company located in Iceland. The product we buy is glass bottles for our skincare line. Yancy Zeng is our point of contact and she is absolutely amazing. She responds quickly, solves problems efficiently, and always supports us in every possible way. The glass bottles are high quality and the design is customized to our needs. We are highly satisfied."
+        },
+        "herbert": {
+          "name": "Herbert H",
+          "title": "Purchasing Manager from a Perfume Brand",
+          "text": "Outstanding supplier experience in China! I have worked with suppliers worldwide for over a decade, and my experience with Jarsking has been the best in China. Their transparent communication, problem-solving mindset, and commitment to timelines truly set them apart."
+        },
+        "benson": {
+          "name": "Benson O",
+          "title": "Manager from a Pet Food Company",
+          "text": "This was my first time working with Jarsking and I was truly impressed. I began with samples, and they got the design right quickly. The sample quality was excellent, and the final production quality exceeded my expectations."
+        },
+        "jill": {
+          "name": "Jill C",
+          "title": "Purchasing Manager from a Pharmaceutical Company",
+          "text": "Create your dream business with Jarsking! I had little experience at first, but the Jarsking team made everything possible. Together we created premium custom luxury bottles and child-resistant packaging. Their dedication to detail is exceptional."
+        },
+        "ivy": {
+          "name": "Ivy M",
+          "title": "CEO from a Niche Aromatherapy Brand",
+          "text": "I am more than impressed! Jarsking, especially Mayme, supported me throughout the entire journey. Their communication speed and ability to turn ideas into samples are rare. Thank you for helping me build my brand from scratch."
+        },
+        "danielle": {
+          "name": "Danielle A",
+          "title": "CEO from a Beauty Brand",
+          "text": "Beautiful bottles for my rebrand. I started working with Jarsking during a major packaging rebrand project. It took months of planning, and communication was excellent throughout. Sherry was proactive and incredibly helpful."
+        },
+        "josh": {
+          "name": "Josh M",
+          "title": "CEO from a Perfume Brand",
+          "text": "The Jarsking team provided top-notch service and clear, timely communication from start to finish. Every question was answered quickly, and the packaging quality exceeded expectations in materials, detailing, and craftsmanship."
+        },
+        "kianna": {
+          "name": "Kianna M",
+          "title": "Founder from a Skincare Lab",
+          "text": "Working with Sherry has been an absolute pleasure. She is detail-oriented, responsive, and patient at every stage. From complex timelines to invoice and shipment accuracy, her professionalism and commitment really stand out."
+        }
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": {
+        "moq": {
+          "q": "What is your minimum order quantity (MOQ)?",
+          "a": "Our MOQ depends on the product line and customization requirements. In most cases, MOQ is 5,000 pieces for glass containers and 10,000 pieces for plastic containers. Please contact our product specialists for specific MOQ details, and we will help you find the most suitable solution."
+        },
+        "belowMoq": {
+          "q": "Can you produce below MOQ?",
+          "a": "We generally recommend MOQ to balance setup costs and production efficiency. That said, we can support smaller quantities in selected scenarios. If you need samples or a trial run, please contact our sales team for tailored advice."
+        },
+        "leadTime": {
+          "q": "How long is the lead time?",
+          "a": "Typical lead time is about 10 to 30 business days, depending on packaging type, order quantity, and seasonality. Highly customized projects or additional processes may require slightly longer production time."
+        },
+        "recyclable": {
+          "q": "Are all products recyclable?",
+          "a": "Sustainability is a core focus at Jarsking. We offer a wide range of recyclable options, including glass, PCR plastic, and biodegradable materials such as PLA and bamboo. Recyclability may vary by local recycling infrastructure, and we can help you select the best eco-friendly options for your brand."
+        },
+        "sampleProof": {
+          "q": "Will I see a sample or design proof before production?",
+          "a": "Yes. Before mass production, we provide a detailed digital proof covering design, dimensions, color, and materials. If needed, we can also provide physical samples. Production starts only after your confirmation to ensure accuracy and satisfaction."
+        }
+      }
+    },
+    "newsSection": {
+      "title": "Jarsking News and Success Stories",
+      "subtitle": "Stay updated with Jarsking's latest news, industry insights, and packaging innovations. Our blog covers global forums, market trends, branding strategies, and sustainable packaging solutions.",
+      "categories": {
+        "news": "NEWS",
+        "successStory": "SUCCESS STORY",
+        "blog": "BLOG"
+      },
+      "items": {
+        "mjbizcon": "MJBizCon 2025: Why Las Vegas is the Must-Attend Cannabis Industry Event",
+        "cosmopackAsia": "Cosmopack Asia 2025: 4 Key Trends to Discover at the Jarsking Booth",
+        "cannafestPrague": "Cannafest Prague 2025: 7 Cannabis Trends to Watch",
+        "beautyworldMiddleEast": "Beautyworld Middle East 2025: Shaping the Future of Beauty Packaging",
+        "cosmoprofLasVegas": "US Beauty Industry Market Analysis X COSMOPROF Las Vegas 2025",
+        "cosmoprofBologna": "Jarsking's Eco-Friendly Packaging Innovations at COSMOPROF Bologna 2025"
+      }
+    },
+    "ctaSection": {
+      "hiringTitle": "Jarsking is Hiring Now!!! Let's Build the Future of Packaging",
+      "hiringButton": "Transfer Your Concept into 3D Demo in 1 HOUR!",
+      "moqText": "Since Jarsking is an established company, manufacturing scale matters. Therefore, MOQ for glass containers is 5,000 pieces and MOQ for plastic containers is 10,000 pieces."
+    }
+  },
+  "productDetail": {
+    "breadcrumb": "Products",
+    "customizeProduct": "Customize This Product",
+    "downloadSpec": "Download Spec Sheet",
+    "needHelp": "Need Help?",
+    "needHelpDesc": "Our team is ready to assist with your packaging requirements",
+    "viewDetails": "View Details",
+    "defaultCategory": "Cosmetic Packaging",
+    "relatedProducts": "Related Products",
+    "relatedProductsDesc": "Explore similar packaging solutions",
+    "tabs": {
+      "description": "Description",
+      "specifications": "Specifications",
+      "reviews": "Reviews",
+      "reviewsPlaceholder": "Customer reviews will be displayed here."
+    },
+    "specs": {
+      "noSpecs": "No specifications available.",
+      "priceRange": "Price Range",
+      "minimumOrder": "Minimum Order",
+      "pieces": "pieces",
+      "technicalSpecs": "Technical Specifications"
+    }
+  },
+  "collections": {
+    "breadcrumb": "Collections",
+    "hero": {
+      "title": "Curated",
+      "titleHighlight": "Collections",
+      "description": "Explore our carefully curated packaging collections, each designed to meet specific brand needs and market trends."
+    },
+    "viewCollection": "View Collection",
+    "items": {
+      "newDesign": {
+        "title": "New Design Collection",
+        "description": "Discover our latest innovative packaging designs, featuring cutting-edge aesthetics and functional improvements."
+      },
+      "refillable": {
+        "title": "Refillable Packaging",
+        "description": "Sustainable packaging solutions designed for the eco-conscious brand. Reduce waste without compromising on luxury."
+      }
+    }
+  },
+  "products": {
+    "breadcrumb": "Products",
+    "title": "All Cosmetic Packaging Products",
+    "description": "Browse our full collection from jarsking-crawl data source."
+  },
+  "sustainability": {
+    "breadcrumb": "Sustainability",
+    "hero": {
+      "badge": "Our Commitment",
+      "title": "Sustainable Packaging for a",
+      "titleHighlight": " Better Tomorrow",
+      "description": "At Jarsking, we believe that beautiful packaging should not come at the cost of our planet. Our commitment to sustainability drives every decision we make, from material selection to manufacturing processes.",
+      "button": "Explore Sustainable Products",
+      "imageAlt": "Sustainable Packaging"
+    },
+    "stats": {
+      "carbonReduction": "Carbon Reduction",
+      "recycledMaterials": "Recycled Materials",
+      "wasteToLandfill": "Waste to Landfill",
+      "wasteToLandfillValue": "Zero",
+      "renewableEnergy": "Renewable Energy"
+    },
+    "initiatives": {
+      "title": "Our Sustainability Initiatives",
+      "description": "Concrete actions we take to minimize our environmental footprint",
+      "recyclable": {
+        "title": "Recyclable Materials",
+        "description": "We prioritize recyclable and biodegradable materials in our product development, reducing environmental impact throughout the product lifecycle."
+      },
+      "water": {
+        "title": "Water Conservation",
+        "description": "Our manufacturing processes are optimized to minimize water usage, with closed-loop systems that recycle and purify water for reuse."
+      },
+      "energy": {
+        "title": "Renewable Energy",
+        "description": "Solar panels and energy-efficient equipment power our facilities, significantly reducing our carbon footprint."
+      },
+      "ecoPackaging": {
+        "title": "Eco-Friendly Packaging",
+        "description": "From production to delivery, we use sustainable packaging solutions that minimize waste and environmental impact."
+      }
+    },
+    "refillable": {
+      "title": "Refillable Packaging Collection",
+      "description": "Our refillable packaging solutions are designed to reduce waste and extend product lifecycle. By allowing consumers to refill their containers rather than discard them, we significantly reduce plastic consumption.",
+      "features": {
+        "modular": "Modular design for easy refilling",
+        "premium": "Premium materials that last longer",
+        "compatible": "Compatible with various refill formats",
+        "reduced": "Reduced packaging waste by up to 70%"
+      },
+      "button": "View Collection",
+      "imageAlt": "Refillable Packaging"
+    },
+    "cta": {
+      "title": "Join Us in Making a Difference",
+      "description": "Partner with us to create sustainable packaging solutions that protect both your products and our planet.",
+      "button": "Start Your Sustainable Journey"
+    }
+  },
+  "successStories": {
+    "breadcrumb": "Success Stories",
+    "hero": {
+      "title": "Success",
+      "titleHighlight": "Stories",
+      "description": "Discover how leading beauty brands have transformed their packaging and elevated their market presence with Jarsking solutions."
+    },
+    "labels": {
+      "challenge": "Challenge",
+      "solution": "Solution",
+      "result": "Result",
+      "viewSimilar": "View Similar Products"
+    },
+    "stories": {
+      "luxbeauty": {
+        "client": "LuxBeauty Brand",
+        "industry": "Premium Skincare",
+        "challenge": "Needed sustainable yet premium packaging for their new organic line.",
+        "solution": "Developed custom frosted glass bottles with bamboo caps, achieving 100% recyclable packaging.",
+        "result": "40% increase in brand perception scores and featured in Vogue Beauty Awards."
+      },
+      "glowell": {
+        "client": "GloWell Cosmetics",
+        "industry": "Clean Beauty",
+        "challenge": "Required refillable packaging system to support their zero-waste commitment.",
+        "solution": "Created innovative airless pump system with replaceable inner cartridges.",
+        "result": "Reduced packaging waste by 65% and won Sustainable Beauty Award 2023."
+      },
+      "essence": {
+        "client": "Essence Naturals",
+        "industry": "Aromatherapy",
+        "challenge": "Sought UV-protective packaging for light-sensitive essential oils.",
+        "solution": "Designed amber glass bottles with precision dropper caps and child safety features.",
+        "result": "Extended product shelf life by 18 months and achieved 99.5% customer satisfaction."
+      },
+      "purecare": {
+        "client": "PureCare Pharma",
+        "industry": "Dermocosmetics",
+        "challenge": "Needed medical-grade packaging that meets strict pharmaceutical standards.",
+        "solution": "Developed airless jars with dual-chamber technology for sensitive formulations.",
+        "result": "Obtained FDA approval and launched in 12 international markets within 6 months."
+      }
+    },
+    "testimonials": {
+      "title": "What Our Clients Say",
+      "subtitle": "Trusted by leading brands worldwide",
+      "items": {
+        "sarah": {
+          "quote": "Jarsking transformed our packaging from ordinary to extraordinary. Their attention to detail and quality is unmatched.",
+          "author": "Sarah Chen",
+          "role": "Product Director, LuxBeauty"
+        },
+        "michael": {
+          "quote": "The refillable packaging solution they developed helped us achieve our sustainability goals while reducing costs by 30%.",
+          "author": "Michael Torres",
+          "role": "CEO, GloWell Cosmetics"
+        },
+        "emma": {
+          "quote": "Working with Jarsking feels like having an extension of our own team. They truly understand our vision.",
+          "author": "Emma Williams",
+          "role": "Founder, Essence Naturals"
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to Write Your Success Story?",
+      "description": "Partner with us to create packaging solutions that drive real business results.",
+      "button": "Start Your Project"
+    }
+  },
+  "strategicPartner": {
+    "breadcrumb": "About",
+    "hero": {
+      "title": "Your Strategic Partner in",
+      "titleHighlight": " Cosmetic Packaging",
+      "description": "With over 15 years of experience, Jarsking has established itself as a leading manufacturer of premium cosmetic packaging solutions. We combine innovative design, sustainable practices, and uncompromising quality to help beauty brands bring their vision to life.",
+      "button": "Partner With Us",
+      "imageAlt": "Jarsking Factory"
+    },
+    "stats": {
+      "yearsExperience": "Years Experience",
+      "globalClients": "Global Clients",
+      "products": "Products",
+      "countriesServed": "Countries Served"
+    },
+    "values": {
+      "title": "Our Core Values",
+      "subtitle": "The principles that guide everything we do",
+      "quality": {
+        "title": "Quality Excellence",
+        "description": "ISO certified manufacturing with strict quality control standards ensuring every product meets international requirements."
+      },
+      "customer": {
+        "title": "Customer First",
+        "description": "Dedicated team providing personalized service from design consultation to after-sales support."
+      },
+      "global": {
+        "title": "Global Reach",
+        "description": "Serving beauty brands worldwide with reliable logistics and localized support across major markets."
+      },
+      "innovation": {
+        "title": "Innovation Driven",
+        "description": "Continuous R&D investment to bring cutting-edge packaging solutions that set trends in the industry."
+      }
+    },
+    "manufacturing": {
+      "title": "World-Class Manufacturing",
+      "description": "Our state-of-the-art production facilities span over 50,000 square meters, equipped with advanced injection molding, blow molding, and decoration technologies. We maintain strict quality control throughout the entire production process.",
+      "features": {
+        "iso": "ISO 9001 & ISO 14001 Certified",
+        "cleanroom": "100,000-grade clean production workshop",
+        "automated": "Automated production lines",
+        "rd": "In-house R&D laboratory"
+      },
+      "imageAlt": "Manufacturing Facility"
+    },
+    "cta": {
+      "title": "Ready to Start Your Project?",
+      "description": "Let us help you create packaging that elevates your brand and delights your customers.",
+      "button": "Get in Touch"
+    }
+  },
+  "essentialOil": {
+    "hero": {
+      "customService": "CUSTOM SERVICE",
+      "title": "ESSENTIAL OIL BOTTLES",
+      "breadcrumbHome": "Home",
+      "breadcrumbAll": "All Applications",
+      "breadcrumbCurrent": "Essential Oil Bottles"
+    },
+    "intro": {
+      "title": "Unlock One-Stop Solutions for Essential Oil Bottles Wholesale",
+      "description": "As a top-tier essential oil glass bottle manufacturer, Jarsking stands out by mastering three distinct sectors: bottle crafting, cap and pump production, and exquisite finishing. Only about 10% of factories can excel in all three areas simultaneously. With over 20 years of expertise, Jarsking integrates resources from more than 20 factories, meeting the essential oil packaging needs of over 10,000 brands worldwide.",
+      "button": "Unlock One-Stop Solutions Now!",
+      "imageAlt": "30ml Essential Oil Bottles"
+    },
+    "bottleTypes": {
+      "title": "Essential Oil Packaging Solutions: Choosing the Right Bottle for Every Application",
+      "description": "As a leading essential oil packaging manufacturer, we offer six versatile bottle types—dropper, spray, roller, airless pump, amber, and cannabis CRC bottles. Each serves a unique purpose, from precise dosing to UV protection, ensuring your essential oils are perfectly packaged for every application.",
+      "button": "Customize Your Collections Now!",
+      "items": {
+        "dropper": { "title": "Dropper Bottles", "description": "Dropper bottles allow precise dosing, making them ideal for essential oils used in aromatherapy, skincare, or healing treatments. Their controlled dispensing is perfect for adding oils to diffusers or applying small amounts directly to the skin." },
+        "spray": { "title": "Spray Bottles", "description": "Spray bottles are convenient for home fragrance, cleaning solutions, or personal misting. They allow easy application of diluted essential oils as room sprays, body mists, or surface cleaners, offering even distribution for refreshing spaces or creating custom blends." },
+        "roller": { "title": "Roller Bottles", "description": "Roller bottles are perfect for on-the-go applications, such as personal fragrances or topical essential oil blends. They allow for easy, controlled application to pulse points, ideal for relaxation, energy boosts, or skin treatments like headaches or stress relief." },
+        "airless": { "title": "Airless Pump Bottles", "description": "Airless pump bottles are suited for skincare products, as they protect essential oil blends from air exposure, keeping them fresh. They're ideal for lotions, serums, or oil blends that need clean, precise dispensing without contamination or oxidation." },
+        "cannabis": { "title": "Cannabis Dropper Bottles", "description": "Cannabis/CBD dropper bottles with child-resistant caps ensure both safety and precision. Designed to prevent accidental access, these bottles offer secure storage for CBD oils while allowing users to dispense the right amount, making them ideal for cannabis products." },
+        "amber": { "title": "Amber Bottles", "description": "Amber bottles provide UV protection, making them essential for preserving the potency of light-sensitive essential oils. They're ideal for storing oils in bulk or in smaller quantities, protecting against light degradation, ensuring long-term efficacy and stability." }
+      }
+    },
+    "supplierAdvantages": {
+      "title": "Superior Solutions by Expert Essential Oil Bottles Suppliers",
+      "items": {
+        "materials": { "title": "Wide selection of quality materials", "description": "In the realm of essential oil packaging, material choice is paramount to prevent reactions between the packaging and the oils. Glass is our top recommendation due to its inert nature. However, we also offer high-quality plastic alternatives for specific needs, ensuring your essential oils remain pure and potent.", "button": "Tell Us Your Need" },
+        "caps": { "title": "Various Options of Caps and Pumps", "description": "In our bulk essential oil bottle offerings, we understand that selecting the right cap is just as important as choosing the right bottle. The cap you choose can make a big difference in the overall functionality and user experience of the product. That's why we provide a wide range of cap options to suit various needs.", "button": "Customize Your Caps Now!" },
+        "precision": { "title": "Precision in Manufacturing", "description": "Our glass bottles are known for their superior chemical stability, high pressure resistance, and excellent sealing properties, ensuring your essential oils remain protected and unaltered. To guarantee the highest quality, we employ rigorous testing at every stage of production.", "button": "Get OEM Solutions Now!" },
+        "harmony": { "title": "Perfect Harmony: Style Meets Protection", "description": "Our essential oil bottles are meticulously designed to protect the sensitive nature of essential oils, which can degrade when exposed to light, oxygen, or temperature fluctuations. To ensure both protection and visual appeal, we offer a range of bottle designs that combine functionality with aesthetics.", "button": "Unlock Perfect Solutions Now!" }
+      }
+    },
+    "designCrafts": {
+      "title": "Customizing the Design Crafts for Essential Oil Bottles",
+      "description": "We take pride in our diverse and proven processing technologies as a custom glass container manufacturer. From frosting and silkscreen to metallization, lacquering, hot stamping, and tinting. Take a look at our craftsmanship below.",
+      "button": "Customize Your Collections Now!",
+      "items": {
+        "frosting": { "title": "Frosting", "description": "Frosting adds a smooth, matte finish to glass surfaces, creating a soft, elegant appearance while providing a subtle texture." },
+        "silkscreen": { "title": "Silkscreen Printing", "description": "Silkscreen printing applies detailed logos or designs directly onto glass using ink, offering a precise and durable decoration method." },
+        "metallization": { "title": "Metallization", "description": "Metallization coats glass surfaces with a thin metallic layer, giving a shiny, reflective appearance that enhances luxury appeal." },
+        "lacquering": { "title": "Lacquering", "description": "Lacquering adds a colored or clear glossy coating to glass, providing a sleek, polished look while adding a layer of protection." },
+        "hotStamping": { "title": "Hot Stamping", "description": "Hot stamping uses heat and foil to imprint metallic or colored designs on glass, adding a high-end, embossed look." },
+        "tinting": { "title": "Tinting", "description": "Tinting adds color to glass bottles, enhancing UV protection while offering a customizable aesthetic for branding." }
+      }
+    },
+    "customDesigns": {
+      "title": "Expert Custom Designs in Wholesale Essential Oil Bottles",
+      "items": {
+        "diverse": { "title": "Diverse Custom Options", "description": "Explore our samples and vast customization options. From color, volume, shape, to material, we offer tailored solutions for all your needs." },
+        "creative": { "title": "Creative Designer Team", "description": "Our team boasts over 20 professional designers, offering a diverse range of design styles to meet your unique needs." },
+        "rapid": { "title": "Rapid Design Innovation", "description": "Our design process is swift, achieving product design and 3D mockup in as fast as 4 hours, streamlining your project timeline efficiently." }
+      }
+    },
+    "marketableGuides": {
+      "title": "What Makes Marketable Essential Oil Bottles",
+      "items": {
+        "premium": { "title": "Premium Materials", "description": "Sourcing premium materials is crucial for manufacturing durable essential oil bottles that offer superior protection and preserve product integrity. At Jarsking, we prioritize high-quality glass, metal, and sustainable materials to ensure every bottle meets the highest standards of durability and safety." },
+        "environment": { "title": "We Care the Environment", "description": "Cosmetic and beauty packaging companies are increasingly expected to adopt sustainable practices to protect the environment. At Jarsking, part of our commitment to reducing our carbon footprint involves using eco-friendly materials and processes in our essential oil bottle manufacturing." },
+        "design": { "title": "Attractive Designs", "description": "Design matters because your essential oil bottle and essential oil packaging boxes are often the first points of contact between your brand and potential customers. They're not just containers—they're powerful marketing tools that can make or break a sale." },
+        "performance": { "title": "For Best Performance", "description": "Enhancing the functionality of your essential oil bottles can significantly improve the user experience for your target audience. For instance, dropper bottles provide precise dosing, ideal for aromatherapy and skincare applications." }
+      }
+    },
+    "productGrid": {
+      "title": "Selections from Essential Oil Glass Bottle Manufacturers",
+      "materialType": "Material Type",
+      "filterAll": "All",
+      "filterGlass": "Glass"
+    }
+  },
+  "faceCreamJars": {
+    "hero": {
+      "customService": "CUSTOM SERVICE",
+      "title": "FACE CREAM JARS",
+      "breadcrumbHome": "Home",
+      "breadcrumbAll": "All Applications",
+      "breadcrumbCurrent": "Face Cream Jars"
+    },
+    "intro": {
+      "title": "Customize Your Skincare Brand with Jarsking Packaging",
+      "description": "With Jarsking, you're the artist, and our jars are your canvas. Choose from a palette of materials, finishes, and decorative techniques to craft a vessel that's as unique as your formulation. Want a frosted glass jar with gold hot-stamping? A sleek acrylic container with a custom Pantone color? An eco-friendly bamboo-lidded jar that speaks to your sustainability values? We make it happen. Our in-house design team works closely with you to bring your vision to life, ensuring every detail—from the curve of the jar to the click of the cap—reflects your brand's identity.",
+      "imageAlt": "cosmetic jar manufacturers"
+    },
+    "designCrafts": {
+      "title": "Customizing the Cream Jar Design Crafts to Enhance your Brand Identity",
+      "button": "Customize Your Design Crafts Now!",
+      "items": {
+        "frosting": { "title": "Frosting", "description": "Frosting adds a smooth, matte finish to glass surfaces, creating a soft, elegant appearance while providing a subtle texture." },
+        "silkscreen": { "title": "Silkscreen Printing", "description": "Silkscreen printing applies detailed logos or designs directly onto glass using ink, offering a precise and durable decoration method." },
+        "metallization": { "title": "Metallization", "description": "Metallization coats glass surfaces with a thin metallic layer, giving a shiny, reflective appearance that enhances luxury appeal." },
+        "lacquering": { "title": "Lacquering", "description": "Lacquering adds a colored or clear glossy coating to glass, providing a sleek, polished look while adding a layer of protection." },
+        "hotStamping": { "title": "Hot Stamping", "description": "Hot stamping uses heat and foil to imprint metallic or colored designs on glass, adding a high-end, embossed look." },
+        "iridescence": { "title": "Iridescence", "description": "Iridescence on glass creates a shimmering, rainbow-like effect, enhancing visual appeal with its vibrant, dynamic color shifts." }
+      }
+    },
+    "productGrid": {
+      "title": "Material Type",
+      "filterAll": "All",
+      "filterGlass": "Glass",
+      "filterPlastic": "Plastic"
+    }
+  },
+  "lotionBottles": {
+    "hero": {
+      "customService": "CUSTOM SERVICE",
+      "title": "BODY LOTION BOTTLES",
+      "breadcrumbHome": "Home",
+      "breadcrumbAll": "All Applications",
+      "breadcrumbCurrent": "Body Lotion Bottles"
+    },
+    "intro": {
+      "title": "Manufacturer of Body Lotion Bottles - Custom Packaging Solutions",
+      "description": "Jarsking delivers professional-grade body lotion containers engineered for optimal product preservation, user convenience, and brand differentiation. Our body lotion bottles are designed to meet the demands of modern personal care brands, combining advanced material science with customizable aesthetics.",
+      "imageAlt": "airless body lotion bottle"
+    },
+    "dispensing": {
+      "title": "Dispensing Systems for Body Lotion Bottles",
+      "description": "When it comes to body lotion, the right dispensing system is key for a convenient and effective user experience. The choice of dispenser often depends on the lotion's viscosity, the need to protect the formula, and the desired user interaction.",
+      "items": {
+        "lotionPumps": "Lotion Pumps",
+        "airlessPumps": "Airless Pumps",
+        "discTop": "Disc Top Caps",
+        "flipTop": "Flip Top Caps"
+      }
+    },
+    "manufacturing": {
+      "items": {
+        "proven": "Proven Manufacturing Excellence",
+        "advanced": "Advanced Material Science",
+        "endToEnd": "End-to-End Customization",
+        "quality": "Comprehensive Quality Systems"
+      }
+    },
+    "materials": {
+      "title": "Body Lotion Bottles by Materials",
+      "button": "Customization Starts from Here"
+    },
+    "qualityTests": {
+      "title": "Quality Tests for Body Lotion/Shampoo Bottles",
+      "description": "Strict quality testing is fundamental for personal care packaging, ensuring products meet exacting standards for safety, durability, performance, and visual appeal. Each container undergoes rigorous assessment protocols that verify material integrity, closure effectiveness, and decoration permanence before reaching your production line.",
+      "button": "Talk to Our Representatives"
+    },
+    "bottleFinishes": {
+      "title": "Present Your Brand with Custom Bottle Finishes",
+      "description": "Discover how custom lotion bottle finishes can transform your personal care packaging and enhance brand perception. From glossy and matte surfaces to eco-friendly bamboo options, the appealing finish is a key factor in attracting consumers and building brand loyalty.",
+      "button": "Customize Your Collections Now!",
+      "items": {
+        "glossy": { "title": "Glossy Finishes", "description": "High-gloss coatings enhance visual elements with light reflection properties that emphasize vivid colors and create eye-catching shelf presence. Glossy finishes work excellently with silk screen printing and specialized printing techniques for custom cosmetic packaging. These surfaces stand out in competitive retail environments while supporting premium body lotion brand positioning." },
+        "frosting": { "title": "Frosting", "description": "Semi-transparent matte effects create matte appearances through different application methods depending on bottle material. Plastic bottles achieve frosting through injection molding or spraying, while glass containers utilize acid etching or spray application. Frosting provides elegant appearance with enhanced tactility while reducing light reflection for stable product presentation." },
+        "metallization": { "title": "Metallization", "description": "Metallic coating application through electrolysis creates high-gloss metallic surfaces with exceptional durability. Electroplating offers versatile metal colors and textures including brushed effects while providing superior resistance to wear and corrosion compared to ink printing. This finish transforms plastic body lotion bottles into luxury-appearing containers with enhanced tactile appeal." },
+        "silkscreen": { "title": "Silkscreen Printing", "description": "Multi-color graphic application directly onto bottle surfaces enables precise logo placement and brand messaging. Silk screening provides color vibrancy while offering cost structures independent of order quantity, calculated based on color count and printing surfaces. This technique excels for body lotion bottles requiring brand graphics and regulatory information display." },
+        "hotStamping": { "title": "Hot Stamping", "description": "Metallic foil application creates premium accents and luxury brand elements through heated transfer processes. Hot stamping delivers brilliant metallic finishes in gold, silver, and custom colors while providing superior adhesion and wear resistance. This technique particularly enhances premium body lotion packaging seeking sophisticated market positioning." },
+        "holographic": { "title": "Holographic and Glitter", "description": "Multi-dimensional holographic effects and vibrant sparkle finishes create eye-catching presentations particularly popular in younger demographic market segments today. These decorative finishes consistently provide unique retail shelf appeal while supporting trendy brand positioning for premium body lotion products targeting fashion-conscious consumers." },
+        "bamboo": { "title": "Bamboo and Wood Finishes", "description": "Bamboo and Wood Finishes offer a natural, rustic aesthetic with eco-friendly appeal in personal care packaging. This sustainable material has gained popularity among environmentally conscious brands. The unique texture and grain of bamboo creates a premium appearance that perfectly complements products containing natural or organic ingredients." }
+      }
+    }
+  },
+  "shared": {
+    "certifications": {
+      "defaultTitle": "Certified Empty Cosmetic Bottle Manufacturer",
+      "defaultButton": "Contact Certified Cosmetic Bottles Supplier Now!"
+    },
+    "fullCycleSolution": {
+      "title": "A Full-Cycle Solution for Cosmetic Packaging",
+      "steps": {
+        "concept": "From Concept to Demo",
+        "molding": "In-House Molding",
+        "manufacturing": "Turnkey Manufacturing"
+      }
+    },
+    "qualityInspections": {
+      "title": "Premium China Cosmetic Bottle Factory with Strict 5-Stage Inspections",
+      "description": "At Jarsking, every cosmetic bottle is subjected to comprehensive chemical and physical tests, such as torque, alcohol resistance, abrasion testing, etc. These stringent evaluations ensure long-lasting durability, product compatibility, and exceptional quality, guaranteeing that our packaging meets the highest industry standards for performance and reliability.",
+      "button": "Get High Quality Cosmetic Bottles Here"
+    },
+    "wholesaleSolutions": {
+      "title": "One-stop Wholesale Cosmetic Bottles Solutions",
+      "description1": "In the cosmetic glass packaging industry, three key areas stand out: glass bottle manufacturing, cap and pump production, and bottle surface crafting. However, it's uncommon for a single factory to master all three while maintaining both high quality and cost efficiency—only around 10% are capable of achieving this.",
+      "description2": "Jarsking is part of this elite group of top cosmetic bottle manufacturers. With more than 20 years in this field, we integrate resources from over 20 factories, satisfying the cosmetic packaging needs of 10,000+ brands with widespread approval."
+    }
+  },
+  "ppRefillableJar": {
+    "hero": {
+      "title": "PP Refillable Cosmetic Jar with Replaceable Inner Cup",
+      "description": "Jarsking's PP refillable cosmetic jar with a replaceable inner cup is built for skincare brands that need cleaner refills, secure sealing, and premium shelf impact. The multi-part structure supports OEM/ODM customization, including injection color matching and branded decoration. Ideal for face cream, body butter, and mask formulas in bulk production.",
+      "features": [
+        "Multi-component jar: cover, disc, inner cup, outer PP bottle.",
+        "Replaceable PP inner container supports refill programs and hygiene control.",
+        "Well-sealed plastic disc helps prevent leakage during shipping.",
+        "Two capacities available: 110g and 240g for product line extensions.",
+        "Defined \"printing area\" for consistent logo and compliance text placement."
+      ],
+      "meetTeam": "Meet Jarsking Team",
+      "customize": "Customize This Product"
+    },
+    "productDetails": {
+      "title": "PRODUCT DETAILS",
+      "productName": "Product Name",
+      "productNameValue": "PP Refillable Cosmetic Jar with Replaceable Inner Cup",
+      "capacity": "Capacity",
+      "color": "Color",
+      "colorValue": "Customized",
+      "material": "Material",
+      "materialValue": "PP outer and inner core",
+      "use": "Use",
+      "useValue": "personal care and cosmetic brands.",
+      "moq": "MOQ",
+      "deliveryPacking": "Delivery Packing",
+      "deliveryPackingValue": "Standard export carton packing",
+      "surfaceTreatment": "Surface Treatment",
+      "surfaceTreatmentValue": "Silk screen, frosting, electroplating, color coating, 3D printing, hot stamping"
+    },
+    "packagingSuggestion": {
+      "title": "Packaging Suggestion:",
+      "clientProfile": "The Client Profile: A trend-forward skincare brand building a bright, efficacy-led \"problem/solution\" range for Vitamin C creams and blackhead removal masks, targeting Gen Z / young millennial buyers across DTC and retail. They needed packaging that looks modern on-shelf and consistent across multiple SKUs for scalable rollout.",
+      "challenge": "The Challenge:",
+      "challengeText": "The brand struggled with crowded shelves and short attention spans: labels looked \"same as everyone,\" and product benefits didn't read instantly from 1–2 meters away. They also needed fast sampling for launch timelines and a packaging system that could keep visual consistency while differentiating formulas by color.",
+      "solution": "The Jarsking Solution:",
+      "solutionText": "Jarsking developed a custom jar program optimized for high-impact typography and color-block differentiation—deep blue jars for \"CREAM\" SKUs and vivid yellow for \"MASK,\" paired with bold, legible decoration for immediate benefit communication (e.g., Vitamin C / blackhead focus). The clean cylindrical form supports premium photography, strong stacking displays, and consistent branding across a full regimen set. With OEM/ODM execution for bulk production, the client could standardize the jar silhouette while updating color + print for new drops, improving shelf recognition and speeding SKU expansion."
+    }
+  },
+  "thickBaseGlass": {
+    "hero": {
+      "title": "Thick-Base Glass Lotion Pump Bottle for Luxury Skincare Brands"
+    }
+  },
+  "sustainableAirless": {
+    "hero": {
+      "title": "Sustainable Refillable Airless Pump Face Cream Jar For Baby Care Brand"
+    }
+  },
+  "diy": {
+    "breadcrumb": "DIY Customization",
+    "title": "DIY Customization",
+    "description": "Customize your packaging with our intuitive 3D designer. Choose shape, material, color, and add your brand logo.",
+    "backToProduct": "Back to Product Details",
+    "saveDesign": "Save Design",
+    "share": "Share",
+    "exportConfig": "Export Config",
+    "requestQuote": "Request Quote",
+    "designTips": "Design Tips",
+    "tip1": "Choose materials that complement your product type",
+    "tip2": "Consider the ergonomics and user experience",
+    "tip3": "Ensure your logo placement is visible and aligned",
+    "tip4": "Test different color combinations to find the perfect match"
+  },
+  "footer": {
+    "about": {
+      "title": "About Jarsking",
+      "description": "Professional cosmetic packaging manufacturer offering glass bottles, plastic jars, tubes, and custom packaging solutions for beauty brands worldwide."
+    },
+    "quickLinks": {
+      "title": "Quick Links",
+      "home": "Home",
+      "about": "About Us",
+      "products": "Products"
+    },
+    "categories": {
+      "title": "Product Categories",
+      "skincare": "Skincare",
+      "glass": "Glass",
+      "plastic": "Plastic",
+      "tubes": "Tubes",
+      "refillable": "Refillable"
+    },
+    "contact": {
+      "title": "Contact Info",
+      "emailLabel": "Email",
+      "phoneLabel": "Phone",
+      "phone": "+86 139 2271 2026",
+      "addressLabel": "Address",
+      "address": "Guangzhou, Guangdong, China"
+    },
+    "newsletter": {
+      "title": "Subscribe to Our Newsletter",
+      "description": "Get the latest updates and offers",
+      "placeholder": "Enter your email",
+      "button": "Subscribe"
+    },
+    "copyright": " 2024 Jarsking. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "sitemap": "Sitemap"
+  }
+}

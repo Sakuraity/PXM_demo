@@ -1,6 +1,11 @@
+'use client'
+
 import Image from 'next/image'
+import { useTranslation } from 'react-i18next'
 
 export default function ProductDetails() {
+  const { t } = useTranslation()
+
   return (
     <section className="relative overflow-hidden">
       {/* Background color with overlay */}
@@ -23,32 +28,32 @@ export default function ProductDetails() {
           {/* Right: Product Details — ~60% with left margin */}
           <div className="lg:w-[60%] py-12 px-8 lg:ml-[70px] lg:pr-[8%] flex flex-col justify-center">
             <h2 className="text-[40px] lg:text-[50px] font-medium text-[#FFF8F8] mb-8 leading-[1.2]">
-              PRODUCT DETAILS
+              {t('ppRefillableJar.productDetails.title', { defaultValue: 'PRODUCT DETAILS' })}
             </h2>
             <div className="text-white text-[17px] font-light leading-[31px] space-y-1">
               <p>
-                <strong className="font-semibold">Product Name:</strong> PP Refillable Cosmetic Jar with Replaceable Inner Cup
+                <strong className="font-semibold">{t('ppRefillableJar.productDetails.productName', { defaultValue: 'Product Name' })}:</strong> {t('ppRefillableJar.productDetails.productNameValue', { defaultValue: 'PP Refillable Cosmetic Jar with Replaceable Inner Cup' })}
               </p>
               <p>
-                <strong className="font-semibold">Capacity:</strong> 110g, 240g
+                <strong className="font-semibold">{t('ppRefillableJar.productDetails.capacity', { defaultValue: 'Capacity' })}:</strong> 110g, 240g
               </p>
               <p>
-                <strong className="font-semibold">Color:</strong> Customized
+                <strong className="font-semibold">{t('ppRefillableJar.productDetails.color', { defaultValue: 'Color' })}:</strong> {t('ppRefillableJar.productDetails.colorValue', { defaultValue: 'Customized' })}
               </p>
               <p>
-                <strong className="font-semibold">Material:</strong> PP outer and inner core
+                <strong className="font-semibold">{t('ppRefillableJar.productDetails.material', { defaultValue: 'Material' })}:</strong> {t('ppRefillableJar.productDetails.materialValue', { defaultValue: 'PP outer and inner core' })}
               </p>
               <p>
-                <strong className="font-semibold">Use:</strong> personal care and cosmetic brands.
+                <strong className="font-semibold">{t('ppRefillableJar.productDetails.use', { defaultValue: 'Use' })}:</strong> {t('ppRefillableJar.productDetails.useValue', { defaultValue: 'personal care and cosmetic brands.' })}
               </p>
               <p>
-                <strong className="font-semibold">MOQ:</strong> 10000pcs
+                <strong className="font-semibold">{t('ppRefillableJar.productDetails.moq', { defaultValue: 'MOQ' })}:</strong> 10000pcs
               </p>
               <p className="pt-2">
-                <strong className="font-semibold">Delivery Packing:</strong> Standard export carton packing
+                <strong className="font-semibold">{t('ppRefillableJar.productDetails.deliveryPacking', { defaultValue: 'Delivery Packing' })}:</strong> {t('ppRefillableJar.productDetails.deliveryPackingValue', { defaultValue: 'Standard export carton packing' })}
               </p>
               <p className="pt-2">
-                <strong className="font-semibold">Surface Treatment:</strong> Silk screen, frosting, electroplating, color coating, 3D printing, hot stamping
+                <strong className="font-semibold">{t('ppRefillableJar.productDetails.surfaceTreatment', { defaultValue: 'Surface Treatment' })}:</strong> {t('ppRefillableJar.productDetails.surfaceTreatmentValue', { defaultValue: 'Silk screen, frosting, electroplating, color coating, 3D printing, hot stamping' })}
               </p>
             </div>
           </div>

@@ -1,4 +1,7 @@
+'use client'
+
 import Breadcrumb from '@/components/layout/Breadcrumb'
+import { useTranslation } from 'react-i18next'
 import HeroSection from './HeroSection'
 import ProductDetails from './ProductDetails'
 import ImageGallery from './ImageGallery'
@@ -69,9 +72,10 @@ const MORE_PRODUCTS = [
 ]
 
 export default function SustainableRefillableAirlessPumpPage() {
+  const { t } = useTranslation()
   const breadcrumbItems = [
-    { label: 'Home', href: '/' },
-    { label: 'Sustainable Refillable Airless Pump Face Cream Jar For Baby Care Brand' },
+    { label: t('common.home', { defaultValue: 'Home' }), href: '/' },
+    { label: t('sustainableAirless.hero.title', { defaultValue: 'Sustainable Refillable Airless Pump Face Cream Jar For Baby Care Brand' }) },
   ]
 
   return (

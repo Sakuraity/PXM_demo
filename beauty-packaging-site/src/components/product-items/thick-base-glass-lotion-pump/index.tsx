@@ -1,4 +1,7 @@
+'use client'
+
 import Breadcrumb from '@/components/layout/Breadcrumb'
+import { useTranslation } from 'react-i18next'
 import HeroSection from './HeroSection'
 import ProductDetails from './ProductDetails'
 import ImageGallery from './ImageGallery'
@@ -69,9 +72,10 @@ const MORE_PRODUCTS = [
 ]
 
 export default function ThickBaseGlassLotionPumpPage() {
+  const { t } = useTranslation()
   const breadcrumbItems = [
-    { label: 'Home', href: '/' },
-    { label: 'Thick-Base Glass Lotion Pump Bottle for Luxury Skincare Brands' },
+    { label: t('common.home', { defaultValue: 'Home' }), href: '/' },
+    { label: t('thickBaseGlass.hero.title', { defaultValue: 'Thick-Base Glass Lotion Pump Bottle for Luxury Skincare Brands' }) },
   ]
 
   return (

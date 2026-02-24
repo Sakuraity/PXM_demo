@@ -1,23 +1,29 @@
+"use client"
+
+import { useTranslation } from 'react-i18next'
+
 const reasons = [
   {
-    title: 'Formulation \nCompatibility',
-    description: 'Chemical interactions between packaging materials and active ingredients can alter efficacy, color, or stability. We provide material compatibility guidance for every product type, from pH-sensitive formulations to photosensitive actives requiring UV-protected glass.',
+    titleKey: 'allApplications.whyMatters.reasons.formulationCompatibility.title',
+    descriptionKey: 'allApplications.whyMatters.reasons.formulationCompatibility.description',
   },
   {
-    title: 'Application \nMethod',
-    description: 'A facial serum needs precision dispensing through a dropper or pump. A body lotion requires easy one-handed operation. The packaging format must match how consumers actually use your product.',
+    titleKey: 'allApplications.whyMatters.reasons.applicationMethod.title',
+    descriptionKey: 'allApplications.whyMatters.reasons.applicationMethod.description',
   },
   {
-    title: 'Brand \nDifferentiation',
-    description: 'In crowded retail environments, packaging is your first opportunity to communicate brand values and quality positioning. Premium formulations deserve premium presentation.',
+    titleKey: 'allApplications.whyMatters.reasons.brandDifferentiation.title',
+    descriptionKey: 'allApplications.whyMatters.reasons.brandDifferentiation.description',
   },
   {
-    title: 'Regulatory \nCompliance',
-    description: 'Different cosmetic categories face different regulatory requirements. We provide comprehensive certifications (ISO9001, REACH, ROHS) and regulatory expertise across major markets.',
+    titleKey: 'allApplications.whyMatters.reasons.regulatoryCompliance.title',
+    descriptionKey: 'allApplications.whyMatters.reasons.regulatoryCompliance.description',
   },
 ]
 
 export default function WhyMatters() {
+  const { t } = useTranslation()
+
   return (
     <section className="relative w-full bg-[#f5f0ed]">
       <div className="max-w-[1440px] mx-auto">
@@ -28,17 +34,17 @@ export default function WhyMatters() {
             <div className="w-px h-12 bg-[#B7B7B7] mb-8"></div>
             <h2 className="text-[40px] font-medium leading-[1.2em] text-primary mb-6"
               style={{ fontFamily: "'Montserrat', sans-serif" }}>
-              Why Application-Specific Packaging Matters
+              {t('allApplications.whyMatters.title')}
             </h2>
             <div className="w-full h-px bg-[#B7B7B7] mb-6"></div>
             <p className="text-text text-base leading-relaxed mb-8">
-              Not all cosmetic packaging is created equal. The wrong container can compromise your formulation, frustrate your customers, and undermine your brand positioning. Application-specific packaging design accounts for four critical factors:
+              {t('allApplications.whyMatters.description')}
             </p>
             <div className="text-right mb-8">
               <a href="/contact-jarsking/"
                 className="inline-block bg-accent text-white text-sm font-medium px-6 py-2 rounded hover:scale-105 transition-transform duration-300"
                 style={{ fontFamily: "'Roboto', sans-serif" }}>
-                Need Help
+                {t('allApplications.whyMatters.needHelp')}
               </a>
             </div>
             <div className="w-px h-12 bg-[#B7B7B7] mb-4"></div>
@@ -54,10 +60,10 @@ export default function WhyMatters() {
                   <div className="relative z-10">
                     <h3 className="text-[28px] font-normal leading-[1.4em] text-primary mb-4 whitespace-pre-line"
                       style={{ fontFamily: "'Montserrat', sans-serif" }}>
-                      {reason.title}
+                      {t(reason.titleKey)}
                     </h3>
                     <p className="text-text text-sm leading-relaxed">
-                      {reason.description}
+                      {t(reason.descriptionKey)}
                     </p>
                   </div>
                 </div>

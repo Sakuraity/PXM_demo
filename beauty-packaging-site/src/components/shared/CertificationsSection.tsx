@@ -1,4 +1,7 @@
+'use client'
+
 import Link from 'next/link'
+import { useTranslation } from 'react-i18next'
 
 const certifications = [
   { src: 'https://www.jarsking.com/wp-content/uploads/2023/12/BSCI.jpg', alt: 'BSCI' },
@@ -18,14 +21,17 @@ interface CertificationsSectionProps {
 }
 
 export default function CertificationsSection({
-  title = 'Certified Empty Cosmetic Bottle Manufacturer',
-  buttonText = 'Contact Certified Cosmetic Bottles Supplier Now!',
+  title,
+  buttonText,
 }: CertificationsSectionProps) {
+  const { t } = useTranslation()
+  const resolvedTitle = title ?? t('shared.certifications.defaultTitle')
+  const resolvedButton = buttonText ?? t('shared.certifications.defaultButton')
   return (
     <section className="w-full bg-[#15294C] py-16 md:py-20">
       <div className="max-w-[1440px] mx-auto px-6 md:px-12 text-center">
         <h2 className="font-montserrat text-3xl md:text-[40px] font-medium leading-[1.2] text-white mb-12">
-          {title}
+          {resolvedTitle}
         </h2>
         <div className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-9 gap-6 mb-10">
           {certifications.map((cert, index) => (
@@ -47,7 +53,7 @@ export default function CertificationsSection({
           href="/contact-jarsking/"
           className="inline-block bg-[#61CE70] hover:bg-[#50b85e] text-white font-medium px-8 py-3 rounded transition-colors"
         >
-          {buttonText}
+          {resolvedButton}
         </Link>
       </div>
     </section>

@@ -1,0 +1,1359 @@
+{
+  "common": {
+    "search": "搜索...",
+    "contactQuote": "联系与报价",
+    "email": "info@jarsking.com",
+    "language": "语言",
+    "languageOptions": {
+      "en": "English",
+      "zh": "中文"
+    },
+    "readMore": "阅读更多",
+    "learnMore": "了解更多",
+    "viewAll": "查看全部",
+    "back": "返回",
+    "next": "下一页",
+    "previous": "上一页",
+    "home": "首页",
+    "about": "关于我们",
+    "products": "产品",
+    "contact": "联系我们",
+    "actions": {
+      "exploreProducts": "探索产品",
+      "getQuote": "获取报价",
+      "learnMore": "了解更多",
+      "viewAll": "查看全部"
+    },
+    "getQuote": "获取报价",
+    "submit": "提交",
+    "cancel": "取消",
+    "loading": "加载中...",
+    "noResults": "未找到结果"
+  },
+  "navigation": {
+    "products": "产品",
+    "byapplications": "按应用",
+    "bymaterials": "按材质",
+    "bypackagingtypes": "按包装类型",
+    "skincare": "护肤",
+    "makeup": "彩妆",
+    "fragrance": "香氛",
+    "personalcare": "个人护理",
+    "pharmaceutical": "医药",
+    "facecreamjars": "面霜罐",
+    "essentialoilbottles": "精油瓶",
+    "lotionbottles": "乳液瓶",
+    "serumglassbottles": "精华玻璃瓶",
+    "glassvials": "玻璃小瓶",
+    "foampumpbottles": "泡沫泵瓶",
+    "rollonbottles": "滚珠瓶",
+    "spraybottles": "喷雾瓶",
+    "tonerbottles": "爽肤水瓶",
+    "foundationbottles": "粉底液瓶",
+    "lipglosstubes": "唇彩管",
+    "mascaratube": "睫毛膏管",
+    "makeupremoverbottles": "卸妆水瓶",
+    "perfumebottles": "香水瓶",
+    "perfumesamplebottles": "香水小样瓶",
+    "portableperfumebottles": "便携香水瓶",
+    "collections": "系列",
+    "successstories": "成功案例",
+    "sustainability": "可持续发展",
+    "yourstrategicpartner": "您的战略合作伙伴",
+    "allapplications": "所有应用",
+    "allmaterials": "所有材料",
+    "allpackagingtypes": "所有包装类型",
+    "categories": "分类",
+    "hybridpackagingsolutions": "混合包装解决方案",
+    "benefits": "优势",
+    "aboutjarsking": "关于 Jarsking",
+    "byfunctions": "按功能",
+    "capspumps": "盖子与泵头",
+    "boxesbagsupplies": "盒子、袋子与耗材",
+    "cannabiscrcpackaging": "大麻防儿童包装",
+    "bytypes": "按类型",
+    "glass": "玻璃",
+    "plastic": "塑料",
+    "petg": "PETG",
+    "acrylic": "亚克力",
+    "newdesign": "新设计",
+    "refillable": "可补充",
+    "bottles": "瓶",
+    "jars": "罐",
+    "tubes": "管",
+    "syringes": "注射器",
+    "vials": "小瓶",
+    "ampoules": "安瓶",
+    "glassbottles": "玻璃瓶",
+    "glassjars": "玻璃罐",
+    "petbottles": "PET 瓶",
+    "hdpebottles": "HDPE 瓶",
+    "shampooconditonerbottles": "洗发水与护发素瓶",
+    "bodylotionbottles": "身体乳液瓶",
+    "bodybutterjars": "身体黄油罐"
+  },
+  "allApplications": {
+    "valuePropositions": {
+      "firstImpressions": {
+        "title": "第一印象驱动购买决策",
+        "description": "通过丝网印刷、烫金、压花和定制标签，将标准包装转化为独特的品牌资产。潘通色匹配确保整个产品线和包装形式的品牌一致性。多种装饰技术可以在单个容器上结合，创造独特的品牌表达。",
+        "buttonText": "与我们共同设计 ⟶",
+        "alt": ""
+      },
+      "productIntegrity": {
+        "title": "保护产品完整性",
+        "description": "视黄醇、维生素C和肽等活性成分在暴露于空气、光线和污染物时会失去功效。无气泵技术和防紫外线玻璃容器可保护配方从生产到最终应用的效力。我们的包装工程确保您的高级成分为每位客户带来承诺的效果。",
+        "buttonText": "咨询我们 ⟶",
+        "alt": "真空瓶"
+      },
+      "sustainability": {
+        "title": "可持续性与美学并重",
+        "description": "现代消费者优先考虑具有环保意识的品牌，越来越多的美容购物者在购买决策中考虑成分透明度和包装可持续性。可回收玻璃、可重复充装系统和PCR塑料展示了环保承诺，同时不影响奢侈定位或货架吸引力。",
+        "buttonText": "走向绿色 ⟶",
+        "alt": "可替换罐"
+      }
+    },
+    "newDesigns": {
+      "title": "护肤包装套装最新设计",
+      "products": {
+        "uniqueGlass": { "alt": "护肤品包装" },
+        "recyclableMist": { "alt": "可回收护肤喷雾瓶" },
+        "packagingSet": { "alt": "护肤包装套装" },
+        "premiumStartup": { "alt": "高端化妆品包装解决方案" },
+        "sustainableGlass": { "alt": "可持续化妆品玻璃包装套装" },
+        "luxurySkincare": { "alt": "奢华护肤包装" },
+        "squareAirless": { "alt": "方形真空化妆品瓶" },
+        "vibrantPackaging": { "alt": "充满活力的化妆品包装" },
+        "skincareGeneral": { "alt": "护肤包装" },
+        "acrylicSet": { "alt": "亚克力包装套装" },
+        "flatSquareGlass": { "alt": "扁平方形玻璃瓶" },
+        "glassBottles": { "alt": "玻璃护肤瓶" },
+        "luxuryDropperJar": { "alt": "奢华护肤包装" },
+        "mensSkincare": { "alt": "男士护肤包装" }
+      }
+    },
+    "packagingFormats": {
+      "title": "护肤包装形式",
+      "items": {
+        "bottles": {
+          "title": "瓶装",
+          "description": "护肤瓶是美妆包装的多功能基础，可容纳从轻薄精华到浓润身体乳的各种产品。优质玻璃瓶传递奢华感，并保护维C和视黄醇等光敏成分免受降解。PET和HDPE塑料选项为旅行装和日常配方提供轻便耐用的选择。",
+          "alt": "光面HDPE化妆品瓶"
+        },
+        "jars": {
+          "title": "罐装",
+          "description": "面霜罐结合了广口取用的便利性与高级质感，非常适合浓稠、丰润的配方。双层结构创造奢华开箱体验，同时通过不透明或防紫外线玻璃选项保护避光成分。亚克力罐为旅行产品和豪华酒店洗护用品提供了防碎的替代方案。",
+          "alt": "带可替换内胆的定制护肤罐"
+        },
+        "vials": {
+          "title": "小样瓶/安瓶",
+          "description": "玻璃小瓶具有多种战略用途，包括高端小样、旅行装和单剂量护理安瓶。药用级玻璃确保高浓度活性配方的产品安全，而小容量选项可通过订阅盒和促销活动实现高性价比的客户获取。小瓶保持无菌状态，这对于保存精华液和浓缩液中的成分活性至关重要。",
+          "alt": "化妆品玻璃小瓶"
+        },
+        "syringes": {
+          "title": "注射器管",
+          "description": "化妆品注射器管为需要精确剂量的超高浓度护理提供药用级精度。鲁尔锁定接头可实现眼霜、斑点护理和专业级精华的卫生、防乱涂抹，避免手指污染。注射器形式传达了高端护肤品客户期望的临床功效和科学精致感。",
+          "alt": "注射器管"
+        },
+        "tubes": {
+          "title": "软管",
+          "description": "软管结合了便携性、产品保护和方便的挤压分配，适用于面霜、凝胶和洁面乳。灵活材料适应不同产品粘度，而防漏盖防止旅行期间的溢出。铝管和复合软管提供卓越的阻隔性能，保护配方免受空气和光线暴露。",
+          "alt": "软管"
+        },
+        "ampoules": {
+          "title": "密封安瓶",
+          "description": "安瓶在密封玻璃容器中提供单次剂量的高浓度活性成分。折断密封设计保持完全无菌，并在使用前防止氧化，确保最大成分效力。这种形式非常适合含有透明质酸、维C、视黄醇和其他敏感化合物的治疗方案。",
+          "alt": "安瓶"
+        }
+      }
+    },
+    "hero": {
+      "titleLine1": "化妆品包装解决方案",
+      "titleLine2": "从护肤到香氛",
+      "description": "选择合适包装不仅关乎美观，更关乎配方保护、用户体验与品牌长期价值。无论您正在推出维 C 精华、高端香水，还是可持续身体护理产品，Jarsking 都能凭借 20+ 年制造经验与 30,000+ 现有模具，为您提供按应用场景定制的包装解决方案。"
+    },
+    "skincareHero": {
+      "title": "为美妆品牌打造的高端护肤包装解决方案",
+      "description": "Jarsking 提供高端护肤包装，助力美妆品牌成为市场领导者。我们的定制解决方案结合玻璃、塑料和铝制材料，创造独特的品牌形象，吸引消费者注意力并推动销售。凭借20多年的包装专业知识，我们深知卓越的包装能保护产品完整性，同时在竞争激烈的护肤市场中提升品牌认知度。",
+      "imageAlt": "护肤包装套装最新设计"
+    },
+    "partnerCTA": {
+      "title": "与包装专家合作",
+      "description1": "选择合适的包装合作伙伴会影响品牌认知、产品完整性和客户满意度。Jarsking的专业知识涵盖材料选择、装饰能力和全球物流，支持从初创到企业规模的品牌。我们的咨询过程会审查您的配方要求、目标市场和品牌定位，以推荐最佳包装解决方案。",
+      "description2": "从初始打样到生产和履约，我们提供端到端的支持，简化您的供应链。立即索取样品，体验提升成功护肤品牌的品质差异。",
+      "buttonText": "开始您的项目"
+    },
+    "stats": {
+      "readyMoldsInStock": "现成模具库存",
+      "brandsServedGlobally": "全球服务品牌数",
+      "sampleProduction": "样品制作周期",
+      "sampleProductionSuffix": "-天",
+      "bottlesMonthCapacity": "月产瓶数能力",
+      "bottlesMonthCapacitySuffix": " 百万",
+      "certifiedQuality": "认证品质"
+    },
+    "whyMatters": {
+      "title": "为什么按应用场景选择包装很重要",
+      "description": "并非所有化妆品包装都一样。错误的容器会损害配方稳定性、影响用户体验，并削弱品牌定位。按应用场景设计包装时，需重点考量以下四个关键因素：",
+      "needHelp": "需要帮助",
+      "reasons": {
+        "formulationCompatibility": {
+          "title": "配方\n兼容性",
+          "description": "包装材料与活性成分之间的化学相互作用，可能影响功效、颜色或稳定性。我们可针对不同产品类型提供材料兼容性建议，覆盖 pH 敏感配方以及需防 UV 玻璃保护的光敏活性成分。"
+        },
+        "applicationMethod": {
+          "title": "使用\n方式",
+          "description": "面部精华通常需要滴管或泵头实现精准取用；身体乳则强调单手便捷操作。包装形式应与消费者的真实使用方式相匹配。"
+        },
+        "brandDifferentiation": {
+          "title": "品牌\n差异化",
+          "description": "在竞争激烈的零售环境中，包装是品牌传达价值与品质定位的第一触点。高端配方理应拥有同等高端的视觉与触感呈现。"
+        },
+        "regulatoryCompliance": {
+          "title": "法规\n合规性",
+          "description": "不同化妆品品类对应不同法规要求。我们可提供 ISO9001、REACH、ROHS 等认证支持与跨市场合规经验，帮助您高效落地。"
+        }
+      }
+    },
+    "categories": {
+      "skincare": {
+        "title": "护肤包装解决方案",
+        "description": "护肤是美妆行业增长最快的赛道之一，消费者对活性成分和配方科学的认知持续提升，包装要求也随之升级。"
+      },
+      "makeup": {
+        "title": "彩妆包装解决方案",
+        "description": "彩妆包装同时承担双重任务：既要保护配方稳定，也要传达品牌个性与彩妆产品特有的趣味表达。"
+      },
+      "fragrance": {
+        "title": "香氛包装解决方案",
+        "description": "香氛包装不止于功能，更是通过玻璃、金属与造型讲述品牌故事。香水瓶本身就是艺术。"
+      },
+      "personalCare": {
+        "title": "个护包装解决方案",
+        "description": "个护包装强调功能性、耐用性与性价比，需适配高频日常使用，并能在潮湿卫浴环境中保持稳定表现。"
+      }
+    },
+    "productCard": {
+      "idealFor": "适用于："
+    },
+    "sustainability": {
+      "title": "覆盖全应用场景的可持续方案",
+      "description": "环境责任不再是可选项，而是商业发展的必答题。Jarsking 将环保方案融入每一个应用品类。",
+      "gallery": {
+        "sustainablePackaging": "可持续包装",
+        "bambooCosmeticPackagingWholesale": "竹元素化妆品包装",
+        "squareAirlessCosmeticBottleForSerum": "方形真空精华瓶",
+        "petgReplaceableLinerCreamContainer": "PETG 可替换内胆面霜罐",
+        "aluminumSprayBottles": "铝制喷雾瓶",
+        "refillableSkincareJarWholesaleManufacturer": "可补充式护肤罐",
+        "airlessShampooBottle": "真空洗发瓶",
+        "calciumCarbonateLotionBottleWithPump": "碳酸钙泵头乳液瓶",
+        "aluminumTubes": "铝管",
+        "pcrSkincareSet": "PCR 护肤套装",
+        "faceCreamGlassJarWithBambooLid": "竹盖面霜玻璃罐",
+        "airlessJar": "真空罐"
+      },
+      "toggleItems": {
+        "glass": {
+          "title": "玻璃：经典可持续之选",
+          "content": "可无限循环回收且品质不衰减；化学惰性高、不易析出；高端质感可支撑更高价值定位。适用于护肤、香氛及专业护理等多类产品。"
+        },
+        "pcrPlastic": {
+          "title": "PCR 塑料：消费后再生材料",
+          "content": "可最多减少 100% 原生塑料使用；碳足迹较原生塑料可降低约 30%-70%；支持 30%、50% 或 100% PCR 含量，覆盖主流包装形态。"
+        },
+        "aluminum": {
+          "title": "铝材：高端且实用",
+          "content": "可 100% 循环回收且不损耗品质；在包装材料中具备较高回收率（全球平均约 75%）；阻隔性能优秀，适用于高端面霜及止汗类产品。"
+        },
+        "lightweighting": {
+          "title": "轻量化与减材工程",
+          "content": "通过结构工程在不牺牲保护性能的前提下减少 20%-30% 材料用量，同时降低运输排放和原料开采压力，并将成本优化回馈至客户。"
+        },
+        "airlessPumpSystem": {
+          "title": "真空泵系统",
+          "content": "真空泵通过负压出料，减少空气接触，可降低对化学防腐体系的依赖，并保护天然敏感配方免受氧化与污染。该结构可实现 95%+ 高排空率，延长产品寿命，减少浪费，支持从首次使用到最后一滴都更洁净的可持续体验。"
+        },
+        "refillableSystems": {
+          "title": "可替换/可补充系统",
+          "content": "最可持续的包装，是能被反复使用的包装。通过耐用外壳与可替换内胆，可减少 80%+ 包装废弃物，适配罐、瓶、粉盒与软管等多种形态。"
+        }
+      }
+    },
+    "moreCategories": {
+      "title": "更多包装分类供您选择",
+      "needConsultation": "需要咨询",
+      "cards": {
+        "byMaterials": {
+          "title": "按材质",
+          "alt": "简约香水瓶"
+        },
+        "byFunctions": {
+          "title": "按功能",
+          "alt": "多种分配器塑料瓶"
+        },
+        "byTypes": {
+          "title": "按类型",
+          "alt": "大地色护肤包装"
+        },
+        "collections": {
+          "title": "系列合集",
+          "alt": "多巴胺风格真空护肤包装"
+        },
+        "childResistantPackaging": {
+          "title": "儿童防护包装",
+          "alt": "大麻包装套装"
+        },
+        "boxesBagsSupplies": {
+          "title": "盒装/袋装/配套耗材",
+          "alt": "大麻纸盒"
+        }
+      }
+    },
+    "products": {
+      "faceCreamJars": {
+        "title": "面霜罐",
+        "description": "面霜罐可为乳化类配方提供安全密封储存，从首次开启到最后一次使用都能保障产品完整性。",
+        "imageAlt": "磨砂面霜罐",
+        "features": [
+          "密封系统可有效防止污染",
+          "宽口设计，取用更便捷",
+          "常见材质：玻璃、PET、PP、亚克力",
+          "容量：15ml-200ml，可定制"
+        ],
+        "idealFor": "晚霜、日霜、保湿霜、凝胶霜、水凝霜、抗老护理"
+      },
+      "faceLotionBottles": {
+        "title": "面部乳液瓶",
+        "description": "面部乳液瓶可在保护精细配方的同时，实现日常护肤所需的可控出料。",
+        "imageAlt": "HDPE 乳液泵瓶",
+        "features": [
+          "治疗泵可精准定量（每泵约 0.5ml-2ml）",
+          "真空泵选项可减少活性成分氧化",
+          "容量：30ml-200ml（常用 50ml、100ml、150ml）",
+          "人体工学外形，便于单手操作"
+        ],
+        "idealFor": "日常保湿乳、晚霜、含 SPF 日霜、补水乳液、抗老护理、凝胶霜、有色保湿产品"
+      },
+      "serumBottles": {
+        "title": "精华瓶",
+        "description": "精华配方常含高浓度活性成分，因此包装选择对功效保存至关重要。",
+        "imageAlt": "玻璃精华瓶",
+        "features": [
+          "滴管结构可实现精准出料",
+          "琥珀/钴蓝玻璃可阻隔约 99% 紫外线",
+          "容量：10ml-100ml（常用 30ml、50ml）",
+          "支持真空泵结构"
+        ],
+        "idealFor": "玻尿酸精华、维 C 护理、视黄醇方案、烟酰胺配方、肽类浓缩精华、面部油"
+      },
+      "glassVials": {
+        "title": "玻璃安瓶/小瓶",
+        "description": "玻璃小瓶可为高浓度护肤护理与单次使用场景提供更洁净包装，适用于高活性配方。",
+        "imageAlt": "精华安瓶",
+        "features": [
+          "滴管分配器可支持多次使用",
+          "掰断或旋断封口可实现防拆与单次使用",
+          "小容量：1ml-10ml（常用 2ml、3ml、5ml）",
+          "支持单支或连排组合（疗程装）"
+        ],
+        "idealFor": "精华浓缩液、维 C 安瓶、视黄醇护理、肽类安瓶、玻尿酸加强护理、专业级活性配方"
+      },
+      "rollOnBottles": {
+        "title": "滚珠瓶",
+        "description": "滚珠形式可实现定点、清爽、不脏手的上妆/护理体验，覆盖止汗到舒缓精油等多类个护场景。",
+        "imageAlt": "眼部精华滚珠瓶",
+        "features": [
+          "滚珠组件可选玻璃、塑料与金属材质",
+          "防漏结构对便携性至关重要",
+          "容量：15ml-75ml（止汗常规 50ml、75ml）",
+          "玻璃适合芳疗与天然配方，塑料适合止汗类产品"
+        ],
+        "idealFor": "滚珠止汗、清凉凝胶滚珠、芳疗脉搏点精油、防蚊液、止痛凝胶"
+      },
+      "sprayBottles": {
+        "title": "喷雾瓶",
+        "description": "喷雾瓶可通过雾化或直喷实现均匀覆盖，适用于面部护理、身体护理与健康类产品。",
+        "imageAlt": "喷雾瓶设计",
+        "features": [
+          "细雾喷头适合面部轻柔覆盖",
+          "连续喷雾适合身体大面积使用",
+          "扳机喷头适配更高粘度配方",
+          "容量：50ml-500ml（常用 100ml、150ml、250ml）"
+        ],
+        "idealFor": "面部喷雾、定妆喷雾、发丝喷雾、身体喷雾、清凉喷雾、芳疗喷雾、织物清新喷雾"
+      },
+      "tonerBottles": {
+        "title": "爽肤水瓶",
+        "description": "爽肤水瓶采用便于控量的分配结构，可顺畅融入日常护肤流程。",
+        "imageAlt": "保湿爽肤水包装瓶",
+        "features": [
+          "按压翻盖便于化妆棉控量取液",
+          "喷雾结构适用于补水喷雾与精华喷雾",
+          "翻盖设计可单手开启",
+          "容量：100ml-500ml（零售常规 150ml、200ml、250ml）"
+        ],
+        "idealFor": "补水爽肤水、去角质爽肤水（AHA/BHA）、pH 平衡水、精华水、面部喷雾、卸妆水"
+      },
+      "sunscreenPackaging": {
+        "title": "防晒包装",
+        "description": "防晒包装需兼顾配方在高温下的化学稳定性、耐湿性与户外场景下的便捷涂抹体验。",
+        "imageAlt": "可挤压防晒软管瓶",
+        "features": [
+          "高阻隔材料可保护防晒滤剂稳定性",
+          "翻盖挤压软管适合海边与户外使用",
+          "耐热塑料可在高温下保持结构稳定",
+          "容量：50ml-250ml，可定制"
+        ],
+        "idealFor": "化学防晒、物理防晒、喷雾防晒、防晒棒、有色防晒"
+      },
+      "foundationBottles": {
+        "title": "粉底液瓶",
+        "description": "粉底包装已从基础瓶型发展为更高级的出料系统，以兼顾卫生性与抗氧化需求。",
+        "imageAlt": "新款粉底液瓶",
+        "features": [
+          "真空泵可减少空气接触",
+          "治疗泵适配不同粘度配方",
+          "支持精华型粉底滴管结构",
+          "容量：15ml-50ml（标准 30ml）"
+        ],
+        "idealFor": "液体粉底、气垫替换装、精华粉底、有色保湿霜、BB/CC 霜"
+      },
+      "lipGlossTubes": {
+        "title": "唇彩管",
+        "description": "唇彩包装需兼顾精准涂抹与视觉吸引力，透明组件可直观展示产品色泽与闪光质感。",
+        "imageAlt": "环保唇彩管",
+        "features": [
+          "刷头可选弯头、扁头、刷型",
+          "支持圆形、方形、椭圆等定制外观",
+          "透明管体更利于展示色号",
+          "容量：3ml-15ml（标准 5ml、7ml）"
+        ],
+        "idealFor": "高光泽唇彩、丰唇唇彩、有色唇油、液体口红、唇釉"
+      },
+      "mascaraTubes": {
+        "title": "睫毛膏管",
+        "description": "睫毛膏包装专业度高，需通过密封结构防止膏体干化，并配合刷头设计实现不同妆效。",
+        "imageAlt": "睫毛膏管",
+        "features": [
+          "刷头可选弯刷、直刷、梳型刷",
+          "限流件可精确控制取料量",
+          "密封盖可防止膏体干化（对水基配方尤为关键）",
+          "容量：5ml-15ml（标准 8ml、10ml）"
+        ],
+        "idealFor": "浓密型睫毛膏、纤长型睫毛膏、卷翘型睫毛膏、防水睫毛膏、睫毛打底"
+      },
+      "makeupRemovers": {
+        "title": "卸妆产品包装",
+        "description": "卸妆产品瓶可兼容多种配方形态，在保证产品稳定性的同时提升使用便捷度。",
+        "imageAlt": "真空罐",
+        "features": [
+          "泵头可实现液态卸妆产品稳定定量",
+          "滴管适合高浓度油性或防水卸妆配方",
+          "支持真空泵系统",
+          "容量：50ml-250ml"
+        ],
+        "idealFor": "卸妆水、卸妆油、双层卸妆液、溶妆油、眼唇卸妆液"
+      },
+      "perfumeBottles": {
+        "title": "香水瓶",
+        "description": "香水瓶是包装艺术化的核心载体。每个细节都在传达品牌底蕴与香气个性。",
+        "imageAlt": "新款香水瓶",
+        "features": [
+          "高品质玻璃：可选高透、着色、磨砂或涂层",
+          "喷雾结构：支持细雾与多种喷型雾化器",
+          "支持专属瓶型开模定制",
+          "容量：30ml-100ml（零售常规 50ml、75ml、100ml）"
+        ],
+        "idealFor": "淡香精（EDP）、香精浓度、淡香水（EDT）、古龙水"
+      },
+      "portableBottles": {
+        "title": "便携香水瓶",
+        "description": "旅行装香氛强调便携与安检合规（100ml 以下），同时保留正装香水的高端体验感。",
+        "imageAlt": "便携香水瓶",
+        "features": [
+          "喷雾雾化器配保护盖",
+          "滚珠结构适合随身携带",
+          "小规格外观可延续正装设计语言",
+          "容量：5ml-30ml（符合 TSA 标准）"
+        ],
+        "idealFor": "旅行装、体验套装、试香计划、随身香氛喷瓶"
+      },
+      "perfumeSamples": {
+        "title": "香水小样",
+        "description": "小样瓶在营销中至关重要，可促进香型体验并带动正装转化。小样呈现质量会直接影响品牌认知。",
+        "imageAlt": "香水小样礼盒",
+        "features": [
+          "玻璃小样瓶支持喷雾或点涂",
+          "塑料雾化器可降低试样成本",
+          "容量：1ml-5ml",
+          "可配试香卡或小样包用于分发"
+        ],
+        "idealFor": "百货专柜试香、订阅盒合作、活动推广、香型探索套组"
+      },
+      "essentialOilBottles": {
+        "title": "精油瓶",
+        "description": "精油瓶可为高浓度植物萃取提供必要防护，降低光照、空气与温度波动带来的影响。",
+        "imageAlt": "绿色精油瓶",
+        "features": [
+          "琥珀/钴蓝玻璃可提供 99%+ 紫外线防护",
+          "滴管可稳定控制单滴剂量（约 0.05ml/滴）",
+          "耐化学腐蚀玻璃材质",
+          "容量：5ml-100ml"
+        ],
+        "idealFor": "单方精油、香精油、基础油复配、按摩油浓缩液、天然香水油"
+      },
+      "shampooConditionerBottles": {
+        "title": "洗发水与护发素瓶",
+        "description": "洗护瓶需应对潮湿环境、湿手抓握和高频开合等挑战，设计上需平衡耐湿性能与单手易用性。",
+        "imageAlt": "洗发水塑料容器",
+        "features": [
+          "出料结构可选常规泵、真空泵、翻盖、碟盖及定制方案",
+          "湿手握持友好的人体工学外形",
+          "容量：200ml-1000ml（标准 250ml、500ml、750ml）"
+        ],
+        "idealFor": "洗发水、护发素、二合一洗护、发膜、头皮护理"
+      },
+      "bathBody": {
+        "title": "沐浴与身体护理",
+        "description": "沐浴露与身体乳瓶需具备耐用、耐湿及便捷出料能力，并通过防滑设计适配日常卫浴使用。",
+        "imageAlt": "HDPE 洗发瓶",
+        "features": [
+          "出料结构可选常规泵、真空泵、翻盖、碟盖及定制方案",
+          "容量：250ml-1000ml（常用 400ml、500ml、750ml）",
+          "材质可选：耐用 HDPE、通透 PET、环保 PCR 塑料"
+        ],
+        "idealFor": "沐浴露、淋浴啫喱、身体乳、身体奶、泡泡浴、保湿霜、淋浴中护肤产品"
+      },
+      "bodyButterJars": {
+        "title": "身体黄油罐",
+        "description": "身体黄油罐采用宽口设计，适配高厚度、奢润型配方的便捷取用。",
+        "imageAlt": "250g 身体磨砂罐",
+        "features": [
+          "宽口结构（直径约 50mm-80mm），便于手取或刮勺取用",
+          "厚壁结构有助于维持产品温度稳定",
+          "容量：100ml-500ml（常用 200ml、250ml、300ml）",
+          "旋盖或卡扣盖均可实现稳固密封"
+        ],
+        "idealFor": "奶油质地身体黄油、身体修护膏、高保湿护理、按摩膏、夜间身体面膜"
+      },
+      "foamPumpBottles": {
+        "title": "泡沫泵瓶",
+        "description": "泡沫泵技术可将液体配方转化为丰富泡沫，提升使用体验，并降低单次用量（约节省 25%-30%）。",
+        "imageAlt": "泡沫泵瓶",
+        "features": [
+          "泡沫泵结构可形成细腻轻盈泡沫",
+          "需匹配专用配方体系（稀释型表活溶液）",
+          "容量：100ml-500ml",
+          "支持可补充式设计，提升可持续性"
+        ],
+        "idealFor": "泡沫洗手液、泡沫洁面、慕斯质地产品、造型慕斯、剃须泡沫"
+      }
+    }
+  },
+  "hero": {
+    "title": "Jarsking",
+    "description": "专业化妆品包装制造商，为全球美妆品牌提供玻璃瓶、塑料罐、软管等定制包装解决方案。",
+    "button": "获取定制报价",
+    "videoBackground": "视频背景",
+    "reliablePackagingPartner": "您可靠的包装合作伙伴。",
+    "watchVideo": "观看视频",
+    "turnkeyServiceAlt": "为您的品牌提供交钥匙服务",
+    "turnkeyTitle": "为您的品牌提供交钥匙服务",
+    "turnkeyDesc": "从设计到交付，量身定制以提升您的品牌。无论您从事护肤、化妆品、彩妆、个人护理、香水还是制药行业，我们都提供满足您独特需求的高质量定制包装。与我们合作，享受无缝的端到端包装服务。"
+  },
+  "home": {
+    "hero": {
+      "title": "将平凡包装成非凡",
+      "subtitle": "Jarsking 包装是首屈一指的全服务包装解决方案设计师和制造商，满足小规模和大规模生产需求。我们以精准和一致性提供创新、高质量和成本效益的包装。",
+      "subtitle2": "您可靠的包装合作伙伴。",
+      "turnkeyTitle": "为您的品牌提供交钥匙服务",
+      "turnkeyDesc": "从设计到交付，量身定制以提升您的品牌。无论您从事护肤、化妆品、彩妆、个人护理、香水还是制药行业，我们都提供满足您独特需求的高质量定制包装。与我们合作，享受无缝的端到端包装服务。"
+    },
+    "certification": {
+      "title": "重要认证",
+      "description": "国际认可认证，确保质量和合规"
+    },
+    "serviceAdvantages": {
+      "title": "为什么选择 Jarsking？",
+      "subtitle": "您值得信赖的高端包装解决方案合作伙伴",
+      "freeDesign": {
+        "title": "免费设计和样品",
+        "desc": "Jarsking 提供免费设计和样品，确保包装满足您的需求，让您放心。"
+      },
+      "fastDesign": {
+        "title": "1小时从概念到设计",
+        "desc": "需要快速设计？Jarsking 可以在1小时内将您的概念转化为设计，确保项目快速启动。"
+      },
+      "rendering": {
+        "title": "2小时从图形到3D渲染",
+        "desc": "通过3D渲染让您的包装栩栩如生，2小时内即可审查，以便做出明智决策。"
+      },
+      "sampleProduction": {
+        "title": "3天样品生产",
+        "desc": "Jarsking 团队可以在3天内交付实体样品，让您快速看到想法变为现实。"
+      },
+      "urgentOrder": {
+        "title": "4天紧急批量订单",
+        "desc": "需要加急订单？Jarsking 在4天内交付小批量订单，满足您的紧张日程。"
+      },
+      "prototypeMolding": {
+        "title": "15天原型制模",
+        "desc": "Jarsking 专注于制作精确的原型模具，15天内准备好实体样品进行测试。"
+      },
+      "bulkOrder": {
+        "title": "30天批量订单完成",
+        "desc": "Jarsking 高效的流程确保批量订单在30天内完成，让您的产品按计划进行。"
+      },
+      "readyMolds": {
+        "title": "30,000+现货模具",
+        "desc": "我们工厂有超过30,000个预制模具，提供广泛的选择以满足您的需求。"
+      },
+      "afterSales": {
+        "title": "2天售后解决方案支持",
+        "desc": "Jarsking 致力于客户满意度，如需要，2天内提供售后支持。"
+      },
+      "ecoFriendly": {
+        "title": "环保包装",
+        "desc": "选择可持续、可回收、可再装和可生物降解的包装，最小化环境影响。"
+      }
+    },
+    "productShowroom": {
+      "title": "精选产品",
+      "subtitle": "探索我们的高端包装解决方案",
+      "viewAllProducts": "查看所有产品"
+    },
+    "packagingSolutions": {
+      "title": "美容、个护与医药行业包装解决方案",
+      "subtitle": "专注可持续设计与一站式服务的定制包装制造商，满足多元行业需求",
+      "categories": {
+        "personalCare": {
+          "name": "个人护理",
+          "desc": "适用于清洁、护理与身体护理产品的瓶、管及容器方案。"
+        },
+        "cosmetics": {
+          "name": "化妆品",
+          "desc": "适用于护肤、面霜及功能性配方的瓶罐、泵头与紧凑包装。"
+        },
+        "makeup": {
+          "name": "彩妆",
+          "desc": "为彩妆与工具打造兼具美感与实用性的软管、盘盒与便携包装。"
+        },
+        "perfume": {
+          "name": "香水",
+          "desc": "适用于液体香氛的精致瓶体、喷雾结构与高辨识度容器。"
+        },
+        "pharmaceutical": {
+          "name": "医药",
+          "desc": "满足医疗与功能性产品需求的密封安全瓶与精准给药容器。"
+        },
+        "essentialOil": {
+          "name": "精油",
+          "desc": "适配高浓度植物萃取的滴管瓶、小样瓶与密封储存方案。"
+        }
+      }
+    },
+    "giftBoxes": {
+      "title": "让瞬间成为记忆：Jarsking 标志性礼盒方案",
+      "description": "Jarsking 礼盒将普通时刻升级为值得纪念的品牌体验。我们的设计团队擅长打造可定制、具辨识度的礼盒方案，精准传递节庆与礼赠场景的情绪价值。我们不仅生产包装容器，更构建完整的品牌叙事体验——让惊喜、喜悦与仪式感在每一次开盒中自然发生。通过限量设计、优质材料与个性化品牌呈现，帮助您的品牌在每个礼赠时刻都更令人难忘。",
+      "button": "获取定制报价"
+    },
+    "materialsSection": {
+      "title": "从材料选择开始，打造专属包装",
+      "glass": {
+        "title": "玻璃瓶",
+        "description": "提供环保且可回收的高端包装方案，助力品牌可持续升级。"
+      },
+      "plastic": {
+        "title": "塑料瓶",
+        "description": "兼具轻量、耐用与成本优势，适配多样化包装应用场景。"
+      },
+      "products": {
+        "cosmeticSet": "化妆品套装",
+        "storageJar": "储物罐",
+        "dropperBottle": "滴管瓶",
+        "perfumeBottle": "香水瓶",
+        "shampooBottle": "洗发水瓶",
+        "pcrBottle": "PCR 环保瓶",
+        "airlessBottle": "真空瓶",
+        "sprayBottle": "喷雾瓶"
+      }
+    },
+    "whyPartner": {
+      "title": "为什么为包装项目选择 Jarsking",
+      "subtitle": "Jarsking 为不同规模企业提供多元化、复合型解决方案。依托全球布局、创新设计与高效制造能力，我们可快速、稳定地交付契合您需求的定制包装。",
+      "accordion": {
+        "globalSupplyNetwork": {
+          "title": "全球供应网络",
+          "desc": "Jarsking 拥有自有工厂与稳定合作供应体系，构建了高协同的全球供应网络，可提供流畅的一站式包装服务。该模式确保我们高效响应不同客户需求，并以稳定质量与可靠交付服务全球市场。"
+        },
+        "rd": {
+          "title": "研发能力",
+          "desc": "Jarsking 提供专业咨询与先进研发支持，持续推动包装设计创新。团队与客户深度共创，将技术与美学融合，输出更具市场竞争力的定制方案。"
+        },
+        "customDesignExpertise": {
+          "title": "定制设计专长",
+          "desc": "我们将创意表达与工程可行性紧密结合，打造兼具视觉吸引力与功能表现的包装作品。通过原创设计方法，把品牌构想转化为可落地、可增长的市场解决方案。"
+        },
+        "manufacturingExcellence": {
+          "title": "卓越制造能力",
+          "desc": "Jarsking 具备高产能制造体系，玻璃瓶月产能最高可达 1500 万只。丰富模具储备可支撑多样化外观开发与定制需求，在保证质量稳定的同时实现规模化快速交付。"
+        },
+        "strictQualityControl": {
+          "title": "严苛质量管控",
+          "desc": "我们通过全流程检验体系与国际认证标准（包括 ISO9000、BSCI、ROHS、CE、MSDS、LFGB、REACH）保障每一款包装的合规性与品质一致性。"
+        },
+        "fastTurnaroundTimes": {
+          "title": "快速交付周期",
+          "desc": "依托中国总部及海外据点（美国、迪拜）协同，Jarsking 可实现更快的响应速度与本地化服务，确保跨区域项目在生产、物流与沟通上的高效推进。"
+        }
+      }
+    },
+    "ultimatePartner": {
+      "title": "您值得信赖的包装合作伙伴",
+      "description": "Jarsking 专注高端化妆品包装、精品香水瓶与医药包装容器制造，提供从设计、打样到量产与交付的端到端服务，帮助您高效落地品牌构想。",
+      "toggles": {
+        "globalReach": {
+          "title": "全球布局，本地洞察",
+          "content": "我们以国际化服务网络结合深度行业经验，持续支持全球品牌。广州总部与华南制造基地保障生产效率与质量稳定，迪拜和洛杉矶分支强化跨区域协同与本地沟通效率。"
+        },
+        "craftsmanship": {
+          "title": "精湛工艺",
+          "content": "采用高品质玻璃、塑料及可持续材料，兼顾耐用性与视觉表现。设计与工程团队协同创新，结合严格质检机制，确保成品稳定且符合国际标准。"
+        },
+        "strengths": {
+          "title": "核心实力一览",
+          "content": "1 小时免费 3D 方案展示；6+ 自动化产线；10+ 自有工厂；20+ 年行业经验；日均 40+ 吨玻璃瓶产能；月产 1500 万只，覆盖主流与差异化包装需求。"
+        },
+        "whyChoose": {
+          "title": "为什么选择 Jarsking",
+          "content": "覆盖从概念到交付的全流程服务；完善售后支持；擅长香水、护肤与个护类定制包装；具备强设计共创能力，帮助品牌打造更具辨识度的包装资产，已服务 50,000+ 品牌。"
+        }
+      },
+      "closing": "在 Jarsking，我们将包装升级为品牌增长工具。让我们一起把您的构想，变成真正出众的市场成果。",
+      "button": "了解我们的设计能力 >"
+    },
+    "sustainableFuture": {
+      "title": "与我们共同创造可持续未来",
+      "subtitle": "以更环保的包装替代方案，驱动业务长期增长。",
+      "sections": {
+        "materialSourcing": {
+          "title": "材料来源",
+          "description": "我们在材料端优先采用玻璃、PCR、PLA 等可回收或可持续材料，以减少废弃物、降低环境负担，并推动循环经济实践。"
+        },
+        "structureEngineering": {
+          "title": "结构工程",
+          "description": "通过可替换、可补充的结构设计减少资源浪费并延长包装生命周期，在提升使用体验的同时，兼顾环保价值与商业可行性。"
+        },
+        "esg": {
+          "title": "ESG",
+          "description": "我们将 ESG 理念融入运营全链路，持续推进环境责任与社会责任实践，以透明、可追溯、可持续的方式创造长期价值。"
+        }
+      }
+    },
+    "testimonials": {
+      "title": "客户怎么评价我们",
+      "items": {
+        "arna": {
+          "name": "Arna E",
+          "title": "某化妆品公司 CEO",
+          "text": "我们是一家位于冰岛的化妆品公司，主要采购护肤线所需的玻璃包装。Yancy Zeng 是我们的对接人，响应非常快，问题处理高效且始终愿意协助。玻璃瓶质量稳定，设计也能准确匹配我们的需求，我们对合作非常满意。"
+        },
+        "herbert": {
+          "name": "Herbert H",
+          "title": "某香水品牌采购经理",
+          "text": "这是我在中国最满意的一次供应商合作体验。与 Jarsking 的沟通清晰透明，节奏顺畅，且对交期和问题解决都非常有担当，合作过程很安心。"
+        },
+        "benson": {
+          "name": "Benson O",
+          "title": "某宠物食品公司经理",
+          "text": "第一次与 Jarsking 合作就超出预期。我们先做了样品，设计落地很快，样品品质也很出色。量产后成品质量甚至更好，整体体验非常满意。"
+        },
+        "jill": {
+          "name": "Jill C",
+          "title": "某医药公司采购经理",
+          "text": "Jarsking 让我的品牌梦想真正落地。即使我最初经验不足，团队也能把复杂需求拆解清楚并逐项实现，最终完成高端定制瓶与儿童防护包装，细节把控非常到位。"
+        },
+        "ivy": {
+          "name": "Ivy M",
+          "title": "某小众芳疗品牌 CEO",
+          "text": "我真的非常惊喜。尤其是 Mayme，在整个项目过程中都给予了细致支持。沟通效率、反馈速度和样品还原能力都非常出色，感谢你们陪我从零搭建品牌。"
+        },
+        "danielle": {
+          "name": "Danielle A",
+          "title": "某美妆品牌 CEO",
+          "text": "我在品牌重塑阶段与 Jarsking 开始合作，这是一项持续数月的大工程。整个过程中沟通始终顺畅，Sherry 非常主动、专业，也总能及时给到有效支持。"
+        },
+        "josh": {
+          "name": "Josh M",
+          "title": "某香水品牌 CEO",
+          "text": "Jarsking 团队在整个流程中都提供了高水准服务，沟通及时清晰，问题反馈很快。最终包装品质在材料、细节和工艺上都超出预期。"
+        },
+        "kianna": {
+          "name": "Kianna M",
+          "title": "某护肤实验室创始人",
+          "text": "与 Sherry 合作非常愉快。她在每个环节都细致、耐心且高效。无论是复杂排期，还是对账与发货信息准确性，她都表现出极高专业度。"
+        }
+      }
+    },
+    "faq": {
+      "title": "常见问题",
+      "items": {
+        "moq": {
+          "q": "你们的最小起订量（MOQ）是多少？",
+          "a": "最小起订量会根据产品线和定制要求而有所不同。通常情况下，玻璃容器 MOQ 为 5000 个，塑料容器 MOQ 为 10000 个。欢迎联系产品顾问获取对应品类的精确起订建议。"
+        },
+        "belowMoq": {
+          "q": "可以低于 MOQ 生产吗？",
+          "a": "从成本与效率角度，我们通常建议按 MOQ 下单。但在部分场景下也可支持小批量或打样需求。您可以先与销售沟通，我们会根据项目情况提供可行方案。"
+        },
+        "leadTime": {
+          "q": "交期一般多久？",
+          "a": "常规交期约为 10–30 个工作日，具体取决于包装类型、订单规模与季节性产能安排。若涉及复杂定制或附加工艺，周期会相应延长。"
+        },
+        "recyclable": {
+          "q": "所有产品都可回收吗？",
+          "a": "可持续是 Jarsking 的重点方向。我们提供多类可回收方案，包括玻璃、PCR 塑料与 PLA、竹材等环保材料。实际回收性还与当地回收体系相关，我们可协助您选择更适合品牌目标的环保包装。"
+        },
+        "sampleProof": {
+          "q": "量产前可以先看样品或设计稿吗？",
+          "a": "可以。正式生产前我们会提供完整数字稿（含设计、尺寸、颜色、材质等），必要时可安排实物样品。待您确认后再进入量产，以确保最终结果准确可控。"
+        }
+      }
+    },
+    "newsSection": {
+      "title": "Jarsking 新闻与成功案例",
+      "subtitle": "及时了解 Jarsking 最新动态、行业洞察与包装创新。我们持续分享全球展会趋势、市场变化、品牌策略及可持续包装实践。",
+      "categories": {
+        "news": "新闻",
+        "successStory": "成功案例",
+        "blog": "博客"
+      },
+      "items": {
+        "mjbizcon": "MJBizCon 2025：为何拉斯维加斯是大麻行业品牌不可错过的年度盛会",
+        "cosmopackAsia": "Cosmopack Asia 2025：Jarsking 展位不可错过的 4 大趋势",
+        "cannafestPrague": "Cannafest Prague 2025：值得关注的 7 个大麻产业趋势",
+        "beautyworldMiddleEast": "Beautyworld Middle East 2025：塑造美容包装未来",
+        "cosmoprofLasVegas": "美国美容行业市场分析 X COSMOPROF Las Vegas 2025",
+        "cosmoprofBologna": "Jarsking 在 COSMOPROF Bologna 2025 的环保包装创新"
+      }
+    }
+  },
+  "ctaSection": {
+    "hiringTitle": "Jarsking 正在招聘！！！让我们共筑包装行业的未来",
+    "hiringButton": "1小时内将您的概念转化为 3D 演示！",
+    "moqText": "由于 Jarsking 是一家成熟企业，制造规模很重要。因此，玻璃容器的最小起订量为 5,000 件，塑料容器的最小起订量为 10,000 件。"
+  },
+  "productDetail": {
+    "breadcrumb": "产品",
+    "customizeProduct": "定制此产品",
+    "downloadSpec": "下载规格表",
+    "needHelp": "需要帮助？",
+    "needHelpDesc": "我们的团队随时准备协助您解决包装需求",
+    "viewDetails": "查看详情",
+    "defaultCategory": "化妆品包装",
+    "relatedProducts": "相关产品",
+    "relatedProductsDesc": "探索类似包装解决方案",
+    "tabs": {
+      "description": "产品描述",
+      "specifications": "规格参数",
+      "reviews": "客户评价",
+      "reviewsPlaceholder": "客户评价将在此处显示。"
+    },
+    "specs": {
+      "noSpecs": "暂无规格信息。",
+      "priceRange": "价格区间",
+      "minimumOrder": "最小起订量",
+      "pieces": "件",
+      "technicalSpecs": "技术规格"
+    }
+  },
+  "collections": {
+    "breadcrumb": "系列合集",
+    "hero": {
+      "title": "精选",
+      "titleHighlight": "系列合集",
+      "description": "探索我们精心策划的包装系列，每个系列均针对特定品牌需求和市场趋势而设计。"
+    },
+    "viewCollection": "查看系列",
+    "items": {
+      "newDesign": {
+        "title": "新设计系列",
+        "description": "探索我们最新的创新包装设计，融合前沿美学与功能升级。"
+      },
+      "refillable": {
+        "title": "可补充式包装",
+        "description": "专为注重环保的品牌打造的可持续包装解决方案，减少浪费而不牺牲奢华感。"
+      }
+    }
+  },
+  "products": {
+    "breadcrumb": "产品",
+    "title": "全部化妆品包装产品",
+    "description": "浏览我们来自 jarsking 数据源的完整产品系列。"
+  },
+  "sustainability": {
+    "breadcrumb": "可持续发展",
+    "hero": {
+      "badge": "我们的承诺",
+      "title": "可持续包装，共创",
+      "titleHighlight": "美好明天",
+      "description": "在 Jarsking，我们相信美丽的包装不应以牺牲地球为代价。我们对可持续发展的承诺驱动着我们的每一个决策，从材料选择到生产工艺。",
+      "button": "探索可持续产品",
+      "imageAlt": "可持续包装"
+    },
+    "stats": {
+      "carbonReduction": "碳排放减少",
+      "recycledMaterials": "回收材料占比",
+      "wasteToLandfill": "填埋废弃物",
+      "wasteToLandfillValue": "零",
+      "renewableEnergy": "可再生能源"
+    },
+    "initiatives": {
+      "title": "我们的可持续发展举措",
+      "description": "我们为减少环境足迹而采取的具体行动",
+      "recyclable": {
+        "title": "可回收材料",
+        "description": "我们在产品开发中优先使用可回收和可生物降解材料，减少整个产品生命周期中的环境影响。"
+      },
+      "water": {
+        "title": "节约用水",
+        "description": "我们的生产流程经过优化以最大限度减少用水量，采用闭环系统对水进行回收和净化再利用。"
+      },
+      "energy": {
+        "title": "可再生能源",
+        "description": "太阳能电池板和节能设备为我们的设施提供动力，显著降低碳足迹。"
+      },
+      "ecoPackaging": {
+        "title": "环保包装",
+        "description": "从生产到交付，我们使用可持续包装解决方案，最大限度减少废弃物和环境影响。"
+      }
+    },
+    "refillable": {
+      "title": "可补充式包装系列",
+      "description": "我们的可补充式包装解决方案旨在减少废弃物并延长产品生命周期。通过允许消费者补充容器而非丢弃，我们显著减少了塑料消耗。",
+      "features": {
+        "modular": "模块化设计，便于补充",
+        "premium": "优质材料，使用寿命更长",
+        "compatible": "兼容多种补充格式",
+        "reduced": "包装废弃物减少高达70%"
+      },
+      "button": "查看系列",
+      "imageAlt": "可补充式包装"
+    },
+    "cta": {
+      "title": "携手共创改变",
+      "description": "与我们合作，创造既保护您的产品又保护地球的可持续包装解决方案。",
+      "button": "开启可持续之旅"
+    }
+  },
+  "successStories": {
+    "breadcrumb": "成功案例",
+    "hero": {
+      "title": "成功",
+      "titleHighlight": "案例",
+      "description": "了解领先美妆品牌如何通过 Jarsking 解决方案转型包装并提升市场影响力。"
+    },
+    "labels": {
+      "challenge": "挑战",
+      "solution": "解决方案",
+      "result": "成果",
+      "viewSimilar": "查看类似产品"
+    },
+    "stories": {
+      "luxbeauty": {
+        "client": "LuxBeauty 品牌",
+        "industry": "高端护肤",
+        "challenge": "需要为新有机产品线提供可持续且高端的包装。",
+        "solution": "开发了带竹盖的定制磨砂玻璃瓶，实现100%可回收包装。",
+        "result": "品牌认知度提升40%，荣登《Vogue》美妆大奖。"
+      },
+      "glowell": {
+        "client": "GloWell 化妆品",
+        "industry": "清洁美妆",
+        "challenge": "需要可补充包装系统以支持其零废弃承诺。",
+        "solution": "创造了带可替换内胆的创新真空泵系统。",
+        "result": "包装废弃物减少65%，荣获2023年可持续美妆大奖。"
+      },
+      "essence": {
+        "client": "Essence Naturals",
+        "industry": "芳香疗法",
+        "challenge": "寻求对光敏精油的防紫外线包装。",
+        "solution": "设计了带精密滴管盖和儿童安全功能的琥珀玻璃瓶。",
+        "result": "产品保质期延长18个月，客户满意度达99.5%。"
+      },
+      "purecare": {
+        "client": "PureCare 制药",
+        "industry": "皮肤科化妆品",
+        "challenge": "需要符合严格药品标准的医疗级包装。",
+        "solution": "为敏感配方开发了双腔技术真空罐。",
+        "result": "获得FDA批准，6个月内进入12个国际市场。"
+      }
+    },
+    "testimonials": {
+      "title": "客户评价",
+      "subtitle": "全球领先品牌的信赖之选",
+      "items": {
+        "sarah": {
+          "quote": "Jarsking 将我们的包装从普通变为非凡。他们对细节和质量的关注无与伦比。",
+          "author": "Sarah Chen",
+          "role": "产品总监，LuxBeauty"
+        },
+        "michael": {
+          "quote": "他们开发的可补充包装解决方案帮助我们实现了可持续发展目标，同时降低了30%的成本。",
+          "author": "Michael Torres",
+          "role": "CEO，GloWell 化妆品"
+        },
+        "emma": {
+          "quote": "与 Jarsking 合作就像拥有了自己团队的延伸。他们真正理解我们的愿景。",
+          "author": "Emma Williams",
+          "role": "创始人，Essence Naturals"
+        }
+      }
+    },
+    "cta": {
+      "title": "准备好书写您的成功故事了吗？",
+      "description": "与我们合作，创造能带来真实商业成果的包装解决方案。",
+      "button": "启动您的项目"
+    }
+  },
+  "strategicPartner": {
+    "breadcrumb": "关于我们",
+    "hero": {
+      "title": "您在",
+      "titleHighlight": "化妆品包装领域的战略合作伙伴",
+      "description": "凭借超过15年的经验，Jarsking 已成为高端化妆品包装解决方案的领先制造商。我们将创新设计、可持续实践和卓越品质相结合，帮助美妆品牌将愿景变为现实。",
+      "button": "与我们合作",
+      "imageAlt": "Jarsking 工厂"
+    },
+    "stats": {
+      "yearsExperience": "年行业经验",
+      "globalClients": "全球客户",
+      "products": "产品种类",
+      "countriesServed": "服务国家"
+    },
+    "values": {
+      "title": "我们的核心价值观",
+      "subtitle": "指导我们一切行动的原则",
+      "quality": {
+        "title": "卓越品质",
+        "description": "ISO认证制造，严格的质量控制标准确保每件产品符合国际要求。"
+      },
+      "customer": {
+        "title": "客户至上",
+        "description": "专业团队从设计咨询到售后支持提供个性化服务。"
+      },
+      "global": {
+        "title": "全球布局",
+        "description": "为全球美妆品牌提供服务，在主要市场提供可靠物流和本地化支持。"
+      },
+      "innovation": {
+        "title": "创新驱动",
+        "description": "持续的研发投入，带来引领行业趋势的前沿包装解决方案。"
+      }
+    },
+    "manufacturing": {
+      "title": "世界级制造能力",
+      "description": "我们最先进的生产设施占地超过50,000平方米，配备先进的注塑、吹塑和装饰技术。我们在整个生产过程中保持严格的质量控制。",
+      "features": {
+        "iso": "ISO 9001 & ISO 14001 认证",
+        "cleanroom": "100,000级无尘生产车间",
+        "automated": "自动化生产线",
+        "rd": "自有研发实验室"
+      },
+      "imageAlt": "生产设施"
+    },
+    "cta": {
+      "title": "准备好启动您的项目了吗？",
+      "description": "让我们帮助您打造能提升品牌价值、令客户满意的包装。",
+      "button": "立即联系"
+    }
+  },
+  "essentialOil": {
+    "hero": {
+      "customService": "定制服务",
+      "title": "精油瓶",
+      "breadcrumbHome": "首页",
+      "breadcrumbAll": "所有应用",
+      "breadcrumbCurrent": "精油瓶"
+    },
+    "intro": {
+      "title": "解锁精油瓶批发一站式解决方案",
+      "description": "作为顶级精油玻璃瓶制造商，Jarsking 在三个不同领域均有卓越表现：瓶身制造、瓶盖和泵头生产以及精美表面处理。只有约10%的工厂能同时在这三个领域出类拔萃。凭借超过20年的专业经验，Jarsking 整合了20多家工厂的资源，满足全球10,000多个品牌的精油包装需求。",
+      "button": "立即解锁一站式解决方案！",
+      "imageAlt": "30ml精油瓶"
+    },
+    "bottleTypes": {
+      "title": "精油包装解决方案：为每种应用选择合适的瓶型",
+      "description": "作为领先的精油包装制造商，我们提供六种多功能瓶型——滴管瓶、喷雾瓶、滚珠瓶、真空泵瓶、琥珀瓶和大麻CRC瓶。每种瓶型都有其独特用途，从精准计量到防紫外线保护，确保您的精油以最佳方式包装。",
+      "button": "立即定制您的系列！",
+      "items": {
+        "dropper": { "title": "滴管瓶", "description": "滴管瓶可精准计量，非常适合用于芳香疗法、护肤或治疗的精油。其受控分配功能非常适合将精油添加到扩香器或直接少量涂抹于皮肤。" },
+        "spray": { "title": "喷雾瓶", "description": "喷雾瓶便于家居香氛、清洁液或个人喷雾使用。可轻松将稀释精油用作室内喷雾、身体喷雾或表面清洁剂，均匀分布，清新空间或调配个性香氛。" },
+        "roller": { "title": "滚珠瓶", "description": "滚珠瓶非常适合随身携带使用，如个人香水或局部精油混合物。可轻松、受控地涂抹于脉搏点，适合放松、提神或皮肤护理，如缓解头痛或压力。" },
+        "airless": { "title": "真空泵瓶", "description": "真空泵瓶适用于护肤品，可保护精油混合物免受空气接触，保持新鲜。非常适合需要清洁、精准分配而不受污染或氧化影响的乳液、精华液或精油混合物。" },
+        "cannabis": { "title": "大麻滴管瓶", "description": "带儿童安全盖的大麻/CBD滴管瓶确保安全性和精准性。这些瓶子设计用于防止意外接触，为CBD油提供安全储存，同时允许用户分配适量，非常适合大麻产品。" },
+        "amber": { "title": "琥珀瓶", "description": "琥珀瓶提供紫外线保护，对于保持光敏精油的效力至关重要。适合批量或小量储存精油，防止光降解，确保长期效力和稳定性。" }
+      }
+    },
+    "supplierAdvantages": {
+      "title": "专业精油瓶供应商的卓越解决方案",
+      "items": {
+        "materials": { "title": "丰富的优质材料选择", "description": "在精油包装领域，材料选择至关重要，以防止包装与精油之间发生反应。玻璃因其惰性特质是我们的首选推荐。但我们也为特定需求提供高质量塑料替代品，确保您的精油保持纯净和效力。", "button": "告诉我们您的需求" },
+        "caps": { "title": "多样化的瓶盖和泵头选项", "description": "在我们的批量精油瓶产品中，我们深知选择合适的瓶盖与选择合适的瓶身同样重要。您选择的瓶盖会对产品的整体功能性和用户体验产生重大影响。因此，我们提供多种瓶盖选项以满足各种需求。", "button": "立即定制您的瓶盖！" },
+        "precision": { "title": "精密制造工艺", "description": "我们的玻璃瓶以卓越的化学稳定性、高耐压性和优异的密封性能著称，确保您的精油受到保护且不受影响。为保证最高质量，我们在生产的每个阶段都进行严格测试。", "button": "立即获取OEM解决方案！" },
+        "harmony": { "title": "完美和谐：风格与保护的结合", "description": "我们的精油瓶经过精心设计，以保护精油的敏感特性，防止其在暴露于光线、氧气或温度波动时降解。为确保保护性和视觉吸引力，我们提供一系列将功能性与美学相结合的瓶型设计。", "button": "立即解锁完美解决方案！" }
+      }
+    },
+    "designCrafts": {
+      "title": "定制精油瓶的设计工艺",
+      "description": "作为定制玻璃容器制造商，我们为多样化且经过验证的加工技术感到自豪。从磨砂和丝网印刷到金属化、上漆、烫金和着色。请欣赏我们的工艺展示。",
+      "button": "立即定制您的系列！",
+      "items": {
+        "frosting": { "title": "磨砂处理", "description": "磨砂处理为玻璃表面增添光滑的哑光效果，营造柔和、优雅的外观，同时提供细腻的质感。" },
+        "silkscreen": { "title": "丝网印刷", "description": "丝网印刷使用油墨将详细的标志或图案直接印刷在玻璃上，提供精确且耐久的装饰方法。" },
+        "metallization": { "title": "金属化处理", "description": "金属化处理在玻璃表面镀上薄薄的金属层，呈现出闪亮的反光外观，增强奢华感。" },
+        "lacquering": { "title": "上漆处理", "description": "上漆处理为玻璃添加彩色或透明的光泽涂层，提供时尚、抛光的外观，同时增加一层保护。" },
+        "hotStamping": { "title": "烫金处理", "description": "烫金处理使用热量和箔纸在玻璃上压印金属或彩色图案，增添高端的浮雕效果。" },
+        "tinting": { "title": "着色处理", "description": "着色处理为玻璃瓶增添颜色，在增强紫外线保护的同时，为品牌提供可定制的美学效果。" }
+      }
+    },
+    "customDesigns": {
+      "title": "批量精油瓶的专业定制设计",
+      "items": {
+        "diverse": { "title": "多样化定制选项", "description": "探索我们的样品和丰富的定制选项。从颜色、容量、形状到材质，我们为您的所有需求提供量身定制的解决方案。" },
+        "creative": { "title": "创意设计团队", "description": "我们的团队拥有20多名专业设计师，提供多样化的设计风格，满足您的独特需求。" },
+        "rapid": { "title": "快速设计创新", "description": "我们的设计流程高效迅速，最快4小时即可完成产品设计和3D效果图，有效缩短您的项目周期。" }
+      }
+    },
+    "marketableGuides": {
+      "title": "打造畅销精油瓶的关键要素",
+      "items": {
+        "premium": { "title": "优质材料", "description": "采购优质材料对于制造耐用的精油瓶至关重要，这些瓶子能提供卓越的保护并保持产品完整性。在Jarsking，我们优先使用高质量玻璃、金属和可持续材料，确保每个瓶子都达到最高的耐用性和安全标准。" },
+        "environment": { "title": "我们关爱环境", "description": "化妆品和美容包装公司越来越被期望采用可持续实践来保护环境。在Jarsking，我们减少碳足迹承诺的一部分是在精油瓶制造中使用环保材料和工艺。" },
+        "design": { "title": "吸引人的设计", "description": "设计至关重要，因为您的精油瓶和精油包装盒通常是您的品牌与潜在客户之间的第一接触点。它们不仅仅是容器——它们是强大的营销工具，可以成就或破坏一次销售。" },
+        "performance": { "title": "追求最佳性能", "description": "提升精油瓶的功能性可以显著改善目标受众的用户体验。例如，滴管瓶提供精准计量，非常适合芳香疗法和护肤应用。" }
+      }
+    },
+    "productGrid": {
+      "title": "精油玻璃瓶制造商精选",
+      "materialType": "材质类型",
+      "filterAll": "全部",
+      "filterGlass": "玻璃"
+    }
+  },
+  "faceCreamJars": {
+    "hero": {
+      "customService": "定制服务",
+      "title": "面霜罐",
+      "breadcrumbHome": "首页",
+      "breadcrumbAll": "所有应用",
+      "breadcrumbCurrent": "面霜罐"
+    },
+    "intro": {
+      "title": "用 Jarsking 包装定制您的护肤品牌",
+      "description": "在 Jarsking，您是艺术家，我们的罐子是您的画布。从材质、表面处理到装饰技术，选择各种选项，打造与您配方一样独特的容器。想要带金色烫金的磨砂玻璃罐？带定制潘通色的时尚亚克力容器？体现您可持续发展价值观的环保竹盖罐？我们都能实现。我们的内部设计团队与您密切合作，将您的愿景变为现实，确保每个细节——从罐子的弧度到瓶盖的咔哒声——都体现您品牌的个性。",
+      "imageAlt": "化妆品罐制造商"
+    },
+    "designCrafts": {
+      "title": "定制面霜罐设计工艺，提升您的品牌形象",
+      "button": "立即定制您的设计工艺！",
+      "items": {
+        "frosting": { "title": "磨砂处理", "description": "磨砂处理为玻璃表面增添光滑的哑光效果，营造柔和、优雅的外观，同时提供细腻的质感。" },
+        "silkscreen": { "title": "丝网印刷", "description": "丝网印刷使用油墨将详细的标志或图案直接印刷在玻璃上，提供精确且耐久的装饰方法。" },
+        "metallization": { "title": "金属化处理", "description": "金属化处理在玻璃表面镀上薄薄的金属层，呈现出闪亮的反光外观，增强奢华感。" },
+        "lacquering": { "title": "上漆处理", "description": "上漆处理为玻璃添加彩色或透明的光泽涂层，提供时尚、抛光的外观，同时增加一层保护。" },
+        "hotStamping": { "title": "烫金处理", "description": "烫金处理使用热量和箔纸在玻璃上压印金属或彩色图案，增添高端的浮雕效果。" },
+        "iridescence": { "title": "彩虹光泽处理", "description": "玻璃上的彩虹光泽处理创造出闪烁的彩虹效果，以其生动、动态的色彩变化增强视觉吸引力。" }
+      }
+    },
+    "productGrid": {
+      "title": "材质类型",
+      "filterAll": "全部",
+      "filterGlass": "玻璃",
+      "filterPlastic": "塑料"
+    }
+  },
+  "lotionBottles": {
+    "hero": {
+      "customService": "定制服务",
+      "title": "身体乳液瓶",
+      "breadcrumbHome": "首页",
+      "breadcrumbAll": "所有应用",
+      "breadcrumbCurrent": "身体乳液瓶"
+    },
+    "intro": {
+      "title": "身体乳液瓶制造商 - 定制包装解决方案",
+      "description": "Jarsking 提供专业级身体乳液容器，专为最佳产品保存、用户便利性和品牌差异化而设计。我们的身体乳液瓶旨在满足现代个人护理品牌的需求，将先进的材料科学与可定制的美学相结合。",
+      "imageAlt": "真空泵身体乳液瓶"
+    },
+    "dispensing": {
+      "title": "身体乳液瓶的分配系统",
+      "description": "对于身体乳液而言，合适的分配系统是提供便捷有效用户体验的关键。分配器的选择通常取决于乳液的粘度、保护配方的需求以及所需的用户交互方式。",
+      "items": {
+        "lotionPumps": "乳液泵头",
+        "airlessPumps": "真空泵头",
+        "discTop": "圆盘盖",
+        "flipTop": "翻盖"
+      }
+    },
+    "manufacturing": {
+      "items": {
+        "proven": "卓越制造实力",
+        "advanced": "先进材料科学",
+        "endToEnd": "端到端定制服务",
+        "quality": "全面质量管理体系"
+      }
+    },
+    "materials": {
+      "title": "按材质分类的身体乳液瓶",
+      "button": "从这里开始定制"
+    },
+    "qualityTests": {
+      "title": "身体乳液/洗发水瓶的质量测试",
+      "description": "严格的质量测试是个人护理包装的基础，确保产品满足安全性、耐用性、性能和视觉吸引力的严格标准。每个容器在到达您的生产线之前都要经过严格的评估程序，验证材料完整性、封口有效性和装饰持久性。",
+      "button": "联系我们的代表"
+    },
+    "bottleFinishes": {
+      "title": "用定制瓶身表面处理展现您的品牌",
+      "description": "了解定制乳液瓶表面处理如何改变您的个人护理包装并提升品牌认知度。从光泽和哑光表面到环保竹材选项，吸引人的表面处理是吸引消费者和建立品牌忠诚度的关键因素。",
+      "button": "立即定制您的系列！",
+      "items": {
+        "glossy": { "title": "光泽处理", "description": "高光泽涂层通过光反射特性增强视觉元素，突出鲜艳色彩并创造引人注目的货架存在感。光泽处理与丝网印刷和专业印刷技术配合效果极佳，适用于定制化妆品包装。" },
+        "frosting": { "title": "磨砂处理", "description": "半透明哑光效果根据瓶身材质通过不同应用方法创造哑光外观。塑料瓶通过注塑成型或喷涂实现磨砂效果，而玻璃容器则使用酸蚀或喷涂工艺。磨砂处理提供优雅外观和增强触感，同时减少光反射。" },
+        "metallization": { "title": "金属化处理", "description": "通过电解进行金属涂层处理，创造具有卓越耐久性的高光泽金属表面。电镀提供多种金属颜色和纹理，包括拉丝效果，同时比油墨印刷具有更强的耐磨损和耐腐蚀性。" },
+        "silkscreen": { "title": "丝网印刷", "description": "直接在瓶身表面进行多色图案应用，实现精确的标志放置和品牌信息传递。丝网印刷提供色彩鲜艳度，同时提供与订单数量无关的成本结构，按颜色数量和印刷面计算。" },
+        "hotStamping": { "title": "烫金处理", "description": "金属箔应用通过加热转印工艺创造高端装饰和奢华品牌元素。烫金提供金色、银色和定制颜色的璀璨金属效果，同时具有卓越的附着力和耐磨性。" },
+        "holographic": { "title": "全息和闪光处理", "description": "多维全息效果和生动的闪光表面处理创造出引人注目的展示效果，在当今年轻消费群体市场中尤为流行。这些装饰性表面处理持续提供独特的零售货架吸引力。" },
+        "bamboo": { "title": "竹木表面处理", "description": "竹木表面处理为个人护理包装提供自然、质朴的美感和环保吸引力。这种可持续材料在注重环保的品牌中越来越受欢迎。竹子独特的纹理和纹路创造出高端外观，与含有天然或有机成分的产品完美搭配。" }
+      }
+    }
+  },
+  "shared": {
+    "certifications": {
+      "defaultTitle": "认证空化妆品瓶制造商",
+      "defaultButton": "立即联系认证化妆品瓶供应商！"
+    },
+    "fullCycleSolution": {
+      "title": "化妆品包装全周期解决方案",
+      "steps": {
+        "concept": "从概念到演示",
+        "molding": "自有模具制造",
+        "manufacturing": "交钥匙制造"
+      }
+    },
+    "qualityInspections": {
+      "title": "严格执行5阶段检验的中国优质化妆品瓶工厂",
+      "description": "在 Jarsking，每个化妆品瓶都要经过全面的化学和物理测试，如扭矩、耐酒精性、耐磨测试等。这些严格的评估确保了持久的耐用性、产品兼容性和卓越的质量，保证我们的包装达到行业最高的性能和可靠性标准。",
+      "button": "在这里获取高质量化妆品瓶"
+    },
+    "wholesaleSolutions": {
+      "title": "一站式化妆品瓶批发解决方案",
+      "description1": "在化妆品玻璃包装行业，三个关键领域脱颖而出：玻璃瓶制造、瓶盖和泵头生产以及瓶身表面处理。然而，单一工厂在保持高质量和成本效益的同时精通所有三个领域并不常见——只有约10%的工厂能够做到这一点。",
+      "description2": "Jarsking 是这一顶级化妆品瓶制造商精英群体的一员。凭借20多年的行业经验，我们整合了20多家工厂的资源，满足了10,000多个品牌的化妆品包装需求，获得广泛认可。"
+    }
+  },
+  "ppRefillableJar": {
+    "hero": {
+      "title": "PP 可替换内胆化妆品罐",
+      "description": "Jarsking 的 PP 可替换内胆化妆品罐专为需要更洁净补充、安全密封和高端货架展示的护肤品牌设计。多部件结构支持 OEM/ODM 定制，包括注塑色彩匹配和品牌装饰。适用于面霜、身体黄油和面膜配方的批量生产。",
+      "features": [
+        "多组件罐体：盖子、圆盘、内杯、外 PP 瓶。",
+        "可替换 PP 内胆支持补充计划和卫生控制。",
+        "密封塑料圆盘有助于防止运输中的泄漏。",
+        "两种容量可选：110g 和 240g，支持产品线延伸。",
+        "明确的\"印刷区域\"，确保 Logo 和合规文字的一致放置。"
+      ],
+      "meetTeam": "联系 Jarsking 团队",
+      "customize": "定制此产品"
+    },
+    "productDetails": {
+      "title": "产品详情",
+      "productName": "产品名称",
+      "productNameValue": "PP 可替换内胆化妆品罐",
+      "capacity": "容量",
+      "color": "颜色",
+      "colorValue": "可定制",
+      "material": "材质",
+      "materialValue": "PP 外壳与内胆",
+      "use": "用途",
+      "useValue": "个人护理与化妆品品牌",
+      "moq": "最小起订量",
+      "deliveryPacking": "交货包装",
+      "deliveryPackingValue": "标准出口纸箱包装",
+      "surfaceTreatment": "表面处理",
+      "surfaceTreatmentValue": "丝网印刷、磨砂、电镀、彩色涂层、3D 打印、烫金"
+    },
+    "packagingSuggestion": {
+      "title": "包装建议：",
+      "clientProfile": "客户背景：一个前沿护肤品牌，正在为维 C 面霜和黑头去除面膜打造明亮、功效导向的\"问题/解决方案\"系列，目标受众为 Z 世代/年轻千禧一代，覆盖 DTC 和零售渠道。他们需要在货架上看起来现代、且能在多个 SKU 之间保持一致的包装，以实现规模化推广。",
+      "challenge": "挑战：",
+      "challengeText": "该品牌面临货架拥挤和注意力短暂的问题：标签看起来\"和所有人一样\"，产品卖点无法在 1-2 米外即时传达。他们还需要快速打样以满足上市时间节点，并需要一套能保持视觉一致性同时通过颜色区分配方的包装系统。",
+      "solution": "Jarsking 解决方案：",
+      "solutionText": "Jarsking 开发了一套定制罐体方案，针对高冲击力排版和色块差异化进行优化——\"CREAM\" SKU 采用深蓝色罐体，\"MASK\" 采用鲜黄色，搭配粗体、易读的装饰，实现即时卖点传达（如维 C / 黑头功效）。简洁的圆柱形态支持高端摄影、强力堆叠陈列，以及整套护肤系列的一致品牌呈现。通过 OEM/ODM 批量生产执行，客户可以在标准化罐体轮廓的同时，通过更新颜色和印刷来推出新品，提升货架识别度并加速 SKU 扩张。"
+    }
+  },
+  "thickBaseGlass": {
+    "hero": {
+      "title": "厚底玻璃乳液泵瓶 - 奢华护肤品牌专用"
+    }
+  },
+  "sustainableAirless": {
+    "hero": {
+      "title": "可持续可替换真空泵面霜罐 - 婴儿护理品牌专用"
+    }
+  },
+  "diy": {
+    "breadcrumb": "DIY 定制",
+    "title": "DIY 定制",
+    "description": "使用我们直观的 3D 设计器定制您的包装。选择形状、材质、颜色并添加您的品牌 Logo。",
+    "backToProduct": "返回产品详情",
+    "saveDesign": "保存设计",
+    "share": "分享",
+    "exportConfig": "导出配置",
+    "requestQuote": "请求报价",
+    "designTips": "设计提示",
+    "tip1": "选择与您产品类型互补的材质",
+    "tip2": "考虑人体工学和用户体验",
+    "tip3": "确保 Logo 放置位置可见且对齐",
+    "tip4": "尝试不同的颜色组合以找到最佳搭配"
+  },
+  "footer": {
+    "about": {
+      "title": "关于 Jarsking",
+      "description": "专业化妆品包装制造商，为全球美妆品牌提供玻璃瓶、塑料罐、软管等定制包装解决方案。"
+    },
+    "quickLinks": {
+      "title": "快速链接",
+      "home": "首页",
+      "about": "关于我们",
+      "products": "产品"
+    },
+    "categories": {
+      "title": "产品分类",
+      "skincare": "护肤包装",
+      "glass": "玻璃材质",
+      "plastic": "塑料材质",
+      "tubes": "软管包装",
+      "refillable": "可替换包装"
+    },
+    "contact": {
+      "title": "联系信息",
+      "emailLabel": "邮箱",
+      "phoneLabel": "电话",
+      "phone": "+86 139 2271 2026",
+      "addressLabel": "地址",
+      "address": "中国广东省广州市"
+    },
+    "newsletter": {
+      "title": "订阅我们的简报",
+      "description": "获取最新资讯和优惠",
+      "placeholder": "输入您的邮箱",
+      "button": "订阅"
+    },
+    "copyright": " 2024 Jarsking。保留所有权利。",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "sitemap": "网站地图"
+  }
+}

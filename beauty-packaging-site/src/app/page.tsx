@@ -15,7 +15,7 @@ import CTASection from '@/components/home/CTASection'
 
 export default function Home() {
   return (
-    <div>
+    <>
       <HeroBanner />
       <CertificationCarousel />
       <ServiceAdvantages />
@@ -30,6 +30,6 @@ export default function Home() {
       <FAQ />
       <NewsSection />
       <CTASection />
-    </div>
+    </>
   )
 }

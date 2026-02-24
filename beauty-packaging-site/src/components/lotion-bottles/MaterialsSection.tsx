@@ -1,4 +1,7 @@
+'use client'
+
 import Link from 'next/link'
+import { useTranslation } from 'react-i18next'
 
 const materials = [
   {
@@ -29,18 +32,19 @@ const materials = [
 ]
 
 export default function MaterialsSection() {
+  const { t } = useTranslation()
   return (
     <section className="w-full bg-[#f9f9f9] py-16 md:py-20">
       <div className="max-w-[1440px] mx-auto px-6 md:px-12">
         <h2 className="font-montserrat text-3xl md:text-[40px] font-medium leading-[1.2] text-[#1E1E1E] text-center mb-4">
-          Body Lotion Bottles by Materials
+          {t('lotionBottles.materials.title')}
         </h2>
         <div className="text-center mb-12">
           <Link
             href="/contact-jarsking/"
             className="inline-block bg-[#61CE70] hover:bg-[#50b85e] text-white font-medium px-8 py-3 rounded transition-colors"
           >
-            Customization Starts from Here
+            {t('lotionBottles.materials.button')}
           </Link>
         </div>
 

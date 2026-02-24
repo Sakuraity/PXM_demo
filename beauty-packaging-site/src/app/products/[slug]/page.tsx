@@ -1,11 +1,11 @@
 import { notFound } from 'next/navigation'
-import Link from 'next/link'
-import { ArrowRight, Download, Mail, Phone } from 'lucide-react'
-import Breadcrumb from '@/components/layout/Breadcrumb'
+import ProductBreadcrumb from '@/components/product/ProductBreadcrumb'
 import ProductGallery from '@/components/product/ProductGallery'
 import ProductTabs from '@/components/product/ProductTabs'
 import ProductSpecs from '@/components/product/ProductSpecs'
 import ProductGrid from '@/components/product/ProductGrid'
+import ProductDetailContent from '@/components/product/ProductDetailContent'
+import ProductRelatedHeading from '@/components/product/ProductRelatedHeading'
 import { getProduct, getRelatedProducts } from '@/services'
 import SustainableRefillableAirlessPumpPage from '@/components/product-items/sustainable-refillable-airless-pump'
 import ThickBaseGlassLotionPumpPage from '@/components/product-items/thick-base-glass-lotion-pump'
@@ -40,15 +40,10 @@ export default async function ProductPage({ params }: ProductPageProps) {
     notFound()
   }
 
-  const breadcrumbItems = [
-    { label: 'Products', href: '/all-applications' },
-    { label: product.title }
-  ]
-
   return (
     <div className="min-h-screen">
       {/* 面包屑导航 */}
-      <Breadcrumb items={breadcrumbItems} />
+      <ProductBreadcrumb productTitle={product.title} />
 
       {/* 产品详情 */}
       <section className="py-12">
@@ -68,39 +63,8 @@ export default async function ProductPage({ params }: ProductPageProps) {
                 </p>
               </div>
 
-              {/* 操作按钮 */}
-              <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                <Link
-                  href={`/products/${product.slug}/diy`}
-                  className="btn-primary flex items-center justify-center"
-                >
-                  Customize This Product
-                  <ArrowRight className="w-5 h-5 ml-2" />
-                </Link>
-                
-                <button className="btn-secondary flex items-center justify-center">
-                  <Download className="w-5 h-5 mr-2" />
-                  Download Spec Sheet
-                </button>
-              </div>
-
-              {/* 联系信息 */}
-              <div className="bg-accent/10 rounded-lg p-6 mt-6">
-                <h3 className="text-lg font-semibold text-primary mb-4">Need Help?</h3>
-                <p className="text-sm text-secondary mb-4">
-                  Our team is ready to assist with your packaging requirements
-                </p>
-                <div className="flex flex-col sm:flex-row gap-3">
-                  <a href="mailto:info@jarsking.com" className="flex items-center text-accent hover:underline">
-                    <Mail className="w-4 h-4 mr-2" />
-                    info@jarsking.com
-                  </a>
-                  <a href="tel:+86123456789" className="flex items-center text-accent hover:underline">
-                    <Phone className="w-4 h-4 mr-2" />
-                    +86 123 456 789
-                  </a>
-                </div>
-              </div>
+              {/* 操作按钮 + 联系信息（客户端组件，支持 i18n） */}
+              <ProductDetailContent productSlug={product.slug} />
             </div>
           </div>
 
@@ -121,15 +85,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
       {/* 相关产品 */}
       <section className="py-16 bg-gray-50">
         <div className="container-custom">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold text-primary mb-4">
-              Related Products
-            </h2>
-            <p className="text-lg text-secondary">
-              Explore similar packaging solutions
-            </p>
-          </div>
-
+          <ProductRelatedHeading />
           <ProductGrid products={relatedProducts} />
         </div>
       </section>

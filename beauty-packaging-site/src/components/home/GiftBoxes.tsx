@@ -1,4 +1,10 @@
+"use client"
+
+import { useTranslation } from 'react-i18next'
+
 export default function GiftBoxes() {
+  const { t } = useTranslation()
+
   return (
     <section className="py-16 bg-gray-50">
       <div className="max-w-[1200px] mx-auto px-4">
@@ -12,17 +18,17 @@ export default function GiftBoxes() {
           </div>
           <div>
             <h2 className="text-3xl lg:text-4xl font-bold text-[#1a1a2e] mb-6">
-              Turn Moments into Memories: Jarsking&apos;s Signature Gift Boxes
+              {t('home.giftBoxes.title')}
             </h2>
             <p className="text-gray-600 mb-8 leading-relaxed">
-              Unwrap the magic of packaging with Jarsking&apos;s gift boxes that transform ordinary moments into extraordinary memories. Our design team specializes in creating unique, customizable boxes that capture the essence of celebration. We don&apos;t just create containers; we craft storytelling experiences that spark joy, surprise, and wonder across every holiday and special occasion. With limited-edition designs, premium materials, and personalized branding options, your brand&apos;s personality comes alive through our ingenious design, making every gift moment unforgettable.
+              {t('home.giftBoxes.description')}
             </p>
             <div className="text-right">
               <a
                 href="/contact-jarsking"
                 className="inline-block px-6 py-3 bg-[#c8a97e] text-white rounded hover:bg-[#b89a6f] transition-colors text-sm font-medium"
               >
-                Request a Custom Quote
+                {t('home.giftBoxes.button')}
               </a>
             </div>
           </div>

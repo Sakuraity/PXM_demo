@@ -1,16 +1,21 @@
+"use client"
+
 import Image from 'next/image'
+import { useTranslation } from 'react-i18next'
 
 export interface ProductCardProps {
-  title: string
-  description: string
+  titleKey: string
+  descriptionKey: string
   image: string
-  imageAlt: string
-  features: string[]
-  idealFor: string
+  imageAltKey: string
+  featuresKeys: string[]
+  idealForKey: string
   link: string
 }
 
-export default function ProductCard({ title, description, image, imageAlt, features, idealFor, link }: ProductCardProps) {
+export default function ProductCard({ titleKey, descriptionKey, image, imageAltKey, featuresKeys, idealForKey, link }: ProductCardProps) {
+  const { t } = useTranslation()
+
   return (
     <a href={link} className="block group cursor-pointer">
       <div className="relative overflow-hidden bg-[#f5f0ed] rounded-sm">
@@ -19,7 +24,7 @@ export default function ProductCard({ title, description, image, imageAlt, featu
           <div className="relative w-full aspect-square mb-6 overflow-hidden rounded-sm">
             <Image
               src={image}
-              alt={imageAlt}
+              alt={t(imageAltKey)}
               fill
               className="object-cover group-hover:scale-105 transition-transform duration-500"
               sizes="(max-width: 768px) 100vw, 25vw"
@@ -27,21 +32,21 @@ export default function ProductCard({ title, description, image, imageAlt, featu
           </div>
           <h3 className="text-[28px] font-normal leading-[1.4em] text-primary mb-3"
             style={{ fontFamily: "'Montserrat', sans-serif" }}>
-            {title}
+            {t(titleKey)}
           </h3>
           <p className="text-text text-sm leading-relaxed mb-4">
-            {description}
+            {t(descriptionKey)}
           </p>
           <ul className="space-y-2 mb-4">
-            {features.map((feature, index) => (
+            {featuresKeys.map((featureKey, index) => (
               <li key={index} className="flex items-start gap-2 text-sm text-text">
                 <span className="text-accent mt-0.5 flex-shrink-0">›</span>
-                <span>{feature}</span>
+                <span>{t(featureKey)}</span>
               </li>
             ))}
           </ul>
           <p className="text-sm text-text">
-            <strong className="text-primary">Ideal for:</strong> {idealFor}
+            <strong className="text-primary">{t('allApplications.productCard.idealFor')}</strong> {t(idealForKey)}
           </p>
         </div>
       </div>

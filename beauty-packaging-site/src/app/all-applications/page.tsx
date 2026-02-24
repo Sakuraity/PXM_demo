@@ -21,8 +21,8 @@ export default function AllApplicationsPage() {
       <WhyMatters />
 
       <ProductCategorySection
-        title="Skincare Packaging Solutions"
-        description="Skincare represents the fastest-growing segment in beauty, driven by consumers' increasing sophistication about active ingredients and formulation science."
+        titleKey="allApplications.categories.skincare.title"
+        descriptionKey="allApplications.categories.skincare.description"
         products={skincareProducts}
       />
       {/* Skincare Row 2 - additional products without repeating title */}
@@ -37,20 +37,20 @@ export default function AllApplicationsPage() {
       </section>
 
       <ProductCategorySection
-        title="Makeup Packaging Solutions"
-        description="Makeup packaging serves dual functions: protecting formulations while delivering brand personality and color cosmetics' inherent sense of play and self-expression."
+        titleKey="allApplications.categories.makeup.title"
+        descriptionKey="allApplications.categories.makeup.description"
         products={makeupProducts}
       />
 
       <ProductCategorySection
-        title="Fragrance Packaging Solutions"
-        description="Fragrance packaging transcends functionality—it's storytelling through glass, metal, and design. A perfume bottle is art."
+        titleKey="allApplications.categories.fragrance.title"
+        descriptionKey="allApplications.categories.fragrance.description"
         products={fragranceProducts}
       />
 
       <ProductCategorySection
-        title="Personal Care Packaging Solutions"
-        description="Personal care packaging prioritizes functionality, durability, and value across high-use, everyday products that withstand humid bathroom environments."
+        titleKey="allApplications.categories.personalCare.title"
+        descriptionKey="allApplications.categories.personalCare.description"
         products={personalCareProducts}
       />
 

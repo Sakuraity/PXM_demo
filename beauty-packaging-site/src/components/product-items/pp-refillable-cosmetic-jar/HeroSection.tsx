@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
 
 const HERO_IMAGES = [
   {
@@ -32,17 +33,18 @@ const HERO_IMAGES = [
   },
 ]
 
-const FEATURES = [
-  'Multi-component jar: cover, disc, inner cup, outer PP bottle.',
-  'Replaceable PP inner container supports refill programs and hygiene control.',
-  'Well-sealed plastic disc helps prevent leakage during shipping.',
-  'Two capacities available: 110g and 240g for product line extensions.',
-  'Defined "printing area" for consistent logo and compliance text placement.',
-]
-
 export default function HeroSection() {
+  const { t } = useTranslation()
   const scrollRef = useRef<HTMLDivElement>(null)
   const [isHovered, setIsHovered] = useState(false)
+
+  const FEATURES = t('ppRefillableJar.hero.features', { returnObjects: true, defaultValue: [
+    'Multi-component jar: cover, disc, inner cup, outer PP bottle.',
+    'Replaceable PP inner container supports refill programs and hygiene control.',
+    'Well-sealed plastic disc helps prevent leakage during shipping.',
+    'Two capacities available: 110g and 240g for product line extensions.',
+    'Defined "printing area" for consistent logo and compliance text placement.',
+  ] }) as string[]
 
   useEffect(() => {
     const el = scrollRef.current
@@ -71,11 +73,11 @@ export default function HeroSection() {
         {/* Left: Product Info — ~50% width, padding 40px 80px 40px 10px */}
         <div className="lg:w-[50%] py-[40px] pr-[80px] pl-[10px] max-lg:px-[8%] max-lg:py-[8%] flex flex-col justify-center">
           <h1 className="text-[28px] md:text-[45px] lg:text-[65px] font-semibold text-[#7C7C7C] leading-[1.2] lg:leading-[1.2] mb-4">
-            PP Refillable Cosmetic Jar with Replaceable Inner Cup
+            {t('ppRefillableJar.hero.title', { defaultValue: 'PP Refillable Cosmetic Jar with Replaceable Inner Cup' })}
           </h1>
 
           <p className="text-[#887E7E] text-[17px] font-light leading-[31px] my-[10px]">
-            Jarsking&apos;s <strong className="font-semibold">PP refillable cosmetic jar with a replaceable inner cup</strong> is built for skincare brands that need cleaner refills, secure sealing, and premium shelf impact. The multi-part structure supports <strong className="font-semibold">OEM/ODM customization</strong>, including injection color matching and branded decoration. Ideal for face cream, body butter, and mask formulas in bulk production.
+            {t('ppRefillableJar.hero.description', { defaultValue: "Jarsking's PP refillable cosmetic jar with a replaceable inner cup is built for skincare brands that need cleaner refills, secure sealing, and premium shelf impact. The multi-part structure supports OEM/ODM customization, including injection color matching and branded decoration. Ideal for face cream, body butter, and mask formulas in bulk production." })}
           </p>
 
           <ul className="space-y-2 my-6">
@@ -97,13 +99,13 @@ export default function HeroSection() {
               className="text-white px-8 py-3 rounded-[10px] text-base font-medium transition-all flex-1 text-center font-roboto"
               style={{ backgroundImage: 'linear-gradient(174deg, #FC844D 12%, #9A170B 84%)' }}
             >
-              Meet Jarsking Team
+              {t('ppRefillableJar.hero.meetTeam', { defaultValue: 'Meet Jarsking Team' })}
             </Link>
             <Link
               href="/products/pp-refillable-cosmetic-jar-with-replaceable-inner-cup/diy"
               className="bg-[#1E1E1E] text-white px-8 py-3 rounded-[10px] text-base font-medium hover:bg-[#333] transition-colors flex-1 text-center font-roboto flex items-center justify-center gap-2"
             >
-              Customize This Product
+              {t('ppRefillableJar.hero.customize', { defaultValue: 'Customize This Product' })}
               <ArrowRight className="w-4 h-4" />
             </Link>
           </div>

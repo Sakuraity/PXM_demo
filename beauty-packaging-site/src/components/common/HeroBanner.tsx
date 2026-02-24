@@ -3,8 +3,33 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { ArrowRight, Play } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
 
-export default function HeroBanner() {
+interface HeroBannerProps {
+  titleLine1: string
+  titleLine2?: string
+  description: string
+  imageSrc: string
+  imageAlt: string
+  primaryButtonText?: string
+  primaryButtonLink?: string
+  secondaryButtonText?: string
+  secondaryButtonLink?: string
+}
+
+export default function HeroBanner({
+  titleLine1,
+  titleLine2,
+  description,
+  imageSrc,
+  imageAlt,
+  primaryButtonText,
+  primaryButtonLink = '/contact',
+  secondaryButtonText,
+  secondaryButtonLink = '/products'
+}: HeroBannerProps) {
+  const { t } = useTranslation()
+
   return (
     <section className="relative bg-brand-navy text-white overflow-hidden">
       {/* 背景遮罩 */}
@@ -15,12 +40,12 @@ export default function HeroBanner() {
         <div 
           className="w-full h-full bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('/wp-content/uploads/2023/02/Group-95.jpg')`
+            backgroundImage: `url('${imageSrc}')`
           }}
         >
           {/* 视频占位 - 实际使用时替换为真实视频 */}
           <div className="w-full h-full flex items-center justify-center">
-            <div className="text-white/50 text-sm">Video Background</div>
+            <div className="text-white/50 text-sm">{t('hero.videoBackground', { defaultValue: 'Video Background' })}</div>
           </div>
         </div>
       </div>
@@ -30,26 +55,31 @@ export default function HeroBanner() {
           {/* 内容 */}
           <div className="space-y-8">
             <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
-              Pack the Ordinary into
-              <span className="block text-accent">Extraordinary</span>
+              {titleLine1}
+              {titleLine2 && (
+                <>
+                  <br />
+                  <span className="block text-accent">{titleLine2}</span>
+                </>
+              )}
             </h1>
             
             <p className="text-lg text-gray-300 leading-relaxed max-w-2xl">
-              Jarsking Packaging is a premier full-service designer and manufacturer of packaging solutions, catering to both small and large production needs. We deliver innovative, high-quality, and cost-effective packaging with precision and consistency.
+              {description}
               <br className="hidden lg:block" />
-              Your Reliable Packaging Partner.
+              {t('hero.reliablePackagingPartner', { defaultValue: 'Your Reliable Packaging Partner.' })}
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/all-applications" className="btn-primary bg-white text-primary hover:bg-gray-100">
-                Explore Products
+              <Link href={primaryButtonLink} className="btn-primary bg-white text-primary hover:bg-gray-100">
+                {primaryButtonText || t('common.actions.exploreProducts', { defaultValue: 'Explore Products' })}
                 <ArrowRight className="w-5 h-5 ml-2" />
               </Link>
               
-              <button className="flex items-center justify-center px-6 py-3 border border-white rounded-md hover:bg-white hover:text-primary transition-all">
+              <Link href={secondaryButtonLink} className="flex items-center justify-center px-6 py-3 border border-white rounded-md hover:bg-white hover:text-primary transition-all">
                 <Play className="w-5 h-5 mr-2" />
-                Watch Video
-              </button>
+                {secondaryButtonText || t('hero.watchVideo', { defaultValue: 'Watch Video' })}
+              </Link>
             </div>
           </div>
           
@@ -59,20 +89,23 @@ export default function HeroBanner() {
               <div className="relative">
                 <Image
                   src="/wp-content/uploads/2024/12/frost-cosmetic-bottle-set.webp"
-                  alt="Turnkey Services"
+                  alt={t('hero.turnkeyServiceAlt', { defaultValue: 'Turnkey Services for Your Brand' })}
                   width={600}
                   height={400}
-                  className="w-full h-auto object-cover"
+                  className="w-full object-cover rounded-t-2xl"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
               </div>
-              <div className="p-8">
-                <h3 className="text-2xl font-bold text-primary mb-4">
-                  Turnkey Services for Your Brand
+              <div className="p-8 space-y-4">
+                <h3 className="text-xl font-bold text-gray-900">
+                  {t('hero.turnkeyTitle', { defaultValue: 'Turnkey Services for Your Brand' })}
                 </h3>
-                <p className="text-text leading-relaxed">
-                  From design to delivery, tailored to elevate your brand. Whether you're in skincare, cosmetic, makeup, personal care, perfume, and pharmaceutical, we provide high-quality, custom packaging that meets your unique needs. Partner with us for seamless, end-to-end packaging services.
+                <p className="text-gray-600 leading-relaxed">
+                  {t('hero.turnkeyDesc', { defaultValue: "From design to delivery, tailored to elevate your brand. Whether you're in skincare, cosmetic, makeup, personal care, perfume, and pharmaceutical, we provide high-quality, custom packaging that meets your unique needs. Partner with us for seamless, end-to-end packaging services." })}
                 </p>
+                <Link href="/about" className="text-primary font-medium hover:underline inline-flex items-center mt-4">
+                  {t('common.learnMore', { defaultValue: 'Learn More' })}
+                  <ArrowRight className="w-4 h-4 ml-1" />
+                </Link>
               </div>
             </div>
           </div>

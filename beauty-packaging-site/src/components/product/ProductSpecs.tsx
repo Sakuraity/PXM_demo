@@ -1,3 +1,7 @@
+'use client'
+
+import { useTranslation } from 'react-i18next'
+
 interface ProductSpecsProps {
   specifications?: Record<string, any>
   priceRange?: string
@@ -5,12 +9,13 @@ interface ProductSpecsProps {
 }
 
 export default function ProductSpecs({ specifications, priceRange, moq }: ProductSpecsProps) {
+  const { t } = useTranslation()
   const hasSpecs = specifications && Object.keys(specifications).length > 0
   
   if (!hasSpecs && !priceRange && !moq) {
     return (
       <div className="text-center py-8 text-secondary">
-        <p>No specifications available.</p>
+        <p>{t('productDetail.specs.noSpecs')}</p>
       </div>
     )
   }
@@ -22,14 +27,14 @@ export default function ProductSpecs({ specifications, priceRange, moq }: Produc
         <div className="grid grid-cols-2 gap-4 p-4 bg-accent/5 rounded-lg">
           {priceRange && (
             <div>
-              <p className="text-sm text-secondary">Price Range</p>
+              <p className="text-sm text-secondary">{t('productDetail.specs.priceRange')}</p>
               <p className="text-lg font-semibold text-primary">{priceRange}</p>
             </div>
           )}
           {moq && (
             <div>
-              <p className="text-sm text-secondary">Minimum Order</p>
-              <p className="text-lg font-semibold text-primary">{moq} pieces</p>
+              <p className="text-sm text-secondary">{t('productDetail.specs.minimumOrder')}</p>
+              <p className="text-lg font-semibold text-primary">{moq} {t('productDetail.specs.pieces')}</p>
             </div>
           )}
         </div>
@@ -39,7 +44,7 @@ export default function ProductSpecs({ specifications, priceRange, moq }: Produc
       {hasSpecs && (
         <div>
           <h4 className="text-sm font-semibold text-secondary uppercase tracking-wide mb-3">
-            Technical Specifications
+            {t('productDetail.specs.technicalSpecs')}
           </h4>
           <dl className="divide-y divide-gray-100">
             {Object.entries(specifications).map(([key, value]) => (

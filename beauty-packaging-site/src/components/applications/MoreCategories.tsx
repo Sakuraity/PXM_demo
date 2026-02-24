@@ -1,55 +1,60 @@
+"use client"
+
 import Image from 'next/image'
+import { useTranslation } from 'react-i18next'
 
 const categoriesRow1 = [
   {
-    title: 'By Materials',
+    titleKey: 'allApplications.moreCategories.cards.byMaterials.title',
     image: '/images/products/plain-perfume-bottle.webp',
-    alt: 'plain perfume bottle',
+    altKey: 'allApplications.moreCategories.cards.byMaterials.alt',
     link: '/all-materials/',
   },
   {
-    title: 'By Functions',
+    titleKey: 'allApplications.moreCategories.cards.byFunctions.title',
     image: '/images/products/plastic-bottles-with-various-dispensers.webp',
-    alt: 'plastic bottles with various dispensers',
+    altKey: 'allApplications.moreCategories.cards.byFunctions.alt',
     link: '/functions/',
   },
   {
-    title: 'By Types',
+    titleKey: 'allApplications.moreCategories.cards.byTypes.title',
     image: '/images/products/earthly-tone-skincare-packaging.webp',
-    alt: 'earthly tone skincare packaging',
+    altKey: 'allApplications.moreCategories.cards.byTypes.alt',
     link: '/all-packaging-types/',
   },
 ]
 
 const categoriesRow2 = [
   {
-    title: 'Collections',
+    titleKey: 'allApplications.moreCategories.cards.collections.title',
     image: '/images/products/dopamine-airless-packaging-for-skincare.webp',
-    alt: 'dopamine airless packaging for skincare',
+    altKey: 'allApplications.moreCategories.cards.collections.alt',
     link: '/collections/',
   },
   {
-    title: 'Child Resistant Packaging',
+    titleKey: 'allApplications.moreCategories.cards.childResistantPackaging.title',
     image: '/images/products/cannabis-packaging-set.png.webp',
-    alt: 'cannabis packaging set',
+    altKey: 'allApplications.moreCategories.cards.childResistantPackaging.alt',
     link: '/cannabis-packaging/',
   },
   {
-    title: 'Boxes, Bags, Supplies',
+    titleKey: 'allApplications.moreCategories.cards.boxesBagsSupplies.title',
     image: '/images/products/cannabis-paper-box.webp',
-    alt: 'cannabis paper box',
+    altKey: 'allApplications.moreCategories.cards.boxesBagsSupplies.alt',
     link: '/boxes-bags-and-supplies/',
   },
 ]
 
-function CategoryCard({ title, image, alt, link }: { title: string; image: string; alt: string; link: string }) {
+function CategoryCard({ titleKey, image, altKey, link }: { titleKey: string; image: string; altKey: string; link: string }) {
+  const { t } = useTranslation()
+
   return (
     <div className="text-center">
       <a href={link} className="block group">
         <div className="relative aspect-square overflow-hidden rounded-sm mb-4">
           <Image
             src={image}
-            alt={alt}
+            alt={t(altKey)}
             fill
             className="object-cover group-hover:scale-95 transition-transform duration-500"
             sizes="(max-width: 768px) 100vw, 33vw"
@@ -59,7 +64,7 @@ function CategoryCard({ title, image, alt, link }: { title: string; image: strin
       <h4 className="text-[20px] font-normal leading-[1.5em]"
         style={{ fontFamily: "'Montserrat', sans-serif" }}>
         <a href={link} className="text-primary hover:text-accent transition-colors">
-          {title}
+          {t(titleKey)}
         </a>
       </h4>
     </div>
@@ -67,6 +72,8 @@ function CategoryCard({ title, image, alt, link }: { title: string; image: strin
 }
 
 export default function MoreCategories() {
+  const { t } = useTranslation()
+
   return (
     <>
       {/* Header Row */}
@@ -75,12 +82,12 @@ export default function MoreCategories() {
           <div className="flex flex-col md:flex-row items-center justify-between">
             <h2 className="text-[40px] font-medium leading-[1.2em] text-primary"
               style={{ fontFamily: "'Montserrat', sans-serif" }}>
-              More Categories for Your Packaging
+              {t('allApplications.moreCategories.title')}
             </h2>
             <a href="#"
               className="inline-block bg-accent text-white text-sm font-medium px-6 py-2 rounded hover:scale-105 transition-transform duration-300 mt-4 md:mt-0"
               style={{ fontFamily: "'Roboto', sans-serif" }}>
-              Need Consultation
+              {t('allApplications.moreCategories.needConsultation')}
             </a>
           </div>
         </div>

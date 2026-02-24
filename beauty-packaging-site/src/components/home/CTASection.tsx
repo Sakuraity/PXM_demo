@@ -1,4 +1,10 @@
+"use client"
+
+import { useTranslation } from 'react-i18next'
+
 export default function CTASection() {
+  const { t } = useTranslation()
+
   return (
     <>
       {/* Hiring Banner */}
@@ -8,7 +14,7 @@ export default function CTASection() {
             <div>
               <h2 className="text-2xl lg:text-3xl font-bold">
                 <a href="/jarsking-talents/" className="hover:text-[#c8a97e] transition-colors">
-                  Jarsking is Hiring Now!!! Let&apos;s Building the Future of Packaging
+                  {t('home.ctaSection.hiringTitle')}
                 </a>
               </h2>
             </div>
@@ -17,7 +23,7 @@ export default function CTASection() {
                 href="/contact-jarsking/"
                 className="inline-block px-8 py-4 bg-[#c8a97e] text-white rounded hover:bg-[#b89a6f] transition-colors font-medium"
               >
-                Transfer Your Concept into 3D Demo In 1 HOUR !
+                {t('home.ctaSection.hiringButton')}
               </a>
             </div>
           </div>
@@ -28,7 +34,7 @@ export default function CTASection() {
       <section className="bg-gray-100 py-8">
         <div className="max-w-[1200px] mx-auto px-4 text-center">
           <p className="text-sm text-gray-600">
-            Since Jarsking is an established company, manufacturing scale is matter. Therefore, MOQ for glass containers is 5000 pieces, for plastic containers is 10000 pieces.
+            {t('home.ctaSection.moqText')}
           </p>
         </div>
       </section>

@@ -1,6 +1,8 @@
 'use client'
 
 import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
+import Link from 'next/link'
 
 const products = [
   { name: '2-Way Humidity Control Gasket', src: 'https://www.jarsking.com/wp-content/uploads/2025/09/terpene-preservation-cannabis-jars.webp', href: '/product-item/premium-2-way-humidity-control-gasket-for-cannabis-packaging/' },
@@ -27,12 +29,14 @@ const products = [
 ]
 
 export default function ProductShowroom() {
+  const { t } = useTranslation()
   const [paused, setPaused] = useState(false)
 
   return (
     <section className="py-12 bg-[#f5f0eb]">
       <div className="max-w-[1200px] mx-auto px-4 mb-8">
-        <h2 className="text-3xl lg:text-4xl font-bold text-[#1a1a2e] text-center">New Designs Showroom</h2>
+        <h2 className="text-3xl lg:text-4xl font-bold text-[#1a1a2e] text-center">{t('home.productShowroom.title')}</h2>
+        <p className="text-center text-gray-600 mt-4">{t('home.productShowroom.subtitle')}</p>
       </div>
       <div
         className="overflow-hidden"
@@ -41,7 +45,7 @@ export default function ProductShowroom() {
       >
         <div className={`flex gap-5 ${paused ? '' : 'animate-[marquee_40s_linear_infinite]'}`} style={{ width: 'max-content' }}>
           {[...products, ...products].map((p, i) => (
-            <a key={i} href={p.href} className="flex-shrink-0 block group">
+            <Link key={i} href={p.href} className="flex-shrink-0 block group">
               <div className="w-[280px] h-[280px] rounded-lg overflow-hidden">
                 <img
                   src={p.src}
@@ -49,7 +53,7 @@ export default function ProductShowroom() {
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                 />
               </div>
-            </a>
+            </Link>
           ))}
         </div>
       </div>

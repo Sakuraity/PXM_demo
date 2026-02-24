@@ -3,8 +3,11 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { Mail, Phone, MapPin } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
 
 export default function Footer() {
+  const { t } = useTranslation()
+  
   return (
     <footer className="bg-brand-navy text-white">
       <div className="container-custom py-12">
@@ -21,7 +24,7 @@ export default function Footer() {
               />
             </Link>
             <p className="text-sm text-gray-300 mb-4">
-              Professional cosmetic packaging manufacturer offering innovative solutions for beauty brands worldwide.
+              {t('footer.about.description')}
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-300 hover:text-white transition-colors">
@@ -44,31 +47,31 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h3 className="font-semibold mb-4">Quick Links</h3>
+            <h3 className="font-semibold mb-4">{t('footer.quickLinks.title')}</h3>
             <ul className="space-y-2">
               <li>
                 <Link href="/all-applications" className="text-sm text-gray-300 hover:text-white transition-colors">
-                  Products
+                  {t('footer.quickLinks.products', { defaultValue: 'Products' })}
                 </Link>
               </li>
               <li>
                 <Link href="/collections" className="text-sm text-gray-300 hover:text-white transition-colors">
-                  Collections
+                  {t('navigation.collections', { defaultValue: 'Collections' })}
                 </Link>
               </li>
               <li>
                 <Link href="/your-strategic-partner" className="text-sm text-gray-300 hover:text-white transition-colors">
-                  About Us
+                  {t('footer.quickLinks.about', { defaultValue: 'About Us' })}
                 </Link>
               </li>
               <li>
                 <Link href="/sustainability" className="text-sm text-gray-300 hover:text-white transition-colors">
-                  Sustainability
+                  {t('navigation.sustainability', { defaultValue: 'Sustainability' })}
                 </Link>
               </li>
               <li>
                 <Link href="/success-stories" className="text-sm text-gray-300 hover:text-white transition-colors">
-                  Success Stories
+                  {t('navigation.successstories', { defaultValue: 'Success Stories' })}
                 </Link>
               </li>
             </ul>
@@ -76,31 +79,31 @@ export default function Footer() {
 
           {/* Product Categories */}
           <div>
-            <h3 className="font-semibold mb-4">Product Categories</h3>
+            <h3 className="font-semibold mb-4">{t('footer.categories.title')}</h3>
             <ul className="space-y-2">
               <li>
                 <Link href="/all-applications/skincare-packaging" className="text-sm text-gray-300 hover:text-white transition-colors">
-                  Skincare Packaging
+                  {t('footer.categories.skincare', { defaultValue: 'Skincare' })}
                 </Link>
               </li>
               <li>
                 <Link href="/all-materials/glass-cosmetic-packaging" className="text-sm text-gray-300 hover:text-white transition-colors">
-                  Glass Packaging
+                  {t('footer.categories.glass', { defaultValue: 'Glass' })}
                 </Link>
               </li>
               <li>
                 <Link href="/all-materials/plastic-cosmetic-bottles" className="text-sm text-gray-300 hover:text-white transition-colors">
-                  Plastic Bottles
+                  {t('footer.categories.plastic', { defaultValue: 'Plastic' })}
                 </Link>
               </li>
               <li>
                 <Link href="/all-packaging-types/cosmetic-tubes" className="text-sm text-gray-300 hover:text-white transition-colors">
-                  Cosmetic Tubes
+                  {t('footer.categories.tubes', { defaultValue: 'Tubes' })}
                 </Link>
               </li>
               <li>
                 <Link href="/collections/refillable-cosmetics-packaging" className="text-sm text-gray-300 hover:text-white transition-colors">
-                  Refillable Packaging
+                  {t('footer.categories.refillable', { defaultValue: 'Refillable' })}
                 </Link>
               </li>
             </ul>
@@ -108,33 +111,32 @@ export default function Footer() {
 
           {/* Contact Info */}
           <div>
-            <h3 className="font-semibold mb-4">Contact Us</h3>
+            <h3 className="font-semibold mb-4">{t('footer.contact.title')}</h3>
             <div className="space-y-3">
               <div className="flex items-start space-x-3">
                 <Mail className="w-5 h-5 mt-0.5 text-accent flex-shrink-0" />
                 <div>
-                  <p className="text-sm">Email</p>
+                  <p className="text-sm">{t('footer.contact.emailLabel')}</p>
                   <a href="mailto:info@jarsking.com" className="text-accent hover:underline">
-                    info@jarsking.com
+                    {t('common.email', { defaultValue: 'info@jarsking.com' })}
                   </a>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
                 <Phone className="w-5 h-5 mt-0.5 text-accent flex-shrink-0" />
                 <div>
-                  <p className="text-sm">Phone</p>
+                  <p className="text-sm">{t('footer.contact.phoneLabel')}</p>
                   <a href="tel:+86123456789" className="text-accent hover:underline">
-                    +86 123 456 789
+                    {t('footer.contact.phone')}
                   </a>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 mt-0.5 text-accent flex-shrink-0" />
                 <div>
-                  <p className="text-sm">Address</p>
+                  <p className="text-sm">{t('footer.contact.addressLabel')}</p>
                   <p className="text-gray-300">
-                    Jiaxing, Zhejiang<br />
-                    China
+                    {t('footer.contact.address')}
                   </p>
                 </div>
               </div>
@@ -145,16 +147,16 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-gray-700">
           <div className="flex flex-col md:flex-row justify-between items-center text-sm text-gray-300">
-            <p>&copy; 2024 Jarsking. All rights reserved.</p>
+            <p>{t('footer.copyright')}</p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <Link href="/privacy" className="hover:text-white transition-colors">
-                Privacy Policy
+                {t('footer.privacy', { defaultValue: 'Privacy Policy' })}
               </Link>
               <Link href="/terms" className="hover:text-white transition-colors">
-                Terms of Service
+                {t('footer.terms', { defaultValue: 'Terms of Service' })}
               </Link>
               <Link href="/sitemap" className="hover:text-white transition-colors">
-                Sitemap
+                {t('footer.sitemap', { defaultValue: 'Sitemap' })}
               </Link>
             </div>
           </div>

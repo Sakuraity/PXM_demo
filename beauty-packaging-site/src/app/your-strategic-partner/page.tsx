@@ -1,39 +1,24 @@
+'use client'
+
 import Image from 'next/image'
 import Link from 'next/link'
 import { ArrowRight, Award, Users, Globe, Zap } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
 import Breadcrumb from '@/components/layout/Breadcrumb'
 
 export default function AboutPage() {
-  const breadcrumbItems = [
-    { label: 'About' }
-  ]
+  const { t } = useTranslation()
 
   const values = [
-    {
-      icon: Award,
-      title: 'Quality Excellence',
-      description: 'ISO certified manufacturing with strict quality control standards ensuring every product meets international requirements.'
-    },
-    {
-      icon: Users,
-      title: 'Customer First',
-      description: 'Dedicated team providing personalized service from design consultation to after-sales support.'
-    },
-    {
-      icon: Globe,
-      title: 'Global Reach',
-      description: 'Serving beauty brands worldwide with reliable logistics and localized support across major markets.'
-    },
-    {
-      icon: Zap,
-      title: 'Innovation Driven',
-      description: 'Continuous R&D investment to bring cutting-edge packaging solutions that set trends in the industry.'
-    }
+    { icon: Award, titleKey: 'strategicPartner.values.quality.title', descKey: 'strategicPartner.values.quality.description' },
+    { icon: Users, titleKey: 'strategicPartner.values.customer.title', descKey: 'strategicPartner.values.customer.description' },
+    { icon: Globe, titleKey: 'strategicPartner.values.global.title', descKey: 'strategicPartner.values.global.description' },
+    { icon: Zap, titleKey: 'strategicPartner.values.innovation.title', descKey: 'strategicPartner.values.innovation.description' },
   ]
 
   return (
     <div className="min-h-screen">
-      <Breadcrumb items={breadcrumbItems} />
+      <Breadcrumb items={[{ label: t('strategicPartner.breadcrumb') }]} />
 
       {/* Hero Section */}
       <section className="py-16 bg-brand-navy text-white">
@@ -41,17 +26,14 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-4xl lg:text-5xl font-bold mb-6">
-                Your Strategic Partner in
-                <span className="text-gradient"> Cosmetic Packaging</span>
+                {t('strategicPartner.hero.title')}
+                <span className="text-gradient">{t('strategicPartner.hero.titleHighlight')}</span>
               </h1>
               <p className="text-lg text-gray-300 leading-relaxed mb-8">
-                With over 15 years of experience, Jarsking has established itself as a 
-                leading manufacturer of premium cosmetic packaging solutions. We combine 
-                innovative design, sustainable practices, and uncompromising quality to 
-                help beauty brands bring their vision to life.
+                {t('strategicPartner.hero.description')}
               </p>
               <Link href="/contact" className="btn-primary inline-flex items-center">
-                Partner With Us
+                {t('strategicPartner.hero.button')}
                 <ArrowRight className="w-5 h-5 ml-2" />
               </Link>
             </div>
@@ -59,7 +41,7 @@ export default function AboutPage() {
               <div className="aspect-square bg-gradient-to-br from-accent/20 to-brand-orange/20 rounded-2xl p-8">
                 <Image
                   src="/images/products/Violet-Glass-Bottles-01.jpg.webp"
-                  alt="Jarsking Factory"
+                  alt={t('strategicPartner.hero.imageAlt')}
                   width={500}
                   height={500}
                   className="rounded-xl shadow-2xl"
@@ -76,19 +58,19 @@ export default function AboutPage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
               <p className="text-4xl font-bold mb-2">15+</p>
-              <p className="text-sm opacity-90">Years Experience</p>
+              <p className="text-sm opacity-90">{t('strategicPartner.stats.yearsExperience')}</p>
             </div>
             <div>
               <p className="text-4xl font-bold mb-2">1000+</p>
-              <p className="text-sm opacity-90">Global Clients</p>
+              <p className="text-sm opacity-90">{t('strategicPartner.stats.globalClients')}</p>
             </div>
             <div>
               <p className="text-4xl font-bold mb-2">5000+</p>
-              <p className="text-sm opacity-90">Products</p>
+              <p className="text-sm opacity-90">{t('strategicPartner.stats.products')}</p>
             </div>
             <div>
               <p className="text-4xl font-bold mb-2">50+</p>
-              <p className="text-sm opacity-90">Countries Served</p>
+              <p className="text-sm opacity-90">{t('strategicPartner.stats.countriesServed')}</p>
             </div>
           </div>
         </div>
@@ -99,10 +81,10 @@ export default function AboutPage() {
         <div className="container-custom">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-primary mb-4">
-              Our Core Values
+              {t('strategicPartner.values.title')}
             </h2>
             <p className="text-secondary max-w-2xl mx-auto">
-              The principles that guide everything we do
+              {t('strategicPartner.values.subtitle')}
             </p>
           </div>
 
@@ -112,8 +94,8 @@ export default function AboutPage() {
                 <div className="w-16 h-16 bg-accent rounded-full flex items-center justify-center mx-auto mb-4">
                   <value.icon className="w-8 h-8 text-white" />
                 </div>
-                <h3 className="text-xl font-semibold text-primary mb-2">{value.title}</h3>
-                <p className="text-sm text-secondary">{value.description}</p>
+                <h3 className="text-xl font-semibold text-primary mb-2">{t(value.titleKey)}</h3>
+                <p className="text-sm text-secondary">{t(value.descKey)}</p>
               </div>
             ))}
           </div>
@@ -126,30 +108,27 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="order-2 lg:order-1">
               <h2 className="text-3xl lg:text-4xl font-bold text-primary mb-6">
-                World-Class Manufacturing
+                {t('strategicPartner.manufacturing.title')}
               </h2>
               <p className="text-secondary leading-relaxed mb-6">
-                Our state-of-the-art production facilities span over 50,000 square meters, 
-                equipped with advanced injection molding, blow molding, and decoration 
-                technologies. We maintain strict quality control throughout the entire 
-                production process.
+                {t('strategicPartner.manufacturing.description')}
               </p>
               <ul className="space-y-3 text-secondary">
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-accent rounded-full mr-3" />
-                  ISO 9001 & ISO 14001 Certified
+                  {t('strategicPartner.manufacturing.features.iso')}
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-accent rounded-full mr-3" />
-                  100,000级无尘生产车间
+                  {t('strategicPartner.manufacturing.features.cleanroom')}
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-accent rounded-full mr-3" />
-                  Automated production lines
+                  {t('strategicPartner.manufacturing.features.automated')}
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-accent rounded-full mr-3" />
-                  In-house R&D laboratory
+                  {t('strategicPartner.manufacturing.features.rd')}
                 </li>
               </ul>
             </div>
@@ -157,7 +136,7 @@ export default function AboutPage() {
               <div className="aspect-video bg-gray-200 rounded-lg overflow-hidden">
                 <Image
                   src="/images/products/personal-care-set-1024x768.webp"
-                  alt="Manufacturing Facility"
+                  alt={t('strategicPartner.manufacturing.imageAlt')}
                   width={600}
                   height={400}
                   className="w-full h-full object-cover"
@@ -172,13 +151,13 @@ export default function AboutPage() {
       <section className="py-16">
         <div className="container-custom text-center">
           <h2 className="text-3xl lg:text-4xl font-bold text-primary mb-4">
-            Ready to Start Your Project?
+            {t('strategicPartner.cta.title')}
           </h2>
           <p className="text-secondary mb-8 max-w-2xl mx-auto">
-            Let us help you create packaging that elevates your brand and delights your customers.
+            {t('strategicPartner.cta.description')}
           </p>
           <Link href="/contact" className="btn-primary inline-flex items-center">
-            Get in Touch
+            {t('strategicPartner.cta.button')}
             <ArrowRight className="w-5 h-5 ml-2" />
           </Link>
         </div>

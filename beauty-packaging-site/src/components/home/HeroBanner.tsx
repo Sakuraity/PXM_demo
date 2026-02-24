@@ -2,8 +2,11 @@
 
 import Image from 'next/image'
 import Link from 'next/link'
+import { useTranslation } from 'react-i18next'
 
 export default function HeroBanner() {
+  const { t } = useTranslation()
+  
   return (
     <section className="relative min-h-[600px] lg:min-h-[700px] bg-[#1a1a2e] text-white overflow-hidden">
       <div className="absolute inset-0 bg-black/40 z-10"></div>
@@ -18,11 +21,11 @@ export default function HeroBanner() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
           <div className="space-y-6">
             <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
-              Pack the Ordinary into Extraordinary
+              {t('home.hero.title')}
             </h1>
             <p className="text-base lg:text-lg text-gray-200 leading-relaxed">
-              Jarsking Packaging is a premier full-service designer and manufacturer of packaging solutions, catering to both small and large production needs. We deliver innovative, high-quality, and cost-effective packaging with precision and consistency.
-              <br />Your Reliable Packaging Partner.
+              {t('home.hero.subtitle')}
+              <br />{t('home.hero.subtitle2')}
             </p>
           </div>
 
@@ -31,14 +34,14 @@ export default function HeroBanner() {
               <div className="relative h-[250px]">
                 <img
                   src="https://www.jarsking.com/wp-content/uploads/2024/12/frost-cosmetic-bottle-set.webp"
-                  alt="frost cosmetic bottle set"
+                  alt={t('home.hero.turnkeyAlt', { defaultValue: 'frost cosmetic bottle set' })}
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="p-6">
-                <h5 className="text-xl font-bold text-[#1a1a2e] mb-2">Turnkey Services for Your Brand</h5>
+                <h5 className="text-xl font-bold text-[#1a1a2e] mb-2">{t('home.hero.turnkeyTitle')}</h5>
                 <p className="text-sm text-gray-600 leading-relaxed">
-                  From design to delivery, tailored to elevate your brand. Whether you&apos;re in skincare, cosmetic, makeup, personal care, perfume, and pharmaceutical, we provide high-quality, custom packaging that meets your unique needs. Partner with us for seamless, end-to-end packaging services.
+                  {t('home.hero.turnkeyDesc')}
                 </p>
               </div>
             </div>

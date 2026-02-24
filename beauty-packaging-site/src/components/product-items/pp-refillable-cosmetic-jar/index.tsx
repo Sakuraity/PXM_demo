@@ -1,4 +1,7 @@
+'use client'
+
 import Breadcrumb from '@/components/layout/Breadcrumb'
+import { useTranslation } from 'react-i18next'
 import HeroSection from './HeroSection'
 import ProductDetails from './ProductDetails'
 import ImageGallery from './ImageGallery'
@@ -111,9 +114,10 @@ const MORE_PRODUCTS = [
 ]
 
 export default function PPRefillableCosmeticJarPage() {
+  const { t } = useTranslation()
   const breadcrumbItems = [
-    { label: 'Home', href: '/' },
-    { label: 'PP Refillable Cosmetic Jar with Replaceable Inner Cup' },
+    { label: t('common.home', { defaultValue: 'Home' }), href: '/' },
+    { label: t('ppRefillableJar.hero.title', { defaultValue: 'PP Refillable Cosmetic Jar with Replaceable Inner Cup' }) },
   ]
 
   return (

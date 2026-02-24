@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 
 interface Tab {
   id: string
@@ -14,12 +15,13 @@ interface ProductTabsProps {
 }
 
 export default function ProductTabs({ description, specsContent }: ProductTabsProps) {
+  const { t } = useTranslation()
   const [activeTab, setActiveTab] = useState('description')
 
   const tabs: Tab[] = [
     {
       id: 'description',
-      label: 'Description',
+      label: t('productDetail.tabs.description'),
       content: (
         <div className="prose max-w-none">
           <p className="text-secondary leading-relaxed">{description}</p>
@@ -28,15 +30,15 @@ export default function ProductTabs({ description, specsContent }: ProductTabsPr
     },
     {
       id: 'specifications',
-      label: 'Specifications',
+      label: t('productDetail.tabs.specifications'),
       content: specsContent,
     },
     {
       id: 'reviews',
-      label: 'Reviews',
+      label: t('productDetail.tabs.reviews'),
       content: (
         <div className="text-center py-8 text-secondary">
-          <p>Customer reviews will be displayed here.</p>
+          <p>{t('productDetail.tabs.reviewsPlaceholder')}</p>
         </div>
       ),
     },

@@ -3,6 +3,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
 import { Product } from '@/types'
 
 interface ProductCardProps {
@@ -11,6 +12,7 @@ interface ProductCardProps {
 }
 
 export default function ProductCard({ product, className = '' }: ProductCardProps) {
+  const { t } = useTranslation()
   const imageUrl = product.images[0] || '/images/placeholder.png'
 
   return (
@@ -37,11 +39,11 @@ export default function ProductCard({ product, className = '' }: ProductCardProp
           
           <div className="flex items-center justify-between">
             <span className="text-sm text-secondary">
-              {product.category || 'Cosmetic Packaging'}
+              {product.category || t('productDetail.defaultCategory')}
             </span>
             
             <span className="flex items-center text-accent group-hover:translate-x-1 transition-transform">
-              View Details
+              {t('productDetail.viewDetails')}
               <ArrowRight className="w-4 h-4 ml-1" />
             </span>
           </div>

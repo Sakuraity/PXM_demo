@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 
 const products = [
   {
@@ -53,39 +54,43 @@ const products = [
   },
 ]
 
-const filters = ['All', 'Glass']
-
 export default function EssentialOilProductGrid() {
-  const [activeFilter, setActiveFilter] = useState('All')
+  const { t } = useTranslation()
+  const [activeFilter, setActiveFilter] = useState('all')
+
+  const filters = [
+    { key: 'all', label: t('essentialOil.productGrid.filterAll') },
+    { key: 'glass', label: t('essentialOil.productGrid.filterGlass') },
+  ]
 
   const filteredProducts =
-    activeFilter === 'All'
+    activeFilter === 'all'
       ? products
-      : products.filter((p) => p.material === activeFilter.toLowerCase())
+      : products.filter((p) => p.material === activeFilter)
 
   return (
     <section className="w-full bg-[#f9f9f9] py-16 md:py-20">
       <div className="max-w-[1440px] mx-auto px-6 md:px-12">
         <h2 className="font-montserrat text-3xl md:text-[40px] font-medium leading-[1.2] text-[#1E1E1E] text-center mb-2">
-          Selections from Essential Oil Glass Bottle Manufacturers
+          {t('essentialOil.productGrid.title')}
         </h2>
         <h2 className="font-montserrat text-2xl md:text-[32px] font-medium leading-[1.2] text-[#1E1E1E] text-center mb-4">
-          Material Type
+          {t('essentialOil.productGrid.materialType')}
         </h2>
 
         {/* Filter Tabs */}
         <div className="flex justify-center gap-6 mb-10">
           {filters.map((filter) => (
             <button
-              key={filter}
-              onClick={() => setActiveFilter(filter)}
+              key={filter.key}
+              onClick={() => setActiveFilter(filter.key)}
               className={`font-montserrat text-lg md:text-[28px] font-normal transition-colors ${
-                activeFilter === filter
+                activeFilter === filter.key
                   ? 'text-[#61CE70] border-b-2 border-[#61CE70] pb-1'
                   : 'text-[#7A7A7A] hover:text-[#1E1E1E]'
               }`}
             >
-              {filter}
+              {filter.label}
             </button>
           ))}
         </div>
