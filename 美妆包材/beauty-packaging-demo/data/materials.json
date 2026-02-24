@@ -1,0 +1,188 @@
+[
+  {
+    "id": "glass",
+    "slug": "glass",
+    "name": { "zh": "玻璃", "en": "Glass" },
+    "description": {
+      "zh": "玻璃包装是高端美妆品牌的首选材质，具有优异的化学惰性和阻隔性，能有效保护活性成分不被氧化，同时赋予产品高端奢华的视觉质感。",
+      "en": "Glass is the preferred material for premium beauty brands, offering excellent chemical inertness and barrier properties to protect active ingredients from oxidation while delivering a luxurious visual appeal."
+    },
+    "properties": {
+      "transparent": true,
+      "recyclable": true,
+      "lightweight": false,
+      "premiumFeel": true,
+      "chemicalResistant": true,
+      "heatResistant": true
+    },
+    "pros": {
+      "zh": ["高端质感，提升品牌形象", "化学惰性，不与成分反应", "100% 可回收，环保", "防渗透，保护活性成分", "多色可选（透明/琥珀/深蓝/黑色）"],
+      "en": ["Premium feel that elevates brand image", "Chemically inert, non-reactive with formulations", "100% recyclable and eco-friendly", "Impermeable, protects active ingredients", "Multiple colors available (clear/amber/cobalt/black)"]
+    },
+    "cons": {
+      "zh": ["重量较重，运输成本高", "易碎，需额外防护包装", "单价较塑料高"],
+      "en": ["Heavier, higher shipping costs", "Fragile, requires extra protective packaging", "Higher unit cost than plastic"]
+    },
+    "typicalUse": {
+      "zh": "精华瓶、面霜罐、香水瓶、高端乳液瓶",
+      "en": "Serum bottles, face cream jars, perfume bottles, premium lotion bottles"
+    },
+    "image": "/images/materials/glass.jpg",
+    "sortOrder": 1
+  },
+  {
+    "id": "acrylic",
+    "slug": "acrylic",
+    "name": { "zh": "亚克力（PMMA）", "en": "Acrylic (PMMA)" },
+    "description": {
+      "zh": "亚克力又称有机玻璃，具有极高的透明度和玻璃质感，同时重量仅为玻璃的一半，耐摔性更强。是中高端护肤品牌的性价比之选。",
+      "en": "Acrylic, also known as organic glass, features exceptional clarity and glass-like appearance at half the weight of glass with better shatter resistance. A cost-effective choice for mid-to-premium skincare brands."
+    },
+    "properties": {
+      "transparent": true,
+      "recyclable": false,
+      "lightweight": true,
+      "premiumFeel": true,
+      "chemicalResistant": false,
+      "heatResistant": false
+    },
+    "pros": {
+      "zh": ["高透明度，接近玻璃质感", "重量轻，运输成本低", "耐摔，降低破损风险", "易于复杂造型加工", "成本低于玻璃"],
+      "en": ["High transparency, close to glass appearance", "Lightweight, lower shipping costs", "Shatter-resistant, reduced breakage risk", "Easy to mold into complex shapes", "Lower cost than glass"]
+    },
+    "cons": {
+      "zh": ["不可回收，环保性差", "不耐某些有机溶剂", "长期使用可能出现细纹"],
+      "en": ["Non-recyclable, less eco-friendly", "Not resistant to some organic solvents", "May develop micro-scratches over time"]
+    },
+    "typicalUse": {
+      "zh": "面霜罐、眼霜罐、乳液瓶、套装包装",
+      "en": "Face cream jars, eye cream jars, lotion bottles, packaging sets"
+    },
+    "image": "/images/materials/acrylic.jpg",
+    "sortOrder": 2
+  },
+  {
+    "id": "pp",
+    "slug": "pp",
+    "name": { "zh": "PP（聚丙烯）", "en": "PP (Polypropylene)" },
+    "description": {
+      "zh": "PP 是美妆包材中最常用的塑料材质之一，具有优异的耐化学品性和食品级安全认证，广泛用于可补充包装和内胆设计，符合当下可持续包装趋势。",
+      "en": "PP is one of the most widely used plastics in beauty packaging, featuring excellent chemical resistance and food-grade safety certification, widely used in refillable packaging and inner container design."
+    },
+    "properties": {
+      "transparent": false,
+      "recyclable": true,
+      "lightweight": true,
+      "premiumFeel": false,
+      "chemicalResistant": true,
+      "heatResistant": true
+    },
+    "pros": {
+      "zh": ["可回收（PP #5），环保", "耐化学品，适合多种配方", "耐热，可高温消毒", "轻便，降低碳排放", "成本低，适合大批量生产"],
+      "en": ["Recyclable (PP #5), eco-friendly", "Chemical resistant, compatible with diverse formulations", "Heat resistant, can be sterilized", "Lightweight, lower carbon footprint", "Low cost, suitable for mass production"]
+    },
+    "cons": {
+      "zh": ["透明度差，不适合展示产品颜色", "质感略低端", "抗冲击性不及 PET"],
+      "en": ["Poor transparency, not suitable for showcasing product color", "Slightly lower-end feel", "Lower impact resistance than PET"]
+    },
+    "typicalUse": {
+      "zh": "可补充内胆、泵头配件、洗护发瓶、软管",
+      "en": "Refillable inserts, pump components, hair care bottles, tubes"
+    },
+    "image": "/images/materials/pp.jpg",
+    "sortOrder": 3
+  },
+  {
+    "id": "pet",
+    "slug": "pet",
+    "name": { "zh": "PET（聚对苯二甲酸乙二醇酯）", "en": "PET (Polyethylene Terephthalate)" },
+    "description": {
+      "zh": "PET 兼具良好的透明度和轻量化特性，是塑料瓶中最接近玻璃效果的材质，广泛用于乳液、爽肤水等护肤产品包装。",
+      "en": "PET combines good transparency with lightweight properties, the closest plastic to glass in appearance, widely used for lotion, toner and skincare product packaging."
+    },
+    "properties": {
+      "transparent": true,
+      "recyclable": true,
+      "lightweight": true,
+      "premiumFeel": false,
+      "chemicalResistant": true,
+      "heatResistant": false
+    },
+    "pros": {
+      "zh": ["高透明度，展示产品颜色", "可回收（PET #1），最易回收塑料", "阻隔性好，保护配方", "轻便耐摔", "表面可做多种处理（磨砂/喷涂）"],
+      "en": ["High transparency for showcasing product color", "Recyclable (PET #1), most recycled plastic", "Good barrier properties for formula protection", "Lightweight and shatter-resistant", "Surface can be treated in multiple ways"]
+    },
+    "cons": {
+      "zh": ["不耐高温（不可热灌装）", "不适合强溶剂产品", "回收后品质下降"],
+      "en": ["Not heat resistant (not suitable for hot filling)", "Not compatible with strong solvents", "Quality degrades after recycling"]
+    },
+    "typicalUse": {
+      "zh": "乳液瓶、爽肤水瓶、泡沫泵瓶、洗护发瓶",
+      "en": "Lotion bottles, toner bottles, foam pump bottles, hair care bottles"
+    },
+    "image": "/images/materials/pet.jpg",
+    "sortOrder": 4
+  },
+  {
+    "id": "hdpe",
+    "slug": "hdpe",
+    "name": { "zh": "HDPE（高密度聚乙烯）", "en": "HDPE (High-Density Polyethylene)" },
+    "description": {
+      "zh": "HDPE 具有极强的耐化学品性和硬度，是家清和洗护类大包装的主流材质，成本低廉，安全可靠。",
+      "en": "HDPE features exceptional chemical resistance and rigidity, the mainstream material for large-format household care and hair care packaging, cost-effective and reliable."
+    },
+    "properties": {
+      "transparent": false,
+      "recyclable": true,
+      "lightweight": true,
+      "premiumFeel": false,
+      "chemicalResistant": true,
+      "heatResistant": true
+    },
+    "pros": {
+      "zh": ["耐化学品性最强", "可回收（HDPE #2）", "成本最低", "结构强度高", "FDA 食品接触级认证"],
+      "en": ["Strongest chemical resistance", "Recyclable (HDPE #2)", "Lowest cost", "High structural strength", "FDA food contact grade certified"]
+    },
+    "cons": {
+      "zh": ["不透明，无法展示产品", "质感较低端", "颜色选项有限"],
+      "en": ["Opaque, cannot showcase product", "Lower-end feel", "Limited color options"]
+    },
+    "typicalUse": {
+      "zh": "洗发水瓶、沐浴露瓶、家清包装、大容量补充装",
+      "en": "Shampoo bottles, body wash bottles, household care packaging, large refill containers"
+    },
+    "image": "/images/materials/hdpe.jpg",
+    "sortOrder": 5
+  },
+  {
+    "id": "aluminum",
+    "slug": "aluminum",
+    "name": { "zh": "铝", "en": "Aluminum" },
+    "description": {
+      "zh": "铝质包装兼具轻量化和高端金属质感，100% 可无限回收，是可持续高端美妆包装的理想选择，尤其适合旅行装和限量版产品。",
+      "en": "Aluminum packaging combines lightweight properties with premium metallic aesthetics, 100% infinitely recyclable, ideal for sustainable premium beauty packaging, especially travel sizes and limited editions."
+    },
+    "properties": {
+      "transparent": false,
+      "recyclable": true,
+      "lightweight": true,
+      "premiumFeel": true,
+      "chemicalResistant": true,
+      "heatResistant": true
+    },
+    "pros": {
+      "zh": ["100% 可无限回收", "金属质感，高端奢华", "防光遮蔽，保护成分", "轻便耐用", "可做哑光/高光多种处理"],
+      "en": ["100% infinitely recyclable", "Metallic feel, premium luxury", "Light barrier, protects formulations", "Lightweight and durable", "Can be finished in matte/glossy/anodized"]
+    },
+    "cons": {
+      "zh": ["需内涂层防腐蚀", "成型工艺复杂", "成本较高"],
+      "en": ["Requires inner coating to prevent corrosion", "Complex forming process", "Higher cost"]
+    },
+    "typicalUse": {
+      "zh": "口红管、香水瓶、旅行装套装、限量版包装",
+      "en": "Lipstick tubes, perfume bottles, travel size sets, limited edition packaging"
+    },
+    "image": "/images/materials/aluminum.jpg",
+    "sortOrder": 6
+  }
+]

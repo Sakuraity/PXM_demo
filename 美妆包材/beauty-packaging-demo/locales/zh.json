@@ -1,0 +1,196 @@
+{
+  "brand": {
+    "name": "LuxePack",
+    "tagline": "高端定制美妆包材"
+  },
+  "nav": {
+    "products": "产品中心",
+    "byApplication": "按应用场景",
+    "skincare": "护肤包装",
+    "makeup": "彩妆包装",
+    "homecare": "家清包装",
+    "byMaterial": "按材质",
+    "glass": "玻璃系列",
+    "acrylic": "亚克力系列",
+    "plastic": "塑料系列",
+    "byType": "按包装类型",
+    "bottles": "瓶类",
+    "jars": "罐类",
+    "tubes": "管类",
+    "pumps": "泵头类",
+    "customization": "定制服务",
+    "about": "关于我们",
+    "contact": "联系我们",
+    "getQuote": "获取报价"
+  },
+  "home": {
+    "hero": {
+      "badge": "已服务 200+ 美妆品牌",
+      "title": "高端定制美妆包材解决方案",
+      "subtitle": "从设计到生产，提供世界级包装解决方案，助力品牌价值升级。玻璃、亚克力、PP — 全面定制。",
+      "cta": "浏览产品",
+      "ctaSecondary": "免费获取样品"
+    },
+    "stats": {
+      "products": "500+",
+      "productsLabel": "可定制产品",
+      "brands": "200+",
+      "brandsLabel": "全球合作品牌",
+      "experience": "15年",
+      "experienceLabel": "行业深耕经验",
+      "countries": "50+",
+      "countriesLabel": "出口目的地"
+    },
+    "categories": {
+      "title": "产品分类",
+      "subtitle": "覆盖美妆全品类的包装解决方案"
+    },
+    "featured": {
+      "title": "热门产品",
+      "subtitle": "最受品牌客户欢迎的可定制包装产品",
+      "viewAll": "查看全部产品"
+    },
+    "advantages": {
+      "title": "选择 LuxePack 的理由",
+      "subtitle": "制造卓越与设计创新的完美结合",
+      "items": {
+        "quality": {
+          "title": "品质保障",
+          "desc": "ISO9001 认证工厂，全流程严格质量管控"
+        },
+        "custom": {
+          "title": "全面定制",
+          "desc": "颜色、材质、印刷工艺——每个细节都为您的品牌量身打造"
+        },
+        "moq": {
+          "title": "低起订量",
+          "desc": "最低 500 件起订，适合新品牌测试和小批量定制"
+        },
+        "speed": {
+          "title": "快速交货",
+          "desc": "标准款 20-25 天交货，支持加急方案"
+        }
+      }
+    },
+    "process": {
+      "title": "四步完成您的定制包装",
+      "subtitle": "从创意到交付，全程专业支持",
+      "steps": {
+        "browse": {
+          "num": "01",
+          "title": "选择产品",
+          "desc": "浏览 500+ 款可定制包装，按材质、应用场景、容量精准筛选"
+        },
+        "configure": {
+          "num": "02",
+          "title": "在线配置",
+          "desc": "选择颜色、表面工艺、印刷方式，3D 实时预览最终效果"
+        },
+        "quote": {
+          "num": "03",
+          "title": "获取报价",
+          "desc": "输入数量即时获取阶梯报价，支持申请实物样品确认"
+        },
+        "deliver": {
+          "num": "04",
+          "title": "生产交付",
+          "desc": "专属跟单团队全程把控，标准款 20-25 天准时交货"
+        }
+      },
+      "cta": "立即开始定制"
+    },
+    "cta": {
+      "title": "准备好开始您的项目了吗？",
+      "subtitle": "免费咨询，24小时内提供报价",
+      "button": "立即联系我们"
+    }
+  },
+  "products": {
+    "title": "全部产品",
+    "subtitle": "浏览我们完整的可定制美妆包装系列",
+    "filters": {
+      "all": "全部",
+      "application": "应用场景",
+      "material": "材质",
+      "type": "包装类型",
+      "new": "新品",
+      "customizable": "可定制",
+      "clear": "清除筛选"
+    },
+    "sort": {
+      "label": "排序方式",
+      "featured": "推荐优先",
+      "newest": "最新上架",
+      "priceAsc": "价格从低到高",
+      "priceDesc": "价格从高到低"
+    },
+    "card": {
+      "moq": "起订量",
+      "from": "起",
+      "viewDetails": "查看详情",
+      "customizable": "可定制",
+      "new": "新品"
+    },
+    "empty": "未找到符合条件的产品，请尝试调整筛选条件。"
+  },
+  "product": {
+    "specs": "产品规格",
+    "capacity": "容量",
+    "height": "高度",
+    "diameter": "外径",
+    "weight": "净重",
+    "material": "主材质",
+    "finish": "可选表面处理",
+    "color": "可选颜色",
+    "pantone": "支持潘通定制色",
+    "printing": "印刷工艺",
+    "certification": "认证资质",
+    "moq": "最小起订量",
+    "leadTime": "交货期",
+    "standard": "标准款",
+    "custom": "定制款",
+    "days": "天",
+    "sampleFee": "样品费",
+    "refundable": "下单后退还",
+    "pricing": "阶梯价格",
+    "units": "件",
+    "perUnit": "/ 件",
+    "getQuote": "获取报价",
+    "requestSample": "申请样品",
+    "has3D": "3D 在线预览",
+    "related": "相关产品",
+    "tags": "产品标签",
+    "yes": "支持",
+    "no": "不支持",
+    "lidMaterial": "盖子材质"
+  },
+  "contact": {
+    "title": "联系我们",
+    "subtitle": "告诉我们您的项目需求，我们将在24小时内回复",
+    "name": "您的姓名",
+    "email": "邮箱地址",
+    "company": "公司名称",
+    "product": "感兴趣的产品",
+    "quantity": "预计采购数量",
+    "message": "项目详情",
+    "messagePlaceholder": "请描述您的包装需求、时间要求及特殊定制要求...",
+    "submit": "提交询价",
+    "success": "您的询价已提交！我们将在24小时内与您联系。"
+  },
+  "footer": {
+    "company": "公司",
+    "about": "关于我们",
+    "contact": "联系方式",
+    "sustainability": "可持续发展",
+    "products": "产品",
+    "skincare": "护肤包装",
+    "makeup": "彩妆包装",
+    "homecare": "家清包装",
+    "services": "服务",
+    "customization": "定制服务",
+    "sampling": "样品计划",
+    "oem": "OEM / ODM",
+    "copyright": "© 2026 LuxePack. 保留所有权利。",
+    "isoLabel": "ISO 9001 认证"
+  }
+}

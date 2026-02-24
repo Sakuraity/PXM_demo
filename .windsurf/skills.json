@@ -1,0 +1,33 @@
+{
+  "skills": {
+    "ui-ux-pro-max": {
+      "enabled": true,
+      "priority": 1
+    },
+    "interface-design": {
+      "enabled": true,
+      "priority": 2
+    },
+    "algorithmic-art": {
+      "enabled": true,
+      "priority": 3
+    },
+    "frontend-design": {
+      "enabled": true,
+      "priority": 4
+    }
+  },
+  "autoLoad": true,
+  "triggers": [
+    "design",
+    "build",
+    "create",
+    "implement",
+    "ui",
+    "ux",
+    "interface",
+    "frontend",
+    "animation",
+    "art"
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "brand": {
+    "name": "LuxePack",
+    "tagline": "Premium Custom Beauty Packaging"
+  },
+  "nav": {
+    "products": "Products",
+    "byApplication": "By Application",
+    "skincare": "Skincare Packaging",
+    "makeup": "Makeup Packaging",
+    "homecare": "Home Care Packaging",
+    "byMaterial": "By Material",
+    "glass": "Glass",
+    "acrylic": "Acrylic",
+    "plastic": "Plastic",
+    "byType": "By Type",
+    "bottles": "Bottles",
+    "jars": "Jars",
+    "tubes": "Tubes",
+    "pumps": "Pumps",
+    "customization": "Customization",
+    "about": "About",
+    "contact": "Contact",
+    "getQuote": "Get a Quote"
+  },
+  "home": {
+    "hero": {
+      "badge": "Trusted by 200+ Beauty Brands",
+      "title": "Premium Custom Beauty Packaging",
+      "subtitle": "From concept to production, we deliver world-class packaging solutions that elevate your brand. Glass, acrylic, PP — fully customizable.",
+      "cta": "Explore Products",
+      "ctaSecondary": "Get Free Sample"
+    },
+    "stats": {
+      "products": "500+ Products",
+      "productsLabel": "Ready-to-customize",
+      "brands": "200+ Brands",
+      "brandsLabel": "Global clients",
+      "experience": "15 Years",
+      "experienceLabel": "Industry expertise",
+      "countries": "50+ Countries",
+      "countriesLabel": "Export destinations"
+    },
+    "categories": {
+      "title": "Product Categories",
+      "subtitle": "Comprehensive packaging solutions across all beauty segments"
+    },
+    "featured": {
+      "title": "Featured Products",
+      "subtitle": "Our most popular customizable packaging solutions",
+      "viewAll": "View All Products"
+    },
+    "advantages": {
+      "title": "Why Choose LuxePack",
+      "subtitle": "We combine manufacturing excellence with design innovation",
+      "items": {
+        "quality": {
+          "title": "Premium Quality",
+          "desc": "ISO9001 certified manufacturing with rigorous QC at every stage"
+        },
+        "custom": {
+          "title": "Full Customization",
+          "desc": "Colors, materials, printing — every detail tailored to your brand"
+        },
+        "moq": {
+          "title": "Low MOQ",
+          "desc": "Start from 500 units, perfect for new brands and test runs"
+        },
+        "speed": {
+          "title": "Fast Delivery",
+          "desc": "Standard orders ship in 20–25 days. Express options available"
+        }
+      }
+    },
+    "process": {
+      "title": "Four Steps to Your Custom Packaging",
+      "subtitle": "From concept to delivery, supported every step of the way",
+      "steps": {
+        "browse": {
+          "num": "01",
+          "title": "Browse & Select",
+          "desc": "Explore 500+ customizable products. Filter by material, application, and capacity to find the perfect fit."
+        },
+        "configure": {
+          "num": "02",
+          "title": "Configure Online",
+          "desc": "Choose colors, finishes, and printing methods. Preview your design in real-time 3D before committing."
+        },
+        "quote": {
+          "num": "03",
+          "title": "Get a Quote",
+          "desc": "Enter your quantity and receive tiered pricing instantly. Request physical samples to confirm quality."
+        },
+        "deliver": {
+          "num": "04",
+          "title": "Production & Delivery",
+          "desc": "A dedicated account team manages your order end-to-end. Standard orders ship in 20–25 days."
+        }
+      },
+      "cta": "Start Customizing Now"
+    },
+    "cta": {
+      "title": "Ready to Start Your Project?",
+      "subtitle": "Get a free consultation and quote within 24 hours",
+      "button": "Contact Us Now"
+    }
+  },
+  "products": {
+    "title": "All Products",
+    "subtitle": "Browse our complete collection of customizable beauty packaging",
+    "filters": {
+      "all": "All",
+      "application": "Application",
+      "material": "Material",
+      "type": "Type",
+      "new": "New Arrivals",
+      "customizable": "Customizable",
+      "clear": "Clear Filters"
+    },
+    "sort": {
+      "label": "Sort by",
+      "featured": "Featured",
+      "newest": "Newest",
+      "priceAsc": "Price: Low to High",
+      "priceDesc": "Price: High to Low"
+    },
+    "card": {
+      "moq": "MOQ",
+      "from": "From",
+      "viewDetails": "View Details",
+      "customizable": "Customizable",
+      "new": "New"
+    },
+    "empty": "No products found. Try adjusting your filters."
+  },
+  "product": {
+    "specs": "Specifications",
+    "capacity": "Capacity",
+    "height": "Height",
+    "diameter": "Diameter",
+    "weight": "Weight",
+    "material": "Material",
+    "finish": "Available Finishes",
+    "color": "Available Colors",
+    "pantone": "Pantone Custom Color",
+    "printing": "Printing Methods",
+    "certification": "Certifications",
+    "moq": "Minimum Order Qty",
+    "leadTime": "Lead Time",
+    "standard": "Standard",
+    "custom": "Custom",
+    "days": "days",
+    "sampleFee": "Sample Fee",
+    "refundable": "refundable upon order",
+    "pricing": "Pricing Tiers",
+    "units": "units",
+    "perUnit": "/ unit",
+    "getQuote": "Get a Quote",
+    "requestSample": "Request Sample",
+    "has3D": "View in 3D",
+    "related": "Related Products",
+    "tags": "Tags",
+    "yes": "Yes",
+    "no": "No",
+    "lidMaterial": "Lid Material"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Tell us about your project and we'll respond within 24 hours",
+    "name": "Your Name",
+    "email": "Email Address",
+    "company": "Company Name",
+    "product": "Product of Interest",
+    "quantity": "Estimated Quantity",
+    "message": "Project Details",
+    "messagePlaceholder": "Tell us about your packaging needs, timeline, and any specific requirements...",
+    "submit": "Send Inquiry",
+    "success": "Your inquiry has been sent! We'll get back to you within 24 hours."
+  },
+  "footer": {
+    "company": "Company",
+    "about": "About Us",
+    "contact": "Contact",
+    "sustainability": "Sustainability",
+    "products": "Products",
+    "skincare": "Skincare Packaging",
+    "makeup": "Makeup Packaging",
+    "homecare": "Home Care",
+    "services": "Services",
+    "customization": "Customization",
+    "sampling": "Sample Program",
+    "oem": "OEM / ODM",
+    "copyright": "© 2026 LuxePack. All rights reserved.",
+    "isoLabel": "ISO 9001 Certified"
+  }
+}
