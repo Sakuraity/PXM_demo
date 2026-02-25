@@ -8,7 +8,7 @@
       "zh": "专为护肤品牌打造的高品质包装解决方案，从精华瓶到面霜罐，全系列覆盖",
       "en": "Premium packaging solutions crafted for skincare brands, covering serums to face creams"
     },
-    "image": "/images/categories/cat-skincare.jpg",
+    "image": "/images/categories/cat-skincare.png",
     "icon": "sparkles",
     "sortOrder": 1,
     "productCount": 8
@@ -22,7 +22,7 @@
       "zh": "满足彩妆产品的独特包装需求，兼顾颜值与功能性，从口红管到粉底瓶全面覆盖",
       "en": "Unique packaging solutions for makeup products, balancing aesthetics and functionality"
     },
-    "image": "/images/categories/cat-makeup.jpg",
+    "image": "/images/categories/cat-makeup.png",
     "icon": "palette",
     "sortOrder": 2,
     "productCount": 2
@@ -36,7 +36,7 @@
       "zh": "洗护发、身体护理及家居清洁的专业包装方案，耐用实用",
       "en": "Professional packaging for haircare, body care and household cleaning products"
     },
-    "image": "/images/categories/cat-homecare.jpg",
+    "image": "/images/categories/cat-homecare.png",
     "icon": "droplets",
     "sortOrder": 3,
     "productCount": 3
@@ -50,7 +50,7 @@
       "zh": "高端质感，防氧化，100% 可回收，彰显品牌价值",
       "en": "Premium feel, anti-oxidation, 100% recyclable, showcasing brand value"
     },
-    "image": "/images/categories/cat-glass.jpg",
+    "image": "/images/categories/cat-glass.png",
     "icon": "gem",
     "sortOrder": 1,
     "productCount": 3
@@ -64,7 +64,7 @@
       "zh": "类玻璃质感，轻便耐摔，易于复杂造型，性价比高",
       "en": "Glass-like clarity, lightweight and shatter-resistant, easy to mold, cost-effective"
     },
-    "image": "/images/categories/cat-acrylic.jpg",
+    "image": "/images/categories/cat-acrylic.png",
     "icon": "box",
     "sortOrder": 2,
     "productCount": 3
@@ -78,7 +78,7 @@
       "zh": "PP / PET / HDPE 多种环保塑料，灵活实用，支持可补充设计",
       "en": "PP / PET / HDPE eco-friendly plastics, versatile and practical, refillable options available"
     },
-    "image": "/images/categories/cat-plastic.jpg",
+    "image": "/images/categories/cat-plastic.png",
     "icon": "recycle",
     "sortOrder": 3,
     "productCount": 4

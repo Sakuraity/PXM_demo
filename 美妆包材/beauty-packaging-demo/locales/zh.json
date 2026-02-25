@@ -117,6 +117,11 @@
       "customizable": "可定制",
       "clear": "清除筛选"
     },
+    "search": {
+      "placeholder": "搜索产品型号或名称...",
+      "clear": "清除",
+      "noResults": "未找到相关产品"
+    },
     "sort": {
       "label": "排序方式",
       "featured": "推荐优先",
@@ -147,6 +152,8 @@
     "certification": "认证资质",
     "moq": "最小起订量",
     "leadTime": "交货期",
+    "contactForPricing": "请联系我们获取报价",
+    "contactForSample": "请联系我们获取样品信息",
     "standard": "标准款",
     "custom": "定制款",
     "days": "天",

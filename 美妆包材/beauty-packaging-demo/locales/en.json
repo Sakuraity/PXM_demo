@@ -117,6 +117,11 @@
       "customizable": "Customizable",
       "clear": "Clear Filters"
     },
+    "search": {
+      "placeholder": "Search product model or name...",
+      "clear": "Clear",
+      "noResults": "No products found"
+    },
     "sort": {
       "label": "Sort by",
       "featured": "Featured",
@@ -147,6 +152,8 @@
     "certification": "Certifications",
     "moq": "Minimum Order Qty",
     "leadTime": "Lead Time",
+    "contactForPricing": "Contact us for pricing",
+    "contactForSample": "Contact us for sample information",
     "standard": "Standard",
     "custom": "Custom",
     "days": "days",

@@ -16,7 +16,6 @@ export default function ProductCard({ product, className }: ProductCardProps) {
   const lang = i18n.language as 'zh' | 'en'
 
   const heroImage = product.images.find((img) => img.type === 'hero') ?? product.images[0]
-  const minPrice = Math.min(...product.pricing.tiers.map((t) => t.unitPrice))
 
   return (
     <Link
@@ -70,10 +69,6 @@ export default function ProductCard({ product, className }: ProductCardProps) {
         <div className="flex items-end justify-between">
           <div>
             <p className="text-xs text-stone-400">{t('products.card.moq')} {product.moq.toLocaleString()}</p>
-            <p className="text-sm font-semibold text-stone-900">
-              {t('products.card.from')} <span className="text-[#c9a96e]">${minPrice.toFixed(2)}</span>
-              <span className="text-xs text-stone-400 font-normal"> {t('product.perUnit')}</span>
-            </p>
           </div>
           <span className="flex items-center gap-1 text-xs font-medium text-[#c9a96e] group-hover:gap-2 transition-all">
             {t('products.card.viewDetails')} <ArrowRight className="w-3.5 h-3.5" />

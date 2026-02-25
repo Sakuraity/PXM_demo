@@ -69,14 +69,14 @@ export default function HeroSection() {
           <div className="space-y-4">
             <div className="rounded-2xl overflow-hidden bg-stone-100 aspect-[3/4]">
               <img
-                src="https://www.jarsking.com/wp-content/uploads/2025/10/luxury-glass-skincare-packaging.webp"
+                src="/images/products/product-lpk-gj-001-lifestyle.png"
                 alt="Luxury glass face cream jar"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="rounded-2xl overflow-hidden bg-amber-50 aspect-square">
               <img
-                src="https://www.jarsking.com/wp-content/uploads/2025/09/high-end-cosmetic-packaging-glass-dropper-bottle.webp"
+                src="/images/products/product-lpk-gb-001-hero.png"
                 alt="Dropper serum bottle"
                 className="w-full h-full object-cover"
               />
@@ -85,15 +85,15 @@ export default function HeroSection() {
           <div className="space-y-4 pt-8">
             <div className="rounded-2xl overflow-hidden bg-stone-50 aspect-square">
               <img
-                src="https://www.jarsking.com/wp-content/uploads/2025/10/refillable-airless-skincare-jar-supplier.webp"
+                src="/images/products/product-lpk-aj-001-lifestyle.png"
                 alt="Acrylic face cream jar"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="rounded-2xl overflow-hidden bg-stone-100 aspect-[3/4]">
               <img
-                src="https://www.jarsking.com/wp-content/uploads/2025/08/premium-cosmetic-packaging-solutions-for-startups.webp"
-                alt="Premium packaging set"
+                src="/images/products/product-lpk-ppj-001-lifestyle.png"
+                alt="PP refillable cream jar"
                 className="w-full h-full object-cover"
               />
             </div>

@@ -97,7 +97,7 @@
     "sampleFeeRefundable": true,
     "images": [
       {
-        "url": "/images/products/product-lpk-gj-001-hero.jpg",
+        "url": "/images/products/product-lpk-gj-001-hero.png",
         "alt": {
           "zh": "奢华玻璃面霜罐",
           "en": "Luxury glass face cream jar"
@@ -106,7 +106,7 @@
         "sortOrder": 1
       },
       {
-        "url": "/images/products/product-lpk-gj-001-lifestyle.jpg",
+        "url": "/images/products/product-lpk-gj-001-lifestyle.png",
         "alt": {
           "zh": "使用场景",
           "en": "Lifestyle scene"
@@ -115,7 +115,7 @@
         "sortOrder": 2
       },
       {
-        "url": "/images/products/product-lpk-gj-001-detail.jpg",
+        "url": "/images/products/product-lpk-gj-001-detail.png",
         "alt": {
           "zh": "产品细节",
           "en": "Product detail"
@@ -235,7 +235,7 @@
     "sampleFeeRefundable": true,
     "images": [
       {
-        "url": "/images/products/product-lpk-gb-001-hero.jpg",
+        "url": "/images/products/product-lpk-gb-001-hero.png",
         "alt": {
           "zh": "玻璃精华滴管瓶",
           "en": "Glass serum dropper bottle"
@@ -244,7 +244,7 @@
         "sortOrder": 1
       },
       {
-        "url": "/images/products/product-lpk-gb-001-lifestyle.jpg",
+        "url": "/images/products/product-lpk-gb-001-lifestyle.png",
         "alt": {
           "zh": "使用场景",
           "en": "Lifestyle scene"
@@ -253,7 +253,7 @@
         "sortOrder": 2
       },
       {
-        "url": "/images/products/product-lpk-gb-001-detail.jpg",
+        "url": "/images/products/product-lpk-gb-001-detail.png",
         "alt": {
           "zh": "滴管细节",
           "en": "Dropper detail"
@@ -371,7 +371,7 @@
     "sampleFeeRefundable": true,
     "images": [
       {
-        "url": "/images/products/product-lpk-gb-002-hero.jpg",
+        "url": "/images/products/product-lpk-gb-002-hero.png",
         "alt": {
           "zh": "玻璃泵头乳液瓶",
           "en": "Glass lotion pump bottle"
@@ -380,7 +380,7 @@
         "sortOrder": 1
       },
       {
-        "url": "/images/products/product-lpk-gb-002-lifestyle.jpg",
+        "url": "/images/products/product-lpk-gb-002-lifestyle.png",
         "alt": {
           "zh": "陈列场景",
           "en": "Display scene"
@@ -389,7 +389,7 @@
         "sortOrder": 2
       },
       {
-        "url": "/images/products/product-lpk-gb-002-detail.jpg",
+        "url": "/images/products/product-lpk-gb-002-detail.png",
         "alt": {
           "zh": "泵头细节",
           "en": "Pump head detail"
@@ -506,7 +506,7 @@
     "sampleFeeRefundable": true,
     "images": [
       {
-        "url": "/images/products/product-lpk-aj-001-hero.jpg",
+        "url": "/images/products/product-lpk-aj-001-hero.png",
         "alt": {
           "zh": "亚克力面霜罐",
           "en": "Acrylic face cream jar"
@@ -515,7 +515,7 @@
         "sortOrder": 1
       },
       {
-        "url": "/images/products/product-lpk-aj-001-lifestyle.jpg",
+        "url": "/images/products/product-lpk-aj-001-lifestyle.png",
         "alt": {
           "zh": "使用场景",
           "en": "Lifestyle scene"
@@ -524,7 +524,7 @@
         "sortOrder": 2
       },
       {
-        "url": "/images/products/product-lpk-aj-001-detail.jpg",
+        "url": "/images/products/product-lpk-aj-001-detail.png",
         "alt": {
           "zh": "产品细节",
           "en": "Product detail"
@@ -642,7 +642,7 @@
     "sampleFeeRefundable": true,
     "images": [
       {
-        "url": "/images/products/product-lpk-aj-002-hero.jpg",
+        "url": "/images/products/product-lpk-aj-002-hero.png",
         "alt": {
           "zh": "亚克力粉底泵瓶",
           "en": "Acrylic foundation pump bottle"
@@ -651,7 +651,7 @@
         "sortOrder": 1
       },
       {
-        "url": "/images/products/product-lpk-aj-002-lifestyle.jpg",
+        "url": "/images/products/product-lpk-aj-002-lifestyle.png",
         "alt": {
           "zh": "彩妆台场景",
           "en": "Makeup vanity scene"
@@ -660,7 +660,7 @@
         "sortOrder": 2
       },
       {
-        "url": "/images/products/product-lpk-aj-002-detail.jpg",
+        "url": "/images/products/product-lpk-aj-002-detail.png",
         "alt": {
           "zh": "泵头细节",
           "en": "Pump detail"
@@ -777,7 +777,7 @@
     "sampleFeeRefundable": true,
     "images": [
       {
-        "url": "/images/products/product-lpk-aj-003-hero.jpg",
+        "url": "/images/products/product-lpk-aj-003-hero.png",
         "alt": {
           "zh": "亚克力眼霜罐",
           "en": "Acrylic eye cream jar"
@@ -786,7 +786,7 @@
         "sortOrder": 1
       },
       {
-        "url": "/images/products/product-lpk-aj-003-lifestyle.jpg",
+        "url": "/images/products/product-lpk-aj-003-lifestyle.png",
         "alt": {
           "zh": "眼霜使用场景",
           "en": "Eye cream lifestyle scene"
@@ -795,7 +795,7 @@
         "sortOrder": 2
       },
       {
-        "url": "/images/products/product-lpk-aj-003-detail.jpg",
+        "url": "/images/products/product-lpk-aj-003-detail.png",
         "alt": {
           "zh": "压纹细节",
           "en": "Embossing detail"
@@ -907,7 +907,7 @@
     "sampleFeeRefundable": true,
     "images": [
       {
-        "url": "/images/products/product-lpk-ppj-001-hero.jpg",
+        "url": "/images/products/product-lpk-ppj-001-hero.png",
         "alt": {
           "zh": "PP可补充膏霜罐",
           "en": "PP refillable cream jar"
@@ -916,7 +916,7 @@
         "sortOrder": 1
       },
       {
-        "url": "/images/products/product-lpk-ppj-001-lifestyle.jpg",
+        "url": "/images/products/product-lpk-ppj-001-lifestyle.png",
         "alt": {
           "zh": "内胆展示",
           "en": "Inner liner display"
@@ -925,7 +925,7 @@
         "sortOrder": 2
       },
       {
-        "url": "/images/products/product-lpk-ppj-001-detail.jpg",
+        "url": "/images/products/product-lpk-ppj-001-detail.png",
         "alt": {
           "zh": "补充设计细节",
           "en": "Refill design detail"
@@ -1041,7 +1041,7 @@
     "sampleFeeRefundable": true,
     "images": [
       {
-        "url": "/images/products/product-lpk-pet-001-hero.jpg",
+        "url": "/images/products/product-lpk-pet-001-hero.png",
         "alt": {
           "zh": "PET洁面泡沫泵瓶",
           "en": "PET foam pump cleanser bottle"
@@ -1050,7 +1050,7 @@
         "sortOrder": 1
       },
       {
-        "url": "/images/products/product-lpk-pet-001-lifestyle.jpg",
+        "url": "/images/products/product-lpk-pet-001-lifestyle.png",
         "alt": {
           "zh": "洁面场景",
           "en": "Cleanser lifestyle scene"
@@ -1059,7 +1059,7 @@
         "sortOrder": 2
       },
       {
-        "url": "/images/products/product-lpk-pet-001-detail.jpg",
+        "url": "/images/products/product-lpk-pet-001-detail.png",
         "alt": {
           "zh": "泡沫泵头细节",
           "en": "Foam pump detail"
@@ -1175,7 +1175,7 @@
     "sampleFeeRefundable": true,
     "images": [
       {
-        "url": "/images/products/product-lpk-hdpe-001-hero.jpg",
+        "url": "/images/products/product-lpk-hdpe-001-hero.png",
         "alt": {
           "zh": "HDPE洗发水按压瓶",
           "en": "HDPE shampoo pump bottle"
@@ -1184,7 +1184,7 @@
         "sortOrder": 1
       },
       {
-        "url": "/images/products/product-lpk-hdpe-001-lifestyle.jpg",
+        "url": "/images/products/product-lpk-hdpe-001-lifestyle.png",
         "alt": {
           "zh": "浴室陈列场景",
           "en": "Bathroom display scene"
@@ -1193,7 +1193,7 @@
         "sortOrder": 2
       },
       {
-        "url": "/images/products/product-lpk-hdpe-001-detail.jpg",
+        "url": "/images/products/product-lpk-hdpe-001-detail.png",
         "alt": {
           "zh": "泵头细节",
           "en": "Pump detail"
@@ -1309,7 +1309,7 @@
     "sampleFeeRefundable": true,
     "images": [
       {
-        "url": "/images/products/product-lpk-al-001-hero.jpg",
+        "url": "/images/products/product-lpk-al-001-hero.png",
         "alt": {
           "zh": "铝制旋转口红管",
           "en": "Aluminum twist-up lipstick tube"
@@ -1318,7 +1318,7 @@
         "sortOrder": 1
       },
       {
-        "url": "/images/products/product-lpk-al-001-lifestyle.jpg",
+        "url": "/images/products/product-lpk-al-001-lifestyle.png",
         "alt": {
           "zh": "彩妆桌场景",
           "en": "Makeup vanity scene"
@@ -1327,7 +1327,7 @@
         "sortOrder": 2
       },
       {
-        "url": "/images/products/product-lpk-al-001-detail.jpg",
+        "url": "/images/products/product-lpk-al-001-detail.png",
         "alt": {
           "zh": "阳极氧化表面细节",
           "en": "Anodized surface detail"
