@@ -1,4 +1,4 @@
-import ContactClient from '@/components/contact/ContactClient'
+import ContactClient from '@/components/contact/ContactClientNew'
 
 export default function ContactPage() {
   return <ContactClient />

@@ -68,6 +68,7 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2 text-sm">
               <li><Link href="/about" className="hover:text-[#c9a96e] transition-colors">{t('footer.about')}</Link></li>
+              <li><Link href="/craft" className="hover:text-[#c9a96e] transition-colors">{t('nav.craft')}</Link></li>
               <li><Link href="/contact" className="hover:text-[#c9a96e] transition-colors">{t('footer.contact')}</Link></li>
               <li><Link href="/about" className="hover:text-[#c9a96e] transition-colors">{t('footer.sustainability')}</Link></li>
             </ul>

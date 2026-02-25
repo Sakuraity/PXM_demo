@@ -38,6 +38,21 @@ export default function MobileMenu({ navItems, language, onChangeLanguage, onClo
           </Link>
         ))}
       </div>
+      <a
+        href="https://packvisual.realibox.com/app/mockup_share/projects/2474184800847527955"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="block text-sm font-medium text-stone-700 py-2"
+        onClick={onClose}
+      >
+        {t('nav.customization')}
+      </a>
+      <Link href="/craft" className="block text-sm font-medium text-stone-700 py-2" onClick={onClose}>
+        {t('nav.craft')}
+      </Link>
+      <Link href="/about" className="block text-sm font-medium text-stone-700 py-2" onClick={onClose}>
+        {t('nav.about')}
+      </Link>
       <Link href="/contact" className="block text-sm font-medium text-stone-700 py-2" onClick={onClose}>
         {t('nav.contact')}
       </Link>

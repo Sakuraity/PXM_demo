@@ -19,7 +19,8 @@
     "tubes": "Tubes",
     "pumps": "Pumps",
     "customization": "Customization",
-    "about": "About",
+    "craft": "Craft & Process",
+    "about": "About Us",
     "contact": "Contact",
     "getQuote": "Get a Quote"
   },
@@ -164,6 +165,7 @@
     "perUnit": "/ unit",
     "getQuote": "Get a Quote",
     "requestSample": "Request Sample",
+    "customize3D": "3D Customize",
     "has3D": "View in 3D",
     "related": "Related Products",
     "tags": "Tags",
@@ -171,18 +173,202 @@
     "no": "No",
     "lidMaterial": "Lid Material"
   },
+  "craft": {
+    "title": "Craft & Process",
+    "subtitle": "Precision craftsmanship that elevates your packaging",
+    "hero": {
+      "badge": "15 Years of Craft Excellence",
+      "title": "The Art of Precision, The Soul of Craftsmanship",
+      "desc": "LuxePack masters 8 core surface treatment processes — from silk-screen printing to laser engraving — every step is rigorously controlled to deliver a flawless brand expression."
+    },
+    "intro": {
+      "title": "Our Core Processes",
+      "subtitle": "Complete surface treatment solutions for all beauty packaging categories"
+    },
+    "processes": {
+      "silkscreen": {
+        "name": "Silk-Screen Printing",
+        "tag": "High Precision",
+        "desc": "High-mesh silk screens precisely reproduce brand logos and artwork. Strong ink adhesion resists abrasion and solvents — ideal for flat and curved bottle surfaces.",
+        "specs": "Precision ±0.1mm · Up to 8-color registration · Glass / Plastic / Metal"
+      },
+      "hotStamping": {
+        "name": "Hot Stamping / Silver Stamping",
+        "tag": "Luxury Look",
+        "desc": "Thermal transfer foil technology perfectly transfers gold, silver, or holographic metallic finishes in a single step. Long-lasting color with an unmistakably premium feel.",
+        "specs": "Gold / Silver / Holographic foil · Heat resistance 80°C · Flat & curved surfaces"
+      },
+      "electroplating": {
+        "name": "Electroplating (Vacuum Metallizing)",
+        "tag": "Metal Effect",
+        "desc": "Vacuum deposition creates a uniform metallic film on the bottle surface — mirror or matte finish, zero heavy metals, fully compliant with EU environmental standards.",
+        "specs": "Mirror / Matte / Brushed · 0.1–0.3μm thickness · RoHS certified"
+      },
+      "uvTransfer": {
+        "name": "UV Transfer Printing",
+        "tag": "Premium Texture",
+        "desc": "UV-cured technology transfers special texture patterns onto bottle surfaces, achieving leather grain, carbon fiber, marble, and more to enhance product identity.",
+        "specs": "50+ texture types · Adjustable gloss · Compatible with multiple substrates"
+      },
+      "spraying": {
+        "name": "Spraying",
+        "tag": "Color Customization",
+        "desc": "Rubber-touch, gloss, and matte lacquer options with Pantone-accurate color matching — access 5,000+ color solutions. The go-to process for brand color customization.",
+        "specs": "Pantone accurate · Matte / Gloss / Rubber texture · Eco water-based lacquer"
+      },
+      "laser": {
+        "name": "Laser Engraving",
+        "tag": "Permanent Mark",
+        "desc": "High-precision laser etches patterns and text permanently into the bottle surface — no fade, no peel, 0.01mm precision. Ideal for premium limited-edition packaging.",
+        "specs": "0.01mm precision · No consumables · Glass / Metal / Acrylic"
+      },
+      "padPrinting": {
+        "name": "Pad Printing",
+        "tag": "Curved Surface",
+        "desc": "Silicone pad transfers flat artwork onto any curved surface — the best solution for irregular bottle shapes, offering rich color layers and fine detail.",
+        "specs": "Complex curved surfaces · Up to 6 colors · Precision ±0.2mm"
+      },
+      "shrinkSleeve": {
+        "name": "Shrink Sleeve Label",
+        "tag": "Full Coverage",
+        "desc": "360° full-body graphic coverage that conforms perfectly to the bottle after heat shrinking. Ideal for complex gradients and large-area artwork — a favorite for makeup and fragrance.",
+        "specs": "360° full coverage · 50–70% shrink ratio · Matte / Gloss film"
+      }
+    },
+    "comparison": {
+      "title": "Process Comparison",
+      "subtitle": "Choose the right process based on your brand needs and budget",
+      "headers": {
+        "process": "Process",
+        "effect": "Visual Effect",
+        "durability": "Durability",
+        "moq": "Min. Print Run",
+        "leadTime": "Plate Lead Time",
+        "bestFor": "Best For"
+      }
+    },
+    "cta": {
+      "title": "Not Sure Which Process to Choose?",
+      "subtitle": "Our craft consultants will recommend the best solution based on your brand positioning and budget",
+      "button": "Free Craft Consultation"
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "15 years of beauty packaging expertise, growing with 200+ global brands",
+    "story": {
+      "badge": "Our Story",
+      "title": "Crafted with Purpose, Since 2010",
+      "p1": "LuxePack was founded in 2010 and is headquartered in Guangzhou. We are a comprehensive enterprise focused on the R&D, design, and manufacturing of premium beauty packaging. Our founding team has over 15 years of deep industry experience and understands both the quality and design innovation demands of global beauty brands.",
+      "p2": "With three major production and service centers in Guangzhou, Shenzhen, and Hangzhou, we have built a proprietary surface treatment laboratory, a 3D digital design team, and a fully integrated supply chain — delivering end-to-end solutions from concept design to mass production.",
+      "p3": "To date, LuxePack has served over 200 beauty brands across 50+ countries and regions. Our products span skincare, makeup, fragrance, and home care — trusted by international buyers worldwide."
+    },
+    "stats": {
+      "founded": "2010",
+      "foundedLabel": "Year Founded",
+      "skus": "500+",
+      "skusLabel": "Customizable SKUs",
+      "brands": "200+",
+      "brandsLabel": "Global Brand Partners",
+      "countries": "50+",
+      "countriesLabel": "Export Destinations",
+      "employees": "800+",
+      "employeesLabel": "Employees",
+      "area": "60,000㎡",
+      "areaLabel": "Production Base Area"
+    },
+    "factory": {
+      "badge": "Our Facilities",
+      "title": "Modern Manufacturing Base",
+      "subtitle": "Three production centers ensuring capacity and quality",
+      "locations": {
+        "guangzhou": {
+          "name": "Guangzhou HQ · R&D Center",
+          "address": "LuxePack Industrial Park, No.1288 Yunchen East Road, Baiyun District, Guangzhou",
+          "desc": "30,000㎡ facility with injection molding, blow molding, and acrylic forming lines. Home to our 3D design lab and craft R&D center.",
+          "tags": ["Injection Molding", "Acrylic Processing", "3D Design Lab"]
+        },
+        "shenzhen": {
+          "name": "Shenzhen · Surface Treatment Center",
+          "address": "LuxePack Shenzhen Factory, No.666 Zhoushi Road, Yanlo Street, Baoan District, Shenzhen",
+          "desc": "Specializing in electroplating, UV transfer, hot stamping, and other premium surface processes. Monthly capacity exceeds 3M units, SGS & RoHS certified.",
+          "tags": ["Electroplating", "UV Transfer", "Hot Stamping"]
+        },
+        "hangzhou": {
+          "name": "Hangzhou · Glass Division",
+          "address": "LuxePack Hangzhou Industrial Park, No.188 Jingzhou Road, Liangzhu Street, Yuhang District, Hangzhou",
+          "desc": "Focused on premium glass packaging production with full glass melting, forming, and annealing lines. Annual capacity exceeds 50M units.",
+          "tags": ["Glass Blowing", "Precision Annealing", "Deep Processing"]
+        }
+      }
+    },
+    "capabilities": {
+      "title": "Production Capabilities",
+      "subtitle": "Precision control from prototype to mass production",
+      "items": {
+        "monthly": { "value": "30M units", "label": "Monthly Capacity" },
+        "moq": { "value": "500 units", "label": "Minimum Order Qty" },
+        "leadTime": { "value": "20–25 days", "label": "Standard Lead Time" },
+        "quality": { "value": "99.2%", "label": "Product Pass Rate" }
+      }
+    },
+    "certifications": {
+      "title": "Certifications",
+      "subtitle": "Internationally recognized, quality guaranteed",
+      "items": ["ISO 9001:2015 Quality Management", "ISO 14001 Environmental Management", "SGS Third-Party Testing", "FDA Food-Contact Material Certification", "RoHS Hazardous Substance Compliance", "BSCI Social Responsibility Audit"]
+    },
+    "team": {
+      "title": "Our Team",
+      "subtitle": "Top industry talent dedicated to supporting your brand",
+      "items": {
+        "rd": { "name": "R&D & Design Team", "count": "60+", "desc": "Senior packaging designers and engineers averaging 12 years of experience" },
+        "qc": { "name": "Quality Control Team", "count": "120+", "desc": "Full-chain QC covering incoming materials, in-process, and outgoing inspection" },
+        "service": { "name": "Customer Service Team", "count": "80+", "desc": "Multilingual support with 7×12h response to client needs" }
+      }
+    },
+    "cta": {
+      "title": "Visit Our Factory",
+      "subtitle": "Schedule a factory tour or request product samples — experience the LuxePack quality promise firsthand",
+      "visit": "Schedule a Factory Visit",
+      "sample": "Request Product Samples"
+    }
+  },
   "contact": {
     "title": "Get in Touch",
     "subtitle": "Tell us about your project and we'll respond within 24 hours",
     "name": "Your Name",
     "email": "Email Address",
+    "phone": "Phone / WhatsApp",
     "company": "Company Name",
     "product": "Product of Interest",
+    "category": "Product Category",
+    "categoryPlaceholder": "Select a category",
+    "categories": {
+      "skincare": "Skincare Packaging",
+      "makeup": "Makeup Packaging",
+      "fragrance": "Fragrance Bottles",
+      "haircare": "Hair Care Packaging",
+      "other": "Other"
+    },
     "quantity": "Estimated Quantity",
     "message": "Project Details",
     "messagePlaceholder": "Tell us about your packaging needs, timeline, and any specific requirements...",
     "submit": "Send Inquiry",
-    "success": "Your inquiry has been sent! We'll get back to you within 24 hours."
+    "success": "Your inquiry has been sent! We'll get back to you within 24 hours.",
+    "successSub": "Our consultant will reach out to you proactively",
+    "responseTime": "Response Time Commitment",
+    "quote24h": "Quote requests: within 24 hours",
+    "sample": "Sample requests: 2–3 business days",
+    "custom": "Custom orders: 5–7 business days",
+    "workingHours": "Working Hours",
+    "hours": "Mon–Sat 9:00–18:00 (Beijing Time)",
+    "wechat": "Scan WeChat QR Code",
+    "offices": {
+      "title": "Our Offices",
+      "gz": { "city": "Guangzhou (HQ)", "address": "LuxePack Industrial Park, No.1288 Yunchen East Road, Baiyun District", "tel": "+86 20 8888 6666", "email": "gz@luxepack.com" },
+      "sz": { "city": "Shenzhen", "address": "No.666 Zhoushi Road, Yanlo Street, Baoan District", "tel": "+86 755 8888 9999", "email": "sz@luxepack.com" },
+      "hz": { "city": "Hangzhou", "address": "No.188 Jingzhou Road, Liangzhu Street, Yuhang District", "tel": "+86 571 8888 7777", "email": "hz@luxepack.com" }
+    }
   },
   "footer": {
     "company": "Company",

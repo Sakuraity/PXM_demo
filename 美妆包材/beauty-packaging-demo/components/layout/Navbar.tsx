@@ -53,8 +53,14 @@ export default function Navbar() {
             >
               {t('nav.customization')}
             </Link>
-            <Link href="/contact" className="text-sm font-medium text-stone-700 hover:text-stone-900 transition-colors">
+            <Link href="/craft" className="text-sm font-medium text-stone-700 hover:text-stone-900 transition-colors">
+              {t('nav.craft')}
+            </Link>
+            <Link href="/about" className="text-sm font-medium text-stone-700 hover:text-stone-900 transition-colors">
               {t('nav.about')}
+            </Link>
+            <Link href="/contact" className="text-sm font-medium text-stone-700 hover:text-stone-900 transition-colors">
+              {t('nav.contact')}
             </Link>
           </nav>
 
