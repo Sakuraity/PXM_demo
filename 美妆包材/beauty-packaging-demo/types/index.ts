@@ -11,7 +11,6 @@ export interface Category {
   description: LocalizedString
   image: string
   icon?: string
-  parent?: string
   sortOrder: number
   productCount: number
 }
@@ -58,7 +57,7 @@ export interface Product {
   tagline: LocalizedString
   description: LocalizedString
   categories: {
-    application: string
+    application: string[]
     material: string
     type: string
   }

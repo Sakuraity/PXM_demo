@@ -8,66 +8,10 @@
       "zh": "专为护肤品牌打造的高品质包装解决方案，从精华瓶到面霜罐，全系列覆盖",
       "en": "Premium packaging solutions crafted for skincare brands, covering serums to face creams"
     },
-    "image": "/images/categories/skincare.jpg",
+    "image": "/images/categories/cat-skincare.jpg",
     "icon": "sparkles",
     "sortOrder": 1,
-    "productCount": 21
-  },
-  {
-    "id": "face-cream-jars",
-    "slug": "face-cream-jars",
-    "dimension": "application",
-    "name": { "zh": "面霜罐", "en": "Face Cream Jars" },
-    "description": {
-      "zh": "宽口设计，适合膏霜类产品，多种材质可选",
-      "en": "Wide-mouth design for cream formulations, available in multiple materials"
-    },
-    "image": "/images/categories/face-cream-jars.jpg",
-    "parent": "skincare",
-    "sortOrder": 1,
-    "productCount": 6
-  },
-  {
-    "id": "serum-bottles",
-    "slug": "serum-bottles",
-    "dimension": "application",
-    "name": { "zh": "精华瓶", "en": "Serum Bottles" },
-    "description": {
-      "zh": "滴管或泵头设计，精准出料，保护活性成分",
-      "en": "Dropper or pump design for precise dispensing and active ingredient protection"
-    },
-    "image": "/images/categories/serum-bottles.jpg",
-    "parent": "skincare",
-    "sortOrder": 2,
-    "productCount": 6
-  },
-  {
-    "id": "lotion-bottles",
-    "slug": "lotion-bottles",
-    "dimension": "application",
-    "name": { "zh": "乳液瓶", "en": "Lotion Bottles" },
-    "description": {
-      "zh": "泵头乳液瓶，卫生便捷，适合日常护肤品牌",
-      "en": "Pump lotion bottles for hygienic and convenient daily skincare"
-    },
-    "image": "/images/categories/lotion-bottles.jpg",
-    "parent": "skincare",
-    "sortOrder": 3,
-    "productCount": 5
-  },
-  {
-    "id": "airless-bottles",
-    "slug": "airless-bottles",
-    "dimension": "application",
-    "name": { "zh": "真空瓶", "en": "Airless Bottles" },
-    "description": {
-      "zh": "真空技术防氧化，延长产品保质期，适合高端护肤",
-      "en": "Airless technology prevents oxidation and extends product shelf life"
-    },
-    "image": "/images/categories/airless-bottles.jpg",
-    "parent": "skincare",
-    "sortOrder": 4,
-    "productCount": 4
+    "productCount": 8
   },
   {
     "id": "makeup",
@@ -75,54 +19,12 @@
     "dimension": "application",
     "name": { "zh": "彩妆包装", "en": "Makeup Packaging" },
     "description": {
-      "zh": "满足彩妆产品的独特包装需求，兼顾颜值与功能",
+      "zh": "满足彩妆产品的独特包装需求，兼顾颜值与功能性，从口红管到粉底瓶全面覆盖",
       "en": "Unique packaging solutions for makeup products, balancing aesthetics and functionality"
     },
-    "image": "/images/categories/makeup.jpg",
+    "image": "/images/categories/cat-makeup.jpg",
     "icon": "palette",
     "sortOrder": 2,
-    "productCount": 8
-  },
-  {
-    "id": "lipstick-tubes",
-    "slug": "lipstick-tubes",
-    "dimension": "application",
-    "name": { "zh": "口红管", "en": "Lipstick Tubes" },
-    "description": {
-      "zh": "经典旋转式口红管，多种材质与表面处理选项",
-      "en": "Classic twist-up lipstick tubes with various material and finish options"
-    },
-    "image": "/images/categories/lipstick-tubes.jpg",
-    "parent": "makeup",
-    "sortOrder": 1,
-    "productCount": 3
-  },
-  {
-    "id": "lip-gloss-tubes",
-    "slug": "lip-gloss-tubes",
-    "dimension": "application",
-    "name": { "zh": "唇釉管", "en": "Lip Gloss Tubes" },
-    "description": {
-      "zh": "带刷头唇釉管，透明或磨砂管身，展示产品色彩",
-      "en": "Wand applicator lip gloss tubes, clear or frosted barrel to showcase product color"
-    },
-    "image": "/images/categories/lip-gloss-tubes.jpg",
-    "parent": "makeup",
-    "sortOrder": 2,
-    "productCount": 3
-  },
-  {
-    "id": "foundation-bottles",
-    "slug": "foundation-bottles",
-    "dimension": "application",
-    "name": { "zh": "粉底瓶", "en": "Foundation Bottles" },
-    "description": {
-      "zh": "泵头粉底瓶，精准出量，适合液态粉底和BB霜",
-      "en": "Pump foundation bottles for precise dispensing of liquid foundation and BB cream"
-    },
-    "image": "/images/categories/foundation-bottles.jpg",
-    "parent": "makeup",
-    "sortOrder": 3,
     "productCount": 2
   },
   {
@@ -131,41 +33,13 @@
     "dimension": "application",
     "name": { "zh": "家清包装", "en": "Home Care Packaging" },
     "description": {
-      "zh": "洗护发、身体护理及家居清洁的专业包装方案",
+      "zh": "洗护发、身体护理及家居清洁的专业包装方案，耐用实用",
       "en": "Professional packaging for haircare, body care and household cleaning products"
     },
-    "image": "/images/categories/homecare.jpg",
+    "image": "/images/categories/cat-homecare.jpg",
     "icon": "droplets",
     "sortOrder": 3,
-    "productCount": 7
-  },
-  {
-    "id": "shampoo-bottles",
-    "slug": "shampoo-bottles",
-    "dimension": "application",
-    "name": { "zh": "洗发水瓶", "en": "Shampoo Bottles" },
-    "description": {
-      "zh": "大容量翻盖或泵头设计，耐化学品，适合洗发产品",
-      "en": "Large capacity flip-cap or pump design, chemical resistant for hair cleansing products"
-    },
-    "image": "/images/categories/shampoo-bottles.jpg",
-    "parent": "homecare",
-    "sortOrder": 1,
     "productCount": 3
-  },
-  {
-    "id": "foam-pump-bottles",
-    "slug": "foam-pump-bottles",
-    "dimension": "application",
-    "name": { "zh": "泡沫泵瓶", "en": "Foam Pump Bottles" },
-    "description": {
-      "zh": "专利泡沫泵头，节约用量，适合洁面和洗手液",
-      "en": "Patent foam pump dispensing, reduces product usage, ideal for facial cleanser and hand wash"
-    },
-    "image": "/images/categories/foam-pump-bottles.jpg",
-    "parent": "homecare",
-    "sortOrder": 2,
-    "productCount": 4
   },
   {
     "id": "glass",
@@ -173,13 +47,13 @@
     "dimension": "material",
     "name": { "zh": "玻璃系列", "en": "Glass" },
     "description": {
-      "zh": "高端质感，防氧化，彰显品牌价值",
-      "en": "Premium feel, anti-oxidation, showcasing brand value"
+      "zh": "高端质感，防氧化，100% 可回收，彰显品牌价值",
+      "en": "Premium feel, anti-oxidation, 100% recyclable, showcasing brand value"
     },
-    "image": "/images/categories/glass.jpg",
+    "image": "/images/categories/cat-glass.jpg",
     "icon": "gem",
     "sortOrder": 1,
-    "productCount": 14
+    "productCount": 3
   },
   {
     "id": "acrylic",
@@ -187,13 +61,13 @@
     "dimension": "material",
     "name": { "zh": "亚克力系列", "en": "Acrylic" },
     "description": {
-      "zh": "类玻璃质感，轻便耐摔，性价比高",
-      "en": "Glass-like appearance, lightweight and shatter-resistant, cost-effective"
+      "zh": "类玻璃质感，轻便耐摔，易于复杂造型，性价比高",
+      "en": "Glass-like clarity, lightweight and shatter-resistant, easy to mold, cost-effective"
     },
-    "image": "/images/categories/acrylic.jpg",
+    "image": "/images/categories/cat-acrylic.jpg",
     "icon": "box",
     "sortOrder": 2,
-    "productCount": 8
+    "productCount": 3
   },
   {
     "id": "plastic",
@@ -201,13 +75,13 @@
     "dimension": "material",
     "name": { "zh": "塑料系列", "en": "Plastic" },
     "description": {
-      "zh": "PP / PET / HDPE 多种塑料，灵活实用，可回收",
-      "en": "PP / PET / HDPE plastics, flexible and practical, recyclable"
+      "zh": "PP / PET / HDPE 多种环保塑料，灵活实用，支持可补充设计",
+      "en": "PP / PET / HDPE eco-friendly plastics, versatile and practical, refillable options available"
     },
-    "image": "/images/categories/plastic.jpg",
+    "image": "/images/categories/cat-plastic.jpg",
     "icon": "recycle",
     "sortOrder": 3,
-    "productCount": 14
+    "productCount": 4
   },
   {
     "id": "bottles",
@@ -215,12 +89,13 @@
     "dimension": "type",
     "name": { "zh": "瓶类", "en": "Bottles" },
     "description": {
-      "zh": "细口设计，配合泵头、滴管或普通盖，适合液态产品",
-      "en": "Narrow-neck design with pump, dropper or regular cap for liquid products"
+      "zh": "细口设计，配合泵头、滴管或普通盖，适合液态精华、乳液、洗护产品",
+      "en": "Narrow-neck design with pump, dropper or regular cap for serums, lotions and care products"
     },
-    "image": "/images/categories/bottles.jpg",
+    "image": "/images/categories/cat-bottles.jpg",
+    "icon": "flask-conical",
     "sortOrder": 1,
-    "productCount": 18
+    "productCount": 5
   },
   {
     "id": "jars",
@@ -228,12 +103,13 @@
     "dimension": "type",
     "name": { "zh": "罐类", "en": "Jars" },
     "description": {
-      "zh": "宽口旋盖设计，适合膏霜、眼霜等厚质产品",
+      "zh": "宽口旋盖设计，适合膏霜、眼霜等厚质产品，多材质可选",
       "en": "Wide-mouth screw cap design for creams, eye creams and thick formulations"
     },
-    "image": "/images/categories/jars.jpg",
+    "image": "/images/categories/cat-jars.jpg",
+    "icon": "archive",
     "sortOrder": 2,
-    "productCount": 10
+    "productCount": 4
   },
   {
     "id": "tubes",
@@ -241,24 +117,12 @@
     "dimension": "type",
     "name": { "zh": "管类", "en": "Tubes" },
     "description": {
-      "zh": "软管挤压出料，便于携带，适合旅行装",
-      "en": "Squeeze tube dispensing, portable and travel-friendly"
+      "zh": "旋转或软管出料设计，便于携带，适合口红、彩妆及旅行装",
+      "en": "Twist-up or squeeze tube design, portable and travel-friendly, ideal for lip and makeup products"
     },
-    "image": "/images/categories/tubes.jpg",
+    "image": "/images/categories/cat-tubes.jpg",
+    "icon": "test-tube",
     "sortOrder": 3,
-    "productCount": 6
-  },
-  {
-    "id": "pumps",
-    "slug": "pumps",
-    "dimension": "type",
-    "name": { "zh": "泵头类", "en": "Pumps" },
-    "description": {
-      "zh": "按压式出料，卫生精准，泡沫泵/乳液泵多类型",
-      "en": "Press-to-dispense, hygienic and precise, foam pump / lotion pump types"
-    },
-    "image": "/images/categories/pumps.jpg",
-    "sortOrder": 4,
-    "productCount": 8
+    "productCount": 1
   }
 ]

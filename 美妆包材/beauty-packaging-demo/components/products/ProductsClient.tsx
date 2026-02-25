@@ -25,7 +25,7 @@ export default function ProductsClient() {
   const filtered = useMemo(() => {
     return products.filter((p) => {
       if (p.status !== 'published') return false
-      if (application && p.categories.application !== application) return false
+      if (application && !(p.categories.application as string[]).includes(application)) return false
       if (material && p.categories.material !== material) return false
       if (type && p.categories.type !== type) return false
       if (onlyNew && !p.isNew) return false

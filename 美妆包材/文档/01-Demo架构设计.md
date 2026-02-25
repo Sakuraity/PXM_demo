@@ -44,53 +44,44 @@
 LuxePack 独立站
 ├── 首页 (/)
 │   ├── Hero Banner - 品牌定位
-│   ├── 产品分类入口 - 3大类快速导航
-│   ├── 热门产品 - 精选展示
-│   ├── 核心优势 - 4大价值主张
-│   ├── 客户案例 - 合作品牌
+│   ├── 产品分类入口 - 应用×3 + 材质×3 双入口
+│   ├── 精选产品 - 6个 isFeatured 产品卡片
+│   ├── 核心优势 - 4大价值主张（隐性体现 PXM 能力）
 │   └── 联系 CTA
 │
-├── 产品中心
-│   ├── 产品总览 (/products)
-│   │   └── 全部产品列表，支持筛选/排序
-│   ├── 按应用分类 (/products/by-application)
-│   │   ├── 护肤包装 (/products/skincare)
-│   │   ├── 彩妆包装 (/products/makeup)
-│   │   └── 家清包装 (/products/homecare)
-│   ├── 按材质分类 (/products/by-material)
-│   │   ├── 玻璃系列 (/products/glass)
-│   │   ├── 塑料系列 (/products/plastic)
-│   │   └── 亚克力系列 (/products/acrylic)
-│   ├── 按包装类型 (/products/by-type)
-│   │   ├── 瓶类 (/products/bottles)
-│   │   ├── 罐类 (/products/jars)
-│   │   ├── 管类 (/products/tubes)
-│   │   └── 泵头类 (/products/pumps)
-│   └── 产品详情 (/products/[slug])
-│       ├── 产品图片库
-│       ├── 规格参数
-│       ├── 定制选项
-│       ├── MOQ & 价格区间
-│       ├── 3D 配置入口（PXM Studio）
-│       └── 相关产品推荐
+├── 产品总览 (/products)
+│   ├── 三维筛选器（应用/材质/类型，可多选）
+│   └── 10个 SKU 产品卡片网格
 │
-├── 定制服务 (/customization)
-│   ├── 定制流程说明
-│   ├── 可定制项目（颜色/材质/印刷/形状）
-│   └── 3D 在线预览入口
+├── 按应用浏览 (/products/application/[id])
+│   ├── 护肤包装 (/products/application/skincare)
+│   ├── 彩妆包装 (/products/application/makeup)
+│   └── 家清包装 (/products/application/homecare)
 │
-├── 成功案例 (/case-studies)
-│   └── 合作品牌案例展示
+├── 按材质浏览 (/products/material/[id])
+│   ├── 玻璃系列 (/products/material/glass)
+│   ├── 亚克力系列 (/products/material/acrylic)
+│   └── 塑料系列 (/products/material/plastic)
+│
+├── 产品详情 (/products/[slug])
+│   ├── 产品主图 + 图库
+│   ├── 规格参数表
+│   ├── 定制选项（颜色/印刷工艺）
+│   ├── MOQ & 阶梯价格
+│   ├── 3D 配置入口（has3DModel=true 时显示）
+│   └── 相关产品推荐
 │
 ├── 关于我们 (/about)
-│   ├── 公司介绍
+│   ├── 品牌故事
 │   ├── 生产能力
-│   └── 质量认证
+│   └── 认证资质
 │
-└── 联系我们 (/contact)
+└── 联系询价 (/contact)
     ├── 询价表单
     └── 样品申请
 ```
+
+> **取消页面**：`/customization`（定制服务独立页）、`/case-studies`（成功案例页），Demo 阶段不实现。
 
 ### 2.2 核心页面详细说明
 
@@ -219,22 +210,22 @@ Demo 中每个功能模块都对应 PXM 的具体能力，演示时可以直接�
 
 ## 五、开发阶段规划
 
-### Phase 1：基础框架（核心演示）
-- [ ] 项目初始化（Next.js + Tailwind + shadcn/ui）
-- [ ] 首页（Hero + 分类 + 热门产品 + 优势）
-- [ ] 产品列表页（筛选 + 产品卡片）
-- [ ] 产品详情页（图片库 + 参数 + CTA）
-- [ ] 基础导航 + 页脚
-- [ ] 中英双语
+### Phase 1：基础框架（核心演示）✅ 已完成
+- [x] 项目初始化（Next.js + Tailwind）
+- [x] 首页（Hero + 分类 + 精选产品 + 优势）
+- [x] 产品列表页（筛选 + 产品卡片）
+- [x] 产品详情页（图片库 + 参数 + CTA）
+- [x] 基础导航 + 页脚
+- [x] 中英双语
 
-### Phase 2：交互增强
-- [ ] 定制服务页面
-- [ ] 3D 配置器集成（iframe）
-- [ ] 询价表单
+### Phase 2：分类浏览页
+- [ ] 按应用浏览页 (`/products/application/[id]`)
+- [ ] 按材质浏览页 (`/products/material/[id]`)
+- [ ] 产品筛选三维联动
+- [ ] 询价表单完善
+
+### Phase 3：内容与体验
+- [ ] 关于我们页 (`/about`)
+- [ ] 3D 配置器集成（iframe，has3DModel=true 产品）
 - [ ] 动画与过渡效果
-
-### Phase 3：内容完善
-- [ ] 成功案例页
-- [ ] 关于我们页
-- [ ] 联系页面
 - [ ] SEO 优化

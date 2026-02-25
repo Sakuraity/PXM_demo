@@ -1,10 +1,1348 @@
 [
-  {"id":"lpk-glass-jar-001","slug":"luxury-glass-face-cream-jar-50ml","modelNumber":"LPK-GJ-001","status":"published","isNew":false,"isFeatured":true,"isCustomizable":true,"name":{"zh":"奢华玻璃面霜罐 50ml","en":"Luxury Glass Face Cream Jar 50ml"},"tagline":{"zh":"双层玻璃结构，宫廷金属盖","en":"Double-wall glass with palace-style metal lid"},"description":{"zh":"采用高硼硅玻璃，双层隔热设计保护活性成分。金属盖支持金/银/古铜电镀，瓶身支持丝印、烫金、磨砂等工艺。","en":"Borosilicate glass with double-wall insulation. Metal lid in gold/silver/bronze electroplating. Supports silk printing, hot stamping and frosted coating."},"categories":{"application":"face-cream-jars","material":"glass","type":"jars"},"tags":["luxury","double-wall","metal-lid"],"specs":{"capacity":50,"capacityOptions":[30,50,100],"height":62,"diameter":68,"neckSize":60,"weight":185,"material":"Borosilicate Glass","lidMaterial":"Zinc Alloy + Electroplating","finish":["Glossy","Frosted","Matte Coating"],"color":["Clear","Amber","Black","Cobalt Blue","Custom"],"pantoneCustom":true,"printing":["Silk Screen","Hot Stamping","Embossing","Laser Engraving"],"certification":["ISO9001","FDA","REACH"]},"moq":1000,"pricing":{"currency":"USD","tiers":[{"minQty":1000,"maxQty":2999,"unitPrice":3.20},{"minQty":3000,"maxQty":9999,"unitPrice":2.85},{"minQty":10000,"unitPrice":2.40}]},"leadTime":{"standard":25,"custom":35},"sampleFee":35,"sampleFeeRefundable":true,"images":[{"url":"https://www.jarsking.com/wp-content/uploads/2025/10/luxury-glass-skincare-packaging.webp","alt":{"zh":"奢华玻璃面霜罐","en":"Luxury glass face cream jar"},"type":"hero","sortOrder":1},{"url":"https://www.jarsking.com/wp-content/uploads/2025/09/custom-glass-skincare-packaging-set.webp","alt":{"zh":"定制套装","en":"Custom glass set"},"type":"gallery","sortOrder":2},{"url":"https://www.jarsking.com/wp-content/uploads/2025/10/luxury-cosmetic-bottle-packaging.webp","alt":{"zh":"场景图","en":"Lifestyle"},"type":"lifestyle","sortOrder":3}],"has3DModel":true,"model3DUrl":"https://studio.realibox.com/demo/lpk-glass-jar-001","relatedProducts":["lpk-acrylic-jar-001","lpk-glass-bottle-001","lpk-glass-jar-002"],"createdAt":"2025-01-15T08:00:00Z","updatedAt":"2026-02-01T10:30:00Z"},
-  {"id":"lpk-glass-jar-002","slug":"minimalist-glass-cream-jar-30ml","modelNumber":"LPK-GJ-002","status":"published","isNew":true,"isFeatured":true,"isCustomizable":true,"name":{"zh":"极简玻璃膏霜罐 30ml","en":"Minimalist Glass Cream Jar 30ml"},"tagline":{"zh":"纯净极简美学，适合清洁美妆品牌","en":"Pure minimalist aesthetics for clean beauty brands"},"description":{"zh":"厚底玻璃罐配竹木盖或磨砂PP盖，支持竹节纹压花、哑光喷涂、激光雕刻等环保工艺。","en":"Thick-base glass jar with bamboo or frosted PP lid. Supports bamboo texture embossing, matte coating and laser engraving."},"categories":{"application":"face-cream-jars","material":"glass","type":"jars"},"tags":["minimalist","eco-friendly","bamboo-lid","new"],"specs":{"capacity":30,"capacityOptions":[15,30,50],"height":48,"diameter":58,"neckSize":52,"weight":120,"material":"Soda-lime Glass","lidMaterial":"Bamboo / PP","finish":["Frosted","Matte Coating","Natural Clear"],"color":["Clear","Frosted White","Smoke Grey","Custom"],"pantoneCustom":true,"printing":["Silk Screen","Embossing","Laser Engraving"],"certification":["ISO9001","FSC","REACH"]},"moq":1000,"pricing":{"currency":"USD","tiers":[{"minQty":1000,"maxQty":2999,"unitPrice":2.40},{"minQty":3000,"maxQty":9999,"unitPrice":2.10},{"minQty":10000,"unitPrice":1.80}]},"leadTime":{"standard":20,"custom":30},"sampleFee":28,"sampleFeeRefundable":true,"images":[{"url":"https://www.jarsking.com/wp-content/uploads/2026/01/blue-replaceable-cosmetic-jar.webp","alt":{"zh":"极简玻璃膏霜罐","en":"Minimalist glass cream jar"},"type":"hero","sortOrder":1},{"url":"https://www.jarsking.com/wp-content/uploads/2024/12/face-cream-jar.webp","alt":{"zh":"面霜罐展示","en":"Cream jar display"},"type":"gallery","sortOrder":2}],"has3DModel":false,"relatedProducts":["lpk-glass-jar-001","lpk-pp-jar-001"],"createdAt":"2026-01-10T08:00:00Z","updatedAt":"2026-02-10T14:00:00Z"},
-  {"id":"lpk-acrylic-jar-001","slug":"premium-acrylic-face-cream-jar-50ml","modelNumber":"LPK-AJ-001","status":"published","isNew":false,"isFeatured":true,"isCustomizable":true,"name":{"zh":"高端亚克力面霜罐 50ml","en":"Premium Acrylic Face Cream Jar 50ml"},"tagline":{"zh":"媲美玻璃的高透质感，更轻便更耐摔","en":"Glass-like clarity with superior lightness and shatter resistance"},"description":{"zh":"光学级亚克力，透明度92%，双层结构隔热。UV喷涂实现哑光/高光/电镀多种质感。","en":"Optical-grade acrylic with 92% transparency, double-wall insulation. UV coating for matte, glossy and electroplated finishes."},"categories":{"application":"face-cream-jars","material":"acrylic","type":"jars"},"tags":["double-wall","lightweight","electroplating"],"specs":{"capacity":50,"capacityOptions":[15,30,50,100],"height":60,"diameter":70,"neckSize":62,"weight":95,"material":"PMMA (Acrylic)","lidMaterial":"PMMA / ABS + UV Coating","finish":["Glossy","Matte","Frosted","Electroplated Gold","Electroplated Silver"],"color":["Clear","Pearlescent White","Black","Rose Gold","Custom"],"pantoneCustom":true,"printing":["Silk Screen","Hot Stamping","UV Printing"],"certification":["ISO9001","REACH"]},"moq":1000,"pricing":{"currency":"USD","tiers":[{"minQty":1000,"maxQty":2999,"unitPrice":2.60},{"minQty":3000,"maxQty":9999,"unitPrice":2.25},{"minQty":10000,"unitPrice":1.95}]},"leadTime":{"standard":20,"custom":30},"sampleFee":30,"sampleFeeRefundable":true,"images":[{"url":"https://www.jarsking.com/wp-content/uploads/2025/10/refillable-airless-skincare-jar-supplier.webp","alt":{"zh":"高端亚克力面霜罐","en":"Premium acrylic face cream jar"},"type":"hero","sortOrder":1},{"url":"https://www.jarsking.com/wp-content/uploads/2025/10/custom-airless-pump-bottle-manufacturer.webp","alt":{"zh":"定制亚克力方案","en":"Custom acrylic solution"},"type":"gallery","sortOrder":2}],"has3DModel":true,"model3DUrl":"https://studio.realibox.com/demo/lpk-acrylic-jar-001","relatedProducts":["lpk-glass-jar-001","lpk-acrylic-jar-002"],"createdAt":"2025-03-01T08:00:00Z","updatedAt":"2026-01-20T10:00:00Z"},
-  {"id":"lpk-acrylic-jar-002","slug":"double-wall-acrylic-eye-cream-jar-30ml","modelNumber":"LPK-AJ-002","status":"published","isNew":false,"isFeatured":false,"isCustomizable":true,"name":{"zh":"双层亚克力眼霜罐 30ml","en":"Double-Wall Acrylic Eye Cream Jar 30ml"},"tagline":{"zh":"小容量精致眼霜罐，立体压纹可定制","en":"Compact eye cream jar with customizable 3D embossing"},"description":{"zh":"小容量双层亚克力罐，宽口设计方便取用。外壳支持3D压纹、渐变喷涂、钻石切割纹等高级工艺。","en":"Small-capacity double-wall acrylic jar with wide mouth. Outer shell supports 3D embossing, gradient coating and diamond-cut patterns."},"categories":{"application":"face-cream-jars","material":"acrylic","type":"jars"},"tags":["eye-cream","double-wall","compact"],"specs":{"capacity":30,"capacityOptions":[15,20,30],"height":42,"diameter":56,"neckSize":50,"weight":65,"material":"PMMA (Acrylic)","finish":["Glossy","Gradient","Diamond Cut","Electroplated"],"color":["Clear","Rose Gold","Silver","Black","Custom"],"pantoneCustom":true,"printing":["Hot Stamping","Silk Screen","3D Embossing"],"certification":["ISO9001","REACH"]},"moq":2000,"pricing":{"currency":"USD","tiers":[{"minQty":2000,"maxQty":4999,"unitPrice":1.80},{"minQty":5000,"maxQty":14999,"unitPrice":1.55},{"minQty":15000,"unitPrice":1.30}]},"leadTime":{"standard":18,"custom":28},"sampleFee":22,"sampleFeeRefundable":true,"images":[{"url":"https://www.jarsking.com/wp-content/uploads/2024/10/球形瓶06_1确定.jpg","alt":{"zh":"双层亚克力眼霜罐","en":"Double-wall acrylic eye cream jar"},"type":"hero","sortOrder":1}],"has3DModel":false,"relatedProducts":["lpk-acrylic-jar-001","lpk-glass-bottle-001"],"createdAt":"2025-05-01T08:00:00Z","updatedAt":"2025-12-01T10:00:00Z"},
-  {"id":"lpk-pp-jar-001","slug":"refillable-pp-cosmetic-jar-50ml","modelNumber":"LPK-PPJ-001","status":"published","isNew":true,"isFeatured":true,"isCustomizable":true,"name":{"zh":"可补充 PP 膏霜罐 50ml","en":"Refillable PP Cosmetic Jar 50ml"},"tagline":{"zh":"可补充设计减少包装废弃物","en":"Refillable design reduces packaging waste"},"description":{"zh":"外壳哑面磨砂PP，内胆可单独更换，外包装利用率提升500%以上。支持烫金、压纹等精致工艺。","en":"Frosted PP outer shell with replaceable inner cup, increasing packaging utilization by over 500%. Supports hot stamping and embossing."},"categories":{"application":"face-cream-jars","material":"plastic","type":"jars"},"tags":["refillable","eco-friendly","sustainable","new"],"specs":{"capacity":50,"capacityOptions":[30,50],"height":58,"diameter":72,"neckSize":64,"weight":55,"material":"PP","finish":["Matte Frosted","Soft-touch"],"color":["White","Black","Beige","Custom"],"pantoneCustom":true,"printing":["Hot Stamping","Embossing","Silk Screen"],"certification":["ISO9001","REACH"]},"moq":2000,"pricing":{"currency":"USD","tiers":[{"minQty":2000,"maxQty":4999,"unitPrice":1.85},{"minQty":5000,"maxQty":14999,"unitPrice":1.55},{"minQty":15000,"unitPrice":1.30}]},"leadTime":{"standard":20,"custom":28},"sampleFee":22,"sampleFeeRefundable":true,"images":[{"url":"https://www.jarsking.com/wp-content/uploads/2025/07/Custom-skincare-jar-with-refillable-liner.webp","alt":{"zh":"可补充PP膏霜罐","en":"Refillable PP cosmetic jar"},"type":"hero","sortOrder":1},{"url":"https://www.jarsking.com/wp-content/uploads/2026/02/kitty-design-cream-jar-for-kids.webp","alt":{"zh":"内胆展示","en":"Inner liner"},"type":"detail","sortOrder":2}],"has3DModel":false,"relatedProducts":["lpk-glass-jar-002"],"createdAt":"2026-01-20T08:00:00Z","updatedAt":"2026-02-15T09:00:00Z"},
-  {"id":"lpk-glass-bottle-001","slug":"dropper-serum-glass-bottle-30ml","modelNumber":"LPK-GB-001","status":"published","isNew":false,"isFeatured":true,"isCustomizable":true,"name":{"zh":"滴管精华玻璃瓶 30ml","en":"Dropper Serum Glass Bottle 30ml"},"tagline":{"zh":"精准滴量，保护高浓度活性成分","en":"Precise dropper dispensing to protect active ingredients"},"description":{"zh":"高硼硅玻璃，UV防护涂层可选，保护维C、视黄醇等光敏成分。医用级橡胶滴头精确控量。","en":"Borosilicate glass with optional UV coating, protecting Vitamin C and retinol. Medical-grade rubber dropper for precise dosing."},"categories":{"application":"serum-bottles","material":"glass","type":"bottles"},"tags":["dropper","uv-protection","serum","luxury"],"specs":{"capacity":30,"capacityOptions":[15,20,30,50],"height":105,"diameter":28,"neckSize":18,"weight":68,"material":"Borosilicate Glass","lidMaterial":"PETG Dropper + Rubber Bulb","finish":["Clear","Amber","Frosted","Matte Coating"],"color":["Clear","Amber","Cobalt Blue","Dark Green","Black","Custom"],"pantoneCustom":true,"printing":["Silk Screen","Hot Stamping","Color Spraying"],"certification":["ISO9001","FDA","REACH"]},"moq":1000,"pricing":{"currency":"USD","tiers":[{"minQty":1000,"maxQty":2999,"unitPrice":1.90},{"minQty":3000,"maxQty":9999,"unitPrice":1.65},{"minQty":10000,"unitPrice":1.40}]},"leadTime":{"standard":20,"custom":30},"sampleFee":25,"sampleFeeRefundable":true,"images":[{"url":"https://www.jarsking.com/wp-content/uploads/2025/09/high-end-cosmetic-packaging-glass-dropper-bottle.webp","alt":{"zh":"滴管精华玻璃瓶","en":"Dropper serum glass bottle"},"type":"hero","sortOrder":1},{"url":"https://www.jarsking.com/wp-content/uploads/2025/09/premium-serum-bottles-with-safety-design-pipette.webp","alt":{"zh":"精华瓶侧面","en":"Serum bottle side"},"type":"gallery","sortOrder":2},{"url":"https://www.jarsking.com/wp-content/uploads/2025/08/premium-cosmetic-packaging-solutions-for-startups.webp","alt":{"zh":"场景展示","en":"Lifestyle"},"type":"lifestyle","sortOrder":3}],"has3DModel":true,"model3DUrl":"https://studio.realibox.com/demo/lpk-glass-bottle-001","relatedProducts":["lpk-glass-jar-001","lpk-glass-bottle-002"],"createdAt":"2025-02-01T08:00:00Z","updatedAt":"2026-01-15T11:00:00Z"},
-  {"id":"lpk-glass-bottle-002","slug":"airless-pump-serum-glass-bottle-50ml","modelNumber":"LPK-GB-002","status":"published","isNew":false,"isFeatured":false,"isCustomizable":true,"name":{"zh":"真空泵头精华玻璃瓶 50ml","en":"Airless Pump Serum Glass Bottle 50ml"},"tagline":{"zh":"无氧出料，保留精华活性至最后一滴","en":"Oxygen-free dispensing preserves serum potency to the last drop"},"description":{"zh":"玻璃瓶身 + 真空气压泵头，按压一次出量0.5ml，防止空气进入氧化。磨砂玻璃 + 金属泵头组合。","en":"Glass bottle with airless pump, 0.5ml per press, prevents oxidation. Frosted glass with polished metal pump head."},"categories":{"application":"serum-bottles","material":"glass","type":"pumps"},"tags":["airless-pump","serum","glass"],"specs":{"capacity":50,"capacityOptions":[30,50],"height":148,"diameter":38,"weight":115,"material":"Soda-lime Glass","lidMaterial":"Zinc Alloy Pump + PP","finish":["Frosted","Glossy","Sandblasted"],"color":["Frosted White","Clear","Smoke Black","Custom"],"pantoneCustom":true,"printing":["Silk Screen","Hot Stamping"],"certification":["ISO9001","REACH"]},"moq":1000,"pricing":{"currency":"USD","tiers":[{"minQty":1000,"maxQty":2999,"unitPrice":3.50},{"minQty":3000,"maxQty":9999,"unitPrice":3.10},{"minQty":10000,"unitPrice":2.70}]},"leadTime":{"standard":25,"custom":35},"sampleFee":40,"sampleFeeRefundable":true,"images":[{"url":"https://www.jarsking.com/wp-content/uploads/2024/10/airless-pump-bottle-glass-or-plastic-15ml.webp","alt":{"zh":"真空泵头精华玻璃瓶","en":"Airless pump serum bottle"},"type":"hero","sortOrder":1}],"has3DModel":false,"relatedProducts":["lpk-glass-bottle-001","lpk-glass-jar-001"],"createdAt":"2025-04-01T08:00:00Z","updatedAt":"2026-01-10T09:00:00Z"},
-  {"id":"lpk-glass-bottle-003","slug":"lotion-pump-glass-bottle-100ml","modelNumber":"LPK-GL-001","status":"published","isNew":false,"isFeatured":true,"isCustomizable":true,"name":{"zh":"泵头乳液玻璃瓶 100ml","en":"Lotion Pump Glass Bottle 100ml"},"tagline":{"zh":"厚底玻璃瓶体，金属长颈泵头，奢品陈列级视觉","en":"Thick-base glass with metal pump for luxury retail display"},"description":{"zh":"厚底高硼硅玻璃，细长金属泵管出料1.0ml/次。修长优雅，适合高端护肤品牌陈列。支持色釉处理或局部丝印。","en":"Thick-base borosilicate glass, slim metal pump 1.0ml per press. Elegant for premium brand display. Supports color glazing or silk printing."},"categories":{"application":"lotion-bottles","material":"glass","type":"pumps"},"tags":["luxury","glass","lotion","display"],"specs":{"capacity":100,"capacityOptions":[100,150,200],"height":180,"diameter":52,"weight":198,"material":"Borosilicate Glass","lidMaterial":"Zinc Alloy Pump + PP","finish":["Glossy","Frosted","Color Glazed","Matte Coating"],"color":["Clear","Frosted White","Amber","Rose","Custom"],"pantoneCustom":true,"printing":["Silk Screen","Hot Stamping","Color Glaze"],"certification":["ISO9001","FDA","REACH"]},"moq":1000,"pricing":{"currency":"USD","tiers":[{"minQty":1000,"maxQty":2999,"unitPrice":4.20},{"minQty":3000,"maxQty":9999,"unitPrice":3.70},{"minQty":10000,"unitPrice":3.20}]},"leadTime":{"standard":25,"custom":38},"sampleFee":45,"sampleFeeRefundable":true,"images":[{"url":"https://www.jarsking.com/wp-content/uploads/2025/08/Glossy-surface-HDPE-cosmetic-bottles.webp","alt":{"zh":"泵头乳液玻璃瓶","en":"Lotion pump glass bottle"},"type":"hero","sortOrder":1},{"url":"https://www.jarsking.com/wp-content/uploads/2025/03/Vibrant-cosmetic-packaging.webp","alt":{"zh":"陈列场景","en":"Display scene"},"type":"lifestyle","sortOrder":2}],"has3DModel":true,"model3DUrl":"https://studio.realibox.com/demo/lpk-glass-bottle-003","relatedProducts":["lpk-glass-jar-001","lpk-glass-bottle-001"],"createdAt":"2025-03-15T08:00:00Z","updatedAt":"2026-02-05T10:00:00Z"}
+  {
+    "id": "lpk-gj-001",
+    "slug": "luxury-glass-face-cream-jar-50ml",
+    "modelNumber": "LPK-GJ-001",
+    "status": "published",
+    "isNew": false,
+    "isFeatured": true,
+    "isCustomizable": true,
+    "name": {
+      "zh": "奢华玻璃面霜罐 50ml",
+      "en": "Luxury Glass Face Cream Jar 50ml"
+    },
+    "tagline": {
+      "zh": "双层玻璃结构，宫廷金属盖",
+      "en": "Double-wall glass with palace-style metal lid"
+    },
+    "description": {
+      "zh": "采用高硼硅玻璃，双层隔热设计保护活性成分。金属盖支持金/银/古铜电镀，瓶身支持丝印、烫金、磨砂等工艺。",
+      "en": "Borosilicate glass with double-wall insulation protects active ingredients. Metal lid in gold/silver/bronze electroplating. Supports silk printing, hot stamping and frosted coating."
+    },
+    "categories": {
+      "application": [
+        "skincare"
+      ],
+      "material": "glass",
+      "type": "jars"
+    },
+    "tags": [
+      "luxury",
+      "double-wall",
+      "metal-lid"
+    ],
+    "specs": {
+      "capacity": 50,
+      "capacityOptions": [
+        30,
+        50,
+        100
+      ],
+      "height": 62,
+      "diameter": 68,
+      "neckSize": 60,
+      "weight": 185,
+      "material": "Borosilicate Glass",
+      "lidMaterial": "Zinc Alloy + Electroplating",
+      "finish": [
+        "Glossy",
+        "Frosted",
+        "Matte Coating"
+      ],
+      "color": [
+        "Clear",
+        "Amber",
+        "Black",
+        "Cobalt Blue",
+        "Custom"
+      ],
+      "pantoneCustom": true,
+      "printing": [
+        "Silk Screen",
+        "Hot Stamping",
+        "Embossing",
+        "Laser Engraving"
+      ],
+      "certification": [
+        "ISO9001",
+        "FDA",
+        "REACH"
+      ]
+    },
+    "moq": 1000,
+    "pricing": {
+      "currency": "USD",
+      "tiers": [
+        {
+          "minQty": 1000,
+          "maxQty": 2999,
+          "unitPrice": 3.2
+        },
+        {
+          "minQty": 3000,
+          "maxQty": 9999,
+          "unitPrice": 2.85
+        },
+        {
+          "minQty": 10000,
+          "unitPrice": 2.4
+        }
+      ]
+    },
+    "leadTime": {
+      "standard": 25,
+      "custom": 35
+    },
+    "sampleFee": 35,
+    "sampleFeeRefundable": true,
+    "images": [
+      {
+        "url": "/images/products/product-lpk-gj-001-hero.jpg",
+        "alt": {
+          "zh": "奢华玻璃面霜罐",
+          "en": "Luxury glass face cream jar"
+        },
+        "type": "hero",
+        "sortOrder": 1
+      },
+      {
+        "url": "/images/products/product-lpk-gj-001-lifestyle.jpg",
+        "alt": {
+          "zh": "使用场景",
+          "en": "Lifestyle scene"
+        },
+        "type": "lifestyle",
+        "sortOrder": 2
+      },
+      {
+        "url": "/images/products/product-lpk-gj-001-detail.jpg",
+        "alt": {
+          "zh": "产品细节",
+          "en": "Product detail"
+        },
+        "type": "detail",
+        "sortOrder": 3
+      }
+    ],
+    "has3DModel": true,
+    "model3DUrl": "https://studio.realibox.com/demo/lpk-gj-001",
+    "relatedProducts": [
+      "lpk-aj-001",
+      "lpk-gb-001",
+      "lpk-ppj-001"
+    ],
+    "createdAt": "2025-01-01T00:00:00Z",
+    "updatedAt": "2026-02-01T00:00:00Z"
+  },
+  {
+    "id": "lpk-gb-001",
+    "slug": "glass-serum-dropper-bottle-30ml",
+    "modelNumber": "LPK-GB-001",
+    "status": "published",
+    "isNew": false,
+    "isFeatured": true,
+    "isCustomizable": true,
+    "name": {
+      "zh": "玻璃精华滴管瓶 30ml",
+      "en": "Glass Serum Dropper Bottle 30ml"
+    },
+    "tagline": {
+      "zh": "精准滴量，保护高浓度活性成分",
+      "en": "Precise dropper dispensing to protect active ingredients"
+    },
+    "description": {
+      "zh": "高硼硅玻璃，UV防护涂层可选，保护维C、视黄醇等光敏成分。医用级橡胶滴头精确控量。",
+      "en": "Borosilicate glass with optional UV coating protecting Vitamin C and retinol. Medical-grade rubber dropper for precise dosing."
+    },
+    "categories": {
+      "application": [
+        "skincare"
+      ],
+      "material": "glass",
+      "type": "bottles"
+    },
+    "tags": [
+      "dropper",
+      "uv-protection",
+      "serum",
+      "luxury"
+    ],
+    "specs": {
+      "capacity": 30,
+      "capacityOptions": [
+        15,
+        20,
+        30,
+        50
+      ],
+      "height": 105,
+      "diameter": 28,
+      "neckSize": 18,
+      "weight": 68,
+      "material": "Borosilicate Glass",
+      "lidMaterial": "PETG Dropper + Rubber Bulb",
+      "finish": [
+        "Clear",
+        "Amber",
+        "Frosted",
+        "Matte Coating"
+      ],
+      "color": [
+        "Clear",
+        "Amber",
+        "Cobalt Blue",
+        "Dark Green",
+        "Black",
+        "Custom"
+      ],
+      "pantoneCustom": true,
+      "printing": [
+        "Silk Screen",
+        "Hot Stamping",
+        "Color Spraying"
+      ],
+      "certification": [
+        "ISO9001",
+        "FDA",
+        "REACH"
+      ]
+    },
+    "moq": 1000,
+    "pricing": {
+      "currency": "USD",
+      "tiers": [
+        {
+          "minQty": 1000,
+          "maxQty": 2999,
+          "unitPrice": 1.9
+        },
+        {
+          "minQty": 3000,
+          "maxQty": 9999,
+          "unitPrice": 1.65
+        },
+        {
+          "minQty": 10000,
+          "unitPrice": 1.4
+        }
+      ]
+    },
+    "leadTime": {
+      "standard": 20,
+      "custom": 30
+    },
+    "sampleFee": 25,
+    "sampleFeeRefundable": true,
+    "images": [
+      {
+        "url": "/images/products/product-lpk-gb-001-hero.jpg",
+        "alt": {
+          "zh": "玻璃精华滴管瓶",
+          "en": "Glass serum dropper bottle"
+        },
+        "type": "hero",
+        "sortOrder": 1
+      },
+      {
+        "url": "/images/products/product-lpk-gb-001-lifestyle.jpg",
+        "alt": {
+          "zh": "使用场景",
+          "en": "Lifestyle scene"
+        },
+        "type": "lifestyle",
+        "sortOrder": 2
+      },
+      {
+        "url": "/images/products/product-lpk-gb-001-detail.jpg",
+        "alt": {
+          "zh": "滴管细节",
+          "en": "Dropper detail"
+        },
+        "type": "detail",
+        "sortOrder": 3
+      }
+    ],
+    "has3DModel": false,
+    "relatedProducts": [
+      "lpk-gj-001",
+      "lpk-gb-002",
+      "lpk-aj-002"
+    ],
+    "createdAt": "2025-01-01T00:00:00Z",
+    "updatedAt": "2026-02-01T00:00:00Z"
+  },
+  {
+    "id": "lpk-gb-002",
+    "slug": "glass-lotion-pump-bottle-150ml",
+    "modelNumber": "LPK-GB-002",
+    "status": "published",
+    "isNew": false,
+    "isFeatured": true,
+    "isCustomizable": true,
+    "name": {
+      "zh": "玻璃泵头乳液瓶 150ml",
+      "en": "Glass Lotion Pump Bottle 150ml"
+    },
+    "tagline": {
+      "zh": "厚底玻璃瓶体，金属长颈泵头，奢品陈列级视觉",
+      "en": "Thick-base glass with metal pump for luxury retail display"
+    },
+    "description": {
+      "zh": "厚底高硼硅玻璃，细长金属泵管出料1.0ml/次。修长优雅，适合高端护肤品牌陈列，也适配洗护发产品。",
+      "en": "Thick-base borosilicate glass, slim metal pump 1.0ml per press. Elegant for premium skincare or haircare product display."
+    },
+    "categories": {
+      "application": [
+        "skincare",
+        "homecare"
+      ],
+      "material": "glass",
+      "type": "bottles"
+    },
+    "tags": [
+      "luxury",
+      "glass",
+      "lotion",
+      "display",
+      "haircare"
+    ],
+    "specs": {
+      "capacity": 150,
+      "capacityOptions": [
+        100,
+        150,
+        200
+      ],
+      "height": 195,
+      "diameter": 52,
+      "weight": 210,
+      "material": "Borosilicate Glass",
+      "lidMaterial": "Zinc Alloy Pump + PP",
+      "finish": [
+        "Glossy",
+        "Frosted",
+        "Color Glazed",
+        "Matte Coating"
+      ],
+      "color": [
+        "Clear",
+        "Frosted White",
+        "Amber",
+        "Rose",
+        "Custom"
+      ],
+      "pantoneCustom": true,
+      "printing": [
+        "Silk Screen",
+        "Hot Stamping",
+        "Color Glaze"
+      ],
+      "certification": [
+        "ISO9001",
+        "FDA",
+        "REACH"
+      ]
+    },
+    "moq": 1000,
+    "pricing": {
+      "currency": "USD",
+      "tiers": [
+        {
+          "minQty": 1000,
+          "maxQty": 2999,
+          "unitPrice": 4.2
+        },
+        {
+          "minQty": 3000,
+          "maxQty": 9999,
+          "unitPrice": 3.7
+        },
+        {
+          "minQty": 10000,
+          "unitPrice": 3.2
+        }
+      ]
+    },
+    "leadTime": {
+      "standard": 25,
+      "custom": 38
+    },
+    "sampleFee": 45,
+    "sampleFeeRefundable": true,
+    "images": [
+      {
+        "url": "/images/products/product-lpk-gb-002-hero.jpg",
+        "alt": {
+          "zh": "玻璃泵头乳液瓶",
+          "en": "Glass lotion pump bottle"
+        },
+        "type": "hero",
+        "sortOrder": 1
+      },
+      {
+        "url": "/images/products/product-lpk-gb-002-lifestyle.jpg",
+        "alt": {
+          "zh": "陈列场景",
+          "en": "Display scene"
+        },
+        "type": "lifestyle",
+        "sortOrder": 2
+      },
+      {
+        "url": "/images/products/product-lpk-gb-002-detail.jpg",
+        "alt": {
+          "zh": "泵头细节",
+          "en": "Pump head detail"
+        },
+        "type": "detail",
+        "sortOrder": 3
+      }
+    ],
+    "has3DModel": false,
+    "relatedProducts": [
+      "lpk-gb-001",
+      "lpk-hdpe-001",
+      "lpk-pet-001"
+    ],
+    "createdAt": "2025-01-01T00:00:00Z",
+    "updatedAt": "2026-02-01T00:00:00Z"
+  },
+  {
+    "id": "lpk-aj-001",
+    "slug": "acrylic-face-cream-jar-50ml",
+    "modelNumber": "LPK-AJ-001",
+    "status": "published",
+    "isNew": false,
+    "isFeatured": true,
+    "isCustomizable": true,
+    "name": {
+      "zh": "亚克力面霜罐 50ml",
+      "en": "Acrylic Face Cream Jar 50ml"
+    },
+    "tagline": {
+      "zh": "媲美玻璃的高透质感，更轻便更耐摔",
+      "en": "Glass-like clarity with superior lightness and shatter resistance"
+    },
+    "description": {
+      "zh": "光学级亚克力，透明度92%，双层结构隔热。UV喷涂实现哑光/高光/电镀多种质感，适合中高端护肤品牌。",
+      "en": "Optical-grade acrylic with 92% transparency, double-wall insulation. UV coating for matte, glossy and electroplated finishes."
+    },
+    "categories": {
+      "application": [
+        "skincare"
+      ],
+      "material": "acrylic",
+      "type": "jars"
+    },
+    "tags": [
+      "double-wall",
+      "lightweight",
+      "electroplating"
+    ],
+    "specs": {
+      "capacity": 50,
+      "capacityOptions": [
+        15,
+        30,
+        50,
+        100
+      ],
+      "height": 60,
+      "diameter": 70,
+      "neckSize": 62,
+      "weight": 95,
+      "material": "PMMA (Acrylic)",
+      "lidMaterial": "PMMA / ABS + UV Coating",
+      "finish": [
+        "Glossy",
+        "Matte",
+        "Frosted",
+        "Electroplated Gold",
+        "Electroplated Silver"
+      ],
+      "color": [
+        "Clear",
+        "Pearlescent White",
+        "Black",
+        "Rose Gold",
+        "Custom"
+      ],
+      "pantoneCustom": true,
+      "printing": [
+        "Silk Screen",
+        "Hot Stamping",
+        "UV Printing"
+      ],
+      "certification": [
+        "ISO9001",
+        "REACH"
+      ]
+    },
+    "moq": 1000,
+    "pricing": {
+      "currency": "USD",
+      "tiers": [
+        {
+          "minQty": 1000,
+          "maxQty": 2999,
+          "unitPrice": 2.6
+        },
+        {
+          "minQty": 3000,
+          "maxQty": 9999,
+          "unitPrice": 2.25
+        },
+        {
+          "minQty": 10000,
+          "unitPrice": 1.95
+        }
+      ]
+    },
+    "leadTime": {
+      "standard": 20,
+      "custom": 30
+    },
+    "sampleFee": 30,
+    "sampleFeeRefundable": true,
+    "images": [
+      {
+        "url": "/images/products/product-lpk-aj-001-hero.jpg",
+        "alt": {
+          "zh": "亚克力面霜罐",
+          "en": "Acrylic face cream jar"
+        },
+        "type": "hero",
+        "sortOrder": 1
+      },
+      {
+        "url": "/images/products/product-lpk-aj-001-lifestyle.jpg",
+        "alt": {
+          "zh": "使用场景",
+          "en": "Lifestyle scene"
+        },
+        "type": "lifestyle",
+        "sortOrder": 2
+      },
+      {
+        "url": "/images/products/product-lpk-aj-001-detail.jpg",
+        "alt": {
+          "zh": "产品细节",
+          "en": "Product detail"
+        },
+        "type": "detail",
+        "sortOrder": 3
+      }
+    ],
+    "has3DModel": true,
+    "model3DUrl": "https://studio.realibox.com/demo/lpk-aj-001",
+    "relatedProducts": [
+      "lpk-gj-001",
+      "lpk-aj-003",
+      "lpk-ppj-001"
+    ],
+    "createdAt": "2025-01-01T00:00:00Z",
+    "updatedAt": "2026-02-01T00:00:00Z"
+  },
+  {
+    "id": "lpk-aj-002",
+    "slug": "acrylic-foundation-pump-bottle-30ml",
+    "modelNumber": "LPK-AJ-002",
+    "status": "published",
+    "isNew": true,
+    "isFeatured": true,
+    "isCustomizable": true,
+    "name": {
+      "zh": "亚克力粉底泵瓶 30ml",
+      "en": "Acrylic Foundation Pump Bottle 30ml"
+    },
+    "tagline": {
+      "zh": "精准泵量，展示产品色彩，粉底精华双用",
+      "en": "Precise pump dispensing, showcases product color, ideal for foundation and serum"
+    },
+    "description": {
+      "zh": "高透亚克力瓶身可展示产品色彩，精准泵头0.3ml/次，适合液态粉底、BB霜及多效精华。",
+      "en": "High-transparency acrylic body showcases product color, precise pump 0.3ml per press, ideal for liquid foundation, BB cream and multi-effect serums."
+    },
+    "categories": {
+      "application": [
+        "makeup",
+        "skincare"
+      ],
+      "material": "acrylic",
+      "type": "bottles"
+    },
+    "tags": [
+      "foundation",
+      "pump",
+      "transparent",
+      "new"
+    ],
+    "specs": {
+      "capacity": 30,
+      "capacityOptions": [
+        20,
+        30,
+        50
+      ],
+      "height": 130,
+      "diameter": 32,
+      "neckSize": 20,
+      "weight": 55,
+      "material": "PMMA (Acrylic)",
+      "lidMaterial": "PP Pump + ABS Cap",
+      "finish": [
+        "Glossy",
+        "Frosted",
+        "Gradient",
+        "Electroplated"
+      ],
+      "color": [
+        "Clear",
+        "Pink",
+        "Black",
+        "White",
+        "Custom"
+      ],
+      "pantoneCustom": true,
+      "printing": [
+        "Silk Screen",
+        "Hot Stamping",
+        "Color Spraying"
+      ],
+      "certification": [
+        "ISO9001",
+        "REACH"
+      ]
+    },
+    "moq": 2000,
+    "pricing": {
+      "currency": "USD",
+      "tiers": [
+        {
+          "minQty": 2000,
+          "maxQty": 4999,
+          "unitPrice": 2.1
+        },
+        {
+          "minQty": 5000,
+          "maxQty": 14999,
+          "unitPrice": 1.8
+        },
+        {
+          "minQty": 15000,
+          "unitPrice": 1.55
+        }
+      ]
+    },
+    "leadTime": {
+      "standard": 20,
+      "custom": 30
+    },
+    "sampleFee": 28,
+    "sampleFeeRefundable": true,
+    "images": [
+      {
+        "url": "/images/products/product-lpk-aj-002-hero.jpg",
+        "alt": {
+          "zh": "亚克力粉底泵瓶",
+          "en": "Acrylic foundation pump bottle"
+        },
+        "type": "hero",
+        "sortOrder": 1
+      },
+      {
+        "url": "/images/products/product-lpk-aj-002-lifestyle.jpg",
+        "alt": {
+          "zh": "彩妆台场景",
+          "en": "Makeup vanity scene"
+        },
+        "type": "lifestyle",
+        "sortOrder": 2
+      },
+      {
+        "url": "/images/products/product-lpk-aj-002-detail.jpg",
+        "alt": {
+          "zh": "泵头细节",
+          "en": "Pump detail"
+        },
+        "type": "detail",
+        "sortOrder": 3
+      }
+    ],
+    "has3DModel": false,
+    "relatedProducts": [
+      "lpk-gb-001",
+      "lpk-aj-001",
+      "lpk-al-001"
+    ],
+    "createdAt": "2026-01-01T00:00:00Z",
+    "updatedAt": "2026-02-01T00:00:00Z"
+  },
+  {
+    "id": "lpk-aj-003",
+    "slug": "acrylic-eye-cream-jar-15ml",
+    "modelNumber": "LPK-AJ-003",
+    "status": "published",
+    "isNew": false,
+    "isFeatured": false,
+    "isCustomizable": true,
+    "name": {
+      "zh": "亚克力眼霜罐 15ml",
+      "en": "Acrylic Eye Cream Jar 15ml"
+    },
+    "tagline": {
+      "zh": "小容量精致眼霜罐，立体压纹可定制",
+      "en": "Compact eye cream jar with customizable 3D embossing"
+    },
+    "description": {
+      "zh": "小容量双层亚克力罐，宽口设计方便取用。外壳支持3D压纹、渐变喷涂、钻石切割纹等高级工艺。",
+      "en": "Small-capacity double-wall acrylic jar with wide mouth. Supports 3D embossing, gradient coating and diamond-cut patterns."
+    },
+    "categories": {
+      "application": [
+        "skincare"
+      ],
+      "material": "acrylic",
+      "type": "jars"
+    },
+    "tags": [
+      "eye-cream",
+      "double-wall",
+      "compact",
+      "embossing"
+    ],
+    "specs": {
+      "capacity": 15,
+      "capacityOptions": [
+        10,
+        15,
+        20,
+        30
+      ],
+      "height": 42,
+      "diameter": 56,
+      "neckSize": 50,
+      "weight": 65,
+      "material": "PMMA (Acrylic)",
+      "lidMaterial": "PMMA + UV Coating",
+      "finish": [
+        "Glossy",
+        "Gradient",
+        "Diamond Cut",
+        "Electroplated"
+      ],
+      "color": [
+        "Clear",
+        "Rose Gold",
+        "Silver",
+        "Black",
+        "Custom"
+      ],
+      "pantoneCustom": true,
+      "printing": [
+        "Hot Stamping",
+        "Silk Screen",
+        "3D Embossing"
+      ],
+      "certification": [
+        "ISO9001",
+        "REACH"
+      ]
+    },
+    "moq": 2000,
+    "pricing": {
+      "currency": "USD",
+      "tiers": [
+        {
+          "minQty": 2000,
+          "maxQty": 4999,
+          "unitPrice": 1.8
+        },
+        {
+          "minQty": 5000,
+          "maxQty": 14999,
+          "unitPrice": 1.55
+        },
+        {
+          "minQty": 15000,
+          "unitPrice": 1.3
+        }
+      ]
+    },
+    "leadTime": {
+      "standard": 18,
+      "custom": 28
+    },
+    "sampleFee": 22,
+    "sampleFeeRefundable": true,
+    "images": [
+      {
+        "url": "/images/products/product-lpk-aj-003-hero.jpg",
+        "alt": {
+          "zh": "亚克力眼霜罐",
+          "en": "Acrylic eye cream jar"
+        },
+        "type": "hero",
+        "sortOrder": 1
+      },
+      {
+        "url": "/images/products/product-lpk-aj-003-lifestyle.jpg",
+        "alt": {
+          "zh": "眼霜使用场景",
+          "en": "Eye cream lifestyle scene"
+        },
+        "type": "lifestyle",
+        "sortOrder": 2
+      },
+      {
+        "url": "/images/products/product-lpk-aj-003-detail.jpg",
+        "alt": {
+          "zh": "压纹细节",
+          "en": "Embossing detail"
+        },
+        "type": "detail",
+        "sortOrder": 3
+      }
+    ],
+    "has3DModel": false,
+    "relatedProducts": [
+      "lpk-aj-001",
+      "lpk-gj-001"
+    ],
+    "createdAt": "2025-01-01T00:00:00Z",
+    "updatedAt": "2026-02-01T00:00:00Z"
+  },
+  {
+    "id": "lpk-ppj-001",
+    "slug": "pp-refillable-cream-jar-50ml",
+    "modelNumber": "LPK-PPJ-001",
+    "status": "published",
+    "isNew": true,
+    "isFeatured": true,
+    "isCustomizable": true,
+    "name": {
+      "zh": "PP 可补充膏霜罐 50ml",
+      "en": "PP Refillable Cream Jar 50ml"
+    },
+    "tagline": {
+      "zh": "可补充设计减少包装废弃物，可持续之选",
+      "en": "Refillable design reduces packaging waste, the sustainable choice"
+    },
+    "description": {
+      "zh": "外壳哑面磨砂PP，内胆可单独更换，外包装利用率提升500%以上。支持烫金、压纹等工艺，兼顾环保与高端感。",
+      "en": "Frosted PP outer shell with replaceable inner cup, increasing packaging utilization by over 500%. Supports hot stamping and embossing for a premium eco-friendly appeal."
+    },
+    "categories": {
+      "application": [
+        "skincare"
+      ],
+      "material": "plastic",
+      "type": "jars"
+    },
+    "tags": [
+      "refillable",
+      "eco-friendly",
+      "sustainable",
+      "new",
+      "pp"
+    ],
+    "specs": {
+      "capacity": 50,
+      "capacityOptions": [
+        30,
+        50
+      ],
+      "height": 58,
+      "diameter": 72,
+      "neckSize": 64,
+      "weight": 55,
+      "material": "PP",
+      "lidMaterial": "PP + Inner Cup PP",
+      "finish": [
+        "Matte Frosted",
+        "Soft-touch"
+      ],
+      "color": [
+        "White",
+        "Black",
+        "Beige",
+        "Custom"
+      ],
+      "pantoneCustom": true,
+      "printing": [
+        "Hot Stamping",
+        "Embossing",
+        "Silk Screen"
+      ],
+      "certification": [
+        "ISO9001",
+        "REACH"
+      ]
+    },
+    "moq": 2000,
+    "pricing": {
+      "currency": "USD",
+      "tiers": [
+        {
+          "minQty": 2000,
+          "maxQty": 4999,
+          "unitPrice": 1.85
+        },
+        {
+          "minQty": 5000,
+          "maxQty": 14999,
+          "unitPrice": 1.55
+        },
+        {
+          "minQty": 15000,
+          "unitPrice": 1.3
+        }
+      ]
+    },
+    "leadTime": {
+      "standard": 20,
+      "custom": 28
+    },
+    "sampleFee": 22,
+    "sampleFeeRefundable": true,
+    "images": [
+      {
+        "url": "/images/products/product-lpk-ppj-001-hero.jpg",
+        "alt": {
+          "zh": "PP可补充膏霜罐",
+          "en": "PP refillable cream jar"
+        },
+        "type": "hero",
+        "sortOrder": 1
+      },
+      {
+        "url": "/images/products/product-lpk-ppj-001-lifestyle.jpg",
+        "alt": {
+          "zh": "内胆展示",
+          "en": "Inner liner display"
+        },
+        "type": "lifestyle",
+        "sortOrder": 2
+      },
+      {
+        "url": "/images/products/product-lpk-ppj-001-detail.jpg",
+        "alt": {
+          "zh": "补充设计细节",
+          "en": "Refill design detail"
+        },
+        "type": "detail",
+        "sortOrder": 3
+      }
+    ],
+    "has3DModel": false,
+    "relatedProducts": [
+      "lpk-gj-001",
+      "lpk-aj-001",
+      "lpk-pet-001"
+    ],
+    "createdAt": "2026-01-01T00:00:00Z",
+    "updatedAt": "2026-02-01T00:00:00Z"
+  },
+  {
+    "id": "lpk-pet-001",
+    "slug": "pet-foam-pump-cleanser-bottle-150ml",
+    "modelNumber": "LPK-PET-001",
+    "status": "published",
+    "isNew": false,
+    "isFeatured": false,
+    "isCustomizable": true,
+    "name": {
+      "zh": "PET 洁面泡沫泵瓶 150ml",
+      "en": "PET Foam Pump Cleanser Bottle 150ml"
+    },
+    "tagline": {
+      "zh": "专利泡沫泵头，节约用量，洁面洗手两用",
+      "en": "Patent foam pump dispensing, reduces usage, dual-use for cleanser and hand wash"
+    },
+    "description": {
+      "zh": "高透PET瓶身配专利泡沫泵头，按压一次生成细腻泡沫，节约产品用量30%以上。适合洁面泡沫、沐浴露及家清洗手液。",
+      "en": "High-clarity PET with patent foam pump, one press generates fine foam, reducing product usage by 30%+. Ideal for facial cleanser, body wash and hand wash."
+    },
+    "categories": {
+      "application": [
+        "skincare",
+        "homecare"
+      ],
+      "material": "plastic",
+      "type": "bottles"
+    },
+    "tags": [
+      "foam-pump",
+      "pet",
+      "cleanser",
+      "eco-friendly"
+    ],
+    "specs": {
+      "capacity": 150,
+      "capacityOptions": [
+        100,
+        150,
+        200,
+        300
+      ],
+      "height": 175,
+      "diameter": 55,
+      "weight": 85,
+      "material": "PET",
+      "lidMaterial": "PP Foam Pump",
+      "finish": [
+        "Clear",
+        "Frosted",
+        "Matte Coating",
+        "Color Spraying"
+      ],
+      "color": [
+        "Clear",
+        "Frosted White",
+        "Pastel Colors",
+        "Custom"
+      ],
+      "pantoneCustom": true,
+      "printing": [
+        "Silk Screen",
+        "Hot Stamping",
+        "Label"
+      ],
+      "certification": [
+        "ISO9001",
+        "REACH"
+      ]
+    },
+    "moq": 3000,
+    "pricing": {
+      "currency": "USD",
+      "tiers": [
+        {
+          "minQty": 3000,
+          "maxQty": 9999,
+          "unitPrice": 1.2
+        },
+        {
+          "minQty": 10000,
+          "maxQty": 29999,
+          "unitPrice": 0.98
+        },
+        {
+          "minQty": 30000,
+          "unitPrice": 0.82
+        }
+      ]
+    },
+    "leadTime": {
+      "standard": 18,
+      "custom": 25
+    },
+    "sampleFee": 18,
+    "sampleFeeRefundable": true,
+    "images": [
+      {
+        "url": "/images/products/product-lpk-pet-001-hero.jpg",
+        "alt": {
+          "zh": "PET洁面泡沫泵瓶",
+          "en": "PET foam pump cleanser bottle"
+        },
+        "type": "hero",
+        "sortOrder": 1
+      },
+      {
+        "url": "/images/products/product-lpk-pet-001-lifestyle.jpg",
+        "alt": {
+          "zh": "洁面场景",
+          "en": "Cleanser lifestyle scene"
+        },
+        "type": "lifestyle",
+        "sortOrder": 2
+      },
+      {
+        "url": "/images/products/product-lpk-pet-001-detail.jpg",
+        "alt": {
+          "zh": "泡沫泵头细节",
+          "en": "Foam pump detail"
+        },
+        "type": "detail",
+        "sortOrder": 3
+      }
+    ],
+    "has3DModel": false,
+    "relatedProducts": [
+      "lpk-hdpe-001",
+      "lpk-gb-002",
+      "lpk-ppj-001"
+    ],
+    "createdAt": "2025-01-01T00:00:00Z",
+    "updatedAt": "2026-02-01T00:00:00Z"
+  },
+  {
+    "id": "lpk-hdpe-001",
+    "slug": "hdpe-shampoo-pump-bottle-300ml",
+    "modelNumber": "LPK-HDPE-001",
+    "status": "published",
+    "isNew": false,
+    "isFeatured": false,
+    "isCustomizable": true,
+    "name": {
+      "zh": "HDPE 洗发水按压瓶 300ml",
+      "en": "HDPE Shampoo Pump Bottle 300ml"
+    },
+    "tagline": {
+      "zh": "大容量耐挤压，卫浴陈列首选",
+      "en": "Large capacity, squeeze-resistant, ideal for bathroom display"
+    },
+    "description": {
+      "zh": "食品级HDPE材质，耐化学腐蚀，适合洗发水、护发素、沐浴露等大容量洗护产品。哑面软触质感，卫浴陈列高级感强。",
+      "en": "Food-grade HDPE, chemical-resistant, ideal for shampoo, conditioner and body wash. Matte soft-touch finish elevates bathroom display aesthetics."
+    },
+    "categories": {
+      "application": [
+        "homecare"
+      ],
+      "material": "plastic",
+      "type": "bottles"
+    },
+    "tags": [
+      "hdpe",
+      "shampoo",
+      "large-capacity",
+      "bathroom"
+    ],
+    "specs": {
+      "capacity": 300,
+      "capacityOptions": [
+        200,
+        300,
+        500
+      ],
+      "height": 220,
+      "diameter": 62,
+      "weight": 110,
+      "material": "HDPE",
+      "lidMaterial": "PP Pump",
+      "finish": [
+        "Matte",
+        "Soft-touch",
+        "Glossy"
+      ],
+      "color": [
+        "White",
+        "Black",
+        "Beige",
+        "Grey",
+        "Custom"
+      ],
+      "pantoneCustom": true,
+      "printing": [
+        "Silk Screen",
+        "Hot Stamping",
+        "Label",
+        "Embossing"
+      ],
+      "certification": [
+        "ISO9001",
+        "FDA",
+        "REACH"
+      ]
+    },
+    "moq": 3000,
+    "pricing": {
+      "currency": "USD",
+      "tiers": [
+        {
+          "minQty": 3000,
+          "maxQty": 9999,
+          "unitPrice": 1.5
+        },
+        {
+          "minQty": 10000,
+          "maxQty": 29999,
+          "unitPrice": 1.25
+        },
+        {
+          "minQty": 30000,
+          "unitPrice": 1.05
+        }
+      ]
+    },
+    "leadTime": {
+      "standard": 18,
+      "custom": 25
+    },
+    "sampleFee": 20,
+    "sampleFeeRefundable": true,
+    "images": [
+      {
+        "url": "/images/products/product-lpk-hdpe-001-hero.jpg",
+        "alt": {
+          "zh": "HDPE洗发水按压瓶",
+          "en": "HDPE shampoo pump bottle"
+        },
+        "type": "hero",
+        "sortOrder": 1
+      },
+      {
+        "url": "/images/products/product-lpk-hdpe-001-lifestyle.jpg",
+        "alt": {
+          "zh": "浴室陈列场景",
+          "en": "Bathroom display scene"
+        },
+        "type": "lifestyle",
+        "sortOrder": 2
+      },
+      {
+        "url": "/images/products/product-lpk-hdpe-001-detail.jpg",
+        "alt": {
+          "zh": "泵头细节",
+          "en": "Pump detail"
+        },
+        "type": "detail",
+        "sortOrder": 3
+      }
+    ],
+    "has3DModel": false,
+    "relatedProducts": [
+      "lpk-pet-001",
+      "lpk-gb-002"
+    ],
+    "createdAt": "2025-01-01T00:00:00Z",
+    "updatedAt": "2026-02-01T00:00:00Z"
+  },
+  {
+    "id": "lpk-al-001",
+    "slug": "aluminum-twist-up-lipstick-tube",
+    "modelNumber": "LPK-AL-001",
+    "status": "published",
+    "isNew": false,
+    "isFeatured": true,
+    "isCustomizable": true,
+    "name": {
+      "zh": "铝制旋转口红管",
+      "en": "Aluminum Twist-Up Lipstick Tube"
+    },
+    "tagline": {
+      "zh": "全铝轻奢管体，细腻氧化工艺，彩妆高端感首选",
+      "en": "All-aluminum premium tube with anodized finish, the go-to for luxury makeup"
+    },
+    "description": {
+      "zh": "航空级铝合金，阳极氧化处理耐腐蚀耐磨损。旋转机芯精准顺滑，支持子弹头/斜切/方形多种芯型。表面可做拉丝、镭雕、电镀等精细工艺。",
+      "en": "Aviation-grade aluminum alloy with anodized coating for corrosion and scratch resistance. Smooth twist mechanism, available in bullet, angled or square bullet forms. Supports brushed, laser engraving and electroplating finishes."
+    },
+    "categories": {
+      "application": [
+        "makeup"
+      ],
+      "material": "plastic",
+      "type": "tubes"
+    },
+    "tags": [
+      "aluminum",
+      "luxury",
+      "lipstick",
+      "anodized",
+      "makeup"
+    ],
+    "specs": {
+      "capacity": 3.5,
+      "capacityOptions": [
+        3.5,
+        4.5
+      ],
+      "height": 72,
+      "diameter": 12.7,
+      "weight": 18,
+      "material": "Aluminum Alloy (6061)",
+      "lidMaterial": "Aluminum Alloy",
+      "finish": [
+        "Brushed",
+        "Glossy",
+        "Anodized",
+        "Electroplated",
+        "Laser Engraving"
+      ],
+      "color": [
+        "Gold",
+        "Silver",
+        "Rose Gold",
+        "Gun Metal",
+        "Matte Black",
+        "Custom"
+      ],
+      "pantoneCustom": true,
+      "printing": [
+        "Laser Engraving",
+        "UV Printing",
+        "Hot Stamping"
+      ],
+      "certification": [
+        "ISO9001",
+        "REACH"
+      ]
+    },
+    "moq": 3000,
+    "pricing": {
+      "currency": "USD",
+      "tiers": [
+        {
+          "minQty": 3000,
+          "maxQty": 9999,
+          "unitPrice": 1.8
+        },
+        {
+          "minQty": 10000,
+          "maxQty": 29999,
+          "unitPrice": 1.5
+        },
+        {
+          "minQty": 30000,
+          "unitPrice": 1.25
+        }
+      ]
+    },
+    "leadTime": {
+      "standard": 20,
+      "custom": 30
+    },
+    "sampleFee": 25,
+    "sampleFeeRefundable": true,
+    "images": [
+      {
+        "url": "/images/products/product-lpk-al-001-hero.jpg",
+        "alt": {
+          "zh": "铝制旋转口红管",
+          "en": "Aluminum twist-up lipstick tube"
+        },
+        "type": "hero",
+        "sortOrder": 1
+      },
+      {
+        "url": "/images/products/product-lpk-al-001-lifestyle.jpg",
+        "alt": {
+          "zh": "彩妆桌场景",
+          "en": "Makeup vanity scene"
+        },
+        "type": "lifestyle",
+        "sortOrder": 2
+      },
+      {
+        "url": "/images/products/product-lpk-al-001-detail.jpg",
+        "alt": {
+          "zh": "阳极氧化表面细节",
+          "en": "Anodized surface detail"
+        },
+        "type": "detail",
+        "sortOrder": 3
+      }
+    ],
+    "has3DModel": true,
+    "model3DUrl": "https://studio.realibox.com/demo/lpk-al-001",
+    "relatedProducts": [
+      "lpk-aj-002",
+      "lpk-aj-001"
+    ],
+    "createdAt": "2025-01-01T00:00:00Z",
+    "updatedAt": "2026-02-01T00:00:00Z"
+  }
 ]

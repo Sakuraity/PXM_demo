@@ -20,15 +20,23 @@ export function getNewProducts(): Product[] {
 }
 
 export function getProductsByCategory(categoryId: string, dimension: 'application' | 'material' | 'type'): Product[] {
-  return products.filter(
-    (p) => p.status === 'published' && p.categories[dimension] === categoryId
-  )
+  return products.filter((p) => {
+    if (p.status !== 'published') return false
+    if (dimension === 'application') {
+      return (p.categories.application as string[]).includes(categoryId)
+    }
+    return p.categories[dimension] === categoryId
+  })
 }
 
 export function getCategoriesByDimension(dimension: 'application' | 'material' | 'type'): Category[] {
   return categories
-    .filter((c) => c.dimension === dimension && !c.parent)
+    .filter((c) => c.dimension === dimension)
     .sort((a, b) => a.sortOrder - b.sortOrder)
+}
+
+export function getCategoryById(id: string): Category | undefined {
+  return categories.find((c) => c.id === id)
 }
 
 export function getRelatedProducts(ids: string[]): Product[] {
@@ -44,7 +52,7 @@ export function filterProducts(filters: {
 }): Product[] {
   return products.filter((p) => {
     if (p.status !== 'published') return false
-    if (filters.application && p.categories.application !== filters.application) return false
+    if (filters.application && !(p.categories.application as string[]).includes(filters.application)) return false
     if (filters.material && p.categories.material !== filters.material) return false
     if (filters.type && p.categories.type !== filters.type) return false
     if (filters.isNew !== undefined && p.isNew !== filters.isNew) return false
