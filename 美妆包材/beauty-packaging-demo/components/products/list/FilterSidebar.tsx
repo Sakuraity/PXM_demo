@@ -44,7 +44,7 @@ export default function FilterSidebar({
         <div className="flex items-center justify-between mb-6">
           <h2 className="flex items-center gap-2 text-sm font-semibold text-stone-700">
             <SlidersHorizontal className="w-4 h-4" />
-            Filters
+            {t('products.filtersTitle')}
           </h2>
           {hasFilters && (
             <button

@@ -63,7 +63,7 @@ export default function CategoriesSection() {
                     <div>
                       <div className={`inline-flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider ${cat.accent} mb-3`}>
                         <Icon className="w-3.5 h-3.5" />
-                        {cat.count}+ products
+                        {cat.count}+ {t('footer.products').toLowerCase()}
                       </div>
                       <h3 className="text-xl font-bold text-stone-900">
                         {t(`nav.${cat.id}`)}

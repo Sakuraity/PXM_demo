@@ -24,6 +24,9 @@
     "contact": "联系我们",
     "getQuote": "获取报价"
   },
+  "breadcrumb": {
+    "home": "首页"
+  },
   "home": {
     "hero": {
       "badge": "已服务 200+ 美妆品牌",
@@ -118,6 +121,9 @@
       "customizable": "可定制",
       "clear": "清除筛选"
     },
+    "filtersTitle": "筛选",
+    "productCount": "{{count}} 个产品",
+    "productCountSingle": "{{count}} 个产品",
     "search": {
       "placeholder": "搜索产品型号或名称...",
       "clear": "清除",
@@ -171,7 +177,86 @@
     "tags": "产品标签",
     "yes": "支持",
     "no": "不支持",
-    "lidMaterial": "盖子材质"
+    "lidMaterial": "盖子材质",
+    "values": {
+      "material": {
+        "Borosilicate Glass": "高硼硅玻璃",
+        "PMMA (Acrylic)": "PMMA（亚克力）",
+        "PP": "PP（聚丙烯）",
+        "PET": "PET",
+        "HDPE": "HDPE（高密度聚乙烯）",
+        "Aluminum Alloy (6061)": "航空级铝合金（6061）"
+      },
+      "lidMaterial": {
+        "Zinc Alloy + Electroplating": "锌合金 + 电镀",
+        "PETG Dropper + Rubber Bulb": "PETG 滴管 + 橡胶球",
+        "Zinc Alloy Pump + PP": "锌合金泵头 + PP",
+        "PMMA / ABS + UV Coating": "PMMA / ABS + UV 涂层",
+        "PMMA + UV Coating": "PMMA + UV 涂层",
+        "PP + Inner Cup PP": "PP + PP 内胆",
+        "PP Foam Pump": "PP 泡沫泵头",
+        "PP Pump": "PP 泵头",
+        "Aluminum Alloy": "铝合金",
+        "PP Pump + ABS Cap": "PP 泵头 + ABS 盖"
+      },
+      "finish": {
+        "Glossy": "高光",
+        "Frosted": "磨砂",
+        "Matte Coating": "哑光喷涂",
+        "Clear": "透明",
+        "Amber": "琥珀色",
+        "Matte": "哑光",
+        "Color Glazed": "彩色釉面",
+        "Electroplated Gold": "镀金",
+        "Electroplated Silver": "镀银",
+        "Gradient": "渐变",
+        "Diamond Cut": "钻石切割纹",
+        "Electroplated": "电镀",
+        "Matte Frosted": "哑面磨砂",
+        "Soft-touch": "软触感",
+        "Color Spraying": "彩色喷涂",
+        "Brushed": "拉丝",
+        "Anodized": "阳极氧化",
+        "Laser Engraving": "激光雕刻"
+      },
+      "color": {
+        "Clear": "透明",
+        "Amber": "琥珀色",
+        "Black": "黑色",
+        "Cobalt Blue": "钴蓝色",
+        "Custom": "定制色",
+        "Frosted White": "磨砂白",
+        "Rose": "玫瑰色",
+        "Pearlescent White": "珠光白",
+        "Rose Gold": "玫瑰金",
+        "Pink": "粉色",
+        "White": "白色",
+        "Silver": "银色",
+        "Beige": "米色",
+        "Grey": "灰色",
+        "Gold": "金色",
+        "Gun Metal": "枪灰色",
+        "Matte Black": "哑光黑",
+        "Dark Green": "墨绿色",
+        "Pastel Colors": "马卡龙色系"
+      },
+      "printing": {
+        "Silk Screen": "丝网印刷",
+        "Hot Stamping": "烫金/烫银",
+        "Embossing": "压纹",
+        "Laser Engraving": "激光雕刻",
+        "Color Spraying": "彩色喷涂",
+        "Color Glaze": "彩色釉",
+        "UV Printing": "UV 印刷",
+        "3D Embossing": "3D 立体压纹",
+        "Label": "贴标"
+      },
+      "certification": {
+        "ISO9001": "ISO9001",
+        "FDA": "FDA",
+        "REACH": "REACH"
+      }
+    }
   },
   "craft": {
     "title": "工艺展示",

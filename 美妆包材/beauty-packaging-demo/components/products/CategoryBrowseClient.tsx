@@ -13,14 +13,14 @@ interface Props {
 }
 
 export default function CategoryBrowseClient({ category, products, dimension }: Props) {
-  const { i18n } = useTranslation()
+  const { t, i18n } = useTranslation()
   const lang = i18n.language as 'zh' | 'en'
 
   const backHref = '/products'
-  const backLabel = lang === 'zh' ? '全部产品' : 'All Products'
-  const productCountLabel = lang === 'zh'
-    ? `${products.length} 个产品`
-    : `${products.length} product${products.length !== 1 ? 's' : ''}`
+  const backLabel = t('products.title')
+  const productCountLabel = products.length === 1
+    ? t('products.productCountSingle', { count: products.length })
+    : t('products.productCount', { count: products.length })
 
   return (
     <div className="min-h-screen bg-white">
@@ -44,8 +44,8 @@ export default function CategoryBrowseClient({ category, products, dimension }: 
           </Link>
           <p className="text-[#c9a96e] text-sm font-medium uppercase tracking-widest mb-2">
             {dimension === 'application'
-              ? (lang === 'zh' ? '应用场景' : 'Application')
-              : (lang === 'zh' ? '材质系列' : 'Material')}
+              ? t('products.filters.application')
+              : t('products.filters.material')}
           </p>
           <h1 className="text-4xl sm:text-5xl font-bold mb-4">{category.name[lang]}</h1>
           <p className="text-stone-300 text-lg max-w-2xl">{category.description[lang]}</p>
@@ -58,7 +58,7 @@ export default function CategoryBrowseClient({ category, products, dimension }: 
         {products.length === 0 ? (
           <div className="flex flex-col items-center justify-center py-24 text-stone-400">
             <p className="text-lg">
-              {lang === 'zh' ? '该分类暂无产品' : 'No products in this category yet'}
+              {t('products.search.noResults')}
             </p>
             <Link href="/products" className="mt-4 text-sm text-[#c9a96e] hover:underline">
               {backLabel}

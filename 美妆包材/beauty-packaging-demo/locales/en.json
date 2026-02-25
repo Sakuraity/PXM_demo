@@ -24,6 +24,9 @@
     "contact": "Contact",
     "getQuote": "Get a Quote"
   },
+  "breadcrumb": {
+    "home": "Home"
+  },
   "home": {
     "hero": {
       "badge": "Trusted by 200+ Beauty Brands",
@@ -118,6 +121,9 @@
       "customizable": "Customizable",
       "clear": "Clear Filters"
     },
+    "filtersTitle": "Filters",
+    "productCount": "{{count}} products",
+    "productCountSingle": "{{count}} product",
     "search": {
       "placeholder": "Search product model or name...",
       "clear": "Clear",
@@ -171,7 +177,86 @@
     "tags": "Tags",
     "yes": "Yes",
     "no": "No",
-    "lidMaterial": "Lid Material"
+    "lidMaterial": "Lid Material",
+    "values": {
+      "material": {
+        "Borosilicate Glass": "Borosilicate Glass",
+        "PMMA (Acrylic)": "PMMA (Acrylic)",
+        "PP": "PP",
+        "PET": "PET",
+        "HDPE": "HDPE",
+        "Aluminum Alloy (6061)": "Aluminum Alloy (6061)"
+      },
+      "lidMaterial": {
+        "Zinc Alloy + Electroplating": "Zinc Alloy + Electroplating",
+        "PETG Dropper + Rubber Bulb": "PETG Dropper + Rubber Bulb",
+        "Zinc Alloy Pump + PP": "Zinc Alloy Pump + PP",
+        "PMMA / ABS + UV Coating": "PMMA / ABS + UV Coating",
+        "PMMA + UV Coating": "PMMA + UV Coating",
+        "PP + Inner Cup PP": "PP + Inner Cup PP",
+        "PP Foam Pump": "PP Foam Pump",
+        "PP Pump": "PP Pump",
+        "Aluminum Alloy": "Aluminum Alloy",
+        "PP Pump + ABS Cap": "PP Pump + ABS Cap"
+      },
+      "finish": {
+        "Glossy": "Glossy",
+        "Frosted": "Frosted",
+        "Matte Coating": "Matte Coating",
+        "Clear": "Clear",
+        "Amber": "Amber",
+        "Matte": "Matte",
+        "Color Glazed": "Color Glazed",
+        "Electroplated Gold": "Electroplated Gold",
+        "Electroplated Silver": "Electroplated Silver",
+        "Gradient": "Gradient",
+        "Diamond Cut": "Diamond Cut",
+        "Electroplated": "Electroplated",
+        "Matte Frosted": "Matte Frosted",
+        "Soft-touch": "Soft-touch",
+        "Color Spraying": "Color Spraying",
+        "Brushed": "Brushed",
+        "Anodized": "Anodized",
+        "Laser Engraving": "Laser Engraving"
+      },
+      "color": {
+        "Clear": "Clear",
+        "Amber": "Amber",
+        "Black": "Black",
+        "Cobalt Blue": "Cobalt Blue",
+        "Custom": "Custom",
+        "Frosted White": "Frosted White",
+        "Rose": "Rose",
+        "Pearlescent White": "Pearlescent White",
+        "Rose Gold": "Rose Gold",
+        "Pink": "Pink",
+        "White": "White",
+        "Silver": "Silver",
+        "Beige": "Beige",
+        "Grey": "Grey",
+        "Gold": "Gold",
+        "Gun Metal": "Gun Metal",
+        "Matte Black": "Matte Black",
+        "Dark Green": "Dark Green",
+        "Pastel Colors": "Pastel Colors"
+      },
+      "printing": {
+        "Silk Screen": "Silk Screen",
+        "Hot Stamping": "Hot Stamping",
+        "Embossing": "Embossing",
+        "Laser Engraving": "Laser Engraving",
+        "Color Spraying": "Color Spraying",
+        "Color Glaze": "Color Glaze",
+        "UV Printing": "UV Printing",
+        "3D Embossing": "3D Embossing",
+        "Label": "Label"
+      },
+      "certification": {
+        "ISO9001": "ISO9001",
+        "FDA": "FDA",
+        "REACH": "REACH"
+      }
+    }
   },
   "craft": {
     "title": "Craft & Process",

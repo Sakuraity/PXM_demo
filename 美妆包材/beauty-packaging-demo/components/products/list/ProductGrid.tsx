@@ -16,7 +16,9 @@ export default function ProductGrid({ products, onClearFilters }: Props) {
     <div className="flex-1">
       <div className="flex items-center justify-between mb-6">
         <p className="text-sm text-stone-500">
-          {products.length} {products.length === 1 ? 'product' : 'products'}
+          {products.length === 1
+            ? t('products.productCountSingle', { count: products.length })
+            : t('products.productCount', { count: products.length })}
         </p>
       </div>
 
