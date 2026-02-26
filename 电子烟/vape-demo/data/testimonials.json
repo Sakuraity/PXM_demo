@@ -1,0 +1,80 @@
+[
+  {
+    "id": "t1",
+    "name": "Marcus T.",
+    "company": "CloudPoint Distribution",
+    "country": "United Kingdom",
+    "avatar": "/images/testimonials/avatar-1.jpg",
+    "rating": 5,
+    "content": {
+      "en": "We've been distributing NEXVAP's APEX series for 8 months and the sell-through rate is outstanding. Customers love the NEXCORE™ chip responsiveness. Zero returns on hardware defects so far.",
+      "zh": "我们代理 NEXVAP APEX 系列已有 8 个月，销售率非常出色。客户非常喜欢 NEXCORE™ 芯片的响应速度。目前硬件质量零退货记录。"
+    },
+    "series": "apex"
+  },
+  {
+    "id": "t2",
+    "name": "Sophie L.",
+    "company": "VapeHouse GmbH",
+    "country": "Germany",
+    "avatar": "/images/testimonials/avatar-2.jpg",
+    "rating": 5,
+    "content": {
+      "en": "NEXVAP's TPD compliance documentation is impeccably organized. As an EU distributor, this saves us enormous time during regulatory audits. The VELO line is our #1 seller in disposables.",
+      "zh": "NEXVAP 的 TPD 合规文件整理得非常完善。作为欧盟分销商，这在监管审计时为我们节省了大量时间。VELO 系列是我们一次性设备的第一畅销品。"
+    },
+    "series": "velo"
+  },
+  {
+    "id": "t3",
+    "name": "Ryan K.",
+    "company": "PacificVape Co.",
+    "country": "Australia",
+    "avatar": "/images/testimonials/avatar-3.jpg",
+    "rating": 4,
+    "content": {
+      "en": "The FLUX Open is perfect for our Australian market — enthusiast-grade hardware without the nicotine content regulatory headache. Build quality is noticeably better than competitors at this price point.",
+      "zh": "FLUX Open 非常适合我们的澳大利亚市场——发烧级硬件，无需担心含尼古丁产品的监管问题。在这个价位上，产品做工明显优于同类竞品。"
+    },
+    "series": "flux"
+  },
+  {
+    "id": "t4",
+    "name": "Daniel R.",
+    "company": "MegaVape Supply",
+    "country": "United States",
+    "avatar": "/images/testimonials/avatar-4.jpg",
+    "rating": 5,
+    "content": {
+      "en": "CORE 100W is our best-selling box mod this year. Customers appreciate the real-world 100W performance and the intuitive UI. Lead times are reliable — 14 days as promised every single time.",
+      "zh": "CORE 100W 是我们今年最畅销的盒子 Mod。客户非常认可真实的 100W 性能表现和直观的操作界面。交货时间非常准时——每次都如期在 14 天内到货。"
+    },
+    "series": "core"
+  },
+  {
+    "id": "t5",
+    "name": "Camille B.",
+    "company": "Fumée Moderne",
+    "country": "France",
+    "avatar": "/images/testimonials/avatar-5.jpg",
+    "rating": 5,
+    "content": {
+      "en": "The wholesale pricing tiers are very competitive for the quality offered. We order APEX Air pods monthly and the flavor consistency batch-to-batch is exceptional. Our customers keep coming back.",
+      "zh": "以所提供的品质来看，批发价格梯度极具竞争力。我们每月订购 APEX Air 烟弹，批次间口味一致性出色。我们的客户回购率非常高。"
+    },
+    "series": "apex"
+  },
+  {
+    "id": "t6",
+    "name": "James W.",
+    "company": "NorthStar Retail Group",
+    "country": "Canada",
+    "avatar": "/images/testimonials/avatar-6.jpg",
+    "rating": 5,
+    "content": {
+      "en": "We switched to NEXVAP from a previous supplier 6 months ago. The onboarding support was excellent and their account team is always responsive. The VELO Boost 1200 is a runaway hit in our stores.",
+      "zh": "6 个月前我们从原供应商切换至 NEXVAP。入驻支持非常到位，客户经理团队响应及时。VELO Boost 1200 在我们的门店大卖，供不应求。"
+    },
+    "series": "velo"
+  }
+]

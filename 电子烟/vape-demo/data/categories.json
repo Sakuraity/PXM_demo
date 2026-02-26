@@ -1,0 +1,114 @@
+[
+  {
+    "id": "cat-device",
+    "slug": "device",
+    "name": { "en": "Devices", "zh": "设备主机" },
+    "description": {
+      "en": "From ultra-slim pod devices to powerful box mods — NEXVAP devices are engineered for premium performance.",
+      "zh": "从超薄 Pod 主机到强劲盒子 Mod，NEXVAP 设备精工打造，追求卓越性能。"
+    },
+    "image": "/images/categories/category-device.jpg",
+    "icon": "Zap",
+    "sortOrder": 1,
+    "productCount": 8,
+    "type": "product-type"
+  },
+  {
+    "id": "cat-pod",
+    "slug": "pod",
+    "name": { "en": "Pods & Cartridges", "zh": "烟弹 & 雾化仓" },
+    "description": {
+      "en": "FLUXPOD™ magnetic pods and pre-filled cartridges across 10+ flavors. Salt nic and freebase options.",
+      "zh": "FLUXPOD™ 磁吸烟弹和预填充烟弹，10余种口味，支持盐基和游离尼古丁。"
+    },
+    "image": "/images/categories/category-pod.jpg",
+    "icon": "Droplets",
+    "sortOrder": 2,
+    "productCount": 7,
+    "type": "product-type"
+  },
+  {
+    "id": "cat-kit",
+    "slug": "kit",
+    "name": { "en": "Starter Kits", "zh": "套装" },
+    "description": {
+      "en": "Complete device and pod bundles — everything your wholesale customers need, ready to sell.",
+      "zh": "设备加烟弹的完整套装，满足批发客户需求，开箱即可销售。"
+    },
+    "image": "/images/categories/category-kit.jpg",
+    "icon": "Package",
+    "sortOrder": 3,
+    "productCount": 3,
+    "type": "product-type"
+  },
+  {
+    "id": "cat-accessory",
+    "slug": "accessory",
+    "name": { "en": "Accessories", "zh": "配件" },
+    "description": {
+      "en": "Sub-ohm tanks, replacement coils, and charging accessories to complete the NEXVAP ecosystem.",
+      "zh": "Sub-Ohm 雾化仓、可换雾化芯和充电配件，完整的 NEXVAP 生态系统。"
+    },
+    "image": "/images/categories/category-accessory.jpg",
+    "icon": "Wrench",
+    "sortOrder": 4,
+    "productCount": 3,
+    "type": "product-type"
+  },
+  {
+    "id": "series-velo",
+    "slug": "velo",
+    "name": { "en": "VELO Series", "zh": "VELO 系列" },
+    "description": {
+      "en": "Effortless disposable and pod systems. Built for accessibility and vibrant style.",
+      "zh": "轻松易用的一次性设备和 Pod 系统，追求便利与鲜明风格。"
+    },
+    "image": "/images/categories/series-velo.jpg",
+    "icon": "Wind",
+    "sortOrder": 5,
+    "productCount": 6,
+    "type": "series"
+  },
+  {
+    "id": "series-apex",
+    "slug": "apex",
+    "name": { "en": "APEX Series", "zh": "APEX 系列" },
+    "description": {
+      "en": "NEXCORE™ powered flagship pod mod. Precision, performance, zero-leak.",
+      "zh": "NEXCORE™ 驱动的旗舰 Pod Mod，精准、高性能、零泄漏。"
+    },
+    "image": "/images/categories/series-apex.jpg",
+    "icon": "Star",
+    "sortOrder": 6,
+    "productCount": 5,
+    "type": "series"
+  },
+  {
+    "id": "series-flux",
+    "slug": "flux",
+    "name": { "en": "FLUX Series", "zh": "FLUX 系列" },
+    "description": {
+      "en": "Open-system refillable platform. Total control, any e-liquid.",
+      "zh": "开放式可填充平台，完全掌控，兼容任意烟液。"
+    },
+    "image": "/images/categories/series-flux.jpg",
+    "icon": "Droplets",
+    "sortOrder": 7,
+    "productCount": 5,
+    "type": "series"
+  },
+  {
+    "id": "series-core",
+    "slug": "core",
+    "name": { "en": "CORE Series", "zh": "CORE 系列" },
+    "description": {
+      "en": "High-power box mod platform. 100W–200W for serious cloud chasers.",
+      "zh": "大功率盒子 Mod 平台，100W–200W，为追云族而生。"
+    },
+    "image": "/images/categories/series-core.jpg",
+    "icon": "Cpu",
+    "sortOrder": 8,
+    "productCount": 4,
+    "type": "series"
+  }
+]
