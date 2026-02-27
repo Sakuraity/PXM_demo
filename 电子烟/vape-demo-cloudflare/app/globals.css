@@ -1,0 +1,130 @@
+@import "tailwindcss";
+
+:root {
+  /* ── 背景层级 (极简奢华暗黑风) ── */
+  --background: #000000;
+  --surface: #0a0a0a;
+  --surface-elevated: #111111;
+  --surface-hover: #1a1a1a;
+
+  /* ── 文字 ── */
+  --foreground: #ffffff;
+  --text-secondary: #a3a3a3;
+  --text-muted: #525252;
+
+  /* ── 边框 ── */
+  --border: #262626;
+  --border-subtle: #171717;
+
+  /* ── 品牌强调色 (VOOPOO风高级金属色) ── */
+  --accent-primary: #d4af37; /* 高级金属金 */
+  --accent-blue: #cccccc;    /* 拉丝银代替电光蓝 */
+  --accent-purple: #888888;
+  --accent-blue-dim: #444444;
+
+  /* ── 系列专属色 (降饱和度，提升高级感) ── */
+  --series-velo: #cccccc;
+  --series-apex: #d4af37;
+  --series-flux: #999999;
+  --series-core: #ffffff;
+
+  /* ── 状态色 ── */
+  --success: #22c55e;
+  --warning: #f59e0b;
+  --error: #ef4444;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-elevated: var(--surface-elevated);
+  --color-foreground: var(--foreground);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-muted: var(--text-muted);
+  --color-border: var(--border);
+  --color-border-subtle: var(--border-subtle);
+  --color-accent-primary: var(--accent-primary);
+  --color-accent-blue: var(--accent-blue);
+  --color-accent-purple: var(--accent-purple);
+  --color-series-velo: var(--series-velo);
+  --color-series-apex: var(--series-apex);
+  --color-series-flux: var(--series-flux);
+  --color-series-core: var(--series-core);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 0.02em; /* 略微增加全局字间距，提升高级感 */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background-color: var(--text-secondary);
+  color: #000000;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
+}
+
+/* ── 硬件风质感文字 ── */
+.metal-text {
+  background: linear-gradient(180deg, #ffffff 0%, #a3a3a3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ── 无边框暗卡片 ── */
+.dark-card {
+  background: var(--surface-elevated);
+  border: 1px solid var(--border-subtle);
+}
+
+/* ── 力量感纯色按钮 ── */
+.btn-primary {
+  background-color: var(--foreground);
+  color: var(--background);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: var(--text-secondary);
+}
+
+/* ── 精密线框按钮 ── */
+.btn-ghost {
+  background-color: transparent;
+  border: 1px solid var(--border);
+  color: var(--foreground);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  transition: all 0.3s ease;
+}
+
+.btn-ghost:hover {
+  border-color: var(--text-secondary);
+  background-color: rgba(255, 255, 255, 0.05);
+}

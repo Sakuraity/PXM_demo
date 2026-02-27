@@ -1,0 +1,78 @@
+[
+  {
+    "slug": "velo",
+    "name": { "en": "VELO Series", "zh": "VELO 系列" },
+    "tagline": { "en": "Effortless. Everywhere.", "zh": "轻松随行，随处可用" },
+    "description": {
+      "en": "The VELO Series is NEXVAP's entry-level lineup, built for simplicity and accessibility. From ultra-slim disposables to compact pod systems, VELO products are designed for vapers who want premium experience without complexity. Available in vibrant colors with multiple nicotine strengths.",
+      "zh": "VELO 系列是 NEXVAP 的入门产品线，以简洁易用为核心理念。从超薄一次性设备到紧凑 Pod 系统，VELO 产品专为追求优质体验而不需要复杂操作的用户设计。提供多种鲜亮颜色和尼古丁浓度选择。"
+    },
+    "heroImage": "/images/series/series-velo.jpg",
+    "accentColor": "#34d399",
+    "keyFeatures": [
+      { "en": "Ultra-slim disposable design", "zh": "超薄一次性设计" },
+      { "en": "USB-C rechargeable options", "zh": "USB-C 可充电款可选" },
+      { "en": "10+ vibrant color variants", "zh": "10+ 种鲜亮颜色可选" },
+      { "en": "Salt nic optimized", "zh": "盐基尼古丁专属优化" }
+    ],
+    "productCount": 6,
+    "sortOrder": 1
+  },
+  {
+    "slug": "apex",
+    "name": { "en": "APEX Series", "zh": "APEX 系列" },
+    "tagline": { "en": "NEXCORE™ Powered Precision.", "zh": "NEXCORE™ 驱动，精准雾化" },
+    "description": {
+      "en": "The APEX Series is NEXVAP's flagship pod mod lineup, engineered around the proprietary NEXCORE™ chip for 5ms ultra-fast response and intelligent coil detection. APEX devices pair exclusively with FLUXPOD™ magnetic pod cartridges for zero-leak, premium vapor quality. The choice of serious vapers worldwide.",
+      "zh": "APEX 系列是 NEXVAP 的旗舰 Pod Mod 产品线，以自研 NEXCORE™ 芯片为核心，实现 5ms 超快响应和智能雾化芯识别。APEX 设备专配 FLUXPOD™ 磁吸烟弹，零泄漏保障，优质雾化品质。全球资深用户的首选。"
+    },
+    "heroImage": "/images/series/series-apex.jpg",
+    "accentColor": "#f59e0b",
+    "keyFeatures": [
+      { "en": "NEXCORE™ chip — 5ms response", "zh": "NEXCORE™ 芯片 — 5ms 响应" },
+      { "en": "FLUXPOD™ magnetic zero-leak pods", "zh": "FLUXPOD™ 磁吸零泄漏烟弹" },
+      { "en": "OLED / compact form factors", "zh": "OLED 显示 / 紧凑机身" },
+      { "en": "FDA PMTA submitted", "zh": "已提交 FDA PMTA 申请" }
+    ],
+    "productCount": 5,
+    "sortOrder": 2
+  },
+  {
+    "slug": "flux",
+    "name": { "en": "FLUX Series", "zh": "FLUX 系列" },
+    "tagline": { "en": "Open System. Infinite Possibilities.", "zh": "开放系统，无限可能" },
+    "description": {
+      "en": "The FLUX Series is NEXVAP's open-system platform for vapers who demand complete control over their experience. Top-fill refillable tanks, swappable FLUX Coils in MTL and DTL variants, and intelligent wattage adjustment via NEXCORE™ chip. Fill with any e-liquid, tune to your exact preference.",
+      "zh": "FLUX 系列是 NEXVAP 面向追求完全掌控的用户打造的开放式系统平台。顶部可填充油仓、可换 FLUX MTL/DTL 雾化芯，以及 NEXCORE™ 芯片智能功率调节。任意烟液随意填充，精细调节至个人最佳口感。"
+    },
+    "heroImage": "/images/series/series-flux.jpg",
+    "accentColor": "#38bdf8",
+    "keyFeatures": [
+      { "en": "Top-fill refillable tank system", "zh": "顶部可填充油仓系统" },
+      { "en": "Swappable MTL & DTL coils", "zh": "可换 MTL 和 DTL 雾化芯" },
+      { "en": "NEXCORE™ auto coil detection", "zh": "NEXCORE™ 自动识别雾化芯" },
+      { "en": "Compatible with any e-liquid", "zh": "兼容任意品牌烟液" }
+    ],
+    "productCount": 5,
+    "sortOrder": 3
+  },
+  {
+    "slug": "core",
+    "name": { "en": "CORE Series", "zh": "CORE 系列" },
+    "tagline": { "en": "Maximum Power. No Compromise.", "zh": "最大功率，零妥协" },
+    "description": {
+      "en": "The CORE Series is NEXVAP's high-power box mod platform for cloud chasers and advanced vapers. Dual-battery configuration (18650 or 21700), 100-200W regulated output, full-color displays, and comprehensive temperature control modes. The CORE Tank Z sub-ohm tank completes the ultimate cloud machine.",
+      "zh": "CORE 系列是 NEXVAP 面向追云族和高级用户的大功率盒子 Mod 平台。双电池配置（18650 或 21700），100-200W 稳压输出，全彩显示屏，完整温控模式。搭配 CORE Tank Z Sub-Ohm 雾化仓，构成终极云雾机器。"
+    },
+    "heroImage": "/images/series/series-core.jpg",
+    "accentColor": "#ef4444",
+    "keyFeatures": [
+      { "en": "Dual 18650 / 21700 battery platform", "zh": "双 18650 / 21700 电池平台" },
+      { "en": "100W–200W regulated output", "zh": "100W–200W 稳压输出" },
+      { "en": "Full temperature control (TC)", "zh": "全功能温控模式（TC）" },
+      { "en": "510 universal tank compatibility", "zh": "510 通用雾化仓兼容" }
+    ],
+    "productCount": 4,
+    "sortOrder": 4
+  }
+]
