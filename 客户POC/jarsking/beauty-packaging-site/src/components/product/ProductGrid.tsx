@@ -1,3 +1,6 @@
+'use client'
+
+import { useTranslation } from 'react-i18next'
 import ProductCard from './ProductCard'
 import { Product } from '@/types'
 
@@ -7,10 +10,11 @@ interface ProductGridProps {
 }
 
 export default function ProductGrid({ products, className = '' }: ProductGridProps) {
+  const { t } = useTranslation()
   if (!products || products.length === 0) {
     return (
       <div className={`text-center py-12 ${className}`}>
-        <p className="text-secondary">No products found.</p>
+        <p className="text-secondary">{t('products.noProductsFound', { defaultValue: 'No products found.' })}</p>
       </div>
     )
   }

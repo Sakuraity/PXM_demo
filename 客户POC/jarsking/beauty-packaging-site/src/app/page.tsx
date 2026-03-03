@@ -1,17 +1,19 @@
+import dynamic from 'next/dynamic'
 import HeroBanner from '@/components/home/HeroBanner'
 import CertificationCarousel from '@/components/home/CertificationCarousel'
 import ServiceAdvantages from '@/components/home/ServiceAdvantages'
-import ProductShowroom from '@/components/home/ProductShowroom'
-import PackagingSolutions from '@/components/home/PackagingSolutions'
-import GiftBoxes from '@/components/home/GiftBoxes'
-import MaterialsSection from '@/components/home/MaterialsSection'
-import WhyPartner from '@/components/home/WhyPartner'
-import UltimatePartner from '@/components/home/UltimatePartner'
-import SustainableFuture from '@/components/home/SustainableFuture'
-import Testimonials from '@/components/home/Testimonials'
-import FAQ from '@/components/home/FAQ'
-import NewsSection from '@/components/home/NewsSection'
-import CTASection from '@/components/home/CTASection'
+
+const ProductShowroom = dynamic(() => import('@/components/home/ProductShowroom'))
+const PackagingSolutions = dynamic(() => import('@/components/home/PackagingSolutions'))
+const GiftBoxes = dynamic(() => import('@/components/home/GiftBoxes'))
+const MaterialsSection = dynamic(() => import('@/components/home/MaterialsSection'))
+const WhyPartner = dynamic(() => import('@/components/home/WhyPartner'))
+const UltimatePartner = dynamic(() => import('@/components/home/UltimatePartner'))
+const SustainableFuture = dynamic(() => import('@/components/home/SustainableFuture'))
+const Testimonials = dynamic(() => import('@/components/home/Testimonials'))
+const FAQ = dynamic(() => import('@/components/home/FAQ'))
+const NewsSection = dynamic(() => import('@/components/home/NewsSection'))
+const CTASection = dynamic(() => import('@/components/home/CTASection'))
 
 export default function Home() {
   return (

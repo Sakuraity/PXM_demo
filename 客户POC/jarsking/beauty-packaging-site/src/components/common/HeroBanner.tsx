@@ -88,7 +88,7 @@ export default function HeroBanner({
             <div className="bg-white rounded-2xl shadow-2xl overflow-hidden">
               <div className="relative">
                 <Image
-                  src="/wp-content/uploads/2024/12/frost-cosmetic-bottle-set.webp"
+                  src="https://www.jarsking.com/wp-content/uploads/2024/12/frost-cosmetic-bottle-set.webp"
                   alt={t('hero.turnkeyServiceAlt', { defaultValue: 'Turnkey Services for Your Brand' })}
                   width={600}
                   height={400}

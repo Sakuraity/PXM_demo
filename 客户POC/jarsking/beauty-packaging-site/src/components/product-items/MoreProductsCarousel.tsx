@@ -3,6 +3,7 @@
 import { useState, useRef, useEffect } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import { useTranslation } from 'react-i18next'
 
 interface ProductItem {
   title: string
@@ -16,6 +17,7 @@ interface MoreProductsCarouselProps {
 }
 
 export default function MoreProductsCarousel({ products }: MoreProductsCarouselProps) {
+  const { t } = useTranslation()
   const scrollRef = useRef<HTMLDivElement>(null)
   const [canScrollLeft, setCanScrollLeft] = useState(false)
   const [canScrollRight, setCanScrollRight] = useState(true)
@@ -50,7 +52,7 @@ export default function MoreProductsCarousel({ products }: MoreProductsCarouselP
     <section className="py-8 bg-white px-[8%]">
       <div>
         <h2 className="text-[28px] md:text-[45px] lg:text-[65px] font-semibold text-[#7C7C7C] mb-10 leading-[1.2]">
-          More Products
+          {t('common.moreProducts', { defaultValue: 'More Products' })}
         </h2>
 
         <div className="relative">

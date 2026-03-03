@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
 
 const HERO_IMAGES = [
   {
@@ -44,16 +45,17 @@ const HERO_IMAGES = [
   },
 ]
 
-const FEATURES = [
-  'Engineered for long-term use with scratch-resistant, impact-protected finishes.',
-  'Minimalist luxury with sustainable materials — available in 30g / 50g jarr.',
-  'Durable outer shell with replaceable PP inner container — easy to refill, easy to recycle.',
-  'Prevents oxidation, ensures product hygiene, and enhances shelf life for clean beauty formulations.',
-]
-
 export default function HeroSection() {
+  const { t } = useTranslation()
   const scrollRef = useRef<HTMLDivElement>(null)
   const [isHovered, setIsHovered] = useState(false)
+
+  const FEATURES = t('sustainableAirless.hero.features', { returnObjects: true, defaultValue: [
+    'Engineered for long-term use with scratch-resistant, impact-protected finishes.',
+    'Minimalist luxury with sustainable materials — available in 30g / 50g jar.',
+    'Durable outer shell with replaceable PP inner container — easy to refill, easy to recycle.',
+    'Prevents oxidation, ensures product hygiene, and enhances shelf life for clean beauty formulations.',
+  ] }) as string[]
 
   useEffect(() => {
     const el = scrollRef.current
@@ -82,11 +84,11 @@ export default function HeroSection() {
         {/* Left: Product Info */}
         <div className="lg:w-1/2 px-[8%] py-12 lg:py-20 flex flex-col justify-center bg-white">
           <h1 className="text-3xl lg:text-[40px] font-semibold text-[#1E1E1E] leading-[1.2] mb-6 font-montserrat">
-            Sustainable Refillable Airless Pump Face Cream Jar For Baby Care Brand
+            {t('sustainableAirless.hero.title', { defaultValue: 'Sustainable Refillable Airless Pump Face Cream Jar For Baby Care Brand' })}
           </h1>
 
           <p className="text-[#7A7A7A] text-base leading-relaxed mb-8 font-poppins">
-            Jarsking introduces a new era of sustainable skincare packaging — the Refillable Airless Pump &amp; Jar Collection. Designed for modern clean beauty brands, this line balances eco responsibility with luxury appeal. The airless system prevents contamination, preserving sensitive skincare formulations like serums, creams, and emulsions.Perfect for brands pursuing sustainability with style, Jarsking&apos;s refillable airless series is customizable with solid coatings, metallic collars, and eco-certified finishes — ensuring your packaging looks as refined as your formula feels.
+            {t('sustainableAirless.hero.description', { defaultValue: "Jarsking introduces a new era of sustainable skincare packaging — the Refillable Airless Pump & Jar Collection. Designed for modern clean beauty brands, this line balances eco responsibility with luxury appeal. The airless system prevents contamination, preserving sensitive skincare formulations like serums, creams, and emulsions. Perfect for brands pursuing sustainability with style, Jarsking's refillable airless series is customizable with solid coatings, metallic collars, and eco-certified finishes — ensuring your packaging looks as refined as your formula feels." })}
           </p>
 
           <ul className="space-y-4 mb-8">
@@ -107,13 +109,13 @@ export default function HeroSection() {
               href="/contact-jarsking/"
               className="bg-[#61CE70] text-white px-8 py-3 rounded text-base font-medium hover:bg-[#4fb85d] transition-colors flex-1 text-center font-roboto"
             >
-              Meet Jarsking Team
+              {t('sustainableAirless.hero.meetTeam', { defaultValue: 'Meet Jarsking Team' })}
             </Link>
             <Link
-              href="/products/sustainable-refillable-airless-pump-face-cream-jar-for-baby-care-brand/diy"
-              className="bg-[#1E1E1E] text-white px-8 py-3 rounded text-base font-medium hover:bg-[#333] transition-colors flex-1 text-center font-roboto flex items-center justify-center gap-2"
+              href="/customize?product=sustainable-refillable-airless-pump-face-cream-jar-for-baby-care-brand"
+              className="btn-primary flex-1 text-center flex items-center justify-center"
             >
-              Customize This Product
+              {t('sustainableAirless.hero.customize', { defaultValue: 'Customize This Product' })}
               <ArrowRight className="w-4 h-4" />
             </Link>
           </div>

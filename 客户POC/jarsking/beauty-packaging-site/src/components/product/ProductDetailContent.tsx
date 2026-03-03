@@ -4,6 +4,14 @@ import Link from 'next/link'
 import { ArrowRight, Download, Mail, Phone } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 
+const SLUGS_WITH_3D = [
+  'pp-refillable-cosmetic-jar-with-replaceable-inner-cup',
+  'thick-base-glass-lotion-pump-bottle-for-luxury-skincare-brands',
+  'sustainable-refillable-airless-pump-face-cream-jar-for-baby-care-brand',
+  'elegant-frosted-glass-cosmetic-packaging-set',
+  'custom-glass-airless-pump-jar-replaceable-inner-core',
+]
+
 interface ProductDetailContentProps {
   productSlug: string
 }
@@ -11,12 +19,16 @@ interface ProductDetailContentProps {
 export default function ProductDetailContent({ productSlug }: ProductDetailContentProps) {
   const { t } = useTranslation()
 
+  const customizeHref = SLUGS_WITH_3D.includes(productSlug)
+    ? `/customize?product=${productSlug}`
+    : `/products/${productSlug}/diy`
+
   return (
     <div className="flex flex-col gap-6">
       {/* 操作按钮 */}
       <div className="flex flex-col sm:flex-row gap-4 pt-4">
         <Link
-          href={`/products/${productSlug}/diy`}
+          href={customizeHref}
           className="btn-primary flex items-center justify-center"
         >
           {t('productDetail.customizeProduct')}

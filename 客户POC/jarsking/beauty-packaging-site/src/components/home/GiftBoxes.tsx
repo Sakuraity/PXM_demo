@@ -1,3 +1,5 @@
+'use client'
+
 "use client"
 
 import { useTranslation } from 'react-i18next'

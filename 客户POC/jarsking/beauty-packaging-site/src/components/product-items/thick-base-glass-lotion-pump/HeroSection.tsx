@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
 
 const HERO_IMAGES = [
   {
@@ -28,17 +29,18 @@ const HERO_IMAGES = [
   },
 ]
 
-const FEATURES = [
-  'Thick-base hard glass body for premium weight and durability.',
-  'Safety-designed lotion pump enables smooth discharge and easy extrusion.',
-  'Injection-molded outer cover supports customized color matching.',
-  'Clean, modern silhouette built for luxury shelf impact.',
-  'Suitable for bulk production, decoration, and private-label branding.',
-]
-
 export default function HeroSection() {
+  const { t } = useTranslation()
   const scrollRef = useRef<HTMLDivElement>(null)
   const [isHovered, setIsHovered] = useState(false)
+
+  const FEATURES = t('thickBaseLotion.hero.features', { returnObjects: true, defaultValue: [
+    'Thick-base hard glass body for premium weight and durability.',
+    'Safety-designed lotion pump enables smooth discharge and easy extrusion.',
+    'Injection-molded outer cover supports customized color matching.',
+    'Clean, modern silhouette built for luxury shelf impact.',
+    'Suitable for bulk production, decoration, and private-label branding.',
+  ] }) as string[]
 
   useEffect(() => {
     const el = scrollRef.current
@@ -67,11 +69,11 @@ export default function HeroSection() {
         {/* Left: Product Info */}
         <div className="lg:w-1/2 px-[8%] py-12 lg:py-20 flex flex-col justify-center bg-white">
           <h1 className="text-3xl lg:text-[40px] font-semibold text-[#1E1E1E] leading-[1.2] mb-6 font-montserrat">
-            Thick-Base Glass Lotion Pump Bottle for Luxury Skincare Brands
+            {t('thickBaseLotion.hero.title', { defaultValue: 'Thick-Base Glass Lotion Pump Bottle for Luxury Skincare Brands' })}
           </h1>
 
           <p className="text-[#7A7A7A] text-base leading-relaxed mb-8 font-poppins">
-            Custom thick-base glass lotion pump bottle system for luxury skincare and personal care brands, manufactured by Jarsking for OEM/ODM programs. It combines a durable glass body with a safety-designed lotion pump for smooth dispensing and an injection-molded outer cover available in customized colors. Ideal for premium serums, lotions, and treatment products.
+            {t('thickBaseLotion.hero.description', { defaultValue: 'Custom thick-base glass lotion pump bottle system for luxury skincare and personal care brands, manufactured by Jarsking for OEM/ODM programs. It combines a durable glass body with a safety-designed lotion pump for smooth dispensing and an injection-molded outer cover available in customized colors. Ideal for premium serums, lotions, and treatment products.' })}
           </p>
 
           <ul className="space-y-4 mb-8">
@@ -92,13 +94,13 @@ export default function HeroSection() {
               href="/contact-jarsking/"
               className="bg-[#61CE70] text-white px-8 py-3 rounded text-base font-medium hover:bg-[#4fb85d] transition-colors flex-1 text-center font-roboto"
             >
-              Meet Jarsking Team
+              {t('thickBaseLotion.hero.meetTeam', { defaultValue: 'Meet Jarsking Team' })}
             </Link>
             <Link
-              href="/products/thick-base-glass-lotion-pump-bottle-for-luxury-skincare-brands/diy"
-              className="bg-[#1E1E1E] text-white px-8 py-3 rounded text-base font-medium hover:bg-[#333] transition-colors flex-1 text-center font-roboto flex items-center justify-center gap-2"
+              href="/customize?product=thick-base-glass-lotion-pump-bottle-for-luxury-skincare-brands"
+              className="btn-primary flex-1 text-center flex items-center justify-center"
             >
-              Customize This Product
+              {t('thickBaseLotion.hero.customize', { defaultValue: 'Customize This Product' })}
               <ArrowRight className="w-4 h-4" />
             </Link>
           </div>

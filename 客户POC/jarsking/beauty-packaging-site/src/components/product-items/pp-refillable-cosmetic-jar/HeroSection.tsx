@@ -102,8 +102,8 @@ export default function HeroSection() {
               {t('ppRefillableJar.hero.meetTeam', { defaultValue: 'Meet Jarsking Team' })}
             </Link>
             <Link
-              href="/products/pp-refillable-cosmetic-jar-with-replaceable-inner-cup/diy"
-              className="bg-[#1E1E1E] text-white px-8 py-3 rounded-[10px] text-base font-medium hover:bg-[#333] transition-colors flex-1 text-center font-roboto flex items-center justify-center gap-2"
+              href="/customize?product=pp-refillable-cosmetic-jar-with-replaceable-inner-cup"
+              className="btn-primary flex-1 text-center flex items-center justify-center"
             >
               {t('ppRefillableJar.hero.customize', { defaultValue: 'Customize This Product' })}
               <ArrowRight className="w-4 h-4" />
